@@ -80,3 +80,7 @@ Combined the effective-altruism additions with the September 13–14 posts. Both
 ## 2026-09-14 — Two-entity path search
 
 Added searchable endpoints, node-profile endpoint actions, bounded shortest-first simple paths, direction/type/evidence filters and a funding-only shortcut. Results include visible relationship types and expandable dated, sourced records with amounts; selected routes open in a focused draggable graph. Documented search limits and evidence interpretation in [Finding paths](path-finder.md). Algorithm regressions and browser checks cover SBF-to-Sanders mixed paths, a direct Anthropic investment path, citation links and direction-sensitive funding filters.
+
+## 2026-09-14 — Exploration from graph selections
+
+Added visible node focus actions, one-to-three-step neighborhoods, view/focus history, and a two-focus shared canvas with combined or individual paths. Endpoint picking works from graph nodes, search and all-node selectors. Relationship labels appear on small comparisons. Replaced the advanced results list with one-card navigation. Regression checks cover neighborhood expansion and layout; browser checks cover endpoint selection, back navigation, route switching, dragging/reset, empty/identical endpoints and narrow-screen overflow.

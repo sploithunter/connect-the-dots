@@ -185,3 +185,27 @@ body {
 .path-step small { display: block; color: #9eb3c3; }
 .path-step a { display: block; color: #e5bf89; text-decoration: underline; margin-top: 8px; }
 .endpoint-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
+
+.explore-controls { margin: 0 26px; font-size: 13px; }
+.explore-actions,.node-actions,.explore-status,.route-navigation { display:flex; align-items:center; flex-wrap:wrap; gap:8px; }
+.explore-actions { margin: 2px 0 10px; }
+.node-actions { padding:10px 12px; background:#213544; border:1px solid #52697a; border-radius:8px; margin:8px 0; }
+.node-actions strong { margin-right:auto; overflow-wrap:anywhere; }
+.explore-status { color:#aebfcd; padding:8px 0; gap:10px 18px; }
+.explore-controls select { background:#172735; border:1px solid #476174; border-radius:5px; padding:5px; color:#e8eef3; max-width:100%; }
+.explore-status input { accent-color:#d8a45f; vertical-align:middle; margin-right:5px; }
+.focus-pair { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+.focus-slot { padding:12px 14px; background:#172735; border:1px solid #40596d; border-top:2px solid #d8a45f; border-radius:8px; min-width:0; }
+.focus-slot.is-picking { border-color:#a6d9f3; box-shadow:0 0 0 1px #a6d9f3; }
+.focus-slot strong { display:block; font-size:16px; margin-bottom:8px; overflow-wrap:anywhere; }
+.focus-slot .eyebrow { font-size:10px; margin-bottom:4px; }
+.focus-slot>div { display:flex; flex-wrap:wrap; gap:8px; }
+.focus-slot select { flex:1; min-width:120px; width:150px; }
+.route-navigation { padding:8px 0; font-size:13px; }
+.route-navigation strong { color:#d8a45f; }
+.pick-instruction { padding:8px 12px; border-left:2px solid #a6d9f3; background:#213544; color:#d9ecf8; }
+.network-graph [data-node]:focus-visible rect { stroke:#a6d9f3; stroke-width:3px; }
+.canvas-section:has(.focus-pair) .graph-wrap { height:calc(100dvh - 450px); min-height:400px; }
+.canvas-section:has(.focus-pair) .network-graph { min-height:400px; }
+@media(max-width:1000px){.focus-pair{gap:8px}.focus-slot{padding:10px}.focus-slot>div{display:block}.focus-slot select{width:100%;margin-top:8px}.node-actions strong{width:100%}}
+@media(max-width:700px){.explore-controls{margin:0 16px}.focus-slot strong{font-size:14px}.focus-slot button{white-space:normal;height:auto;min-height:34px}.canvas-section:has(.focus-pair) .graph-wrap{height:55dvh;min-height:360px}.canvas-section:has(.focus-pair) .network-graph{min-height:360px}}

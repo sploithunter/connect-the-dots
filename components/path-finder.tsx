@@ -8,7 +8,7 @@ type Result=ReturnType<typeof findPaths>;
 const amountText=(amount:unknown)=>typeof amount==='object'?JSON.stringify(amount):String(amount);
 export default function PathFinder({from,to,setFrom,setTo,onPath}:{from:string,to:string,setFrom:(s:string)=>void,setTo:(s:string)=>void,onPath:(ids:string[])=>void}){
  const [hops,setHops]=useState(4),[directed,setDirected]=useState(false),[types,setTypes]=useState(Object.keys(network.relationshipTypes)),[statuses,setStatuses]=useState(['documented','reported']);
- const [result,setResult]=useState<Result|null>(null),[error,setError]=useState(''),[shown,setShown]=useState(10);
+ const [result,setResult]=useState<Result|null>(null),[error,setError]=useState(''),[shown,setShown]=useState(0);
  const [query,setQuery]=useState('');
  const toggle=(values:string[],value:string)=>values.includes(value)?values.filter(x=>x!==value):[...values,value];
  const signature=JSON.stringify([from,to,hops,directed,types,statuses]);
@@ -16,7 +16,7 @@ export default function PathFinder({from,to,setFrom,setTo,onPath}:{from:string,t
  function search(){
   if(!raw.nodes.some(n=>n.id===from)||!raw.nodes.some(n=>n.id===to)){setError('Choose two entities from the suggestions.');setResult(null);return;}
   if(from===to){setError('Choose two different entities.');setResult(null);return;}
-  setError('');setShown(10);setQuery(signature);setResult(findPaths(raw.edges,from,to,{maxHops:hops,directed,types,statuses}));
+  setError('');setShown(0);setQuery(signature);setResult(findPaths(raw.edges,from,to,{maxHops:hops,directed,types,statuses}));
  }
  const sourceMap=raw.sources as Record<string,{title:string,url:string}>;
  return <section className="path-finder" aria-label="Find connections">
@@ -36,13 +36,13 @@ export default function PathFinder({from,to,setFrom,setTo,onPath}:{from:string,t
   {error&&<p role="alert">{error}</p>}
   {result&&stale&&<p role="status">Selections changed. Choose Find paths to refresh results.</p>}
   {result&&!stale&&<div aria-live="polite"><p className="path-count">{result.paths.length} paths found within {hops} connections.{result.truncated?' Search limit reached; more paths may exist. Narrow the filters or maximum length.':' All matching paths within this limit were found.'}</p>{!result.paths.length&&<p>No path matches these settings. Try a larger maximum or broader filters.</p>}
-   {result.paths.slice(0,shown).map((path,index)=><article className="path-result" key={path.steps.map(s=>s.edgeId).join('|')}>
-    <h3>Path {index+1} · {path.steps.length} connections</h3><p className="path-route">{path.nodes.join(' → ')}</p>
+   {result.paths.slice(shown,shown+1).map((path)=><article className="path-result" key={path.steps.map(s=>s.edgeId).join('|')}>
+    <h3>Path {shown+1} · {path.steps.length} connections</h3><p className="path-route">{path.nodes.join(' → ')}</p>
     <p className="subtle">{path.steps.map(s=>{const edge=raw.edges.find(e=>e.id===s.edgeId)!;return network.relationshipTypes[edge.type as keyof typeof network.relationshipTypes].label;}).join(" · ")}</p>
     <Button variant="outline" onClick={()=>onPath(path.steps.map(s=>s.edgeId))}>Show this path</Button>
     <details><summary>Dates, amounts & sources</summary>{path.steps.map((step,i)=>{const e=raw.edges.find(e=>e.id===step.edgeId)!;return <div className="path-step" key={e.id}><strong>{i+1}. {e.source} → {e.target}</strong><p>{e.relation}</p><small>{e.date} · {e.type} · {e.evidence}</small>{step.reverse&&<small>Traversed in reverse along this relationship</small>}{e.amount!==null&&<p>Recorded amount: {amountText(e.amount)}</p>}{e.note&&<p>{e.note}</p>}<div>{e.sources.map(id=><a key={id} href={sourceMap[id].url} target="_blank" rel="noopener noreferrer">{sourceMap[id].title} ↗</a>)}</div></div>;})}</details>
    </article>)}
-   {shown<result.paths.length&&<Button variant="outline" onClick={()=>setShown(n=>n+10)}>Show more paths</Button>}
+   {result.paths.length>1&&<div className="route-navigation"><Button variant="outline" disabled={shown===0} onClick={()=>setShown(n=>n-1)}>Previous</Button><span>{shown+1} / {result.paths.length}</span><Button variant="outline" disabled={shown===result.paths.length-1} onClick={()=>setShown(n=>n+1)}>Next</Button></div>}
   </div>}
   <p className="source-help">Search covers the full dataset. Routes never revisit a node. Up to 100 paths are returned within a 50,000-step search budget. Each step keeps its own relationship type, direction, date and evidence status.</p>
  </section>;

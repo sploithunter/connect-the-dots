@@ -12,6 +12,8 @@
 - **Use a single string in SVG title elements.** Multiple JSX text children produced React title warnings and hydration mismatches in the earlier server-rendered version. A template string resolved that issue.
 - **Use one canonical record for repeated views.** The graph and generated wiki share the data and profiles, so source IDs and descriptions do not drift independently.
 
+- **Graph exploration needs graph controls.** A long path-results list made navigation cumbersome. Node actions now sit above the canvas; two-focus comparison shows paths together or steps through one route at a time. Keep source details in the inspector and preserve graph-based endpoint picking.
+
 ## Design choices and limits
 
 The curated overview is intentionally a subset. All-connections view can become dense; focused views and zoom are the available navigation tools. Layout proximity is not a data field. Source cards explain recorded uses of publications; full-publication summaries and archived article bodies are not available for every source.
