@@ -7,9 +7,9 @@ updated: 2026-09-14
 
 # Ajeya Cotra
 
-**METR researcher**
+**METR; former Open Phil**
 
-A researcher whose career account describes research and grantmaking at Open Philanthropy before work at METR. Her disclosed marriage to Paul Christiano connects the personnel and family portions of the network.
+A researcher whose career account describes research and grantmaking at Open Philanthropy before work at METR. Open Philanthropy is the principal EA-aligned mega-funder in this graph; her Open Phil employment is the documented institutional link. Marriage to Paul Christiano is a separate family record. This profile does not add a self-identification-as-EA edge.
 
 Profile sources: [M1](../sources/M1.md), [M6](../sources/M6.md), [M7](../sources/M7.md).
 

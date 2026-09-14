@@ -9,9 +9,9 @@ updated: 2026-09-14
 
 **Named Wildeford affiliation**
 
-An organization named in the OfficeChai recap of Parker Thayer’s timeline as Peter Wildeford’s affiliation among first-wave amplifiers of Coxon’s thread. It is recorded separately from Encode AI, Encode Justice and the AI Policy Institute until primary records establish any legal relationship. This ingest does not add a Survival and Flourishing Fund edge for this name.
+An organization named in the OfficeChai recap of Parker Thayer’s timeline as Peter Wildeford’s affiliation among first-wave amplifiers of Coxon’s thread. Wildeford’s documented roles are at Rethink Priorities and IAPS. This name is kept separate from IAPS, Encode AI, Encode Justice and the AI Policy Institute until a primary record maps them.
 
-Profile sources: [X10](../sources/X10.md).
+Profile sources: [X10](../sources/X10.md), [W14](../sources/W14.md), [W15](../sources/W15.md).
 
 ## Dated relationship records
 

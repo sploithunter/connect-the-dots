@@ -36,6 +36,10 @@
     "amplification": {
       "label": "Public statements",
       "color": "#b0bac8"
+    },
+    "affiliation": {
+      "label": "Affiliation / identity",
+      "color": "#7dae8f"
     }
   },
   "displayLabels": {
@@ -43,7 +47,11 @@
     "Sam Bankman-Fried": "Sam Bankman-Fried",
     "UK AI Security Institute": "UK AI Security Institute",
     "FTX / Alameda estate": "FTX / Alameda estate",
-    "California Frontier AI Working Group": "California AI Working Group"
+    "California Frontier AI Working Group": "California AI Working Group",
+    "Centre for Effective Altruism": "CEA",
+    "Long-Term Future Fund": "LTFF",
+    "Giving What We Can": "GWWC",
+    "80,000 Hours": "80,000 Hours"
   },
   "overviewPositions": {
     "Sam Bankman-Fried": [
@@ -140,7 +148,14 @@
         "Good Ventures",
         "Coefficient Giving / Open Philanthropy",
         "SFF",
-        "FTX / Alameda estate"
+        "FTX / Alameda estate",
+        "Effective Altruism",
+        "Will MacAskill",
+        "Effective Ventures",
+        "80,000 Hours",
+        "GiveWell",
+        "EA Funds",
+        "Rethink Priorities"
       ]
     },
     "metr": {
@@ -249,6 +264,35 @@
         "Evan Hubinger",
         "US Ban ASI proposal"
       ]
+    },
+    "ea": {
+      "label": "Effective altruism",
+      "seeds": [
+        "Effective Altruism",
+        "Will MacAskill",
+        "Toby Ord",
+        "Centre for Effective Altruism",
+        "Giving What We Can",
+        "80,000 Hours",
+        "Effective Ventures",
+        "EA Funds",
+        "Long-Term Future Fund",
+        "GiveWell",
+        "Holden Karnofsky",
+        "Coefficient Giving / Open Philanthropy",
+        "Good Ventures",
+        "Dustin Moskovitz",
+        "Sam Bankman-Fried",
+        "FTX Future Fund",
+        "Nick Beckstead",
+        "Zach Robinson",
+        "Peter Wildeford",
+        "Rethink Priorities",
+        "IAPS",
+        "Ajeya Cotra",
+        "Longview Philanthropy",
+        "GovAI"
+      ]
     }
   },
   "startNodes": [
@@ -257,6 +301,7 @@
     "Anthropic",
     "METR",
     "ControlAI",
-    "Jacob Coxon"
+    "Jacob Coxon",
+    "Effective Altruism"
   ]
 }

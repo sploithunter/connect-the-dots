@@ -7,11 +7,11 @@ updated: 2026-09-14
 
 # Dustin Moskovitz
 
-**Investor & philanthropist**
+**Anthropic investor; Good Ventures**
 
-An investor in Anthropic’s Series A and a co-founder and donor of Good Ventures. Those records connect early AI-company financing with a major philanthropic partner of Open Philanthropy.
+An Anthropic Series A investor and cofounder of Good Ventures with Cari Tuna. Good Ventures is the principal funder of Open Philanthropy / Coefficient Giving, which in turn funds many EA-aligned organisations. BBC describes him as backing effective-altruist causes. That is a funding path, not a sourced ‘I am an EA’ self-identification in this ingest.
 
-Profile sources: [A1](../sources/A1.md), [G4](../sources/G4.md).
+Profile sources: [A1](../sources/A1.md), [G4](../sources/G4.md), [W7](../sources/W7.md).
 
 ## Dated relationship records
 

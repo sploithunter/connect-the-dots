@@ -7,11 +7,11 @@ updated: 2026-09-14
 
 # Holden Karnofsky
 
-**Philanthropy / Anthropic**
+**GiveWell and Open Phil cofounder**
 
-A co-founder and former leader of Open Philanthropy who later joined Anthropic’s technical staff. The investigation also records his historical OpenAI board role and disclosed marriage to Daniela Amodei.
+A cofounder of GiveWell and of Open Philanthropy / Coefficient Giving, later on Anthropic’s technical staff, with a disclosed marriage to Daniela Amodei and a historical OpenAI board role. Open Philanthropy has been a major funder of EA-aligned AI and community work. This profile records those institutions; it does not treat every Open Phil grantee as an EA member.
 
-Profile sources: [G11](../sources/G11.md), [G5](../sources/G5.md), [G7](../sources/G7.md).
+Profile sources: [W8](../sources/W8.md), [G11](../sources/G11.md), [G4](../sources/G4.md), [G7](../sources/G7.md), [G5](../sources/G5.md).
 
 ## Dated relationship records
 
@@ -19,6 +19,7 @@ Profile sources: [G11](../sources/G11.md), [G5](../sources/G5.md), [G7](../sourc
 - **historical; CEO role ended 2023 · reported · E022:** [Holden Karnofsky](holden-karnofsky.md) → Co-founded; former CEO/co-CEO → [Coefficient Giving / Open Philanthropy](coefficient-giving-open-philanthropy.md). [G7](../sources/G7.md).
 - **2025-01 · reported · E023:** [Holden Karnofsky](holden-karnofsky.md) → Joined technical staff → [Anthropic](anthropic.md). [G7](../sources/G7.md).
 - **2018 roster · documented · E132:** [Holden Karnofsky](holden-karnofsky.md) → Historical board member → [OpenAI](openai.md). [G11](../sources/G11.md).
+- **2007 founding; historical ED role · documented · E179:** [Holden Karnofsky](holden-karnofsky.md) → Cofounded; former co-executive director → [GiveWell](givewell.md). [W8](../sources/W8.md).
 
 ## Related pages
 
@@ -26,6 +27,7 @@ Profile sources: [G11](../sources/G11.md), [G5](../sources/G5.md), [G7](../sourc
 - [Coefficient Giving / Open Philanthropy](coefficient-giving-open-philanthropy.md)
 - [Anthropic](anthropic.md)
 - [OpenAI](openai.md)
+- [GiveWell](givewell.md)
 
 [Entity index](../entities.md) · [Wiki home](../index.md)
 

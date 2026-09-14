@@ -64,3 +64,7 @@ Added 15 members of Congress who posted in the days after Coxon’s thread, plus
 ## [2026-09-14] lint — PR 11 reconciliation
 
 Reviewed the Coxon/congressional additions and retained their source attribution. Corrected the WSJ-before-X edge to reported because its timing relies on recaps. Removed the uncited eight-minute alternative from the topic narrative. Relabeled Wayback calendar links as archive lookups rather than archived copies, validated archive URL schemes, and added a regression check. Adjusted the incident narrative to preserve the repository's neutral investigative framing.
+
+## [2026-09-14] ingest — Effective altruism founders, orgs and grant vehicles
+
+Added a movement node for effective altruism, plus CEA, Giving What We Can, 80,000 Hours, EA Funds, the Long-Term Future Fund, GiveWell, Rethink Priorities and Toby Ord. Recorded MacAskill’s self-description as a founder, Ord as GWWC cofounder, SBF’s public EA identification, EV trustee roles for MacAskill and Beckstead, Coefficient Giving as 80,000 Hours’ primary funder, Karnofsky as GiveWell cofounder, and Wildeford’s documented RP/IAPS roles. The Coxon LTFF scholarship claim is now an unverified-lead edge to LTFF. Did not treat Open Phil / SFF grants as EA membership, and did not merge IAPS with the recap name AI Policy Network. Added an `affiliation` relationship type and an Effective altruism view.
