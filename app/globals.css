@@ -243,3 +243,8 @@ body {
 @media(max-width:700px){.split-legends{gap:10px}.split-pane-controls .search input{font-size:12px}.split-pane-controls .view-select{font-size:13px!important}.split-pane-controls .search-results{min-width:180px}.split-pane-controls:last-child .search-results{left:auto;right:0}}
 .connecting-count { display:block; color:#e5bf89; margin-top:4px; }
 .connection-depth-note { margin-top:12px; }
+
+/* Keep repository access visible in both graph modes and on small screens. */
+.repository-link { color: #e5bf89; font-size: 14px; white-space: nowrap; text-decoration: none; }
+.repository-link:hover { text-decoration: underline; }
+@media (max-width: 700px) { .masthead { flex-wrap: wrap; } .repository-link { font-size: 12px; } }

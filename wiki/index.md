@@ -18,6 +18,8 @@ A maintained research and engineering knowledge base for the [interactive graph]
 
 ## Working on the repository
 
+- [Submit evidence through an issue](contributing-evidence.md) — agent intake, required source mapping, record formats and maintainer verification.
+
 - [Configuration and one-file imports](configuration.md) — add nodes and views without editing application code.
 
 - [Agent instructions](../AGENTS.md) — account boundary and definition of a complete contribution.

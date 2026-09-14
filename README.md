@@ -14,17 +14,25 @@ Requires Node 22.13 or newer. Run `npm ci`, then `npm run dev`. Run `npm run bui
 
 GitHub Actions builds and deploys to GitHub Pages whenever `main` changes. No server, API keys or sign-in are required to use the graph.
 
-## Research and contributor wiki
+## Contribute information through an issue
 
-Start with the [wiki index](wiki/index.md) and [AGENTS.md](AGENTS.md). The wiki contains every entity profile, source-use pages, topic syntheses, open questions, architecture, style, contribution workflow and lessons learned.
+**Agents and researchers: submit new evidence, nodes, relationships and factual corrections through a [research evidence issue](https://github.com/sploithunter/connect-the-dots/issues/new?template=evidence.yml) before changing the published dataset.** Search existing issues and records first; add to an existing issue when it covers the same claim. An issue is a proposal for source review, not automatic publication.
 
-Every new node must have a substantive, cited profile in `data/node-profiles.json`. After editing evidence or profiles, run `npm run wiki:build`, update affected topic pages and append to `wiki/log.md`. `npm run build` rejects incomplete profiles, invalid references and stale generated wiki pages before publishing.
+1. Read [AGENTS.md](AGENTS.md) and the [internal wiki](wiki/index.md), then the relevant entity and source pages.
+2. Follow the [evidence contribution guide](wiki/contributing-evidence.md), [data schema](wiki/schema.md) and [style guide](wiki/style.md).
+3. Use the [GitHub issue form](https://github.com/sploithunter/connect-the-dots/issues/new?template=evidence.yml), or copy the [Markdown issue template](examples/evidence-issue.md) for an agent using the CLI. Include precise claims, claim-to-source mapping, original URLs, author/publisher, publication and access dates, locating passages, proposed JSON and any unresolved questions.
+4. Maintainers verify each claim against its sources and record the decision in the issue. An implementation PR links the issue and updates canonical data, generated wiki pages and affected topic guides; the [workflow](wiki/workflow.md) covers validation and publication.
+
+### Required formats and configuration
+
+- [Issue form definition](.github/ISSUE_TEMPLATE/evidence.yml) and [agent issue body](examples/evidence-issue.md): required submission sections and verification checklist.
+- [New-node JSON template](examples/node.template.json) and [one-file import guide](wiki/configuration.md): populate identity, informative subtitle, substantive summary, citations, dated relationships and source metadata without editing application code.
+- [Schema](wiki/schema.md): field names, evidence statuses, relationship types and formats for updates to existing records.
+- [Wiki index](wiki/index.md): entity/source indexes, research topics, architecture, style, open questions and lessons learned.
+
+After source review, an implementing agent can run `npm run node:add -- your-node.json --dry-run`, then repeat without `--dry-run`. For existing records, follow the manual JSON update instructions. Run `npm run wiki:build`, update affected topic pages and `wiki/log.md`, then `npm run build`. Checks reject incomplete profiles, invalid references and stale generated wiki pages; reviewers verify source support separately. Preset views, labels, colors and overview positions live in `config/network.json`.
 
 Repository operations use **sploithunter only**.
-
-## Add nodes without editing application code
-
-See the [one-file import guide](wiki/configuration.md) and [JSON template](examples/node.template.json). Run `npm run node:add -- your-node.json --dry-run`, then repeat without `--dry-run` to import the sourced profile and connections. The importer updates data and wiki pages together. Preset views, labels, colors and overview positions are in `config/network.json`.
 
 ## License and attribution
 

@@ -96,3 +96,7 @@ Replaced the split-only node-picker workflow with two copies of the existing Net
 ## 2026-09-14 — Connecting routes independent of context depth
 
 Added shortest-first connecting routes through seven links, including intermediate nodes outside each pane’s context depth. Seven-link routes are tangential. Kept canonical base views and explicit type filters; added a processing-budget notice for partial results. Verified both Conjecture personnel routes to ControlAI from depth-one SBF/Sanders focuses, plus algorithm boundary/branch/parallel-record tests and browser source, drag/reset, filter and export checks.
+
+## 2026-09-14 — Issue-first evidence contributions
+
+Added a visible GitHub repository link and a Submit evidence link to the graph. Added a structured GitHub issue form and matching agent Markdown template with claim-to-source mapping, publication/access metadata, locating passages, proposed records and review checklists. Connected the README, agent rules, wiki index, workflow and import guide to the issue-first intake and documented maintainer verification before linked implementation PRs.

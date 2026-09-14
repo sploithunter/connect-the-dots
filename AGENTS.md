@@ -4,6 +4,8 @@ This repository belongs to **sploithunter**. Never use `jason-upchurch-havoc` fo
 
 Start with [wiki/index.md](wiki/index.md), then read the relevant entity/source pages and [wiki/workflow.md](wiki/workflow.md). Append durable findings and changes to [wiki/log.md](wiki/log.md). This is a maintained knowledge base, not a collection of conversation transcripts.
 
+New evidence, nodes, relationships and factual corrections enter through a GitHub issue before dataset changes. Follow [wiki/contributing-evidence.md](wiki/contributing-evidence.md) and use the [issue body template](examples/evidence-issue.md) or [issue form](https://github.com/sploithunter/connect-the-dots/issues/new?template=evidence.yml). Map each claim to a read source and an exact passage/location, attach proposed records, and record source-review decisions in the issue. Link the implementation PR to that issue. Do not treat an issue submission or passing structural checks as factual verification. This intake rule applies to research content; ordinary interface and documentation maintenance does not require an evidence issue.
+
 Prefer the one-file importer documented in [wiki/configuration.md](wiki/configuration.md). Run it with `--dry-run` first. Graph content and presentation membership belong in JSON; do not add hard-coded entity lists to React.
 
 ## Required for every node

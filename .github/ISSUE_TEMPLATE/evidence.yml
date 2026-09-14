@@ -1,0 +1,94 @@
+name: Research evidence or correction
+description: Propose sourced nodes, connections, corrections or research leads for review.
+title: "[Evidence]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start with the [agent guide](https://github.com/sploithunter/connect-the-dots/blob/main/AGENTS.md), [internal wiki](https://github.com/sploithunter/connect-the-dots/blob/main/wiki/index.md) and [evidence contribution guide](https://github.com/sploithunter/connect-the-dots/blob/main/wiki/contributing-evidence.md).
+        Follow the [schema](https://github.com/sploithunter/connect-the-dots/blob/main/wiki/schema.md) and [style guide](https://github.com/sploithunter/connect-the-dots/blob/main/wiki/style.md). This issue is the evidence review record; accepted changes are implemented in a linked PR.
+        CLI agents can use the matching [Markdown issue template](https://github.com/sploithunter/connect-the-dots/blob/main/examples/evidence-issue.md).
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: Change type
+      multiple: true
+      options:
+        - New node
+        - New relationship
+        - Source addition
+        - Factual correction
+        - Unresolved lead
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary and existing records
+      description: Identify existing node, edge and source IDs, related issues and proposed new IDs. For corrections, give current and proposed values and why. Include your base commit if known.
+    validations:
+      required: true
+  - type: textarea
+    id: claims
+    attributes:
+      label: Claims and source mapping
+      description: Give every substantive profile claim and relationship a key (C1, C2...). Include affected record/field, dates, supporting source IDs, exact passage locations, a short excerpt or paraphrase, and evidence status with rationale.
+      placeholder: "C1 | Exact dated claim + record/field | Source IDs | Page/section/timestamp + excerpt or paraphrase | documented/reported/unverified lead + reason"
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source register
+      description: Repeat for every source, including reused IDs. Mark unknown metadata and unread sources explicitly. Search snippets alone do not verify a claim.
+      placeholder: |
+        Source ID:
+        Full title:
+        Original URL:
+        Author (or unknown):
+        Publisher/organization (or unknown):
+        Publication date (or unknown):
+        Actual access date (YYYY-MM-DD; explain if unread):
+        Source kind / provenance:
+        Relevant passage location:
+        Optional archive URL / permitted capture:
+        Access limitations:
+    validations:
+      required: true
+  - type: textarea
+    id: records
+    attributes:
+      label: Proposed records
+      description: Paste populated node packets in fenced JSON blocks, or complete proposed records with canonical file and ID/key for updates. Leads may identify candidate records and missing evidence. Do not invent a complete packet for an unresolved lead.
+      placeholder: "Use examples/node.template.json and wiki/schema.md. Include a sourced profile, dated relationships and source objects; identify current/proposed values for corrections."
+    validations:
+      required: true
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: Uncertainty, conflicts and research needed
+      description: Describe access failures, conflicting sources, attribution limits or remaining questions. Write “None identified” if appropriate.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Wiki, views and validation
+      description: List affected wiki topics and optional view placement. Record dry-run/build commands actually run and results, or write “Not run — issue proposal only.”
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Contributor checklist
+      options:
+        - label: I searched existing records and issues and identified reused IDs or a matching issue.
+          required: true
+        - label: I read accessible original sources, mapped each claim to a locating passage, and explicitly marked unread sources as unresolved leads.
+          required: true
+        - label: I supplied source metadata, dated claims and proposed records, or identified missing evidence for a lead.
+          required: true
+        - label: I followed the schema and neutral style guide, including attribution and financial amount scope.
+          required: true
+        - label: This is a proposal for maintainer source review before a linked implementation PR.
+          required: true

@@ -2,6 +2,8 @@
 
 [Wiki home](index.md) · [Schema](schema.md) · [Workflow](workflow.md)
 
+First submit the proposed packet and source mapping through an [evidence issue](contributing-evidence.md). The commands below are for implementing reviewed evidence; a dry run can also validate a proposed packet before submission. Existing-record corrections use the same issue intake.
+
 ## Easiest path: one node packet
 
 Copy [examples/node.template.json](../examples/node.template.json) to a working file and replace every example value with sourced information. The template is deliberately incomplete and cannot pass validation unchanged.
