@@ -55,6 +55,22 @@ function layout(ids:string[],edges:Edge[],overview:boolean):Point[]{
 function curve(a:Point,b:Point,offset=0){const dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy));const cx=(a.x+b.x)/2-dy/d*(26+offset),cy=(a.y+b.y)/2+dx/d*(26+offset);return `M${a.x},${a.y} Q${cx},${cy} ${b.x},${b.y}`;}
 function context(e:Edge){return e.note.split(/(?<=\.)\s+/).filter(s=>!/(not proof|not evidence|not a verified|not a personal|not organizational|not current SBF|no inferred|not a traced|is commentary)/i.test(s)).join(' ');}
 
+function SourceNotes({records}:{records:Edge[]}){
+ const ids=[...new Set(records.flatMap(record=>record.sources))];
+ return <section className="source-notes" aria-label="Sources and notes">
+  <h3>Sources & notes <span>({ids.length})</span></h3>
+  <p className="source-help">Expand a source to see the recorded connections it supports.</p>
+  {ids.map(id=>{const source=sources[id],supported=records.filter(record=>record.sources.includes(id));return <details className="source-card" key={id}>
+   <summary><span>{source.title}<small>{source.kind} source · {new URL(source.url).hostname.replace(/^www\./,'')}</small></span></summary>
+   <div className="source-body">
+    <p className="source-summary-label">Referenced for</p>
+    <ul>{supported.map(record=><li key={record.id}><strong>{record.source} → {record.target}</strong><span>{record.relation}</span><small>{record.date} · {record.evidence}</small></li>)}</ul>
+    <a className="source-link" href={source.url} target="_blank" rel="noopener noreferrer">Read original source <ArrowUpRight size={16}/><span className="sr-only"> (opens in a new tab)</span></a>
+   </div>
+  </details>;})}
+ </section>;
+}
+
 export default function Home(){
  const [view,setView]=useState('overview'),[selected,setSelected]=useState<string|null>(null),[active,setActive]=useState<Edge|null>(null),[search,setSearch]=useState(''),[zoom,setZoom]=useState(1),[pan,setPan]=useState({x:0,y:0}),[hover,setHover]=useState<string|null>(null);
  const [anchor,setAnchor]=useState<string|null>(null);
@@ -101,8 +117,8 @@ export default function Home(){
    </section>
    <aside className="inspector" aria-live="polite">
     <div className="inspector-head"><span className="eyebrow">CONNECTION RECORD</span>{(selected||active)&&<Button size="icon" variant="ghost" aria-label="Clear selection" onClick={()=>{setActive(null);setSelected(null);}}><X/></Button>}</div>
-    {active?<><span className="relation-tag" style={{color:COLORS[active.type]}}>{TYPE[active.type]}</span><h2>{active.source}</h2><ArrowRight className="record-arrow"/><h2>{active.target}</h2><p className="relationship">{active.relation}</p><dl><dt>Date / period</dt><dd>{active.date}</dd><dt>Source status</dt><dd>{active.evidence}</dd></dl>{context(active)&&<p className="note">{context(active)}</p>}<h3>Sources</h3>{active.sources.map(s=><a className="source-link" href={sources[s].url} target="_blank" rel="noreferrer" key={s}>{sources[s].title}<ArrowUpRight size={16}/></a>)}<Button variant="outline" onClick={()=>neighborhood(active.source)}><Focus/>Explore {short(active.source)}</Button></>:
-    selected?<><h2>{selected}</h2><p className="subtle">{links.length} recorded connections</p><Button variant="outline" className="neighbor-button" onClick={()=>neighborhood(selected)}><Focus/>Explore neighborhood</Button><div className="connection-list">{links.map(e=><button key={e.id} onClick={()=>setActive(e)}><span className="line-type" style={{background:COLORS[e.type]}}/><span><small>{e.source===selected?'→':'←'} {e.relation}</small><strong>{e.source===selected?e.target:e.source}</strong><em>{e.date}</em></span><ArrowUpRight size={14}/></button>)}</div></>:
+    {active?<><span className="relation-tag" style={{color:COLORS[active.type]}}>{TYPE[active.type]}</span><h2>{active.source}</h2><ArrowRight className="record-arrow"/><h2>{active.target}</h2><p className="relationship">{active.relation}</p><dl><dt>Date / period</dt><dd>{active.date}</dd><dt>Source status</dt><dd>{active.evidence}</dd></dl>{context(active)&&<p className="note">{context(active)}</p>}<SourceNotes key={active.id} records={[active]}/><Button variant="outline" onClick={()=>neighborhood(active.source)}><Focus/>Explore {short(active.source)}</Button></>:
+    selected?<><h2>{selected}</h2><p className="subtle">{links.length} recorded connections</p><Button variant="outline" className="neighbor-button" onClick={()=>neighborhood(selected)}><Focus/>Explore neighborhood</Button><SourceNotes key={selected} records={links}/><h3>Connections</h3><div className="connection-list">{links.map(e=><button key={e.id} onClick={()=>setActive(e)}><span className="line-type" style={{background:COLORS[e.type]}}/><span><small>{e.source===selected?'→':'←'} {e.relation}</small><strong>{e.source===selected?e.target:e.source}</strong><em>{e.date}</em></span><ArrowUpRight size={14}/></button>)}</div></>:
     <><h2>Follow a connection.</h2><p className="intro">People, capital, organizations and policy work in one sourced network.</p><div className="start-points"><h3>Start with</h3>{['Jaan Tallinn','Sam Bankman-Fried','Anthropic','METR','ControlAI','Jacob Coxon'].map(n=><Button variant="ghost" key={n} onClick={()=>neighborhood(n)}>{n}<ArrowRight size={16}/></Button>)}</div><div className="reading-key"><h3>Reading the graph</h3><p>Lines represent the relationship named in the record. Dates identify the relevant period.</p><p>Color follows connection type. Each record includes source links.</p></div></>}
     <footer>Public-source investigation<br/>105 nodes · 134 relationship records</footer>
    </aside>
