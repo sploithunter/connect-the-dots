@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # FTX / Alameda estate
 
+**Bankruptcy estate**
+
 The bankruptcy-estate grouping used for the documented sale of Anthropic shares. The cited filing records the estate’s realization of value from those holdings.
 
 Profile sources: [F2](../sources/F2.md).

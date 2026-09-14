@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Eric Schmidt
 
+**Anthropic Series A investor**
+
 An investor named in Anthropic’s Series A announcement. This record concerns his participation in the company’s early financing.
 
 Profile sources: [A1](../sources/A1.md).

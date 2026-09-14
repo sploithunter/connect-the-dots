@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Effective Ventures
 
+**Former Robinson institution**
+
 The organization whose US operation Zach Robinson led when appointed as an Anthropic founding trustee. The profile preserves the institutional affiliation at the time of that appointment.
 
 Profile sources: [A4](../sources/A4.md).

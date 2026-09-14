@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Jim McClave
 
+**Early Anthropic investor**
+
 An investor named in both Anthropic’s Series A and Series B announcements. His entries connect the participants in the company’s first two recorded financing rounds.
 
 Profile sources: [A1](../sources/A1.md), [A2](../sources/A2.md).

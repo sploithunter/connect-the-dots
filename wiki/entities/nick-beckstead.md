@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Nick Beckstead
 
+**Former FTX Future Fund team**
+
 A former FTX Future Fund team member named in its collective resignation statement. His entry records his role in that personnel network.
 
 Profile sources: [F1](../sources/F1.md).

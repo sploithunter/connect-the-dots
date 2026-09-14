@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # CAIS Action Fund
 
+**AI policy advocacy**
+
 CAIS’s advocacy affiliate, listed as a co-sponsor of California SB 1047. Its record connects the institutional network to the bill’s published legislative analysis.
 
 Profile sources: [L4](../sources/L4.md), [L5](../sources/L5.md).

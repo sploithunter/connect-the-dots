@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Public First Action
 
+**Policy advocacy organization**
+
 An organization for which Anthropic announced a total of $40 million in support. Its profile anchors the company-to-policy-funding branch of the investigation.
 
 Profile sources: [A6](../sources/A6.md).

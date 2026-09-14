@@ -16,6 +16,7 @@ export function validateData(data,profiles){
   if(!present(n.label))fail(`${n.id}: label required`);
   const p=profiles[n.id];if(!p){fail(`${n.id}: profile required`);continue;}
   if(!['person','organization','policy','group','topic'].includes(p.kind))fail(`${n.id}: invalid kind`);
+  if(!present(p.subtitle)||p.subtitle.length>64||placeholder(p.subtitle))fail(`${n.id}: concise subtitle required (maximum 64 characters)`);
   if(!present(p.summary)||p.summary.trim().length<80||placeholder(p.summary))fail(`${n.id}: substantive summary required (80+ characters, no placeholders)`);
   if(!/^\d{4}-\d{2}-\d{2}$/.test(p.updated)||Number.isNaN(Date.parse(p.updated)))fail(`${n.id}: valid updated date required`);
   refs(p.sources,`${n.id} profile`);
@@ -42,7 +43,7 @@ export function compileWiki(data,profiles){
  for(const n of data.nodes){
   const p=profiles[n.id],edges=data.edges.filter(e=>[e.source,e.target].includes(n.id));
   const related=[...new Set(edges.flatMap(e=>[e.source,e.target]))].filter(id=>id!==n.id);
-  files.set(`wiki/entities/${slug(n.id)}.md`,`---\ntitle: ${JSON.stringify(n.label)}\ntype: entity\nkind: ${p.kind}\nupdated: ${p.updated}\n---\n\n# ${n.label}\n\n${p.summary}\n\nProfile sources: ${p.sources.map(citation).join(', ')}.\n\n## Dated relationship records\n\n${edges.map(e=>`- **${e.date} · ${e.evidence} · ${e.id}:** ${entity(e.source)} → ${md(e.relation)} → ${entity(e.target)}. ${e.sources.map(citation).join(', ')}.`).join('\n')}\n\n## Related pages\n\n${related.map(id=>`- ${entity(id)}`).join('\n')}\n\n[Entity index](../entities.md) · [Wiki home](../index.md)\n\n<!-- Generated from data/node-profiles.json and data/evidence.json. Edit those records, then run npm run wiki:build. -->\n`);
+  files.set(`wiki/entities/${slug(n.id)}.md`,`---\ntitle: ${JSON.stringify(n.label)}\ntype: entity\nkind: ${p.kind}\nupdated: ${p.updated}\n---\n\n# ${n.label}\n\n**${p.subtitle}**\n\n${p.summary}\n\nProfile sources: ${p.sources.map(citation).join(', ')}.\n\n## Dated relationship records\n\n${edges.map(e=>`- **${e.date} · ${e.evidence} · ${e.id}:** ${entity(e.source)} → ${md(e.relation)} → ${entity(e.target)}. ${e.sources.map(citation).join(', ')}.`).join('\n')}\n\n## Related pages\n\n${related.map(id=>`- ${entity(id)}`).join('\n')}\n\n[Entity index](../entities.md) · [Wiki home](../index.md)\n\n<!-- Generated from data/node-profiles.json and data/evidence.json. Edit those records, then run npm run wiki:build. -->\n`);
  }
  for(const [id,s] of Object.entries(data.sources)){
   const es=data.edges.filter(e=>e.sources.includes(id)),ps=data.nodes.filter(n=>profiles[n.id].sources.includes(id));

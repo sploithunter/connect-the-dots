@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Connor Leahy
 
+**Conjecture / ControlAI**
+
 A Conjecture co-founder identified in its launch announcement. ControlAI’s team page also identifies him as its US executive director.
 
 Profile sources: [C1](../sources/C1.md), [C2](../sources/C2.md).

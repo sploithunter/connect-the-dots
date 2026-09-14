@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # CSER
 
+**Existential risk research**
+
 The Centre for the Study of Existential Risk, co-founded by Jaan Tallinn according to his institutional biography. It forms part of his research-institution network.
 
 Profile sources: [S3](../sources/S3.md).

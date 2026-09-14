@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Sijbrandij Foundation
 
+**METR philanthropic supporter**
+
 A foundation acknowledged in METR’s funding update. It appears as a supporter in the disclosed philanthropic network.
 
 Profile sources: [M2](../sources/M2.md).

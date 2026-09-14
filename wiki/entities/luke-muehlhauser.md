@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Luke Muehlhauser
 
+**AI governance grantmaker**
+
 An AI governance grantmaker at Open Philanthropy and a former Anthropic board member. His own account and reporting on Tallinn’s advocacy provide the personnel and governance records used here.
 
 Profile sources: [A7](../sources/A7.md), [F3](../sources/F3.md), [G6](../sources/G6.md).

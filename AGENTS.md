@@ -9,7 +9,7 @@ Start with [wiki/index.md](wiki/index.md), then read the relevant entity/source 
 A graph node is incomplete without a written profile. In the same change, add:
 
 1. A stable ID and label in `data/evidence.json`.
-2. A profile keyed by that ID in `data/node-profiles.json`: `kind`, a substantive `summary`, nonempty `sources`, and `updated` date. Explain what the entity is and its relevance in this investigation. A name, a connection count, a template sentence or a TODO is insufficient.
+2. A profile keyed by that ID in `data/node-profiles.json`: `kind`, a short informative `subtitle`, a substantive `summary`, nonempty `sources`, and `updated` date. Explain what the entity is and its relevance in this investigation. A name, a connection count, a template sentence or a TODO is insufficient.
 3. Cited, dated relationship records, preserving source attribution and evidence status.
 4. Source-registry entries with title, URL, source kind and actual access date. Read the source before extending its claims. Cite each substantive profile statement with appropriate source IDs; existence of a URL is not verification of its contents.
 5. Regenerated entity/source wiki pages and indexes, any affected topic synthesis, and a log entry.

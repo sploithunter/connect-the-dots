@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # California Frontier AI Working Group
 
+**California AI policy group**
+
 A California policy working group co-led by Tino Cuéllar. The profile connects his policy work with his subsequent Anthropic governance and executive appointments.
 
 Profile sources: [A5](../sources/A5.md).

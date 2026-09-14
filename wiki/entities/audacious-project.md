@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Audacious Project
 
+**METR philanthropic supporter**
+
 A philanthropic initiative acknowledged in METR’s funding update. It appears in the investigation as one of the evaluation organization’s supporters.
 
 Profile sources: [M2](../sources/M2.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Sam Bankman-Fried
 
+**Anthropic / Conjecture investor**
+
 The lead investor named in Anthropic’s Series B announcement and an investor named in Conjecture’s launch announcement. These two financing records connect him to distinct AI-company branches.
 
 Profile sources: [A2](../sources/A2.md), [C1](../sources/C1.md).

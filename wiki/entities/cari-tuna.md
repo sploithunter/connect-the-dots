@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Cari Tuna
 
+**Good Ventures co-founder**
+
 A co-founder and donor of Good Ventures alongside Dustin Moskovitz. Good Ventures’ philanthropic partnership with Open Philanthropy provides the next step in this funding branch.
 
 Profile sources: [G4](../sources/G4.md).

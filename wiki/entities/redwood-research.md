@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Redwood Research
 
+**AI safety research**
+
 An AI research organization named in Coefficient Giving’s funding discussion. Its inclusion follows the disclosed grantmaking relationship.
 
 Profile sources: [G1](../sources/G1.md).

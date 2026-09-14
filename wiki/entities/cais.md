@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # CAIS
 
+**Center for AI Safety**
+
 The Center for AI Safety, appearing through philanthropic funding, Jaan Tallinn’s board role, and its launch of an advocacy affiliate. CAIS Action Fund has its own record for legislative advocacy.
 
 Profile sources: [G2](../sources/G2.md), [L5](../sources/L5.md), [S3](../sources/S3.md).

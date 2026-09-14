@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Caroline Ellison
 
+**Anthropic Series B investor**
+
 An investor named in Anthropic’s April 2022 Series B announcement. That round was led by Sam Bankman-Fried.
 
 Profile sources: [A2](../sources/A2.md).

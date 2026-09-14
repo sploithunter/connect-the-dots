@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Meta
 
+**AI developer · METR access**
+
 An AI developer listed in METR’s disclosures concerning evaluation access and free tokens. Its entry records resources made available for model evaluations.
 
 Profile sources: [M1](../sources/M1.md), [M2](../sources/M2.md).

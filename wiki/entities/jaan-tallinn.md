@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Jaan Tallinn
 
+**AI investor & philanthropist**
+
 An Anthropic investor and participating SFF funder whose biography also lists several research and safety-institution roles. Reporting connects him with ControlAI backing, early Alameda financing and advocacy for an Anthropic board appointment.
 
 Profile sources: [A1](../sources/A1.md), [A2](../sources/A2.md), [C4](../sources/C4.md), [F3](../sources/F3.md), [F4](../sources/F4.md), [S1](../sources/S1.md), [S2](../sources/S2.md), [S3](../sources/S3.md).

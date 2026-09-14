@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Ketan Ramakrishnan
 
+**Former FTX Future Fund team**
+
 A former FTX Future Fund team member named in the November 2022 collective resignation statement. The record establishes the personnel affiliation and departure.
 
 Profile sources: [F1](../sources/F1.md).

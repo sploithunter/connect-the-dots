@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Will MacAskill
 
+**Former FTX Future Fund team**
+
 A former FTX Future Fund team member named in its collective resignation statement. His entry records that historical philanthropic affiliation.
 
 Profile sources: [F1](../sources/F1.md).

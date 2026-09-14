@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Good Ventures
 
+**Moskovitz–Tuna philanthropy**
+
 A philanthropic organization founded by Dustin Moskovitz and Cari Tuna. Its disclosures describe a major partnership with Open Philanthropy, now represented in this dataset together with Coefficient Giving.
 
 Profile sources: [G4](../sources/G4.md).

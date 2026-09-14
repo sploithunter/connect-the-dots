@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Anthropic LTBT
 
+**Company governance trust**
+
 Anthropic’s Long-Term Benefit Trust, a governance body with special rights to elect company board members. Its historical trustee roster connects researchers and leaders from several institutions.
 
 Profile sources: [A4](../sources/A4.md), [A5](../sources/A5.md).

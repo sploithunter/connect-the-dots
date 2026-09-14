@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Schmidt Sciences
 
+**METR philanthropic supporter**
+
 An organization acknowledged as a supporter in METR’s funding update. Its profile follows the evaluation organization’s donor disclosure.
 
 Profile sources: [M2](../sources/M2.md).

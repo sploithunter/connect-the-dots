@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # NIST / CAISI
 
+**US AI standards & evaluation**
+
 The institutional grouping used here for US government AI standards and evaluation work. The records connect Paul Christiano’s technical-advisory role and METR’s consortium participation.
 
 Profile sources: [M1](../sources/M1.md), [O1](../sources/O1.md).

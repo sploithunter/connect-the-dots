@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # RAND
 
+**Policy research institution**
+
 A research institution named in Coefficient Giving’s support discussion. Anthropic’s trust announcement also identifies Jason Matheny as RAND’s CEO at his trustee appointment.
 
 Profile sources: [A4](../sources/A4.md), [G1](../sources/G1.md).

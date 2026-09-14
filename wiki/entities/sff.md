@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # SFF
 
+**Philanthropic funding network**
+
 The Survival and Flourishing Fund organizes applications and funding recommendations for participating funders. Its 2025 recommendations connect Tallinn with recipients across AI research, evaluation, policy and journalism.
 
 Profile sources: [S1](../sources/S1.md), [S2](../sources/S2.md).

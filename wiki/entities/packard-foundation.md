@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Packard Foundation
 
+**METR philanthropic supporter**
+
 A foundation acknowledged in METR’s funding update. Its profile records support within the evaluator’s philanthropic network.
 
 Profile sources: [M2](../sources/M2.md).

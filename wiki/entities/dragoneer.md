@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Dragoneer
 
+**Anthropic Series H investor**
+
 An investment firm named as a co-lead in Anthropic’s Series H financing announcement. Its entry belongs to the later-round investor branch.
 
 Profile sources: [A3](../sources/A3.md).

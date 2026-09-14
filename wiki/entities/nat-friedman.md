@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Nat Friedman
 
+**Conjecture investor**
+
 An investor named in Conjecture’s founding announcement. His profile follows the company’s published list of early backers.
 
 Profile sources: [C1](../sources/C1.md).

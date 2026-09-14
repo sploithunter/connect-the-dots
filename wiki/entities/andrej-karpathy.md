@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Andrej Karpathy
 
+**AI researcher & investor**
+
 An AI researcher named among Conjecture’s investors in its founding announcement. The investigation separately records his public endorsement of Dario Amodei’s proposal for pacing frontier AI development.
 
 Profile sources: [C1](../sources/C1.md), [X8](../sources/X8.md).

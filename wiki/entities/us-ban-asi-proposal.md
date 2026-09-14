@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # US Ban ASI proposal
 
+**Sanders–Casar proposal**
+
 The US artificial-superintelligence proposal jointly announced by Bernie Sanders and Greg Casar on September 3, 2026. ControlAI reports consultation on the framework; the announcement and consultation account provide distinct source records.
 
 Profile sources: [C3](../sources/C3.md), [L1](../sources/L1.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Bernie Sanders
 
+**US ASI proposal co-sponsor**
+
 A US legislator who jointly announced the Ban Artificial Superintelligence proposal with Greg Casar. The announcement is a primary source for the US policy branch of this investigation.
 
 Profile sources: [L1](../sources/L1.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Lachlan Phillips
 
+**Commentator · evaluator critique**
+
 A public commentator whose post criticized the evaluator proposal involving METR. His entry belongs to the incident’s public-discussion branch.
 
 Profile sources: [X4](../sources/X4.md).

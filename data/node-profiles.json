@@ -5,7 +5,8 @@
     "sources": [
       "S2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI futures research"
   },
   "AI Policy Institute": {
     "kind": "organization",
@@ -13,7 +14,8 @@
     "sources": [
       "S2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI policy organization"
   },
   "AI policy development": {
     "kind": "topic",
@@ -21,7 +23,8 @@
     "sources": [
       "G9"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Governance funding program"
   },
   "ARC": {
     "kind": "organization",
@@ -33,7 +36,8 @@
       "O1",
       "X7"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI alignment research"
   },
   "Ajeya Cotra": {
     "kind": "person",
@@ -43,7 +47,8 @@
       "M6",
       "M7"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "METR researcher"
   },
   "Alameda Research": {
     "kind": "organization",
@@ -51,7 +56,8 @@
     "sources": [
       "F4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Trading firm · FTX network"
   },
   "Alex Sobel": {
     "kind": "person",
@@ -59,7 +65,8 @@
     "sources": [
       "L3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "UK ASI bill sponsor"
   },
   "Altimeter Capital": {
     "kind": "organization",
@@ -67,7 +74,8 @@
     "sources": [
       "A3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic Series H investor"
   },
   "Amazon": {
     "kind": "organization",
@@ -76,7 +84,8 @@
       "M1",
       "M2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI developer · METR access"
   },
   "Andrea Miotti": {
     "kind": "person",
@@ -85,7 +94,8 @@
       "C2",
       "C4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "ControlAI founder & CEO"
   },
   "Andrej Karpathy": {
     "kind": "person",
@@ -94,7 +104,8 @@
       "C1",
       "X8"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI researcher & investor"
   },
   "Anthropic": {
     "kind": "organization",
@@ -117,7 +128,8 @@
       "M5",
       "X1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI development company"
   },
   "Anthropic LTBT": {
     "kind": "organization",
@@ -126,7 +138,8 @@
       "A4",
       "A5"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Company governance trust"
   },
   "Arthur Breitman": {
     "kind": "person",
@@ -134,7 +147,8 @@
     "sources": [
       "C1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Conjecture investor"
   },
   "Audacious Project": {
     "kind": "organization",
@@ -142,7 +156,8 @@
     "sources": [
       "M2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "METR philanthropic supporter"
   },
   "Avital Balwit": {
     "kind": "person",
@@ -151,7 +166,8 @@
       "F1",
       "F5"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic chief of staff"
   },
   "Bernie Sanders": {
     "kind": "person",
@@ -159,7 +175,8 @@
     "sources": [
       "L1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "US ASI proposal co-sponsor"
   },
   "Beth Barnes": {
     "kind": "person",
@@ -168,7 +185,8 @@
       "M1",
       "M3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "METR founder & CEO"
   },
   "Brian Roemmele": {
     "kind": "person",
@@ -177,7 +195,8 @@
       "X6",
       "X7"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Commentator · METR critique"
   },
   "CAIS": {
     "kind": "organization",
@@ -187,7 +206,8 @@
       "L5",
       "S3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Center for AI Safety"
   },
   "CAIS Action Fund": {
     "kind": "organization",
@@ -196,7 +216,8 @@
       "L4",
       "L5"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI policy advocacy"
   },
   "CERR": {
     "kind": "organization",
@@ -205,7 +226,8 @@
       "A1",
       "A2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Emerging risk research"
   },
   "CNAS": {
     "kind": "organization",
@@ -213,7 +235,8 @@
     "sources": [
       "G1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Security policy research"
   },
   "CSER": {
     "kind": "organization",
@@ -221,7 +244,8 @@
     "sources": [
       "S3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Existential risk research"
   },
   "CSET": {
     "kind": "organization",
@@ -229,7 +253,8 @@
     "sources": [
       "G1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Security & technology policy"
   },
   "California Frontier AI Working Group": {
     "kind": "organization",
@@ -237,7 +262,8 @@
     "sources": [
       "A5"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "California AI policy group"
   },
   "California SB 1047": {
     "kind": "policy",
@@ -245,7 +271,8 @@
     "sources": [
       "L4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "California AI safety bill"
   },
   "Cari Tuna": {
     "kind": "person",
@@ -253,7 +280,8 @@
     "sources": [
       "G4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Good Ventures co-founder"
   },
   "Carnegie Endowment": {
     "kind": "organization",
@@ -261,7 +289,8 @@
     "sources": [
       "A5"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Former Cuéllar institution"
   },
   "Caroline Ellison": {
     "kind": "person",
@@ -269,7 +298,8 @@
     "sources": [
       "A2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic Series B investor"
   },
   "Coefficient Giving / Open Philanthropy": {
     "kind": "organization",
@@ -287,7 +317,8 @@
       "M7",
       "X7"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI research & policy funder"
   },
   "Conjecture": {
     "kind": "organization",
@@ -296,7 +327,8 @@
       "C1",
       "C4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI alignment company"
   },
   "Connor Leahy": {
     "kind": "person",
@@ -305,7 +337,8 @@
       "C1",
       "C2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Conjecture / ControlAI"
   },
   "ControlAI": {
     "kind": "organization",
@@ -317,7 +350,8 @@
       "C5",
       "X5"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI policy advocacy"
   },
   "Daniel Gross": {
     "kind": "person",
@@ -325,7 +359,8 @@
     "sources": [
       "C1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Conjecture investor"
   },
   "Daniela Amodei": {
     "kind": "person",
@@ -334,7 +369,8 @@
       "A1",
       "G5"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic co-founder"
   },
   "Dario Amodei": {
     "kind": "person",
@@ -343,7 +379,8 @@
       "A1",
       "X8"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic co-founder & CEO"
   },
   "Des Browne": {
     "kind": "person",
@@ -351,7 +388,8 @@
     "sources": [
       "C2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "ControlAI advisor"
   },
   "Dragoneer": {
     "kind": "organization",
@@ -359,7 +397,8 @@
     "sources": [
       "A3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic Series H investor"
   },
   "Dustin Moskovitz": {
     "kind": "person",
@@ -368,7 +407,8 @@
       "A1",
       "G4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Investor & philanthropist"
   },
   "EU AI Office": {
     "kind": "organization",
@@ -376,7 +416,8 @@
     "sources": [
       "M1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "EU AI policy institution"
   },
   "Economic Security Project Action": {
     "kind": "organization",
@@ -384,7 +425,8 @@
     "sources": [
       "L4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "SB 1047 co-sponsor"
   },
   "Effective Ventures": {
     "kind": "organization",
@@ -392,7 +434,8 @@
     "sources": [
       "A4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Former Robinson institution"
   },
   "Encode AI": {
     "kind": "organization",
@@ -400,7 +443,8 @@
     "sources": [
       "S2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI policy organization"
   },
   "Encode Justice": {
     "kind": "organization",
@@ -408,7 +452,8 @@
     "sources": [
       "L4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "SB 1047 co-sponsor"
   },
   "Epoch AI": {
     "kind": "organization",
@@ -416,7 +461,8 @@
     "sources": [
       "G1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI research organization"
   },
   "Eric Schmidt": {
     "kind": "person",
@@ -424,7 +470,8 @@
     "sources": [
       "A1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic Series A investor"
   },
   "Evan Hubinger": {
     "kind": "person",
@@ -434,7 +481,8 @@
       "X2",
       "X3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic safety researcher"
   },
   "FTX / Alameda estate": {
     "kind": "organization",
@@ -442,7 +490,8 @@
     "sources": [
       "F2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Bankruptcy estate"
   },
   "FTX Future Fund": {
     "kind": "organization",
@@ -450,7 +499,8 @@
     "sources": [
       "F1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Former philanthropic fund"
   },
   "Future of Life Institute": {
     "kind": "organization",
@@ -458,7 +508,8 @@
     "sources": [
       "S3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI & existential risk"
   },
   "Gabriel Alfour": {
     "kind": "person",
@@ -467,7 +518,8 @@
       "C1",
       "C2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Conjecture / ControlAI"
   },
   "Good Ventures": {
     "kind": "organization",
@@ -475,7 +527,8 @@
     "sources": [
       "G4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Moskovitz–Tuna philanthropy"
   },
   "Google DeepMind": {
     "kind": "organization",
@@ -484,7 +537,8 @@
       "M1",
       "M2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI developer · METR access"
   },
   "GovAI": {
     "kind": "organization",
@@ -492,7 +546,8 @@
     "sources": [
       "G3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI governance research"
   },
   "Greenoaks": {
     "kind": "organization",
@@ -500,7 +555,8 @@
     "sources": [
       "A3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic Series H investor"
   },
   "Greg Casar": {
     "kind": "person",
@@ -508,7 +564,8 @@
     "sources": [
       "L1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "US ASI proposal co-sponsor"
   },
   "Holden Karnofsky": {
     "kind": "person",
@@ -518,7 +575,8 @@
       "G5",
       "G7"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Philanthropy / Anthropic"
   },
   "Horizon Institute": {
     "kind": "organization",
@@ -527,7 +585,8 @@
       "H1",
       "H2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Policy fellowship program"
   },
   "IAPS": {
     "kind": "organization",
@@ -535,7 +594,8 @@
     "sources": [
       "S2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI policy organization"
   },
   "Jaan Tallinn": {
     "kind": "person",
@@ -550,7 +610,8 @@
       "S2",
       "S3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI investor & philanthropist"
   },
   "Jacob Coxon": {
     "kind": "person",
@@ -562,7 +623,8 @@
       "X2",
       "X3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Former Anthropic researcher"
   },
   "Jane Street individuals": {
     "kind": "group",
@@ -570,7 +632,8 @@
     "sources": [
       "M2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Individual METR supporters"
   },
   "Jason Matheny": {
     "kind": "person",
@@ -578,7 +641,8 @@
     "sources": [
       "A4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "RAND / former AI trustee"
   },
   "Jim McClave": {
     "kind": "person",
@@ -587,7 +651,8 @@
       "A1",
       "A2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Early Anthropic investor"
   },
   "Joe Benton": {
     "kind": "person",
@@ -595,7 +660,8 @@
     "sources": [
       "M5"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Former Anthropic researcher"
   },
   "John Collison": {
     "kind": "person",
@@ -603,7 +669,8 @@
     "sources": [
       "C1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Conjecture investor"
   },
   "Ketan Ramakrishnan": {
     "kind": "person",
@@ -611,7 +678,8 @@
     "sources": [
       "F1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Former FTX Future Fund team"
   },
   "Lachlan Phillips": {
     "kind": "person",
@@ -619,7 +687,8 @@
     "sources": [
       "X4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Commentator · evaluator critique"
   },
   "Leopold Aschenbrenner": {
     "kind": "person",
@@ -627,7 +696,8 @@
     "sources": [
       "F1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Former FTX Future Fund team"
   },
   "Longview Philanthropy": {
     "kind": "organization",
@@ -635,7 +705,8 @@
     "sources": [
       "M2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "METR philanthropic supporter"
   },
   "Lord Clement-Jones": {
     "kind": "person",
@@ -643,7 +714,8 @@
     "sources": [
       "C3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "UK amendment sponsor"
   },
   "Luke Muehlhauser": {
     "kind": "person",
@@ -653,7 +725,8 @@
       "F3",
       "G6"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI governance grantmaker"
   },
   "MATS": {
     "kind": "organization",
@@ -661,7 +734,8 @@
     "sources": [
       "G1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI safety research program"
   },
   "METR": {
     "kind": "organization",
@@ -678,7 +752,8 @@
       "X6",
       "X7"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI safety evaluation organization"
   },
   "MIRI": {
     "kind": "organization",
@@ -686,7 +761,8 @@
     "sources": [
       "S2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI safety research"
   },
   "Meta": {
     "kind": "organization",
@@ -695,7 +771,8 @@
       "M1",
       "M2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI developer · METR access"
   },
   "NIST / CAISI": {
     "kind": "organization",
@@ -704,7 +781,8 @@
       "M1",
       "O1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "US AI standards & evaluation"
   },
   "Nat Friedman": {
     "kind": "person",
@@ -712,7 +790,8 @@
     "sources": [
       "C1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Conjecture investor"
   },
   "Nick Beckstead": {
     "kind": "person",
@@ -720,7 +799,8 @@
     "sources": [
       "F1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Former FTX Future Fund team"
   },
   "Nishad Singh": {
     "kind": "person",
@@ -728,7 +808,8 @@
     "sources": [
       "A2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic Series B investor"
   },
   "OpenAI": {
     "kind": "organization",
@@ -741,7 +822,8 @@
       "O1",
       "X1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI development company"
   },
   "Packard Foundation": {
     "kind": "organization",
@@ -749,7 +831,8 @@
     "sources": [
       "M2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "METR philanthropic supporter"
   },
   "Patrick Collison": {
     "kind": "person",
@@ -757,7 +840,8 @@
     "sources": [
       "C1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Conjecture investor"
   },
   "Paul Christiano": {
     "kind": "person",
@@ -768,7 +852,8 @@
       "M6",
       "O1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI alignment & governance"
   },
   "Pew Charitable Trusts": {
     "kind": "organization",
@@ -776,7 +861,8 @@
     "sources": [
       "M2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "METR philanthropic supporter"
   },
   "Public First Action": {
     "kind": "organization",
@@ -784,7 +870,8 @@
     "sources": [
       "A6"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Policy advocacy organization"
   },
   "RAND": {
     "kind": "organization",
@@ -793,7 +880,8 @@
       "A4",
       "G1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Policy research institution"
   },
   "Redwood Research": {
     "kind": "organization",
@@ -801,7 +889,8 @@
     "sources": [
       "G1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI safety research"
   },
   "SFF": {
     "kind": "organization",
@@ -810,7 +899,8 @@
       "S1",
       "S2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Philanthropic funding network"
   },
   "Sam Bankman-Fried": {
     "kind": "person",
@@ -819,7 +909,8 @@
       "A2",
       "C1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic / Conjecture investor"
   },
   "Sayer Ji": {
     "kind": "person",
@@ -827,7 +918,8 @@
     "sources": [
       "X5"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Commentator · policy critique"
   },
   "Schmidt Sciences": {
     "kind": "organization",
@@ -835,7 +927,8 @@
     "sources": [
       "M2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "METR philanthropic supporter"
   },
   "Sequoia Capital": {
     "kind": "organization",
@@ -843,7 +936,8 @@
     "sources": [
       "A3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Anthropic Series H investor"
   },
   "Sid Black": {
     "kind": "person",
@@ -851,7 +945,8 @@
     "sources": [
       "C1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Conjecture co-founder"
   },
   "Sijbrandij Foundation": {
     "kind": "organization",
@@ -859,7 +954,8 @@
     "sources": [
       "M2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "METR philanthropic supporter"
   },
   "Tarbell Center for AI Journalism": {
     "kind": "organization",
@@ -867,7 +963,8 @@
     "sources": [
       "S2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI journalism organization"
   },
   "Tino Cuéllar": {
     "kind": "person",
@@ -875,7 +972,8 @@
     "sources": [
       "A5"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "AI policy & global affairs"
   },
   "UK AI Security Institute": {
     "kind": "organization",
@@ -883,7 +981,8 @@
     "sources": [
       "M1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "UK government AI safety"
   },
   "UK AI kill-switch amendment": {
     "kind": "policy",
@@ -891,7 +990,8 @@
     "sources": [
       "C3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Clement-Jones amendment"
   },
   "UK ASI Bill": {
     "kind": "policy",
@@ -901,7 +1001,8 @@
       "C5",
       "L3"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Alex Sobel-sponsored bill"
   },
   "US Ban ASI proposal": {
     "kind": "policy",
@@ -910,7 +1011,8 @@
       "C3",
       "L1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Sanders–Casar proposal"
   },
   "US policy institutions": {
     "kind": "group",
@@ -919,7 +1021,8 @@
       "H1",
       "H2"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Hosts for policy fellows"
   },
   "Will MacAskill": {
     "kind": "person",
@@ -927,7 +1030,8 @@
     "sources": [
       "F1"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Former FTX Future Fund team"
   },
   "Zach Robinson": {
     "kind": "person",
@@ -935,6 +1039,7 @@
     "sources": [
       "A4"
     ],
-    "updated": "2026-09-14"
+    "updated": "2026-09-14",
+    "subtitle": "Former Anthropic trustee"
   }
 }

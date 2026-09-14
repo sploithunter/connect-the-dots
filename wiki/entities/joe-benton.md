@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Joe Benton
 
+**Former Anthropic researcher**
+
 A former Anthropic safety researcher who publicly described his departure and an upcoming move to METR. His account identifies Evan Hubinger as his manager and says Coxon’s resignation prompted his post.
 
 Profile sources: [M5](../sources/M5.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Longview Philanthropy
 
+**METR philanthropic supporter**
+
 A philanthropic organization acknowledged as a supporter in METR’s funding update. It appears in the evaluation organization’s funding network.
 
 Profile sources: [M2](../sources/M2.md).

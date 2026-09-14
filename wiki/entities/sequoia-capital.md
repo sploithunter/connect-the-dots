@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Sequoia Capital
 
+**Anthropic Series H investor**
+
 An investment firm named as a co-lead in Anthropic’s Series H announcement. The record connects it to the later financing round.
 
 Profile sources: [A3](../sources/A3.md).

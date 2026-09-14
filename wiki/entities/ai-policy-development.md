@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # AI policy development
 
+**Governance funding program**
+
 A category for projects solicited through Coefficient Giving’s AI governance funding program. It represents a policy-development activity rather than one legal organization or bill.
 
 Profile sources: [G9](../sources/G9.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Encode AI
 
+**AI policy organization**
+
 An organization appearing in SFF’s 2025 recommendations with Tallinn identified as funder. The dataset separately retains the name Encode Justice where it appears in the SB 1047 source.
 
 Profile sources: [S2](../sources/S2.md).

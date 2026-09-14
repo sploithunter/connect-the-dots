@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Daniela Amodei
 
+**Anthropic co-founder**
+
 An Anthropic co-founder and president, and Dario Amodei’s sibling. The investigation also includes the publicly disclosed family relationship between her and Holden Karnofsky.
 
 Profile sources: [A1](../sources/A1.md), [G5](../sources/G5.md).

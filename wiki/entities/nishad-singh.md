@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Nishad Singh
 
+**Anthropic Series B investor**
+
 An investor named in Anthropic’s Series B announcement. His entry links him to the April 2022 financing led by Sam Bankman-Fried.
 
 Profile sources: [A2](../sources/A2.md).

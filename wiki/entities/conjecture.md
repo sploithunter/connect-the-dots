@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Conjecture
 
+**AI alignment company**
+
 An AI alignment research company whose launch announcement names its founders and investors. Several founders and a former employee subsequently held roles at ControlAI, connecting investment and policy-advocacy branches.
 
 Profile sources: [C1](../sources/C1.md), [C4](../sources/C4.md).

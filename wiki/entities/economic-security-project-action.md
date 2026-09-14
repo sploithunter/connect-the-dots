@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Economic Security Project Action
 
+**SB 1047 co-sponsor**
+
 An organization listed as a co-sponsor of California SB 1047 in the Assembly analysis. The record documents its role in that legislative coalition.
 
 Profile sources: [L4](../sources/L4.md).

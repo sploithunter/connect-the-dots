@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # UK AI Security Institute
 
+**UK government AI safety**
+
 The UK government institution with which METR reports a partnership. The profile records the evaluator’s relationship with a public-sector AI institution.
 
 Profile sources: [M1](../sources/M1.md).

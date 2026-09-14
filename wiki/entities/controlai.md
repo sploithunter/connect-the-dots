@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # ControlAI
 
+**AI policy advocacy**
+
 An AI policy advocacy organization led by Andrea Miotti. Its own account describes UK legislative drafting and consultation on the Sanders–Casar framework; the investigation also records its personnel, financial backing and public advocacy.
 
 Profile sources: [C2](../sources/C2.md), [C3](../sources/C3.md), [C4](../sources/C4.md), [C5](../sources/C5.md), [X5](../sources/X5.md).

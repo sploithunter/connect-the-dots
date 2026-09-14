@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Pew Charitable Trusts
 
+**METR philanthropic supporter**
+
 A philanthropic institution acknowledged in METR’s funding update. It appears as a supporter in the evaluation organization’s disclosed funding network.
 
 Profile sources: [M2](../sources/M2.md).

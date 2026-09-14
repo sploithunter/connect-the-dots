@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Avital Balwit
 
+**Anthropic chief of staff**
+
 A former FTX Future Fund team member named in its collective resignation statement. Her professional biography identifies her as chief of staff to Anthropic CEO Dario Amodei.
 
 Profile sources: [F1](../sources/F1.md), [F5](../sources/F5.md).

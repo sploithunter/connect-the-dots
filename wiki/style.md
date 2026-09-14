@@ -12,7 +12,7 @@ Do not conflate a financing round total with an individual's contribution, a gra
 
 ## Sources and profiles
 
-Every node gets actual authored information and citations. Node selection shows About, profile source links, source notes and relationships. Source cards expand to show the use of the source; original publications open in a new tab with `rel="noopener noreferrer"` and an accessible new-tab indication. Never add unsupported biography merely to make a profile seem complete.
+Every node gets actual authored information and citations. Its graph label also needs a short subtitle explaining its role or activity. For policy nodes, name the sponsors when supported, such as “Sanders–Casar proposal”; for unfamiliar organizations, describe their work, such as “AI safety evaluation organization”. Keep the title intact and the subtitle visible without clicking. Node selection shows About, profile source links, source notes and relationships. Source cards expand to show the use of the source; original publications open in a new tab with `rel="noopener noreferrer"` and an accessible new-tab indication. Never add unsupported biography merely to make a profile seem complete.
 
 ## Visual conventions
 

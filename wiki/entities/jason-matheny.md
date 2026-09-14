@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Jason Matheny
 
+**RAND / former AI trustee**
+
 An Anthropic founding trustee whose appointment materials identified him as RAND’s CEO. This entry preserves the historical affiliation associated with that trust appointment.
 
 Profile sources: [A4](../sources/A4.md).

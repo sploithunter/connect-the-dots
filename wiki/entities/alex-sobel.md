@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Alex Sobel
 
+**UK ASI bill sponsor**
+
 The parliamentary sponsor associated with the UK Artificial Superintelligence Bill. His entry connects the parliamentary bill record to ControlAI’s account of drafting work.
 
 Profile sources: [L3](../sources/L3.md).

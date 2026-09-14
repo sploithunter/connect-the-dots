@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Sid Black
 
+**Conjecture co-founder**
+
 A co-founder named in Conjecture’s launch announcement. His profile records his founding role in the alignment research company.
 
 Profile sources: [C1](../sources/C1.md).

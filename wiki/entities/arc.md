@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # ARC
 
+**AI alignment research**
+
 Alignment Research Center, founded by Paul Christiano. It incubated ARC Evals before that evaluation effort spun out and became METR; the investigation also records reported philanthropic grants to ARC.
 
 Profile sources: [G8](../sources/G8.md), [M3](../sources/M3.md), [M4](../sources/M4.md), [O1](../sources/O1.md), [X7](../sources/X7.md).

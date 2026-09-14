@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # US policy institutions
 
+**Hosts for policy fellows**
+
 A collective node for institutions hosting Horizon policy fellows. The program materials describe placements and duties that can include legislative drafting; individual hosts require their own records when identified.
 
 Profile sources: [H1](../sources/H1.md), [H2](../sources/H2.md).

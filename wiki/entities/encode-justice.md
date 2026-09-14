@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Encode Justice
 
+**SB 1047 co-sponsor**
+
 An organization named as a co-sponsor in the California SB 1047 Assembly analysis. This profile preserves the name used in that legislative record.
 
 Profile sources: [L4](../sources/L4.md).

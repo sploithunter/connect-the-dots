@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Horizon Institute
 
+**Policy fellowship program**
+
 A policy fellowship organization whose program materials describe placements in US institutions and duties including legislative drafting. Its entry connects fellowship programs with policy-development work.
 
 Profile sources: [H1](../sources/H1.md), [H2](../sources/H2.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Gabriel Alfour
 
+**Conjecture / ControlAI**
+
 A Conjecture co-founder named in its launch materials. ControlAI identifies him as an advisor who helped found the organization.
 
 Profile sources: [C1](../sources/C1.md), [C2](../sources/C2.md).

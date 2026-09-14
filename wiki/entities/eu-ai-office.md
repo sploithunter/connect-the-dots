@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # EU AI Office
 
+**EU AI policy institution**
+
 The European institution with which METR reports a technical-assistance contract. Its entry represents a government-facing evaluation relationship.
 
 Profile sources: [M1](../sources/M1.md).

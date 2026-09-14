@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # UK ASI Bill
 
+**Alex Sobel-sponsored bill**
+
 The UK Artificial Superintelligence Bill, linked to Alex Sobel’s parliamentary sponsorship and ControlAI’s drafting account. Its sources include the official parliamentary bill record.
 
 Profile sources: [C3](../sources/C3.md), [C5](../sources/C5.md), [L3](../sources/L3.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Des Browne
 
+**ControlAI advisor**
+
 An advisor listed on ControlAI’s team page. His entry records an advisory relationship within the policy-advocacy organization.
 
 Profile sources: [C2](../sources/C2.md).

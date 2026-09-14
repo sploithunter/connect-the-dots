@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Evan Hubinger
 
+**Anthropic safety researcher**
+
 A researcher identified by Joe Benton as his manager on Anthropic’s safety team. His public response to Jacob Coxon is also included in the incident’s discussion record.
 
 Profile sources: [M5](../sources/M5.md), [X2](../sources/X2.md), [X3](../sources/X3.md).

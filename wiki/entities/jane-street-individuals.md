@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Jane Street individuals
 
+**Individual METR supporters**
+
 A collective label for individuals at Jane Street acknowledged in METR’s funding update. The node preserves the disclosure’s description of the supporters as individuals.
 
 Profile sources: [M2](../sources/M2.md).

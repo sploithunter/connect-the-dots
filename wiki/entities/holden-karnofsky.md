@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Holden Karnofsky
 
+**Philanthropy / Anthropic**
+
 A co-founder and former leader of Open Philanthropy who later joined Anthropic’s technical staff. The investigation also records his historical OpenAI board role and disclosed marriage to Daniela Amodei.
 
 Profile sources: [G11](../sources/G11.md), [G5](../sources/G5.md), [G7](../sources/G7.md).

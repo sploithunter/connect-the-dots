@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # FTX Future Fund
 
+**Former philanthropic fund**
+
 The philanthropic fund whose team collectively resigned in November 2022. Its resignation statement identifies personnel who can be followed through later professional affiliations.
 
 Profile sources: [F1](../sources/F1.md).

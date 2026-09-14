@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Amazon
 
+**AI developer · METR access**
+
 A technology company listed in METR’s disclosures concerning evaluation access and free model tokens. This profile concerns resources used in model evaluation.
 
 Profile sources: [M1](../sources/M1.md), [M2](../sources/M2.md).

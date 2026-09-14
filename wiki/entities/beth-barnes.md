@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Beth Barnes
 
+**METR founder & CEO**
+
 METR’s founder and CEO, identified in its organization and spin-out materials. Her profile anchors the history of the evaluation effort that began as ARC Evals.
 
 Profile sources: [M1](../sources/M1.md), [M3](../sources/M3.md).

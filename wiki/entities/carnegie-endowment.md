@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Carnegie Endowment
 
+**Former Cuéllar institution**
+
 An institution formerly led by Tino Cuéllar. His Anthropic appointment announcement records that earlier presidency alongside his policy and governance work.
 
 Profile sources: [A5](../sources/A5.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # UK AI kill-switch amendment
 
+**Clement-Jones amendment**
+
 A UK parliamentary amendment that ControlAI says it drafted and Lord Clement-Jones introduced. The node tracks the drafting and introduction described in that account.
 
 Profile sources: [C3](../sources/C3.md).

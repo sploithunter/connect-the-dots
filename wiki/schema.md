@@ -11,6 +11,7 @@ Every profile requires:
 | Field | Meaning |
 | --- | --- |
 | `kind` | `person`, `organization`, `policy`, `group` or `topic` |
+| `subtitle` | Short on-graph description of role, activity or sponsorship; maximum 64 characters |
 | `summary` | Written explanation of identity and relevance, normally 2–4 sentences; minimum 80 characters enforced |
 | `sources` | Nonempty source IDs supporting the written profile |
 | `updated` | Date the profile was edited, `YYYY-MM-DD`; does not imply every linked article was freshly reverified |

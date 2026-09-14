@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Anthropic
 
+**AI development company**
+
 An AI developer founded by Dario and Daniela Amodei. The investigation follows its financing rounds, personnel and governance, evaluator access, policy proposals, and announced financial support for Public First Action.
 
 Profile sources: [A1](../sources/A1.md), [A2](../sources/A2.md), [A3](../sources/A3.md), [A4](../sources/A4.md), [A5](../sources/A5.md), [A6](../sources/A6.md), [A7](../sources/A7.md), [D1](../sources/D1.md), [F2](../sources/F2.md), [F5](../sources/F5.md), [G6](../sources/G6.md), [G7](../sources/G7.md), [M1](../sources/M1.md), [M2](../sources/M2.md), [M5](../sources/M5.md), [X1](../sources/X1.md).

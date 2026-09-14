@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Future of Life Institute
 
+**AI & existential risk**
+
 An institution co-founded by Jaan Tallinn according to its biography of him. Its entry connects his institutional roles with his investment and philanthropy network.
 
 Profile sources: [S3](../sources/S3.md).

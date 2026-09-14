@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Zach Robinson
 
+**Former Anthropic trustee**
+
 A founding Anthropic trustee identified at appointment as a leader of Effective Ventures US. The historical trust roster records his governance connection.
 
 Profile sources: [A4](../sources/A4.md).

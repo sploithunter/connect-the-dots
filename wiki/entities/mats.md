@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # MATS
 
+**AI safety research program**
+
 A program named in Coefficient Giving’s discussion of supported AI safety organizations. Its profile records that philanthropic support relationship.
 
 Profile sources: [G1](../sources/G1.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Patrick Collison
 
+**Conjecture investor**
+
 An investor named in Conjecture’s launch announcement. His entry records participation in the alignment company’s investor group.
 
 Profile sources: [C1](../sources/C1.md).

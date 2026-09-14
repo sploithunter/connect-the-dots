@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Lord Clement-Jones
 
+**UK amendment sponsor**
+
 The parliamentarian identified in ControlAI’s account as introducing the UK AI kill-switch amendment. His role connects the organization’s drafting account to parliamentary activity.
 
 Profile sources: [C3](../sources/C3.md).

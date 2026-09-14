@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Andrea Miotti
 
+**ControlAI founder & CEO**
+
 ControlAI’s founder and CEO, identified in its team materials. Reporting also describes his earlier employment at Conjecture, creating a personnel link between the two organizations.
 
 Profile sources: [C2](../sources/C2.md), [C4](../sources/C4.md).

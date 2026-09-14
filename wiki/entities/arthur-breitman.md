@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Arthur Breitman
 
+**Conjecture investor**
+
 An investor named in Conjecture’s founding announcement. His profile records participation in the company’s initial investor network.
 
 Profile sources: [C1](../sources/C1.md).

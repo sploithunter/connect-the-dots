@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Coefficient Giving / Open Philanthropy
 
+**AI research & policy funder**
+
 A philanthropic grantmaking organization linked to Good Ventures and co-founded by Holden Karnofsky. Its records describe support for AI research and policy organizations, governance-project solicitations and an earlier OpenAI grant.
 
 Profile sources: [G1](../sources/G1.md), [G10](../sources/G10.md), [G2](../sources/G2.md), [G3](../sources/G3.md), [G4](../sources/G4.md), [G6](../sources/G6.md), [G7](../sources/G7.md), [G8](../sources/G8.md), [G9](../sources/G9.md), [M7](../sources/M7.md), [X7](../sources/X7.md).

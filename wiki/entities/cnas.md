@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # CNAS
 
+**Security policy research**
+
 The Center for a New American Security, named in Coefficient Giving’s discussion of organizations it supports. Its inclusion here follows that funding disclosure.
 
 Profile sources: [G1](../sources/G1.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Altimeter Capital
 
+**Anthropic Series H investor**
+
 An investment firm named as a co-lead in Anthropic’s Series H announcement. The financing record places it in the company’s later-round investor group.
 
 Profile sources: [A3](../sources/A3.md).

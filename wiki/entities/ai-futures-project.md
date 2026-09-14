@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # AI Futures Project
 
+**AI futures research**
+
 A research project appearing in the Survival and Flourishing Fund’s 2025 funding recommendations. Its entry provides a route for investigating Tallinn-linked support for AI futures research.
 
 Profile sources: [S2](../sources/S2.md).

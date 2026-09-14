@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # AI Policy Institute
 
+**AI policy organization**
+
 A policy organization listed in SFF’s 2025 recommendations with Tallinn identified as the participating funder. The record concerns a funding recommendation and its stated conditions.
 
 Profile sources: [S2](../sources/S2.md).

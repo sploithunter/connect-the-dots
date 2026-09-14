@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Jacob Coxon
 
+**Former Anthropic researcher**
+
 A former Anthropic researcher whose resignation and public account prompted the discussion investigated here. His account also describes earlier pretraining work at OpenAI; subsequent responses are recorded separately.
 
 Profile sources: [C3](../sources/C3.md), [M5](../sources/M5.md), [X1](../sources/X1.md), [X2](../sources/X2.md), [X3](../sources/X3.md).

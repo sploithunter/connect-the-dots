@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # OpenAI
 
+**AI development company**
+
 An AI developer connected here through alignment research, historical and subsequent governance roles, philanthropic support and METR evaluation access. Coxon’s account also records earlier employment there.
 
 Profile sources: [G10](../sources/G10.md), [G11](../sources/G11.md), [M1](../sources/M1.md), [M2](../sources/M2.md), [O1](../sources/O1.md), [X1](../sources/X1.md).

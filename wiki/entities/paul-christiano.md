@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Paul Christiano
 
+**AI alignment & governance**
+
 An alignment researcher and ARC founder with historical roles at OpenAI and Anthropic’s trust. The investigation also records government advisory work, an OpenAI Foundation board appointment and his marriage to Ajeya Cotra.
 
 Profile sources: [A4](../sources/A4.md), [M3](../sources/M3.md), [M6](../sources/M6.md), [O1](../sources/O1.md).

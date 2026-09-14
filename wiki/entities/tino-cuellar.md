@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Tino Cuéllar
 
+**AI policy & global affairs**
+
 A former Carnegie Endowment president and co-leader of California’s Frontier AI Working Group. Anthropic’s announcement describes his transition from its trust to an announced global-affairs executive role.
 
 Profile sources: [A5](../sources/A5.md).

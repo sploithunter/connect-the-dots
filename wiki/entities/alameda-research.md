@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Alameda Research
 
+**Trading firm · FTX network**
+
 The trading firm appearing here through reporting on early financing from Jaan Tallinn. Its financing history is a separate record from the later FTX / Alameda estate’s sale of Anthropic shares.
 
 Profile sources: [F4](../sources/F4.md).

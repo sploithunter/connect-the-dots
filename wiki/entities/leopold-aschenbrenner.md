@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Leopold Aschenbrenner
 
+**Former FTX Future Fund team**
+
 A former FTX Future Fund team member identified in its collective resignation statement. His profile records that historical affiliation.
 
 Profile sources: [F1](../sources/F1.md).

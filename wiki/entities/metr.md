@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # METR
 
+**AI safety evaluation organization**
+
 An AI evaluation organization that originated as ARC Evals and later spun out under Beth Barnes. Its disclosures connect laboratory access, philanthropic support, research staff and work with government institutions.
 
 Profile sources: [D1](../sources/D1.md), [M1](../sources/M1.md), [M2](../sources/M2.md), [M3](../sources/M3.md), [M4](../sources/M4.md), [M5](../sources/M5.md), [S2](../sources/S2.md), [X4](../sources/X4.md), [X6](../sources/X6.md), [X7](../sources/X7.md).

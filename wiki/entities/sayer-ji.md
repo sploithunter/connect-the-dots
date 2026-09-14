@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Sayer Ji
 
+**Commentator · policy critique**
+
 A public commentator whose post alleges a legislative conflict involving ControlAI. His post is retained as part of the public discussion and as a lead for further source tracing.
 
 Profile sources: [X5](../sources/X5.md).

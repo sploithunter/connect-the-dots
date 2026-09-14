@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # MIRI
 
+**AI safety research**
+
 A research organization appearing in SFF’s 2025 funding recommendations with Tallinn identified as participating funder. The entry concerns the recommendation recorded in that funding round.
 
 Profile sources: [S2](../sources/S2.md).

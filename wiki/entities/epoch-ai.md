@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Epoch AI
 
+**AI research organization**
+
 A research organization named in Coefficient Giving’s discussion of supported organizations. Its entry follows the disclosed philanthropic relationship.
 
 Profile sources: [G1](../sources/G1.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # CERR
 
+**Emerging risk research**
+
 The Center for Emerging Risk Research, named as an investor in Anthropic’s Series A and Series B announcements. Its investment entries span both early financing rounds.
 
 Profile sources: [A1](../sources/A1.md), [A2](../sources/A2.md).

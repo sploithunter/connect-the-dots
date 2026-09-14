@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # GovAI
 
+**AI governance research**
+
 An AI governance organization whose support is acknowledged in Open Philanthropy’s published review. Its profile follows the philanthropic funding record.
 
 Profile sources: [G3](../sources/G3.md).

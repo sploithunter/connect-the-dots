@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # CSET
 
+**Security & technology policy**
+
 The Center for Security and Emerging Technology, identified in Coefficient Giving’s funding discussion. Its record places it among research and policy recipients in the philanthropic branch.
 
 Profile sources: [G1](../sources/G1.md).

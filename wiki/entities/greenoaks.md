@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Greenoaks
 
+**Anthropic Series H investor**
+
 An investment firm named as a co-lead in Anthropic’s Series H announcement. The graph records its participation in that financing event.
 
 Profile sources: [A3](../sources/A3.md).

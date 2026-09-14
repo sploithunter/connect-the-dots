@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Dario Amodei
 
+**Anthropic co-founder & CEO**
+
 Anthropic’s co-founder and CEO, and Daniela Amodei’s sibling. His public proposal for pacing frontier AI development is part of the policy discussion traced by the graph.
 
 Profile sources: [A1](../sources/A1.md), [X8](../sources/X8.md).

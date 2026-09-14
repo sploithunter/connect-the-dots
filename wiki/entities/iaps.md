@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # IAPS
 
+**AI policy organization**
+
 An organization listed in SFF’s 2025 funding recommendations under Tallinn-funded recommendations. This profile records its place in that grantmaking network.
 
 Profile sources: [S2](../sources/S2.md).

@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Daniel Gross
 
+**Conjecture investor**
+
 An investor named in Conjecture’s founding announcement. His inclusion follows the company’s published investor list.
 
 Profile sources: [C1](../sources/C1.md).

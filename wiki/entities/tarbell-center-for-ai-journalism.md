@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Tarbell Center for AI Journalism
 
+**AI journalism organization**
+
 A journalism organization appearing in SFF’s 2025 funding recommendations with Tallinn identified as funder. Its entry connects the funding network to AI journalism.
 
 Profile sources: [S2](../sources/S2.md).

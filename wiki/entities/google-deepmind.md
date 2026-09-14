@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Google DeepMind
 
+**AI developer · METR access**
+
 An AI developer named in METR’s disclosures concerning model evaluation access and free tokens. It appears in the laboratory-access branch of the evaluation network.
 
 Profile sources: [M1](../sources/M1.md), [M2](../sources/M2.md).

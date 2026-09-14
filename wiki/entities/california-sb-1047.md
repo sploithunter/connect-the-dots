@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # California SB 1047
 
+**California AI safety bill**
+
 A California legislative measure whose 2024 Assembly analysis lists CAIS Action Fund, Economic Security Project Action and Encode Justice as co-sponsors. This node tracks that bill and those recorded sponsors.
 
 Profile sources: [L4](../sources/L4.md).

@@ -13,3 +13,7 @@ Authored descriptions and citations for all 105 nodes, added the About section t
 ## [2026-09-14] lint — Profile and wiki validation
 
 All 105 profiles, 134 relationships, 59 source records and 166 generated pages passed structural validation and local-link checks. Regression tests cover missing profiles, placeholder prose, invalid citations and unsafe links. TypeScript and the production bundle build passed. G8 remains explicitly classified as an unretrieved lead with a null access date; the validator preserves that truthful exception rather than manufacturing an access date. Added build checks for pull requests, with deployment restricted to main.
+
+## [2026-09-14] update — Informative labels on the graph
+
+Added authored subtitles to all 105 node profiles and rendered them beneath graph titles, including Sanders–Casar attribution for the US proposal and an AI safety evaluation description for METR. Increased card height and layout separation to accommodate the labels. Search now matches subtitles as well as entity names. The schema and validator require subtitles for future nodes, and entity wiki pages include them.

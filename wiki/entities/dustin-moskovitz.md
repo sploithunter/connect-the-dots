@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Dustin Moskovitz
 
+**Investor & philanthropist**
+
 An investor in Anthropic’s Series A and a co-founder and donor of Good Ventures. Those records connect early AI-company financing with a major philanthropic partner of Open Philanthropy.
 
 Profile sources: [A1](../sources/A1.md), [G4](../sources/G4.md).

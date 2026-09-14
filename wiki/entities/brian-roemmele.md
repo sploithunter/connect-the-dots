@@ -7,6 +7,8 @@ updated: 2026-09-14
 
 # Brian Roemmele
 
+**Commentator · METR critique**
+
 A public commentator whose posts criticize METR and discuss funding and institutional relationships. His posts are part of the public-discussion record and a source of investigative leads.
 
 Profile sources: [X6](../sources/X6.md), [X7](../sources/X7.md).
