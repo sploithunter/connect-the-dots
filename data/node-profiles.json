@@ -172,12 +172,14 @@
   },
   "Bernie Sanders": {
     "kind": "person",
-    "summary": "A US legislator who jointly announced the Ban Artificial Superintelligence proposal with Greg Casar. The announcement is a primary source for the US policy branch of this investigation.",
+    "subtitle": "US ASI ban/pause co-sponsor",
+    "summary": "A US senator who jointly announced the Ban Artificial Superintelligence proposal with Greg Casar on 3 September 2026, before Coxon\u2019s resignation. On 9 September he quoted Coxon, said the builders themselves admit the technology could threaten humanity, and said he would introduce legislation to ban superintelligence and pause AI development \u2014 the already-previewed proposal, not a new bill created by the thread. Follow-up posts in reader recaps collected similar researcher quotes; those follow-ups are not separately edged here.",
     "sources": [
-      "L1"
+      "L1",
+      "L10",
+      "L7"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "US ASI proposal co-sponsor"
+    "updated": "2026-09-14"
   },
   "Beth Barnes": {
     "kind": "person",
@@ -561,12 +563,14 @@
   },
   "Greg Casar": {
     "kind": "person",
-    "summary": "A US legislator who jointly announced the Ban Artificial Superintelligence proposal with Bernie Sanders. His role is recorded through the joint announcement.",
+    "subtitle": "US ASI ban/pause co-sponsor",
+    "summary": "A US representative who jointly announced the Ban Artificial Superintelligence proposal with Bernie Sanders on 3 September 2026. On 9 September he called researcher warnings an emergency and demanded hearings and passage of that ban. The post is a high-visibility hook for legislation already previewed, not evidence that the resignation created the bill.",
     "sources": [
-      "L1"
+      "L1",
+      "L11",
+      "L7"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "US ASI proposal co-sponsor"
+    "updated": "2026-09-14"
   },
   "Holden Karnofsky": {
     "kind": "person",
@@ -1088,6 +1092,145 @@
     "sources": [
       "X14",
       "X10"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Andy Kim": {
+    "kind": "person",
+    "subtitle": "Senate AI guardrails, Coxon window",
+    "summary": "A US senator who, in the days after the Coxon warnings, called for Senate-wide discussion and bipartisan AI legislation, saying the technology is moving faster than its creators can control. He pointed to his MATCH and BLADE bills, child-protection proposals, and a protocol to Mythos-proof critical infrastructure. That is a regulate-and-compete lane, not the Sanders\u2013Casar ban/pause. The Globe recap is dated 14 Sep; the original X status was not captured here.",
+    "sources": [
+      "L9",
+      "L16"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Chris Murphy": {
+    "kind": "person",
+    "subtitle": "Regulate while research continues",
+    "summary": "A US senator whose Coxon-window post, as quoted by HuffPost, said the \u201cblind race to build a death machine first\u201d can be solved with a regulatory system that lets research continue without destroying us. That is a regulate-now position, not an outright superintelligence ban. The original status ID was not captured in this ingest.",
+    "sources": [
+      "L8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Mark Kelly": {
+    "kind": "person",
+    "subtitle": "Called Washington to act on AI",
+    "summary": "A US senator whose Coxon-window post, as quoted by HuffPost, said AI is moving fast, Washington needs to take it seriously, and Silicon Valley\u2019s \u201cbuild fast and break things\u201d approach is the wrong one for AI. Contemporaneous accounts also point back to his earlier AI for America framework. The original status ID was not captured here.",
+    "sources": [
+      "L8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Patty Murray": {
+    "kind": "person",
+    "subtitle": "Congress must regulate now",
+    "summary": "A US senator whose Coxon-window post, as quoted by HuffPost, argued that if we are smart enough to create such powerful AI we are smart enough to regulate it and that Congress needs to move now. Reader recaps say she was responding to Hubinger\u2019s 10%+ estimate; the HuffPost excerpt itself does not quote Hubinger, so that targeting is not separately edged.",
+    "sources": [
+      "L8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Lori Trahan": {
+    "kind": "person",
+    "subtitle": "FRONTIER Act; Coxon-window post",
+    "summary": "A US representative whose Coxon-window post said \u201cthe call is coming from inside the house,\u201d citing resigning safety researchers, models breaking out of labs, and companies racing anyway. Contemporaneous reporting says she pushed her bipartisan FRONTIER Act. That is a national-standards / guardrails lane, not the Sanders\u2013Casar ban. The original status ID was not captured here.",
+    "sources": [
+      "L8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Pramila Jayapal": {
+    "kind": "person",
+    "subtitle": "Shut down dangerous models",
+    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, said AI companies are \u201cout of control and a serious threat\u201d and called for shutting down dangerous models and pushing out the executives signing off on them. That is a harder shutdown lane than hearings-and-guardrails posts in the same window. The original status ID was not captured here.",
+    "sources": [
+      "L8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Ted Lieu": {
+    "kind": "person",
+    "subtitle": "US AI kill-switch legislation",
+    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, told Republican leadership to take up the bipartisan AI Kill Switch Bill. He has a longer public record arguing third-party evaluators are insufficient if models cannot be turned off. This US kill-switch push is recorded separately from the UK amendment already in the graph.",
+    "sources": [
+      "L8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Anna Paulina Luna": {
+    "kind": "person",
+    "subtitle": "Special session; race framing",
+    "summary": "A US representative whose Coxon-window post called for a House special session on AI, citing massive implications of a race toward superintelligence, and said the first priority is protecting Americans\u2019 data, privacy and physical safety. The Hill places the post in the researcher-warning cycle. Reader recaps add a human-interface/kill-switch framework with Rep. Ro Khanna; that joint-framework claim is not separately edged until a primary record is captured.",
+    "sources": [
+      "L7",
+      "L12"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Ro Khanna": {
+    "kind": "person",
+    "subtitle": "Safety standards with China",
+    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, said the problem is not just misuse but lack of control, that government has been asleep, and that the US urgently needs an agreement with China on safety, containment and liability. Reader recaps also pair him with Luna on a safety-architecture framework; that pairing is not edged here without a primary record.",
+    "sources": [
+      "L8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Nathaniel Moran": {
+    "kind": "person",
+    "subtitle": "Innovation and safety, Coxon window",
+    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, said AI is a powerful engine of innovation that Congress cannot ignore, and that innovation and safety are not mutually exclusive. That is a compete-with-guardrails Republican post in the same snapshot as Luna\u2019s special-session call. The original status ID was not captured here.",
+    "sources": [
+      "L8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Chris Van Hollen": {
+    "kind": "person",
+    "subtitle": "Pump the brakes; safeguards",
+    "summary": "A US senator who, per The Hill, responded to Coxon\u2019s thread by saying it was time to pump the brakes and take action, calling for mandatory safeguards, a comprehensive testing regime, and urgent dialogue with China. The original post is in the source registry.",
+    "sources": [
+      "L7",
+      "L13"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Don Beyer": {
+    "kind": "person",
+    "subtitle": "Hearings; adjournment critique",
+    "summary": "A US representative whose Coxon-window post said Congress lacks urgency on AI, criticized the Speaker\u2019s plan to adjourn the House early, and called hearings, company answers, and passing ready bills the minimum. The Hill records the post in the researcher-warning cycle. He has a longer record of AI-safeguard bills; this node is the post, not a census of those bills.",
+    "sources": [
+      "L7",
+      "L14"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Bill Foster": {
+    "kind": "person",
+    "subtitle": "Physical containment for ASI",
+    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, argued software-only controls will not contain superhuman AI and called for nuclear-style physical containment plus hardening the internet against self-propagating agents. This is a shorter but specific technical-control post in the same roundup, not a named bill node.",
+    "sources": [
+      "L8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Delia Ramirez": {
+    "kind": "person",
+    "subtitle": "Oversight for civil liberties",
+    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, said Big Tech is accelerating AI without guardrails and demanded congressional oversight to protect privacy, civil liberties and democratic institutions. This is a shorter wake-up/oversight post in the same snapshot rather than a detailed ban or kill-switch bill.",
+    "sources": [
+      "L8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Chris Deluzio": {
+    "kind": "person",
+    "subtitle": "National action on superintelligence",
+    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, told readers burying their heads about superintelligence risk to wake up, called the situation an emergency, and demanded national action. This is a shorter wake-up statement in the same window, not a detailed legislative package.",
+    "sources": [
+      "L8"
     ],
     "updated": "2026-09-14"
   }

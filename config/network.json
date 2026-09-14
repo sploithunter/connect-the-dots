@@ -167,7 +167,21 @@
         "Public First Action",
         "CAIS Action Fund",
         "California SB 1047",
-        "Horizon Institute"
+        "Horizon Institute",
+        "Bernie Sanders",
+        "Greg Casar",
+        "Andy Kim",
+        "Chris Murphy",
+        "Mark Kelly",
+        "Patty Murray",
+        "Lori Trahan",
+        "Pramila Jayapal",
+        "Ted Lieu",
+        "Anna Paulina Luna",
+        "Ro Khanna",
+        "Nathaniel Moran",
+        "Chris Van Hollen",
+        "Don Beyer"
       ]
     },
     "incident": {
@@ -186,7 +200,21 @@
         "AI Policy Network",
         "Daniel Kokotajlo",
         "Encode AI",
-        "AI Futures Project"
+        "AI Futures Project",
+        "Bernie Sanders",
+        "Greg Casar",
+        "Andy Kim",
+        "Chris Murphy",
+        "Mark Kelly",
+        "Patty Murray",
+        "Lori Trahan",
+        "Pramila Jayapal",
+        "Ted Lieu",
+        "Anna Paulina Luna",
+        "Ro Khanna",
+        "Nathaniel Moran",
+        "Chris Van Hollen",
+        "Don Beyer"
       ]
     },
     "all": {
@@ -196,6 +224,31 @@
     "neighborhood": {
       "label": "Selected neighborhood",
       "seeds": []
+    },
+    "congress": {
+      "label": "Coxon-window Congress",
+      "seeds": [
+        "Bernie Sanders",
+        "Greg Casar",
+        "Andy Kim",
+        "Chris Murphy",
+        "Mark Kelly",
+        "Patty Murray",
+        "Lori Trahan",
+        "Pramila Jayapal",
+        "Ted Lieu",
+        "Anna Paulina Luna",
+        "Ro Khanna",
+        "Nathaniel Moran",
+        "Chris Van Hollen",
+        "Don Beyer",
+        "Bill Foster",
+        "Delia Ramirez",
+        "Chris Deluzio",
+        "Jacob Coxon",
+        "Evan Hubinger",
+        "US Ban ASI proposal"
+      ]
     }
   },
   "startNodes": [

@@ -55,3 +55,8 @@ Imported a populated node profile, 2 cited relationship records and 0 new source
 ## [2026-09-14] update — Coxon launch record (timing, amplifiers, archives)
 
 Expanded the Coxon profile into a public-entry briefing and rewrote the incident topic into participant accounts, news timing, and named amplifiers. Added a WSJ exclusive event using the 18-minute recap inference (`2026-09-08T23:46:00Z` vs X1 at `2026-09-09T00:04:00Z`) while recording the eight-minute disagreement and that kingy.ai did not independently reproduce the interval. Attached Wayback calendar `archiveUrl` values to X1–X3, X8–X10, X12–X16 and O2; inspector source cards and wiki source pages expose those links. Incident-view seeds now include the newspaper, named first-wave accounts, Encode AI, AI Futures Project and AI Policy Network. Quote-post edges remain `reported` until original status IDs are captured. The covert-direction lead is unchanged.
+
+## [2026-09-14] ingest — Coxon-window congressional posts
+
+Added 15 members of Congress who posted in the days after Coxon’s thread, plus 9 Sep quote/response edges for Sanders and Casar. Documented original X URLs for Sanders, Casar, Luna, Van Hollen and Beyer; HuffPost and NJ Globe cover the rest of the quoted set. Positions are not collapsed: ban/pause vs regulate-while-competing vs special-session/race framing. Added a Coxon-window Congress view. Did not add governors, Ted Cruz, or Marsha Blackburn as promoter nodes. The Sep 3 Sanders–Casar announcement remains a separate legislation record.
+
