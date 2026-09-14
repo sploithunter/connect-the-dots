@@ -16,6 +16,8 @@ The browser returns at most 100 paths within a 50,000-step search budget. An exp
 
 New nodes and cited relationships automatically become searchable through the existing JSON/import workflow. No entity-specific application code is required. Maintain the algorithm tests for ordering, cycles, direction, filters and truncation when changing search behavior.
 
+For two independently focused neighborhoods with lines between them, use [Split graph](split-graph.md).
+
 ## Explore directly on the graph
 
 Click a node and use **Focus connections** in the action bar above the canvas. The graph rebuilds around that node and its immediate neighbors, including recorded links among those neighbors. Select a depth of one, two or three steps to expand the neighborhood. Click another node and focus again to continue exploring; **Back** retraces view/focus choices and **Overview** returns to the starting view. The focus remains independent of the inspector selection. Isolated anchors remain visible even when filters remove every connection.

@@ -84,3 +84,7 @@ Added searchable endpoints, node-profile endpoint actions, bounded shortest-firs
 ## 2026-09-14 — Exploration from graph selections
 
 Added visible node focus actions, one-to-three-step neighborhoods, view/focus history, and a two-focus shared canvas with combined or individual paths. Endpoint picking works from graph nodes, search and all-node selectors. Relationship labels appear on small comparisons. Replaced the advanced results list with one-card navigation. Regression checks cover neighborhood expansion and layout; browser checks cover endpoint selection, back navigation, route switching, dragging/reset, empty/identical endpoints and narrow-screen overflow.
+
+## 2026-09-14 — Independent split graph panes
+
+Implemented the requested split workflow as two independent neighborhood panes rather than a path-only comparison. Added per-pane focus/search, depth, history, zoom, pan, dragging, fit and reset; actual records connect the panes, with shared-identity lines identified separately. Preserved complete neighborhoods and SVG export. Unit and browser checks cover independence, cross-record provenance, shared entities, empty/disconnected selections, source inspection and export. See [Split graph exploration](split-graph.md).

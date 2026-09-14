@@ -14,6 +14,8 @@
 
 - **Graph exploration needs graph controls.** A long path-results list made navigation cumbersome. Node actions now sit above the canvas; two-focus comparison shows paths together or steps through one route at a time. Keep source details in the inspector and preserve graph-based endpoint picking.
 
+- **Two endpoints are not two graph panes.** The initial comparison mode showed connecting paths on one canvas. The requested split workflow requires complete independent neighborhoods, including nodes outside connecting paths, with recorded relationships drawn between the panes. Keep split exploration separate from bounded path search.
+
 ## Design choices and limits
 
 The curated overview is intentionally a subset. All-connections view can become dense; focused views and zoom are the available navigation tools. Layout proximity is not a data field. Source cards explain recorded uses of publications; full-publication summaries and archived article bodies are not available for every source.

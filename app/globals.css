@@ -209,3 +209,24 @@ body {
 .canvas-section:has(.focus-pair) .network-graph { min-height:400px; }
 @media(max-width:1000px){.focus-pair{gap:8px}.focus-slot{padding:10px}.focus-slot>div{display:block}.focus-slot select{width:100%;margin-top:8px}.node-actions strong{width:100%}}
 @media(max-width:700px){.explore-controls{margin:0 16px}.focus-slot strong{font-size:14px}.focus-slot button{white-space:normal;height:auto;min-height:34px}.canvas-section:has(.focus-pair) .graph-wrap{height:55dvh;min-height:360px}.canvas-section:has(.focus-pair) .network-graph{min-height:360px}}
+
+.split-explorer { padding:0 20px; }
+.split-instructions,.split-help { color:#b3c6d5; font-size:13px; line-height:1.6; margin:6px 6px 14px; }
+.split-headers { display:grid; grid-template-columns:1fr 1fr; gap:11.4%; }
+.split-pane-controls { min-width:0; padding:14px; border:1px solid #426076; border-radius:10px; background:#142634; }
+.split-pane-controls:nth-child(2) { background:#192733; }
+.split-pane-controls h2 { font-size:18px; min-height:24px; margin:0 0 10px; overflow-wrap:anywhere; }
+.split-pane-controls .eyebrow { font-size:11px; }
+.split-pane-actions { display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-top:10px; font-size:12px; color:#b8cdda; }
+.split-pane-actions button { font-size:12px; }
+.split-pane-actions select { padding:4px; color:#e9f0f5; background:#182c3b; border:1px solid #47677c; border-radius:4px; }
+.split-pane-actions>span { flex:1; }
+.split-summary { display:flex; flex-wrap:wrap; gap:8px 18px; padding:12px 6px; font-size:13px; color:#b8cdda; }
+.split-summary strong { color:#e5bf89; }
+.split-summary input { accent-color:#e5bf89; margin-right:6px; }
+.split-svg { width:100%; display:block; min-height:450px; max-height:780px; touch-action:none; user-select:none; }
+.split-svg text { pointer-events:none; }
+.split-svg [data-cross-edge],.split-svg [data-internal-edge],.split-svg [data-shared-entity] { cursor:pointer; }
+.split-svg [data-split-node]:focus-visible rect { stroke:#acd9f0; stroke-width:4px; }
+.canvas-section:has(.split-explorer) .toolbar .search { display:none; }
+@media(max-width:700px){.split-explorer{padding:0 10px}.split-headers{gap:10px}.split-pane-controls{padding:9px}.split-pane-controls h2{font-size:15px}.split-pane-actions button{white-space:normal;height:auto;min-height:30px}.split-svg{min-height:360px}.split-summary{font-size:12px}.split-pane-actions>span{flex-basis:100%}}

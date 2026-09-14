@@ -7,6 +7,8 @@
 | `main.tsx` | Mounts React into the static HTML shell |
 | `app/page.tsx` | Graph layout, curated views, selection, profile/source inspector and SVG export |
 | `app/globals.css` | Tailwind imports, design tokens and graph/inspector styling |
+| `components/split-graph.tsx` | Two independent neighborhood panes with cross-pane relationship overlays |
+| `lib/split-graph.mjs` | Separate neighborhood membership, shared identities and cross-pane records |
 | `components/path-finder.tsx` | Endpoint selection, path filters, paginated results and cited steps |
 | `lib/explore-graph.mjs` | Neighborhood radius selection and two-focus path layout |
 | `lib/find-paths.mjs` | Bounded breadth-first enumeration of simple paths |
@@ -38,3 +40,5 @@ Nodes use pointer capture for mouse/touch dragging. Positions are stored per vie
 See [Finding paths](path-finder.md). Search reads the canonical dataset independently of the current view and legend. The runtime `path` view displays selected edge IDs; it is not a configured content view. Manual positions are keyed by the selected edge sequence. Relationship direction and reverse traversal are separate fields. Keep the enumeration budget and explicit truncation message when extending search. Regression coverage lives in `scripts/find-paths.test.mjs`.
 
 The runtime `bridge` view computes the union of bounded paths between two focus IDs, or one selected route. Endpoint selection and inspector selection are independent. Partial comparisons show the chosen endpoint’s immediate connections for graph picking; complete disconnected comparisons retain both endpoints. The neighborhood view includes induced connections within the selected radius. The action bar and bounded navigation history stay beside the graph.
+
+The runtime `split` view is separate from path comparison. It mounts two independently controlled neighborhood panes and projects their connections across a shared SVG coordinate system. See [Split graph exploration](split-graph.md).
