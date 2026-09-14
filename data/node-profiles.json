@@ -1,0 +1,940 @@
+{
+  "AI Futures Project": {
+    "kind": "organization",
+    "summary": "A research project appearing in the Survival and Flourishing Fund’s 2025 funding recommendations. Its entry provides a route for investigating Tallinn-linked support for AI futures research.",
+    "sources": [
+      "S2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "AI Policy Institute": {
+    "kind": "organization",
+    "summary": "A policy organization listed in SFF’s 2025 recommendations with Tallinn identified as the participating funder. The record concerns a funding recommendation and its stated conditions.",
+    "sources": [
+      "S2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "AI policy development": {
+    "kind": "topic",
+    "summary": "A category for projects solicited through Coefficient Giving’s AI governance funding program. It represents a policy-development activity rather than one legal organization or bill.",
+    "sources": [
+      "G9"
+    ],
+    "updated": "2026-09-14"
+  },
+  "ARC": {
+    "kind": "organization",
+    "summary": "Alignment Research Center, founded by Paul Christiano. It incubated ARC Evals before that evaluation effort spun out and became METR; the investigation also records reported philanthropic grants to ARC.",
+    "sources": [
+      "G8",
+      "M3",
+      "M4",
+      "O1",
+      "X7"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Ajeya Cotra": {
+    "kind": "person",
+    "summary": "A researcher whose career account describes research and grantmaking at Open Philanthropy before work at METR. Her disclosed marriage to Paul Christiano connects the personnel and family portions of the network.",
+    "sources": [
+      "M1",
+      "M6",
+      "M7"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Alameda Research": {
+    "kind": "organization",
+    "summary": "The trading firm appearing here through reporting on early financing from Jaan Tallinn. Its financing history is a separate record from the later FTX / Alameda estate’s sale of Anthropic shares.",
+    "sources": [
+      "F4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Alex Sobel": {
+    "kind": "person",
+    "summary": "The parliamentary sponsor associated with the UK Artificial Superintelligence Bill. His entry connects the parliamentary bill record to ControlAI’s account of drafting work.",
+    "sources": [
+      "L3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Altimeter Capital": {
+    "kind": "organization",
+    "summary": "An investment firm named as a co-lead in Anthropic’s Series H announcement. The financing record places it in the company’s later-round investor group.",
+    "sources": [
+      "A3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Amazon": {
+    "kind": "organization",
+    "summary": "A technology company listed in METR’s disclosures concerning evaluation access and free model tokens. This profile concerns resources used in model evaluation.",
+    "sources": [
+      "M1",
+      "M2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Andrea Miotti": {
+    "kind": "person",
+    "summary": "ControlAI’s founder and CEO, identified in its team materials. Reporting also describes his earlier employment at Conjecture, creating a personnel link between the two organizations.",
+    "sources": [
+      "C2",
+      "C4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Andrej Karpathy": {
+    "kind": "person",
+    "summary": "An AI researcher named among Conjecture’s investors in its founding announcement. The investigation separately records his public endorsement of Dario Amodei’s proposal for pacing frontier AI development.",
+    "sources": [
+      "C1",
+      "X8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Anthropic": {
+    "kind": "organization",
+    "summary": "An AI developer founded by Dario and Daniela Amodei. The investigation follows its financing rounds, personnel and governance, evaluator access, policy proposals, and announced financial support for Public First Action.",
+    "sources": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "D1",
+      "F2",
+      "F5",
+      "G6",
+      "G7",
+      "M1",
+      "M2",
+      "M5",
+      "X1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Anthropic LTBT": {
+    "kind": "organization",
+    "summary": "Anthropic’s Long-Term Benefit Trust, a governance body with special rights to elect company board members. Its historical trustee roster connects researchers and leaders from several institutions.",
+    "sources": [
+      "A4",
+      "A5"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Arthur Breitman": {
+    "kind": "person",
+    "summary": "An investor named in Conjecture’s founding announcement. His profile records participation in the company’s initial investor network.",
+    "sources": [
+      "C1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Audacious Project": {
+    "kind": "organization",
+    "summary": "A philanthropic initiative acknowledged in METR’s funding update. It appears in the investigation as one of the evaluation organization’s supporters.",
+    "sources": [
+      "M2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Avital Balwit": {
+    "kind": "person",
+    "summary": "A former FTX Future Fund team member named in its collective resignation statement. Her professional biography identifies her as chief of staff to Anthropic CEO Dario Amodei.",
+    "sources": [
+      "F1",
+      "F5"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Bernie Sanders": {
+    "kind": "person",
+    "summary": "A US legislator who jointly announced the Ban Artificial Superintelligence proposal with Greg Casar. The announcement is a primary source for the US policy branch of this investigation.",
+    "sources": [
+      "L1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Beth Barnes": {
+    "kind": "person",
+    "summary": "METR’s founder and CEO, identified in its organization and spin-out materials. Her profile anchors the history of the evaluation effort that began as ARC Evals.",
+    "sources": [
+      "M1",
+      "M3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Brian Roemmele": {
+    "kind": "person",
+    "summary": "A public commentator whose posts criticize METR and discuss funding and institutional relationships. His posts are part of the public-discussion record and a source of investigative leads.",
+    "sources": [
+      "X6",
+      "X7"
+    ],
+    "updated": "2026-09-14"
+  },
+  "CAIS": {
+    "kind": "organization",
+    "summary": "The Center for AI Safety, appearing through philanthropic funding, Jaan Tallinn’s board role, and its launch of an advocacy affiliate. CAIS Action Fund has its own record for legislative advocacy.",
+    "sources": [
+      "G2",
+      "L5",
+      "S3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "CAIS Action Fund": {
+    "kind": "organization",
+    "summary": "CAIS’s advocacy affiliate, listed as a co-sponsor of California SB 1047. Its record connects the institutional network to the bill’s published legislative analysis.",
+    "sources": [
+      "L4",
+      "L5"
+    ],
+    "updated": "2026-09-14"
+  },
+  "CERR": {
+    "kind": "organization",
+    "summary": "The Center for Emerging Risk Research, named as an investor in Anthropic’s Series A and Series B announcements. Its investment entries span both early financing rounds.",
+    "sources": [
+      "A1",
+      "A2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "CNAS": {
+    "kind": "organization",
+    "summary": "The Center for a New American Security, named in Coefficient Giving’s discussion of organizations it supports. Its inclusion here follows that funding disclosure.",
+    "sources": [
+      "G1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "CSER": {
+    "kind": "organization",
+    "summary": "The Centre for the Study of Existential Risk, co-founded by Jaan Tallinn according to his institutional biography. It forms part of his research-institution network.",
+    "sources": [
+      "S3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "CSET": {
+    "kind": "organization",
+    "summary": "The Center for Security and Emerging Technology, identified in Coefficient Giving’s funding discussion. Its record places it among research and policy recipients in the philanthropic branch.",
+    "sources": [
+      "G1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "California Frontier AI Working Group": {
+    "kind": "organization",
+    "summary": "A California policy working group co-led by Tino Cuéllar. The profile connects his policy work with his subsequent Anthropic governance and executive appointments.",
+    "sources": [
+      "A5"
+    ],
+    "updated": "2026-09-14"
+  },
+  "California SB 1047": {
+    "kind": "policy",
+    "summary": "A California legislative measure whose 2024 Assembly analysis lists CAIS Action Fund, Economic Security Project Action and Encode Justice as co-sponsors. This node tracks that bill and those recorded sponsors.",
+    "sources": [
+      "L4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Cari Tuna": {
+    "kind": "person",
+    "summary": "A co-founder and donor of Good Ventures alongside Dustin Moskovitz. Good Ventures’ philanthropic partnership with Open Philanthropy provides the next step in this funding branch.",
+    "sources": [
+      "G4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Carnegie Endowment": {
+    "kind": "organization",
+    "summary": "An institution formerly led by Tino Cuéllar. His Anthropic appointment announcement records that earlier presidency alongside his policy and governance work.",
+    "sources": [
+      "A5"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Caroline Ellison": {
+    "kind": "person",
+    "summary": "An investor named in Anthropic’s April 2022 Series B announcement. That round was led by Sam Bankman-Fried.",
+    "sources": [
+      "A2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Coefficient Giving / Open Philanthropy": {
+    "kind": "organization",
+    "summary": "A philanthropic grantmaking organization linked to Good Ventures and co-founded by Holden Karnofsky. Its records describe support for AI research and policy organizations, governance-project solicitations and an earlier OpenAI grant.",
+    "sources": [
+      "G1",
+      "G10",
+      "G2",
+      "G3",
+      "G4",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "M7",
+      "X7"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Conjecture": {
+    "kind": "organization",
+    "summary": "An AI alignment research company whose launch announcement names its founders and investors. Several founders and a former employee subsequently held roles at ControlAI, connecting investment and policy-advocacy branches.",
+    "sources": [
+      "C1",
+      "C4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Connor Leahy": {
+    "kind": "person",
+    "summary": "A Conjecture co-founder identified in its launch announcement. ControlAI’s team page also identifies him as its US executive director.",
+    "sources": [
+      "C1",
+      "C2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "ControlAI": {
+    "kind": "organization",
+    "summary": "An AI policy advocacy organization led by Andrea Miotti. Its own account describes UK legislative drafting and consultation on the Sanders–Casar framework; the investigation also records its personnel, financial backing and public advocacy.",
+    "sources": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "X5"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Daniel Gross": {
+    "kind": "person",
+    "summary": "An investor named in Conjecture’s founding announcement. His inclusion follows the company’s published investor list.",
+    "sources": [
+      "C1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Daniela Amodei": {
+    "kind": "person",
+    "summary": "An Anthropic co-founder and president, and Dario Amodei’s sibling. The investigation also includes the publicly disclosed family relationship between her and Holden Karnofsky.",
+    "sources": [
+      "A1",
+      "G5"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Dario Amodei": {
+    "kind": "person",
+    "summary": "Anthropic’s co-founder and CEO, and Daniela Amodei’s sibling. His public proposal for pacing frontier AI development is part of the policy discussion traced by the graph.",
+    "sources": [
+      "A1",
+      "X8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Des Browne": {
+    "kind": "person",
+    "summary": "An advisor listed on ControlAI’s team page. His entry records an advisory relationship within the policy-advocacy organization.",
+    "sources": [
+      "C2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Dragoneer": {
+    "kind": "organization",
+    "summary": "An investment firm named as a co-lead in Anthropic’s Series H financing announcement. Its entry belongs to the later-round investor branch.",
+    "sources": [
+      "A3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Dustin Moskovitz": {
+    "kind": "person",
+    "summary": "An investor in Anthropic’s Series A and a co-founder and donor of Good Ventures. Those records connect early AI-company financing with a major philanthropic partner of Open Philanthropy.",
+    "sources": [
+      "A1",
+      "G4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "EU AI Office": {
+    "kind": "organization",
+    "summary": "The European institution with which METR reports a technical-assistance contract. Its entry represents a government-facing evaluation relationship.",
+    "sources": [
+      "M1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Economic Security Project Action": {
+    "kind": "organization",
+    "summary": "An organization listed as a co-sponsor of California SB 1047 in the Assembly analysis. The record documents its role in that legislative coalition.",
+    "sources": [
+      "L4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Effective Ventures": {
+    "kind": "organization",
+    "summary": "The organization whose US operation Zach Robinson led when appointed as an Anthropic founding trustee. The profile preserves the institutional affiliation at the time of that appointment.",
+    "sources": [
+      "A4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Encode AI": {
+    "kind": "organization",
+    "summary": "An organization appearing in SFF’s 2025 recommendations with Tallinn identified as funder. The dataset separately retains the name Encode Justice where it appears in the SB 1047 source.",
+    "sources": [
+      "S2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Encode Justice": {
+    "kind": "organization",
+    "summary": "An organization named as a co-sponsor in the California SB 1047 Assembly analysis. This profile preserves the name used in that legislative record.",
+    "sources": [
+      "L4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Epoch AI": {
+    "kind": "organization",
+    "summary": "A research organization named in Coefficient Giving’s discussion of supported organizations. Its entry follows the disclosed philanthropic relationship.",
+    "sources": [
+      "G1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Eric Schmidt": {
+    "kind": "person",
+    "summary": "An investor named in Anthropic’s Series A announcement. This record concerns his participation in the company’s early financing.",
+    "sources": [
+      "A1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Evan Hubinger": {
+    "kind": "person",
+    "summary": "A researcher identified by Joe Benton as his manager on Anthropic’s safety team. His public response to Jacob Coxon is also included in the incident’s discussion record.",
+    "sources": [
+      "M5",
+      "X2",
+      "X3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "FTX / Alameda estate": {
+    "kind": "organization",
+    "summary": "The bankruptcy-estate grouping used for the documented sale of Anthropic shares. The cited filing records the estate’s realization of value from those holdings.",
+    "sources": [
+      "F2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "FTX Future Fund": {
+    "kind": "organization",
+    "summary": "The philanthropic fund whose team collectively resigned in November 2022. Its resignation statement identifies personnel who can be followed through later professional affiliations.",
+    "sources": [
+      "F1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Future of Life Institute": {
+    "kind": "organization",
+    "summary": "An institution co-founded by Jaan Tallinn according to its biography of him. Its entry connects his institutional roles with his investment and philanthropy network.",
+    "sources": [
+      "S3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Gabriel Alfour": {
+    "kind": "person",
+    "summary": "A Conjecture co-founder named in its launch materials. ControlAI identifies him as an advisor who helped found the organization.",
+    "sources": [
+      "C1",
+      "C2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Good Ventures": {
+    "kind": "organization",
+    "summary": "A philanthropic organization founded by Dustin Moskovitz and Cari Tuna. Its disclosures describe a major partnership with Open Philanthropy, now represented in this dataset together with Coefficient Giving.",
+    "sources": [
+      "G4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Google DeepMind": {
+    "kind": "organization",
+    "summary": "An AI developer named in METR’s disclosures concerning model evaluation access and free tokens. It appears in the laboratory-access branch of the evaluation network.",
+    "sources": [
+      "M1",
+      "M2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "GovAI": {
+    "kind": "organization",
+    "summary": "An AI governance organization whose support is acknowledged in Open Philanthropy’s published review. Its profile follows the philanthropic funding record.",
+    "sources": [
+      "G3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Greenoaks": {
+    "kind": "organization",
+    "summary": "An investment firm named as a co-lead in Anthropic’s Series H announcement. The graph records its participation in that financing event.",
+    "sources": [
+      "A3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Greg Casar": {
+    "kind": "person",
+    "summary": "A US legislator who jointly announced the Ban Artificial Superintelligence proposal with Bernie Sanders. His role is recorded through the joint announcement.",
+    "sources": [
+      "L1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Holden Karnofsky": {
+    "kind": "person",
+    "summary": "A co-founder and former leader of Open Philanthropy who later joined Anthropic’s technical staff. The investigation also records his historical OpenAI board role and disclosed marriage to Daniela Amodei.",
+    "sources": [
+      "G11",
+      "G5",
+      "G7"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Horizon Institute": {
+    "kind": "organization",
+    "summary": "A policy fellowship organization whose program materials describe placements in US institutions and duties including legislative drafting. Its entry connects fellowship programs with policy-development work.",
+    "sources": [
+      "H1",
+      "H2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "IAPS": {
+    "kind": "organization",
+    "summary": "An organization listed in SFF’s 2025 funding recommendations under Tallinn-funded recommendations. This profile records its place in that grantmaking network.",
+    "sources": [
+      "S2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Jaan Tallinn": {
+    "kind": "person",
+    "summary": "An Anthropic investor and participating SFF funder whose biography also lists several research and safety-institution roles. Reporting connects him with ControlAI backing, early Alameda financing and advocacy for an Anthropic board appointment.",
+    "sources": [
+      "A1",
+      "A2",
+      "C4",
+      "F3",
+      "F4",
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Jacob Coxon": {
+    "kind": "person",
+    "summary": "A former Anthropic researcher whose resignation and public account prompted the discussion investigated here. His account also describes earlier pretraining work at OpenAI; subsequent responses are recorded separately.",
+    "sources": [
+      "C3",
+      "M5",
+      "X1",
+      "X2",
+      "X3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Jane Street individuals": {
+    "kind": "group",
+    "summary": "A collective label for individuals at Jane Street acknowledged in METR’s funding update. The node preserves the disclosure’s description of the supporters as individuals.",
+    "sources": [
+      "M2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Jason Matheny": {
+    "kind": "person",
+    "summary": "An Anthropic founding trustee whose appointment materials identified him as RAND’s CEO. This entry preserves the historical affiliation associated with that trust appointment.",
+    "sources": [
+      "A4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Jim McClave": {
+    "kind": "person",
+    "summary": "An investor named in both Anthropic’s Series A and Series B announcements. His entries connect the participants in the company’s first two recorded financing rounds.",
+    "sources": [
+      "A1",
+      "A2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Joe Benton": {
+    "kind": "person",
+    "summary": "A former Anthropic safety researcher who publicly described his departure and an upcoming move to METR. His account identifies Evan Hubinger as his manager and says Coxon’s resignation prompted his post.",
+    "sources": [
+      "M5"
+    ],
+    "updated": "2026-09-14"
+  },
+  "John Collison": {
+    "kind": "person",
+    "summary": "An investor named in Conjecture’s founding announcement. His entry records participation in the alignment company’s investor group.",
+    "sources": [
+      "C1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Ketan Ramakrishnan": {
+    "kind": "person",
+    "summary": "A former FTX Future Fund team member named in the November 2022 collective resignation statement. The record establishes the personnel affiliation and departure.",
+    "sources": [
+      "F1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Lachlan Phillips": {
+    "kind": "person",
+    "summary": "A public commentator whose post criticized the evaluator proposal involving METR. His entry belongs to the incident’s public-discussion branch.",
+    "sources": [
+      "X4"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Leopold Aschenbrenner": {
+    "kind": "person",
+    "summary": "A former FTX Future Fund team member identified in its collective resignation statement. His profile records that historical affiliation.",
+    "sources": [
+      "F1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Longview Philanthropy": {
+    "kind": "organization",
+    "summary": "A philanthropic organization acknowledged as a supporter in METR’s funding update. It appears in the evaluation organization’s funding network.",
+    "sources": [
+      "M2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Lord Clement-Jones": {
+    "kind": "person",
+    "summary": "The parliamentarian identified in ControlAI’s account as introducing the UK AI kill-switch amendment. His role connects the organization’s drafting account to parliamentary activity.",
+    "sources": [
+      "C3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Luke Muehlhauser": {
+    "kind": "person",
+    "summary": "An AI governance grantmaker at Open Philanthropy and a former Anthropic board member. His own account and reporting on Tallinn’s advocacy provide the personnel and governance records used here.",
+    "sources": [
+      "A7",
+      "F3",
+      "G6"
+    ],
+    "updated": "2026-09-14"
+  },
+  "MATS": {
+    "kind": "organization",
+    "summary": "A program named in Coefficient Giving’s discussion of supported AI safety organizations. Its profile records that philanthropic support relationship.",
+    "sources": [
+      "G1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "METR": {
+    "kind": "organization",
+    "summary": "An AI evaluation organization that originated as ARC Evals and later spun out under Beth Barnes. Its disclosures connect laboratory access, philanthropic support, research staff and work with government institutions.",
+    "sources": [
+      "D1",
+      "M1",
+      "M2",
+      "M3",
+      "M4",
+      "M5",
+      "S2",
+      "X4",
+      "X6",
+      "X7"
+    ],
+    "updated": "2026-09-14"
+  },
+  "MIRI": {
+    "kind": "organization",
+    "summary": "A research organization appearing in SFF’s 2025 funding recommendations with Tallinn identified as participating funder. The entry concerns the recommendation recorded in that funding round.",
+    "sources": [
+      "S2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Meta": {
+    "kind": "organization",
+    "summary": "An AI developer listed in METR’s disclosures concerning evaluation access and free tokens. Its entry records resources made available for model evaluations.",
+    "sources": [
+      "M1",
+      "M2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "NIST / CAISI": {
+    "kind": "organization",
+    "summary": "The institutional grouping used here for US government AI standards and evaluation work. The records connect Paul Christiano’s technical-advisory role and METR’s consortium participation.",
+    "sources": [
+      "M1",
+      "O1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Nat Friedman": {
+    "kind": "person",
+    "summary": "An investor named in Conjecture’s founding announcement. His profile follows the company’s published list of early backers.",
+    "sources": [
+      "C1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Nick Beckstead": {
+    "kind": "person",
+    "summary": "A former FTX Future Fund team member named in its collective resignation statement. His entry records his role in that personnel network.",
+    "sources": [
+      "F1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Nishad Singh": {
+    "kind": "person",
+    "summary": "An investor named in Anthropic’s Series B announcement. His entry links him to the April 2022 financing led by Sam Bankman-Fried.",
+    "sources": [
+      "A2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "OpenAI": {
+    "kind": "organization",
+    "summary": "An AI developer connected here through alignment research, historical and subsequent governance roles, philanthropic support and METR evaluation access. Coxon’s account also records earlier employment there.",
+    "sources": [
+      "G10",
+      "G11",
+      "M1",
+      "M2",
+      "O1",
+      "X1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Packard Foundation": {
+    "kind": "organization",
+    "summary": "A foundation acknowledged in METR’s funding update. Its profile records support within the evaluator’s philanthropic network.",
+    "sources": [
+      "M2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Patrick Collison": {
+    "kind": "person",
+    "summary": "An investor named in Conjecture’s launch announcement. His entry records participation in the alignment company’s investor group.",
+    "sources": [
+      "C1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Paul Christiano": {
+    "kind": "person",
+    "summary": "An alignment researcher and ARC founder with historical roles at OpenAI and Anthropic’s trust. The investigation also records government advisory work, an OpenAI Foundation board appointment and his marriage to Ajeya Cotra.",
+    "sources": [
+      "A4",
+      "M3",
+      "M6",
+      "O1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Pew Charitable Trusts": {
+    "kind": "organization",
+    "summary": "A philanthropic institution acknowledged in METR’s funding update. It appears as a supporter in the evaluation organization’s disclosed funding network.",
+    "sources": [
+      "M2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Public First Action": {
+    "kind": "organization",
+    "summary": "An organization for which Anthropic announced a total of $40 million in support. Its profile anchors the company-to-policy-funding branch of the investigation.",
+    "sources": [
+      "A6"
+    ],
+    "updated": "2026-09-14"
+  },
+  "RAND": {
+    "kind": "organization",
+    "summary": "A research institution named in Coefficient Giving’s support discussion. Anthropic’s trust announcement also identifies Jason Matheny as RAND’s CEO at his trustee appointment.",
+    "sources": [
+      "A4",
+      "G1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Redwood Research": {
+    "kind": "organization",
+    "summary": "An AI research organization named in Coefficient Giving’s funding discussion. Its inclusion follows the disclosed grantmaking relationship.",
+    "sources": [
+      "G1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "SFF": {
+    "kind": "organization",
+    "summary": "The Survival and Flourishing Fund organizes applications and funding recommendations for participating funders. Its 2025 recommendations connect Tallinn with recipients across AI research, evaluation, policy and journalism.",
+    "sources": [
+      "S1",
+      "S2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Sam Bankman-Fried": {
+    "kind": "person",
+    "summary": "The lead investor named in Anthropic’s Series B announcement and an investor named in Conjecture’s launch announcement. These two financing records connect him to distinct AI-company branches.",
+    "sources": [
+      "A2",
+      "C1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Sayer Ji": {
+    "kind": "person",
+    "summary": "A public commentator whose post alleges a legislative conflict involving ControlAI. His post is retained as part of the public discussion and as a lead for further source tracing.",
+    "sources": [
+      "X5"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Schmidt Sciences": {
+    "kind": "organization",
+    "summary": "An organization acknowledged as a supporter in METR’s funding update. Its profile follows the evaluation organization’s donor disclosure.",
+    "sources": [
+      "M2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Sequoia Capital": {
+    "kind": "organization",
+    "summary": "An investment firm named as a co-lead in Anthropic’s Series H announcement. The record connects it to the later financing round.",
+    "sources": [
+      "A3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Sid Black": {
+    "kind": "person",
+    "summary": "A co-founder named in Conjecture’s launch announcement. His profile records his founding role in the alignment research company.",
+    "sources": [
+      "C1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Sijbrandij Foundation": {
+    "kind": "organization",
+    "summary": "A foundation acknowledged in METR’s funding update. It appears as a supporter in the disclosed philanthropic network.",
+    "sources": [
+      "M2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Tarbell Center for AI Journalism": {
+    "kind": "organization",
+    "summary": "A journalism organization appearing in SFF’s 2025 funding recommendations with Tallinn identified as funder. Its entry connects the funding network to AI journalism.",
+    "sources": [
+      "S2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Tino Cuéllar": {
+    "kind": "person",
+    "summary": "A former Carnegie Endowment president and co-leader of California’s Frontier AI Working Group. Anthropic’s announcement describes his transition from its trust to an announced global-affairs executive role.",
+    "sources": [
+      "A5"
+    ],
+    "updated": "2026-09-14"
+  },
+  "UK AI Security Institute": {
+    "kind": "organization",
+    "summary": "The UK government institution with which METR reports a partnership. The profile records the evaluator’s relationship with a public-sector AI institution.",
+    "sources": [
+      "M1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "UK AI kill-switch amendment": {
+    "kind": "policy",
+    "summary": "A UK parliamentary amendment that ControlAI says it drafted and Lord Clement-Jones introduced. The node tracks the drafting and introduction described in that account.",
+    "sources": [
+      "C3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "UK ASI Bill": {
+    "kind": "policy",
+    "summary": "The UK Artificial Superintelligence Bill, linked to Alex Sobel’s parliamentary sponsorship and ControlAI’s drafting account. Its sources include the official parliamentary bill record.",
+    "sources": [
+      "C3",
+      "C5",
+      "L3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "US Ban ASI proposal": {
+    "kind": "policy",
+    "summary": "The US artificial-superintelligence proposal jointly announced by Bernie Sanders and Greg Casar on September 3, 2026. ControlAI reports consultation on the framework; the announcement and consultation account provide distinct source records.",
+    "sources": [
+      "C3",
+      "L1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "US policy institutions": {
+    "kind": "group",
+    "summary": "A collective node for institutions hosting Horizon policy fellows. The program materials describe placements and duties that can include legislative drafting; individual hosts require their own records when identified.",
+    "sources": [
+      "H1",
+      "H2"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Will MacAskill": {
+    "kind": "person",
+    "summary": "A former FTX Future Fund team member named in its collective resignation statement. His entry records that historical philanthropic affiliation.",
+    "sources": [
+      "F1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Zach Robinson": {
+    "kind": "person",
+    "summary": "A founding Anthropic trustee identified at appointment as a leader of Effective Ventures US. The historical trust roster records his governance connection.",
+    "sources": [
+      "A4"
+    ],
+    "updated": "2026-09-14"
+  }
+}

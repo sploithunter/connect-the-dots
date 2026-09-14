@@ -6,6 +6,8 @@ import {Input} from '@/components/ui/input';
 import {Select,SelectTrigger,SelectValue,SelectContent,SelectItem} from '@/components/ui/select';
 import {Network,Search,Plus,Minus,Maximize,ArrowUpRight,ArrowRight,Download,X,Focus} from 'lucide-react';
 import raw from '@/data/evidence.json';
+import profileData from '@/data/node-profiles.json';
+const profiles:Record<string,{kind:string,summary:string,sources:string[],updated:string}>=profileData;
 
 type Edge=typeof raw.edges[number];
 type Point={id:string,x:number,y:number};
@@ -55,15 +57,15 @@ function layout(ids:string[],edges:Edge[],overview:boolean):Point[]{
 function curve(a:Point,b:Point,offset=0){const dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy));const cx=(a.x+b.x)/2-dy/d*(26+offset),cy=(a.y+b.y)/2+dx/d*(26+offset);return `M${a.x},${a.y} Q${cx},${cy} ${b.x},${b.y}`;}
 function context(e:Edge){return e.note.split(/(?<=\.)\s+/).filter(s=>!/(not proof|not evidence|not a verified|not a personal|not organizational|not current SBF|no inferred|not a traced|is commentary)/i.test(s)).join(' ');}
 
-function SourceNotes({records}:{records:Edge[]}){
- const ids=[...new Set(records.flatMap(record=>record.sources))];
+function SourceNotes({records,profileSources=[]}:{records:Edge[],profileSources?:string[]}){
+ const ids=[...new Set([...profileSources,...records.flatMap(record=>record.sources)])];
  return <section className="source-notes" aria-label="Sources and notes">
   <h3>Sources & notes <span>({ids.length})</span></h3>
-  <p className="source-help">Expand a source to see the recorded connections it supports.</p>
+  <p className="source-help">Expand a source to see its use in this profile and the relationship records.</p>
   {ids.map(id=>{const source=sources[id],supported=records.filter(record=>record.sources.includes(id));return <details className="source-card" key={id}>
    <summary><span>{source.title}<small>{source.kind} source · {new URL(source.url).hostname.replace(/^www\./,'')}</small></span></summary>
    <div className="source-body">
-    <p className="source-summary-label">Referenced for</p>
+    {profileSources.includes(id)&&<p className="source-profile-note">Cited in the node’s About section.</p>}<p className="source-summary-label">Referenced for</p>
     <ul>{supported.map(record=><li key={record.id}><strong>{record.source} → {record.target}</strong><span>{record.relation}</span><small>{record.date} · {record.evidence}</small></li>)}</ul>
     <a className="source-link" href={source.url} target="_blank" rel="noopener noreferrer">Read original source <ArrowUpRight size={16}/><span className="sr-only"> (opens in a new tab)</span></a>
    </div>
@@ -98,7 +100,7 @@ export default function Home(){
  const vbox=`${box.x+box.w*(1-1/zoom)/2-pan.x} ${box.y+box.h*(1-1/zoom)/2-pan.y} ${box.w/zoom} ${box.h/zoom}`;
  function exportSvg(){if(!svg.current)return;const s=svg.current.cloneNode(true) as SVGSVGElement;s.setAttribute('xmlns','http://www.w3.org/2000/svg');s.setAttribute('width','2000');s.setAttribute('height',String(Math.round(2000*box.h/box.w)));s.setAttribute('viewBox',`${box.x} ${box.y} ${box.w} ${box.h}`);s.querySelectorAll('.edge-hit').forEach(n=>n.remove());const bg=document.createElementNS('http://www.w3.org/2000/svg','rect');bg.setAttribute('x',String(box.x));bg.setAttribute('y',String(box.y));bg.setAttribute('width',String(box.w));bg.setAttribute('height',String(box.h));bg.setAttribute('fill','#101923');s.insertBefore(bg,s.firstChild);const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(s)],{type:'image/svg+xml'}));a.download=`connections-${view}.svg`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
  return <main className="explorer">
-  <header className="masthead"><div className="brand"><Network size={24}/><div><h1>Connect the Dots</h1><span>AI safety · funding · institutions · policy</span></div></div><div className="dateline"><span className="live-dot"/>Evidence through 14 Sep 2026</div><Button variant="outline" onClick={exportSvg}><Download/>Export graph</Button></header>
+  <header className="masthead"><div className="brand"><Network size={24}/><div><h1>Connect the Dots</h1><span>AI safety · funding · institutions · policy</span></div></div><div className="dateline"><span className="live-dot"/>Evidence through {raw.as_of}</div><Button variant="outline" onClick={exportSvg}><Download/>Export graph</Button></header>
   <div className="workspace">
    <section className="canvas-section">
     <div className="toolbar"><div><span className="eyebrow">NETWORK VIEW</span><Select value={view} onValueChange={v=>v&&changeView(v)}><SelectTrigger className="view-select"><SelectValue>{viewNames[view]}</SelectValue></SelectTrigger><SelectContent>{Object.entries(viewNames).filter(([v])=>v!=='neighborhood').map(([v,n])=><SelectItem key={v} value={v}>{n}</SelectItem>)}</SelectContent></Select></div><div className="search"><Search size={17}/><Input aria-label="Find a person or organization" placeholder="Find a person or organization" value={search} onChange={e=>setSearch(e.target.value)}/>{search&&<div className="search-results">{results.length?results.map(n=><Button variant="ghost" key={n.id} onClick={()=>neighborhood(n.id)}>{n.label}<ArrowUpRight size={15}/></Button>):<p>No matching entity.</p>}</div>}</div></div>
@@ -118,9 +120,9 @@ export default function Home(){
    <aside className="inspector" aria-live="polite">
     <div className="inspector-head"><span className="eyebrow">CONNECTION RECORD</span>{(selected||active)&&<Button size="icon" variant="ghost" aria-label="Clear selection" onClick={()=>{setActive(null);setSelected(null);}}><X/></Button>}</div>
     {active?<><span className="relation-tag" style={{color:COLORS[active.type]}}>{TYPE[active.type]}</span><h2>{active.source}</h2><ArrowRight className="record-arrow"/><h2>{active.target}</h2><p className="relationship">{active.relation}</p><dl><dt>Date / period</dt><dd>{active.date}</dd><dt>Source status</dt><dd>{active.evidence}</dd></dl>{context(active)&&<p className="note">{context(active)}</p>}<SourceNotes key={active.id} records={[active]}/><Button variant="outline" onClick={()=>neighborhood(active.source)}><Focus/>Explore {short(active.source)}</Button></>:
-    selected?<><h2>{selected}</h2><p className="subtle">{links.length} recorded connections</p><Button variant="outline" className="neighbor-button" onClick={()=>neighborhood(selected)}><Focus/>Explore neighborhood</Button><SourceNotes key={selected} records={links}/><h3>Connections</h3><div className="connection-list">{links.map(e=><button key={e.id} onClick={()=>setActive(e)}><span className="line-type" style={{background:COLORS[e.type]}}/><span><small>{e.source===selected?'→':'←'} {e.relation}</small><strong>{e.source===selected?e.target:e.source}</strong><em>{e.date}</em></span><ArrowUpRight size={14}/></button>)}</div></>:
+    selected?<><span className="relation-tag">{profiles[selected].kind}</span><h2>{selected}</h2><section className="node-profile" aria-label="About this node"><h3>About</h3><p>{profiles[selected].summary}</p><div className="profile-citations">Profile sources: {profiles[selected].sources.map(id=><a key={id} href={sources[id].url} target="_blank" rel="noopener noreferrer" title={`${sources[id].title} (opens in a new tab)`}>{id}</a>)}</div><small>Profile updated {profiles[selected].updated}</small></section><p className="subtle">{links.length} recorded connections</p><Button variant="outline" className="neighbor-button" onClick={()=>neighborhood(selected)}><Focus/>Explore neighborhood</Button><SourceNotes key={selected} records={links} profileSources={profiles[selected].sources}/><h3>Connections</h3><div className="connection-list">{links.map(e=><button key={e.id} onClick={()=>setActive(e)}><span className="line-type" style={{background:COLORS[e.type]}}/><span><small>{e.source===selected?'→':'←'} {e.relation}</small><strong>{e.source===selected?e.target:e.source}</strong><em>{e.date}</em></span><ArrowUpRight size={14}/></button>)}</div></>:
     <><h2>Follow a connection.</h2><p className="intro">People, capital, organizations and policy work in one sourced network.</p><div className="start-points"><h3>Start with</h3>{['Jaan Tallinn','Sam Bankman-Fried','Anthropic','METR','ControlAI','Jacob Coxon'].map(n=><Button variant="ghost" key={n} onClick={()=>neighborhood(n)}>{n}<ArrowRight size={16}/></Button>)}</div><div className="reading-key"><h3>Reading the graph</h3><p>Lines represent the relationship named in the record. Dates identify the relevant period.</p><p>Color follows connection type. Each record includes source links.</p></div></>}
-    <footer>Public-source investigation<br/>105 nodes · 134 relationship records</footer>
+    <footer>Public-source investigation<br/>{raw.nodes.length} nodes · {raw.edges.length} relationship records<br/><a href="https://github.com/sploithunter/connect-the-dots/blob/main/wiki/index.md" target="_blank" rel="noopener noreferrer">Research & contributor wiki ↗</a></footer>
    </aside>
   </div>
  </main>;

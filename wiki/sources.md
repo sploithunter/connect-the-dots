@@ -1,0 +1,65 @@
+# Source index
+
+59 source records with usage notes and backlinks.
+
+- [A1: Anthropic: $124M Series A, May 2021](sources/A1.md) — primary; recorded access 2026-09-14.
+- [A2: Anthropic: $580M Series B, April 2022](sources/A2.md) — primary; recorded access 2026-09-14.
+- [A3: Anthropic: Series H, May 2026](sources/A3.md) — primary; recorded access 2026-09-14.
+- [A4: Anthropic: Long-Term Benefit Trust, with later updates](sources/A4.md) — primary; recorded access 2026-09-14.
+- [A5: Anthropic: Tino Cuéllar appointment, August 2026](sources/A5.md) — primary; recorded access 2026-09-14.
+- [A6: Anthropic: Public First Action support, July 2026](sources/A6.md) — primary; recorded access 2026-09-14.
+- [A7: Anthropic: Jay Kreps appointment and Muehlhauser departure](sources/A7.md) — primary; recorded access 2026-09-14.
+- [D1: Dario Amodei: We Must Pace the Frontier](sources/D1.md) — primary; recorded access 2026-09-14.
+- [M1: METR: About, team, partnerships and independence](sources/M1.md) — primary; recorded access 2026-09-14.
+- [M2: METR: August 2026 funding update](sources/M2.md) — primary; recorded access 2026-09-14.
+- [M3: ARC Evals spin-out announcement](sources/M3.md) — primary; recorded access 2026-09-14.
+- [M4: ARC Evals renamed METR](sources/M4.md) — primary; recorded access 2026-09-14.
+- [M5: Joe Benton: Why I left Anthropic’s safety team](sources/M5.md) — primary; recorded access 2026-09-14.
+- [M6: Kelsey Piper: disclosure of Christiano–Cotra marriage](sources/M6.md) — primary; recorded access 2026-09-14.
+- [O1: OpenAI: Paul Christiano joins Foundation Board](sources/O1.md) — primary; recorded access 2026-09-14.
+- [G1: Coefficient Giving: AI safety and security need more funders](sources/G1.md) — primary; recorded access 2026-09-14.
+- [G2: Coefficient Giving: 2023 progress and 2024 plans](sources/G2.md) — primary; recorded access 2026-09-14.
+- [G3: Coefficient Giving: 2021 progress and 2022 plans](sources/G3.md) — primary; recorded access 2026-09-14.
+- [G4: Good Ventures press: Open Philanthropy becomes Coefficient Giving](sources/G4.md) — primary; recorded access 2026-09-14.
+- [G5: Karnofsky: AI risk reduction, September 2024](sources/G5.md) — primary; recorded access 2026-09-14.
+- [G6: Luke Muehlhauser: Why I resigned from Anthropic’s board](sources/G6.md) — primary; recorded access 2026-09-14.
+- [G7: Karnofsky profile and January 2025 employment](sources/G7.md) — secondary; recorded access 2026-09-14.
+- [G8: Open Philanthropy grants to ARC: compiled ledger lead](sources/G8.md) — unretrieved lead; recorded access Not retrieved; lead only.
+- [G9: Coefficient Giving: AI governance proposals](sources/G9.md) — primary; recorded access 2026-09-14.
+- [S1: Survival and Flourishing Fund: structure and history](sources/S1.md) — primary; recorded access 2026-09-14.
+- [S2: SFF: 2025 recommendations and conditional matching pledges](sources/S2.md) — primary; recorded access 2026-09-14.
+- [S3: Future of Life Institute: Jaan Tallinn](sources/S3.md) — primary; recorded access 2026-09-14.
+- [C1: Conjecture founding announcement and investors](sources/C1.md) — primary; recorded access 2026-09-14.
+- [C2: ControlAI: team and legal forms](sources/C2.md) — primary; recorded access 2026-09-14.
+- [C3: ControlAI: legislative work, September 9, 2026](sources/C3.md) — primary; recorded access 2026-09-14.
+- [C4: WIRED: UK lawmakers and ControlAI](sources/C4.md) — original reporting; recorded access 2026-09-14.
+- [C5: ControlAI: UK ASI bill](sources/C5.md) — primary; recorded access 2026-09-14.
+- [L1: Sanders–Casar announcement, September 3, 2026](sources/L1.md) — primary; recorded access 2026-09-14.
+- [L2: Sanders–Casar official proposal summary](sources/L2.md) — primary; recorded access 2026-09-14.
+- [L3: UK Parliament: Artificial Superintelligence Bill](sources/L3.md) — primary; recorded access 2026-09-14.
+- [L4: California Assembly analysis of SB 1047](sources/L4.md) — primary; recorded access 2026-09-14.
+- [L5: CAIS: 2024 year in review](sources/L5.md) — primary; recorded access 2026-09-14.
+- [L6: CAIS Action Fund: policy work](sources/L6.md) — primary; recorded access 2026-09-14.
+- [H1: Horizon Institute for Public Service](sources/H1.md) — primary; recorded access 2026-09-14.
+- [H2: Horizon: fellowship duties](sources/H2.md) — primary; recorded access 2026-09-14.
+- [F1: FTX Future Fund team resignation, November 2022](sources/F1.md) — primary; recorded access 2026-09-14.
+- [F2: FTX Recovery Trust motion, March 2, 2025, docket 29834](sources/F2.md) — primary; recorded access 2026-09-14.
+- [F3: Semafor: Tallinn’s Anthropic investment and governance preferences](sources/F3.md) — original reporting; recorded access 2026-09-14.
+- [F4: Semafor: early Alameda financing](sources/F4.md) — original reporting; recorded access 2026-09-14.
+- [X1: Jacob Coxon resignation post](sources/X1.md) — primary public post; recorded access 2026-09-14.
+- [X2: Evan Hubinger response](sources/X2.md) — primary public post; recorded access 2026-09-14.
+- [X3: Hubinger clarification about current models](sources/X3.md) — primary public post; recorded access 2026-09-14.
+- [X4: Lachlan Phillips / bitcloud seed post](sources/X4.md) — commentary / allegation; recorded access 2026-09-14.
+- [X5: Sayer Ji seed thread](sources/X5.md) — commentary / allegation; recorded access 2026-09-14.
+- [X6: Brian Roemmele seed post](sources/X6.md) — commentary / allegation; recorded access 2026-09-14.
+- [X7: Brian Roemmele: METR article](sources/X7.md) — commentary / allegation; recorded access 2026-09-14.
+- [X8: Karpathy’s response to Amodei](sources/X8.md) — primary public post; recorded access 2026-09-14.
+- [X9: Axios: Coxon interview](sources/X9.md) — original reporting; recorded access 2026-09-14.
+- [X10: OfficeChai: allegations concerning Coxon’s funding and amplifiers](sources/X10.md) — secondary allegation report; recorded access 2026-09-14.
+- [X11: Brian Chau thread about Newspeak House](sources/X11.md) — commentary / allegation; recorded access 2026-09-14.
+- [G10: Open Philanthropy: 2017 review documents OpenAI grant](sources/G10.md) — primary; recorded access 2026-09-14.
+- [G11: OpenAI: supporters and 2018 board roster](sources/G11.md) — primary; recorded access 2026-09-14.
+- [M7: Ajeya Cotra: career account](sources/M7.md) — primary; recorded access 2026-09-14.
+- [F5: Avital Balwit: personal professional biography](sources/F5.md) — primary; recorded access 2026-09-14.
+
+[Wiki home](index.md)

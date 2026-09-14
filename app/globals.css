@@ -158,3 +158,11 @@ body {
 .source-body li span { color: #c2d1dc; }
 .source-body li small { color: #9eb3c3; margin-top: 4px; }
 .source-body .source-link { margin: 8px 0 0; color: #e5bf89; }
+
+.node-profile { margin: 20px 0 22px; padding-bottom: 20px; border-bottom: 1px solid #354b5c; }
+.node-profile p { font-size: 14px; line-height: 1.7; color: #d4e0e8; margin: 10px 0; }
+.profile-citations { font-size: 12px; color: #9eb3c3; display: flex; flex-wrap: wrap; gap: 6px; line-height: 1.6; }
+.profile-citations a { color: #e5bf89; text-decoration: underline; text-underline-offset: 3px; }
+.node-profile > small { display: block; margin-top: 12px; color: #9eb3c3; }
+.source-profile-note { font-size: 13px; line-height: 1.5; color: #c2d1dc; margin-bottom: 14px; }
+.inspector footer a { color: #e5bf89; display: inline-block; margin-top: 12px; }

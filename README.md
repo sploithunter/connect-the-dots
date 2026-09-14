@@ -13,3 +13,11 @@ Requires Node 22.13 or newer. Run `npm ci`, then `npm run dev`. Run `npm run bui
 ## Hosting
 
 GitHub Actions builds and deploys to GitHub Pages whenever `main` changes. No server, API keys or sign-in are required to use the graph.
+
+## Research and contributor wiki
+
+Start with the [wiki index](wiki/index.md) and [AGENTS.md](AGENTS.md). The wiki contains every entity profile, source-use pages, topic syntheses, open questions, architecture, style, contribution workflow and lessons learned.
+
+Every new node must have a substantive, cited profile in `data/node-profiles.json`. After editing evidence or profiles, run `npm run wiki:build`, update affected topic pages and append to `wiki/log.md`. `npm run build` rejects incomplete profiles, invalid references and stale generated wiki pages before publishing.
+
+Repository operations use **sploithunter only**.
