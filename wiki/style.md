@@ -23,3 +23,7 @@ Keep the overview curated and readable, with focused views and the complete grap
 ## Code conventions
 
 Use TypeScript and the existing React components. Keep factual text in canonical data, not hard-coded into view components. Reuse `SourceNotes` for citations. Derive totals and evidence dates from the dataset. Separate neighborhood anchor state from inspector selection. Prefer small changes and meaningful regression tests over snapshot churn or tests that only restate implementation details.
+
+## Node dragging
+
+Drag a node to arrange it; drag empty canvas to pan. A short click still opens the inspector. Use a small movement threshold to distinguish clicks from drags and suppress the click generated after an actual drag. Reset layout restores the current view's positions and camera; Fit graph preserves the arrangement. Keep manual layout state separate from evidence data and configured overview positions.

@@ -166,3 +166,6 @@ body {
 .node-profile > small { display: block; margin-top: 12px; color: #9eb3c3; }
 .source-profile-note { font-size: 13px; line-height: 1.5; color: #c2d1dc; margin-bottom: 14px; }
 .inspector footer a { color: #e5bf89; display: inline-block; margin-top: 12px; }
+
+.network-graph { touch-action: none; user-select: none; }
+.network-graph [data-node] text { pointer-events: none; }

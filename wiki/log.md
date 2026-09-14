@@ -25,3 +25,9 @@ Moved all curated entity lists, view labels, starting points, display aliases, o
 ## [2026-09-14] update — Public reuse and MIT licensing
 
 Confirmed the repository is public under sploithunter. Added the standard MIT license, package license metadata and README attribution guidance. The project license covers original project material; external publications and third-party components retain their respective rights and notices.
+
+## [2026-09-14] update — Draggable nodes and layout reset
+
+Added pointer-based node dragging, connected-edge updates, zoom-aware movement and a Reset layout button for the current view. Manual arrangements are kept per view while the page is open. Background pan and click-to-inspect remain separate gestures. Fit and SVG export include manually moved positions. Added regression checks for coordinate conversion and moved-node bounds.
+
+Validation: 14 automated tests and the production build passed. A local browser check exercised actual pointer dragging, edge updates, click suppression, normal inspection, zoomed dragging, layout reset and background panning without page errors.

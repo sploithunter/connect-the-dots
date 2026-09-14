@@ -4,8 +4,9 @@ import {useState,useMemo,useRef} from 'react';
 import {Button} from '@/components/ui/button';
 import {Input} from '@/components/ui/input';
 import {Select,SelectTrigger,SelectValue,SelectContent,SelectItem} from '@/components/ui/select';
-import {Network,Search,Plus,Minus,Maximize,ArrowUpRight,ArrowRight,Download,X,Focus} from 'lucide-react';
+import {Network,Search,Plus,Minus,Maximize,ArrowUpRight,ArrowRight,Download,X,Focus,RotateCcw} from 'lucide-react';
 import raw from '@/data/evidence.json';
+import {draggedPosition,graphBounds} from '@/lib/graph-drag.mjs';
 import network from '@/config/network.json';
 const core=network.overviewPositions as Record<string,number[]>;
 const viewNames:Record<string,string>=Object.fromEntries(Object.entries(network.views).map(([id,v])=>[id,v.label]));
@@ -70,6 +71,12 @@ export default function Home(){
  const [anchor,setAnchor]=useState<string|null>(null);
  const [excluded,setExcluded]=useState<string[]>([]);
  const svg=useRef<SVGSVGElement>(null),drag=useRef<{x:number,y:number,px:number,py:number}|null>(null);
+ const [positions,setPositions]=useState<Record<string,Record<string,{x:number,y:number}>>>({});
+ const [frame,setFrame]=useState<ReturnType<typeof graphBounds>|null>(null);
+ const [draggingNode,setDraggingNode]=useState<string|null>(null);
+ const nodeDrag=useRef<{id:string,pointerId:number,x:number,y:number,origin:{x:number,y:number},inverse:DOMMatrix,moved:boolean}|null>(null);
+ const suppressClick=useRef(false);
+ const viewKey=JSON.stringify([view,view==='neighborhood'?anchor:null]);
  const edges=useMemo(()=>{
   let es=raw.edges;
   if(view==='overview')es=es.filter(e=>e.source in core&&e.target in core);
@@ -78,36 +85,60 @@ export default function Home(){
   return es.filter(e=>!excluded.includes(e.type));
  },[view,anchor,excluded]);
  const ids=useMemo(()=>view==='all'?raw.nodes.map(n=>n.id):[...new Set(edges.flatMap(e=>[e.source,e.target]))],[edges,view]);
- const points=useMemo(()=>layout(ids,edges,view==='overview'),[ids,edges,view]);
+ const basePoints=useMemo(()=>layout(ids,edges,view==='overview'),[ids,edges,view]);
+ const points=useMemo(()=>basePoints.map(p=>({...p,...positions[viewKey]?.[p.id]})),[basePoints,positions,viewKey]);
  const map=useMemo(()=>new Map(points.map(p=>[p.id,p])),[points]);
- const box=useMemo(()=>{if(!points.length)return{x:0,y:0,w:1400,h:900};const xs=points.map(p=>p.x),ys=points.map(p=>p.y);return{x:Math.min(...xs)-145,y:Math.min(...ys)-100,w:Math.max(...xs)-Math.min(...xs)+290,h:Math.max(...ys)-Math.min(...ys)+200};},[points]);
- const fit=()=>{setZoom(1);setPan({x:0,y:0});};
+ const baseBox=useMemo(()=>graphBounds(basePoints),[basePoints]);
+ const box=frame||baseBox;
+ const resetCamera=()=>{setFrame(null);setZoom(1);setPan({x:0,y:0});};
+ const fit=()=>{setFrame(graphBounds(points));setZoom(1);setPan({x:0,y:0});};
+ const resetLayout=()=>{setPositions(all=>{const next={...all};delete next[viewKey];return next;});resetCamera();};
+ function startNodeDrag(e:React.PointerEvent<SVGGElement>,n:Point){
+  if(e.button!==0||!e.isPrimary)return;
+  const matrix=svg.current?.getScreenCTM();if(!matrix)return;
+  e.stopPropagation();suppressClick.current=false;
+  nodeDrag.current={id:n.id,pointerId:e.pointerId,x:e.clientX,y:e.clientY,origin:{x:n.x,y:n.y},inverse:matrix.inverse(),moved:false};
+  e.currentTarget.setPointerCapture(e.pointerId);
+ }
+ function moveNode(e:React.PointerEvent<SVGSVGElement>){
+  const d=nodeDrag.current;if(!d||d.pointerId!==e.pointerId)return false;
+  const delta={x:e.clientX-d.x,y:e.clientY-d.y};
+  if(!d.moved&&Math.hypot(delta.x,delta.y)<4)return true;
+  d.moved=true;suppressClick.current=true;setDraggingNode(d.id);setHover(null);
+  const next=draggedPosition(d.origin,delta,d.inverse);
+  setPositions(all=>({...all,[viewKey]:{...all[viewKey],[d.id]:next}}));
+  return true;
+ }
+ function endNodeDrag(e:React.PointerEvent<SVGSVGElement>){
+  if(nodeDrag.current?.pointerId===e.pointerId){nodeDrag.current=null;setDraggingNode(null);}
+  drag.current=null;
+ }
  const focus=(id:string)=>{setSelected(id);setActive(null);setSearch('');};
- const changeView=(v:string)=>{setView(v);setActive(null);setSelected(null);setExcluded([]);fit();};
- const neighborhood=(id:string)=>{focus(id);setAnchor(id);setView('neighborhood');setExcluded([]);fit();};
+ const changeView=(v:string)=>{setView(v);setActive(null);setSelected(null);setExcluded([]);resetCamera();};
+ const neighborhood=(id:string)=>{focus(id);setAnchor(id);setView('neighborhood');setExcluded([]);resetCamera();};
  const highlighted=hover||selected;
  const connected=new Set(highlighted?edges.filter(e=>e.source===highlighted||e.target===highlighted).flatMap(e=>[e.source,e.target]):ids);
  const links=selected?raw.edges.filter(e=>e.source===selected||e.target===selected):[];
  const results=search?raw.nodes.filter(n=>`${n.label} ${profiles[n.id].subtitle}`.toLowerCase().includes(search.toLowerCase())).slice(0,8):[];
  const vbox=`${box.x+box.w*(1-1/zoom)/2-pan.x} ${box.y+box.h*(1-1/zoom)/2-pan.y} ${box.w/zoom} ${box.h/zoom}`;
- function exportSvg(){if(!svg.current)return;const s=svg.current.cloneNode(true) as SVGSVGElement;s.setAttribute('xmlns','http://www.w3.org/2000/svg');s.setAttribute('width','2000');s.setAttribute('height',String(Math.round(2000*box.h/box.w)));s.setAttribute('viewBox',`${box.x} ${box.y} ${box.w} ${box.h}`);s.querySelectorAll('.edge-hit').forEach(n=>n.remove());const bg=document.createElementNS('http://www.w3.org/2000/svg','rect');bg.setAttribute('x',String(box.x));bg.setAttribute('y',String(box.y));bg.setAttribute('width',String(box.w));bg.setAttribute('height',String(box.h));bg.setAttribute('fill','#101923');s.insertBefore(bg,s.firstChild);const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(s)],{type:'image/svg+xml'}));a.download=`connections-${view}.svg`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
+ function exportSvg(){if(!svg.current)return;const box=graphBounds(points);const s=svg.current.cloneNode(true) as SVGSVGElement;s.setAttribute('xmlns','http://www.w3.org/2000/svg');s.setAttribute('width','2000');s.setAttribute('height',String(Math.round(2000*box.h/box.w)));s.setAttribute('viewBox',`${box.x} ${box.y} ${box.w} ${box.h}`);s.querySelectorAll('.edge-hit').forEach(n=>n.remove());const bg=document.createElementNS('http://www.w3.org/2000/svg','rect');bg.setAttribute('x',String(box.x));bg.setAttribute('y',String(box.y));bg.setAttribute('width',String(box.w));bg.setAttribute('height',String(box.h));bg.setAttribute('fill','#101923');s.insertBefore(bg,s.firstChild);const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(s)],{type:'image/svg+xml'}));a.download=`connections-${view}.svg`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
  return <main className="explorer">
   <header className="masthead"><div className="brand"><Network size={24}/><div><h1>Connect the Dots</h1><span>AI safety · funding · institutions · policy</span></div></div><div className="dateline"><span className="live-dot"/>Evidence through {raw.as_of}</div><Button variant="outline" onClick={exportSvg}><Download/>Export graph</Button></header>
   <div className="workspace">
    <section className="canvas-section">
     <div className="toolbar"><div><span className="eyebrow">NETWORK VIEW</span><Select value={view} onValueChange={v=>v&&changeView(v)}><SelectTrigger className="view-select"><SelectValue>{viewNames[view]}</SelectValue></SelectTrigger><SelectContent>{Object.entries(viewNames).filter(([v])=>v!=='neighborhood').map(([v,n])=><SelectItem key={v} value={v}>{n}</SelectItem>)}</SelectContent></Select></div><div className="search"><Search size={17}/><Input aria-label="Find a person or organization" placeholder="Find a person or organization" value={search} onChange={e=>setSearch(e.target.value)}/>{search&&<div className="search-results">{results.length?results.map(n=><Button variant="ghost" key={n.id} onClick={()=>neighborhood(n.id)}>{n.label}<ArrowUpRight size={15}/></Button>):<p>No matching entity.</p>}</div>}</div></div>
     <div className="graph-wrap">
-    <svg ref={svg} className="network-graph" viewBox={vbox} role="img" aria-label={`${viewNames[view]}: ${ids.length} nodes and ${edges.length} connections. Use search or the relationship panel to explore with a keyboard.`} onPointerDown={e=>{if((e.target as Element).closest('[data-node], [data-edge]'))return;drag.current={x:e.clientX,y:e.clientY,px:pan.x,py:pan.y};e.currentTarget.setPointerCapture(e.pointerId);}} onPointerMove={e=>{if(drag.current){const r=e.currentTarget.getBoundingClientRect();const scale=Math.max(box.w/zoom/r.width,box.h/zoom/r.height);setPan({x:drag.current.px+(e.clientX-drag.current.x)*scale,y:drag.current.py+(e.clientY-drag.current.y)*scale});}}} onPointerUp={()=>{drag.current=null;}} onPointerCancel={()=>{drag.current=null;}}>
+    <svg ref={svg} className="network-graph" viewBox={vbox} role="img" aria-label={`${viewNames[view]}: ${ids.length} nodes and ${edges.length} connections. Use search or the relationship panel to explore with a keyboard.`} onPointerDown={e=>{suppressClick.current=false;if(e.button!==0||!e.isPrimary)return;if((e.target as Element).closest('[data-node], [data-edge]'))return;drag.current={x:e.clientX,y:e.clientY,px:pan.x,py:pan.y};e.currentTarget.setPointerCapture(e.pointerId);}} onPointerMove={e=>{if(moveNode(e))return;if(drag.current){const r=e.currentTarget.getBoundingClientRect();const scale=Math.max(box.w/zoom/r.width,box.h/zoom/r.height);setPan({x:drag.current.px+(e.clientX-drag.current.x)*scale,y:drag.current.py+(e.clientY-drag.current.y)*scale});}}} onPointerUp={endNodeDrag} onPointerCancel={endNodeDrag} onLostPointerCapture={endNodeDrag}>
      <defs><pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#405164" opacity=".3"/></pattern></defs>
      <rect x={box.x-5000} y={box.y-5000} width={box.w+10000} height={box.h+10000} fill="url(#dots)"/>
      {edges.map((e,i)=>{const a=map.get(e.source)!,b=map.get(e.target)!,on=active?.id===e.id||e.source===highlighted||e.target===highlighted;const color=COLORS[e.type];return <g key={e.id} data-edge={e.id} onClick={()=>{setActive(e);setSelected(null);}} style={{cursor:'pointer'}}><path d={curve(a,b,i%3*7)} fill="none" stroke={color} strokeWidth={on?2.8:1.4} opacity={highlighted&&!on?.09:on?.95:.35} strokeDasharray={e.type==='proposal'||e.evidence==='unverified lead'?'6 5':undefined}/><path className="edge-hit" d={curve(a,b,i%3*7)} fill="none" stroke="transparent" strokeWidth="14"><title>{`${e.source} → ${e.target}: ${e.relation} · ${e.date}`}</title></path></g>;})}
-     {points.map(n=>{const on=highlighted===n.id,dim=highlighted&&!connected.has(n.id),isOrg=profiles[n.id].kind!=='person';const lines=wrap(n.id),subtitle=wrap(profiles[n.id].subtitle,28),top=-(lines.length*18+subtitle.length*14+8)/2+13;return <g key={n.id} data-node={n.id} transform={`translate(${n.x},${n.y})`} opacity={dim?.25:1} onMouseEnter={()=>setHover(n.id)} onMouseLeave={()=>setHover(null)} onClick={()=>focus(n.id)} onDoubleClick={()=>neighborhood(n.id)} style={{cursor:'pointer'}}><rect x="-103" y="-50" width="206" height="100" rx={isOrg?8:32} fill={on?'#263e50':'#16232f'} stroke={on?'#e2eff8':'#3c5265'} strokeWidth={on?2:1}/>{lines.map((line,i)=><text key={i} x="0" y={top+i*18} textAnchor="middle" fill="#e8eef3" fontFamily="Arial, sans-serif" fontSize="15" fontWeight={on?600:400}>{line}</text>)}{subtitle.map((line,i)=><text key={`sub-${i}`} x="0" y={top+lines.length*18+7+i*14} textAnchor="middle" fill="#b7c9d7" fontFamily="Arial, sans-serif" fontSize="12">{line}</text>)}</g>;})}
+     {points.map(n=>{const on=highlighted===n.id,dim=highlighted&&!connected.has(n.id),isOrg=profiles[n.id].kind!=='person';const lines=wrap(n.id),subtitle=wrap(profiles[n.id].subtitle,28),top=-(lines.length*18+subtitle.length*14+8)/2+13;return <g key={n.id} data-node={n.id} onPointerDown={e=>startNodeDrag(e,n)} transform={`translate(${n.x},${n.y})`} opacity={dim?.25:1} onMouseEnter={()=>setHover(n.id)} onMouseLeave={()=>setHover(null)} onClick={()=>{if(!suppressClick.current)focus(n.id);}} onDoubleClick={()=>{if(!suppressClick.current)neighborhood(n.id);}} style={{cursor:draggingNode===n.id?'grabbing':'grab'}}><rect x="-103" y="-50" width="206" height="100" rx={isOrg?8:32} fill={on?'#263e50':'#16232f'} stroke={on?'#e2eff8':'#3c5265'} strokeWidth={on?2:1}/>{lines.map((line,i)=><text key={i} x="0" y={top+i*18} textAnchor="middle" fill="#e8eef3" fontFamily="Arial, sans-serif" fontSize="15" fontWeight={on?600:400}>{line}</text>)}{subtitle.map((line,i)=><text key={`sub-${i}`} x="0" y={top+lines.length*18+7+i*14} textAnchor="middle" fill="#b7c9d7" fontFamily="Arial, sans-serif" fontSize="12">{line}</text>)}</g>;})}
     </svg>
     {!ids.length&&<div className="no-edges">No connections in this view with the selected types.</div>}
-    <div className="graph-caption"><span>{ids.length} nodes / {edges.length} connections</span><span>Drag to pan · select to inspect</span></div>
-    <div className="zoom-controls"><Button variant="outline" size="icon" aria-label="Zoom in" onClick={()=>setZoom(z=>Math.min(5,z*1.3))}><Plus/></Button><Button variant="outline" size="icon" aria-label="Zoom out" onClick={()=>setZoom(z=>Math.max(.5,z/1.3))}><Minus/></Button><Button variant="outline" size="icon" aria-label="Fit graph" onClick={fit}><Maximize/></Button></div>
+    <div className="graph-caption"><span>{ids.length} nodes / {edges.length} connections</span><span>Drag nodes to arrange · drag background to pan</span></div>
+    <div className="zoom-controls"><Button variant="outline" onClick={resetLayout} title="Restore this view’s original node positions and zoom"><RotateCcw/>Reset layout</Button><Button variant="outline" size="icon" aria-label="Zoom in" onClick={()=>setZoom(z=>Math.min(5,z*1.3))}><Plus/></Button><Button variant="outline" size="icon" aria-label="Zoom out" onClick={()=>setZoom(z=>Math.max(.5,z/1.3))}><Minus/></Button><Button variant="outline" size="icon" aria-label="Fit graph" onClick={fit}><Maximize/></Button></div>
     </div>
-    <div className="legend">{Object.entries(TYPE).filter(([t])=>raw.edges.some(e=>e.type===t)).map(([t,label])=><button key={t} aria-pressed={!excluded.includes(t)} onClick={()=>{setExcluded(x=>x.includes(t)?x.filter(v=>v!==t):[...x,t]);fit();}}><i style={{background:COLORS[t],opacity:excluded.includes(t)?.25:1}}/>{label}</button>)}<span className="legend-note">Dashed: proposal or open lead</span></div>
+    <div className="legend">{Object.entries(TYPE).filter(([t])=>raw.edges.some(e=>e.type===t)).map(([t,label])=><button key={t} aria-pressed={!excluded.includes(t)} onClick={()=>{setExcluded(x=>x.includes(t)?x.filter(v=>v!==t):[...x,t]);resetCamera();}}><i style={{background:COLORS[t],opacity:excluded.includes(t)?.25:1}}/>{label}</button>)}<span className="legend-note">Dashed: proposal or open lead</span></div>
    </section>
    <aside className="inspector" aria-live="polite">
     <div className="inspector-head"><span className="eyebrow">CONNECTION RECORD</span>{(selected||active)&&<Button size="icon" variant="ghost" aria-label="Clear selection" onClick={()=>{setActive(null);setSelected(null);}}><X/></Button>}</div>

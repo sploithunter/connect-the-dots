@@ -25,3 +25,7 @@ A node selection presents the authored profile plus its relationship records. So
 `npm run build` runs regression tests, validates the data and generated wiki, checks TypeScript, then creates the production bundle. GitHub Actions invokes the same command. Wiki Markdown is browsed in the repository; a link in the app's inspector footer opens its index.
 
 The earlier Sites-hosted app is a separate historical checkout. This repository and GitHub Pages are the current working product. Changes here do not automatically update that older site.
+
+## Manual graph arrangement
+
+Nodes use pointer capture for mouse/touch dragging. Positions are stored per view (and per neighborhood anchor) in page state. Captured inverse SVG transforms convert screen movement at the current zoom into node coordinates; graph bounds remain stable during dragging. Edge paths read the updated positions. Fit graph computes bounds from the current arrangement; SVG export includes manually moved nodes. Reset layout clears the current view's overrides and restores its default camera. Positions persist across view switches while the page remains open, and are cleared by reload.
