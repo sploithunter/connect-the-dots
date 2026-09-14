@@ -2,8 +2,32 @@
 
 [Wiki home](../index.md) · [Policy](policy.md) · [Evaluation](evaluation.md)
 
-[Jacob Coxon](../entities/jacob-coxon.md)'s account describes his resignation from Anthropic and earlier OpenAI pretraining work. [Evan Hubinger](../entities/evan-hubinger.md) responded publicly. [Joe Benton](../entities/joe-benton.md) said Coxon's resignation prompted his own post describing his departure and planned move to METR. These are dated participant accounts in the incident record. [X1](../sources/X1.md), [X2](../sources/X2.md), [X3](../sources/X3.md), [M5](../sources/M5.md).
+[Jacob Coxon](../entities/jacob-coxon.md) is the public entry point for this investigation: most contemporaneous coverage starts with his resignation, even though he is not a core funding or governance node. The sections below separate participant posts, the news-before-thread sequence, and named amplifiers. Do not read timing or shared funders as paid direction; that claim remains an open lead.
 
-ControlAI cited the resignation in its advocacy discussion. Posts by [Lachlan Phillips](../entities/lachlan-phillips.md), [Brian Roemmele](../entities/brian-roemmele.md) and [Sayer Ji](../entities/sayer-ji.md) connect the public debate with evaluator proposals, funding relationships and legislative claims. Retain the speaker and claim status when following these leads into underlying documents. [C3](../sources/C3.md), [X4](../sources/X4.md), [X6](../sources/X6.md), [X7](../sources/X7.md), [X5](../sources/X5.md).
+## Participant accounts
 
-Further work includes collecting original post identifiers and UTC timestamps, distinguishing the date of an event from the date of commentary, and finding original grant or scholarship records for associated leads. The dataset contains the prior timeline and lead records. Changes to their factual status should cite newly reviewed material and be explained in the log.
+[Jacob Coxon](../entities/jacob-coxon.md) posted on 8 September 2026 US time (2026-09-09T00:04:00Z) that he had resigned from Anthropic after pretraining work at OpenAI and Anthropic, writing as [@hilbertspaess](../sources/X1.md). Axios reports about four months at Anthropic, departure before the six-month vest, and remaining OpenAI equity. OpenAI’s GPT-4o contributor list names him. [X1](../sources/X1.md), [X9](../sources/X9.md), [O2](../sources/O2.md).
+
+[Evan Hubinger](../entities/evan-hubinger.md) responded publicly with a personal extinction estimate and later clarified the claim about current models. [Joe Benton](../entities/joe-benton.md) said Coxon’s resignation prompted his own departure post and planned move to METR. ControlAI cited the resignation in advocacy. These are dated participant accounts. [X2](../sources/X2.md), [X3](../sources/X3.md), [M5](../sources/M5.md), [C3](../sources/C3.md).
+
+TIME records Coxon saying he hoped to do work in the vein of the [AI Futures Project](../entities/ai-futures-project.md). That is a stated interest, not employment or funding. [X14](../sources/X14.md).
+
+What would close remaining gaps: a primary Anthropic employment-date record independent of interviews, and any original grant or scholarship documents named in the leads.
+
+## News timing
+
+The [Wall Street Journal](../entities/wall-street-journal.md) published an exclusive quoting Coxon. Recaps place that exclusive **before** the X thread. Pivot to AI and the OfficeChai recap of Parker Thayer give **about 18 minutes**, which, from X1 at `2026-09-09T00:04:00Z`, implies `2026-09-08T23:46:00Z`. Some readers remember a shorter gap on the order of **eight minutes** (`23:56 UTC`). The graph stores those publisher timestamps as sourced recap inferences; it does not hard-code either figure as independently confirmed.
+
+The live WSJ page did not yield a stable publisher timestamp in this ingest. [kingy.ai](../sources/X16.md) notes that the 18-minute figure was not independently reproduced from a stable public record. Wayback calendar links are attached to [X12](../sources/X12.md) and [X1](../sources/X1.md) so later work can recover dated copies. Advance contact with a newspaper is ordinary for a planned resignation and is not, by itself, covert coordination.
+
+What would close the gap: a dated WSJ capture or publisher timestamp, then a derived interval (`WSJ published N minutes before X1`) shown from those two datetimes rather than from a canned number.
+
+## Named amplifiers and funding adjacency
+
+OfficeChai’s recap of Thayer names the first three quote-posts within about fifteen minutes as [Nathan Calvin](../entities/nathan-calvin.md) ([Encode AI](../entities/encode-ai.md)), [Peter Wildeford](../entities/peter-wildeford.md) ([AI Policy Network](../entities/ai-policy-network.md)), and [Daniel Kokotajlo](../entities/daniel-kokotajlo.md) ([AI Futures Project](../entities/ai-futures-project.md)). Those people and organizations are now nodes. The quote-post edges are **reported**, because original status IDs were not captured. Kokotajlo’s founder identification is **documented** from TIME; Calvin’s and Wildeford’s affiliations remain reported from the recap. [X10](../sources/X10.md), [X14](../sources/X14.md).
+
+Encode AI and the AI Futures Project already appear on the Survival and Flourishing Fund’s 2025 recommendations with Tallinn as a participating funder. That adjacency is in the funding record. [S2](../sources/S2.md). AI Policy Network is kept distinct from [Encode Justice](../entities/encode-justice.md) and the [AI Policy Institute](../entities/ai-policy-institute.md). No SFF edge is added for AI Policy Network on this recap alone.
+
+Sampling frame used here: named first-wave quote-posts in the OfficeChai/Thayer recap, described as within about 15 minutes of X1. Quote versus repost was not distinguished. Later commentators ([Lachlan Phillips](../entities/lachlan-phillips.md), [Brian Roemmele](../entities/brian-roemmele.md), [Sayer Ji](../entities/sayer-ji.md)) are later discussion, not that first-wave frame. [X4](../sources/X4.md), [X6](../sources/X6.md), [X7](../sources/X7.md), [X5](../sources/X5.md).
+
+What would close the amplifier lead: original `https://x.com/.../status/` URLs with UTC times. What would close the covert-direction lead: payments, instructions, authenticated messages or campaign contracts. Timing and common funders are not sufficient. The incident view seeds now include Coxon, the newspaper exclusive, the named first-wave accounts and their named organizations.

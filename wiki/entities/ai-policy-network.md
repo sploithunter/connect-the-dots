@@ -1,0 +1,26 @@
+---
+title: "AI Policy Network"
+type: entity
+kind: organization
+updated: 2026-09-14
+---
+
+# AI Policy Network
+
+**Named Wildeford affiliation**
+
+An organization named in the OfficeChai recap of Parker Thayer’s timeline as Peter Wildeford’s affiliation among first-wave amplifiers of Coxon’s thread. It is recorded separately from Encode AI, Encode Justice and the AI Policy Institute until primary records establish any legal relationship. This ingest does not add a Survival and Flourishing Fund edge for this name.
+
+Profile sources: [X10](../sources/X10.md).
+
+## Dated relationship records
+
+- **2026-09 recap · reported · E139:** [Peter Wildeford](peter-wildeford.md) → Reported affiliation → [AI Policy Network](ai-policy-network.md). [X10](../sources/X10.md).
+
+## Related pages
+
+- [Peter Wildeford](peter-wildeford.md)
+
+[Entity index](../entities.md) · [Wiki home](../index.md)
+
+<!-- Generated from data/node-profiles.json and data/evidence.json. Edit those records, then run npm run wiki:build. -->

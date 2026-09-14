@@ -18,7 +18,7 @@ const profiles:Record<string,{kind:string,subtitle:string,summary:string,sources
 
 type Edge=typeof raw.edges[number];
 type Point={id:string,x:number,y:number};
-const sources=raw.sources as Record<string,{title:string,url:string,kind:string,note:string}>;
+const sources=raw.sources as Record<string,{title:string,url:string,kind:string,note:string,archiveUrl?:string}>;
 
 
 const short=(s:string)=>(network.displayLabels as Record<string,string>)[s]||raw.nodes.find(n=>n.id===s)?.label||s;
@@ -61,6 +61,7 @@ function SourceNotes({records,profileSources=[]}:{records:Edge[],profileSources?
     {profileSources.includes(id)&&<p className="source-profile-note">Cited in the node’s About section.</p>}<p className="source-summary-label">Referenced for</p>
     <ul>{supported.map(record=><li key={record.id}><strong>{record.source} → {record.target}</strong><span>{record.relation}</span><small>{record.date} · {record.evidence}</small></li>)}</ul>
     <a className="source-link" href={source.url} target="_blank" rel="noopener noreferrer">Read original source <ArrowUpRight size={16}/><span className="sr-only"> (opens in a new tab)</span></a>
+    {source.archiveUrl&&<a className="source-link" href={source.archiveUrl} target="_blank" rel="noopener noreferrer">Archived copy <ArrowUpRight size={16}/><span className="sr-only"> (opens in a new tab)</span></a>}
    </div>
   </details>;})}
  </section>;

@@ -41,7 +41,7 @@ Profile sources: [A1](../sources/A1.md), [A2](../sources/A2.md), [A3](../sources
 - **2026-08-04 · documented · E096:** [Tino Cuéllar](tino-cuellar.md) → Announced Chief Global Affairs Officer → [Anthropic](anthropic.md). [A5](../sources/A5.md).
 - **partnerships disclosed by September 2026 · documented · E101:** [Anthropic](anthropic.md) → Evaluation access / free tokens → [METR](metr.md). [M1](../sources/M1.md), [M2](../sources/M2.md).
 - **September 2026 · documented · E116:** [Anthropic](anthropic.md) → Proposes embedded evaluators such as → [METR](metr.md). [D1](../sources/D1.md).
-- **2026-09-08 US / 09 UTC · documented · E122:** [Jacob Coxon](jacob-coxon.md) → Former researcher; resigned → [Anthropic](anthropic.md). [X1](../sources/X1.md).
+- **2026-09-08 US / 09 UTC · documented · E122:** [Jacob Coxon](jacob-coxon.md) → Former researcher; resigned → [Anthropic](anthropic.md). [X1](../sources/X1.md), [X9](../sources/X9.md).
 - **current professional biography · documented · E134:** [Avital Balwit](avital-balwit.md) → Chief of staff to Dario Amodei → [Anthropic](anthropic.md). [F5](../sources/F5.md).
 
 ## Related pages

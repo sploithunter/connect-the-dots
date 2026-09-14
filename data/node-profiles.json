@@ -1,16 +1,17 @@
 {
   "AI Futures Project": {
     "kind": "organization",
-    "summary": "A research project appearing in the Survival and Flourishing Fund’s 2025 funding recommendations. Its entry provides a route for investigating Tallinn-linked support for AI futures research.",
+    "summary": "A research project appearing in the Survival and Flourishing Fund\u2019s 2025 funding recommendations, with Tallinn identified as a participating funder. TIME identifies Daniel Kokotajlo as its founder, and Coxon said he hoped to do work in that vein. The SFF recommendation, the founder identification and Coxon\u2019s stated interest are separate records.",
     "sources": [
-      "S2"
+      "S2",
+      "X14"
     ],
     "updated": "2026-09-14",
     "subtitle": "AI futures research"
   },
   "AI Policy Institute": {
     "kind": "organization",
-    "summary": "A policy organization listed in SFF’s 2025 recommendations with Tallinn identified as the participating funder. The record concerns a funding recommendation and its stated conditions.",
+    "summary": "A policy organization listed in SFF\u2019s 2025 recommendations with Tallinn identified as the participating funder. The record concerns a funding recommendation and its stated conditions.",
     "sources": [
       "S2"
     ],
@@ -19,7 +20,7 @@
   },
   "AI policy development": {
     "kind": "topic",
-    "summary": "A category for projects solicited through Coefficient Giving’s AI governance funding program. It represents a policy-development activity rather than one legal organization or bill.",
+    "summary": "A category for projects solicited through Coefficient Giving\u2019s AI governance funding program. It represents a policy-development activity rather than one legal organization or bill.",
     "sources": [
       "G9"
     ],
@@ -52,16 +53,16 @@
   },
   "Alameda Research": {
     "kind": "organization",
-    "summary": "The trading firm appearing here through reporting on early financing from Jaan Tallinn. Its financing history is a separate record from the later FTX / Alameda estate’s sale of Anthropic shares.",
+    "summary": "The trading firm appearing here through reporting on early financing from Jaan Tallinn. Its financing history is a separate record from the later FTX / Alameda estate\u2019s sale of Anthropic shares.",
     "sources": [
       "F4"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Trading firm · FTX network"
+    "subtitle": "Trading firm \u00b7 FTX network"
   },
   "Alex Sobel": {
     "kind": "person",
-    "summary": "The parliamentary sponsor associated with the UK Artificial Superintelligence Bill. His entry connects the parliamentary bill record to ControlAI’s account of drafting work.",
+    "summary": "The parliamentary sponsor associated with the UK Artificial Superintelligence Bill. His entry connects the parliamentary bill record to ControlAI\u2019s account of drafting work.",
     "sources": [
       "L3"
     ],
@@ -70,7 +71,7 @@
   },
   "Altimeter Capital": {
     "kind": "organization",
-    "summary": "An investment firm named as a co-lead in Anthropic’s Series H announcement. The financing record places it in the company’s later-round investor group.",
+    "summary": "An investment firm named as a co-lead in Anthropic\u2019s Series H announcement. The financing record places it in the company\u2019s later-round investor group.",
     "sources": [
       "A3"
     ],
@@ -79,17 +80,17 @@
   },
   "Amazon": {
     "kind": "organization",
-    "summary": "A technology company listed in METR’s disclosures concerning evaluation access and free model tokens. This profile concerns resources used in model evaluation.",
+    "summary": "A technology company listed in METR\u2019s disclosures concerning evaluation access and free model tokens. This profile concerns resources used in model evaluation.",
     "sources": [
       "M1",
       "M2"
     ],
     "updated": "2026-09-14",
-    "subtitle": "AI developer · METR access"
+    "subtitle": "AI developer \u00b7 METR access"
   },
   "Andrea Miotti": {
     "kind": "person",
-    "summary": "ControlAI’s founder and CEO, identified in its team materials. Reporting also describes his earlier employment at Conjecture, creating a personnel link between the two organizations.",
+    "summary": "ControlAI\u2019s founder and CEO, identified in its team materials. Reporting also describes his earlier employment at Conjecture, creating a personnel link between the two organizations.",
     "sources": [
       "C2",
       "C4"
@@ -99,7 +100,7 @@
   },
   "Andrej Karpathy": {
     "kind": "person",
-    "summary": "An AI researcher named among Conjecture’s investors in its founding announcement. The investigation separately records his public endorsement of Dario Amodei’s proposal for pacing frontier AI development.",
+    "summary": "An AI researcher named among Conjecture\u2019s investors in its founding announcement. The investigation separately records his public endorsement of Dario Amodei\u2019s proposal for pacing frontier AI development.",
     "sources": [
       "C1",
       "X8"
@@ -133,7 +134,7 @@
   },
   "Anthropic LTBT": {
     "kind": "organization",
-    "summary": "Anthropic’s Long-Term Benefit Trust, a governance body with special rights to elect company board members. Its historical trustee roster connects researchers and leaders from several institutions.",
+    "summary": "Anthropic\u2019s Long-Term Benefit Trust, a governance body with special rights to elect company board members. Its historical trustee roster connects researchers and leaders from several institutions.",
     "sources": [
       "A4",
       "A5"
@@ -143,7 +144,7 @@
   },
   "Arthur Breitman": {
     "kind": "person",
-    "summary": "An investor named in Conjecture’s founding announcement. His profile records participation in the company’s initial investor network.",
+    "summary": "An investor named in Conjecture\u2019s founding announcement. His profile records participation in the company\u2019s initial investor network.",
     "sources": [
       "C1"
     ],
@@ -152,7 +153,7 @@
   },
   "Audacious Project": {
     "kind": "organization",
-    "summary": "A philanthropic initiative acknowledged in METR’s funding update. It appears in the investigation as one of the evaluation organization’s supporters.",
+    "summary": "A philanthropic initiative acknowledged in METR\u2019s funding update. It appears in the investigation as one of the evaluation organization\u2019s supporters.",
     "sources": [
       "M2"
     ],
@@ -180,7 +181,7 @@
   },
   "Beth Barnes": {
     "kind": "person",
-    "summary": "METR’s founder and CEO, identified in its organization and spin-out materials. Her profile anchors the history of the evaluation effort that began as ARC Evals.",
+    "summary": "METR\u2019s founder and CEO, identified in its organization and spin-out materials. Her profile anchors the history of the evaluation effort that began as ARC Evals.",
     "sources": [
       "M1",
       "M3"
@@ -196,11 +197,11 @@
       "X7"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Commentator · METR critique"
+    "subtitle": "Commentator \u00b7 METR critique"
   },
   "CAIS": {
     "kind": "organization",
-    "summary": "The Center for AI Safety, appearing through philanthropic funding, Jaan Tallinn’s board role, and its launch of an advocacy affiliate. CAIS Action Fund has its own record for legislative advocacy.",
+    "summary": "The Center for AI Safety, appearing through philanthropic funding, Jaan Tallinn\u2019s board role, and its launch of an advocacy affiliate. CAIS Action Fund has its own record for legislative advocacy.",
     "sources": [
       "G2",
       "L5",
@@ -211,7 +212,7 @@
   },
   "CAIS Action Fund": {
     "kind": "organization",
-    "summary": "CAIS’s advocacy affiliate, listed as a co-sponsor of California SB 1047. Its record connects the institutional network to the bill’s published legislative analysis.",
+    "summary": "CAIS\u2019s advocacy affiliate, listed as a co-sponsor of California SB 1047. Its record connects the institutional network to the bill\u2019s published legislative analysis.",
     "sources": [
       "L4",
       "L5"
@@ -221,7 +222,7 @@
   },
   "CERR": {
     "kind": "organization",
-    "summary": "The Center for Emerging Risk Research, named as an investor in Anthropic’s Series A and Series B announcements. Its investment entries span both early financing rounds.",
+    "summary": "The Center for Emerging Risk Research, named as an investor in Anthropic\u2019s Series A and Series B announcements. Its investment entries span both early financing rounds.",
     "sources": [
       "A1",
       "A2"
@@ -231,7 +232,7 @@
   },
   "CNAS": {
     "kind": "organization",
-    "summary": "The Center for a New American Security, named in Coefficient Giving’s discussion of organizations it supports. Its inclusion here follows that funding disclosure.",
+    "summary": "The Center for a New American Security, named in Coefficient Giving\u2019s discussion of organizations it supports. Its inclusion here follows that funding disclosure.",
     "sources": [
       "G1"
     ],
@@ -249,7 +250,7 @@
   },
   "CSET": {
     "kind": "organization",
-    "summary": "The Center for Security and Emerging Technology, identified in Coefficient Giving’s funding discussion. Its record places it among research and policy recipients in the philanthropic branch.",
+    "summary": "The Center for Security and Emerging Technology, identified in Coefficient Giving\u2019s funding discussion. Its record places it among research and policy recipients in the philanthropic branch.",
     "sources": [
       "G1"
     ],
@@ -258,7 +259,7 @@
   },
   "California Frontier AI Working Group": {
     "kind": "organization",
-    "summary": "A California policy working group co-led by Tino Cuéllar. The profile connects his policy work with his subsequent Anthropic governance and executive appointments.",
+    "summary": "A California policy working group co-led by Tino Cu\u00e9llar. The profile connects his policy work with his subsequent Anthropic governance and executive appointments.",
     "sources": [
       "A5"
     ],
@@ -276,7 +277,7 @@
   },
   "Cari Tuna": {
     "kind": "person",
-    "summary": "A co-founder and donor of Good Ventures alongside Dustin Moskovitz. Good Ventures’ philanthropic partnership with Open Philanthropy provides the next step in this funding branch.",
+    "summary": "A co-founder and donor of Good Ventures alongside Dustin Moskovitz. Good Ventures\u2019 philanthropic partnership with Open Philanthropy provides the next step in this funding branch.",
     "sources": [
       "G4"
     ],
@@ -285,16 +286,16 @@
   },
   "Carnegie Endowment": {
     "kind": "organization",
-    "summary": "An institution formerly led by Tino Cuéllar. His Anthropic appointment announcement records that earlier presidency alongside his policy and governance work.",
+    "summary": "An institution formerly led by Tino Cu\u00e9llar. His Anthropic appointment announcement records that earlier presidency alongside his policy and governance work.",
     "sources": [
       "A5"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Former Cuéllar institution"
+    "subtitle": "Former Cu\u00e9llar institution"
   },
   "Caroline Ellison": {
     "kind": "person",
-    "summary": "An investor named in Anthropic’s April 2022 Series B announcement. That round was led by Sam Bankman-Fried.",
+    "summary": "An investor named in Anthropic\u2019s April 2022 Series B announcement. That round was led by Sam Bankman-Fried.",
     "sources": [
       "A2"
     ],
@@ -332,7 +333,7 @@
   },
   "Connor Leahy": {
     "kind": "person",
-    "summary": "A Conjecture co-founder identified in its launch announcement. ControlAI’s team page also identifies him as its US executive director.",
+    "summary": "A Conjecture co-founder identified in its launch announcement. ControlAI\u2019s team page also identifies him as its US executive director.",
     "sources": [
       "C1",
       "C2"
@@ -342,7 +343,7 @@
   },
   "ControlAI": {
     "kind": "organization",
-    "summary": "An AI policy advocacy organization led by Andrea Miotti. Its own account describes UK legislative drafting and consultation on the Sanders–Casar framework; the investigation also records its personnel, financial backing and public advocacy.",
+    "summary": "An AI policy advocacy organization led by Andrea Miotti. Its own account describes UK legislative drafting and consultation on the Sanders\u2013Casar framework; the investigation also records its personnel, financial backing and public advocacy.",
     "sources": [
       "C2",
       "C3",
@@ -355,7 +356,7 @@
   },
   "Daniel Gross": {
     "kind": "person",
-    "summary": "An investor named in Conjecture’s founding announcement. His inclusion follows the company’s published investor list.",
+    "summary": "An investor named in Conjecture\u2019s founding announcement. His inclusion follows the company\u2019s published investor list.",
     "sources": [
       "C1"
     ],
@@ -364,7 +365,7 @@
   },
   "Daniela Amodei": {
     "kind": "person",
-    "summary": "An Anthropic co-founder and president, and Dario Amodei’s sibling. The investigation also includes the publicly disclosed family relationship between her and Holden Karnofsky.",
+    "summary": "An Anthropic co-founder and president, and Dario Amodei\u2019s sibling. The investigation also includes the publicly disclosed family relationship between her and Holden Karnofsky.",
     "sources": [
       "A1",
       "G5"
@@ -374,7 +375,7 @@
   },
   "Dario Amodei": {
     "kind": "person",
-    "summary": "Anthropic’s co-founder and CEO, and Daniela Amodei’s sibling. His public proposal for pacing frontier AI development is part of the policy discussion traced by the graph.",
+    "summary": "Anthropic\u2019s co-founder and CEO, and Daniela Amodei\u2019s sibling. His public proposal for pacing frontier AI development is part of the policy discussion traced by the graph.",
     "sources": [
       "A1",
       "X8"
@@ -384,7 +385,7 @@
   },
   "Des Browne": {
     "kind": "person",
-    "summary": "An advisor listed on ControlAI’s team page. His entry records an advisory relationship within the policy-advocacy organization.",
+    "summary": "An advisor listed on ControlAI\u2019s team page. His entry records an advisory relationship within the policy-advocacy organization.",
     "sources": [
       "C2"
     ],
@@ -393,7 +394,7 @@
   },
   "Dragoneer": {
     "kind": "organization",
-    "summary": "An investment firm named as a co-lead in Anthropic’s Series H financing announcement. Its entry belongs to the later-round investor branch.",
+    "summary": "An investment firm named as a co-lead in Anthropic\u2019s Series H financing announcement. Its entry belongs to the later-round investor branch.",
     "sources": [
       "A3"
     ],
@@ -402,7 +403,7 @@
   },
   "Dustin Moskovitz": {
     "kind": "person",
-    "summary": "An investor in Anthropic’s Series A and a co-founder and donor of Good Ventures. Those records connect early AI-company financing with a major philanthropic partner of Open Philanthropy.",
+    "summary": "An investor in Anthropic\u2019s Series A and a co-founder and donor of Good Ventures. Those records connect early AI-company financing with a major philanthropic partner of Open Philanthropy.",
     "sources": [
       "A1",
       "G4"
@@ -439,7 +440,7 @@
   },
   "Encode AI": {
     "kind": "organization",
-    "summary": "An organization appearing in SFF’s 2025 recommendations with Tallinn identified as funder. The dataset separately retains the name Encode Justice where it appears in the SB 1047 source.",
+    "summary": "An organization appearing in SFF\u2019s 2025 recommendations with Tallinn identified as funder. The dataset separately retains the name Encode Justice where it appears in the SB 1047 source.",
     "sources": [
       "S2"
     ],
@@ -457,7 +458,7 @@
   },
   "Epoch AI": {
     "kind": "organization",
-    "summary": "A research organization named in Coefficient Giving’s discussion of supported organizations. Its entry follows the disclosed philanthropic relationship.",
+    "summary": "A research organization named in Coefficient Giving\u2019s discussion of supported organizations. Its entry follows the disclosed philanthropic relationship.",
     "sources": [
       "G1"
     ],
@@ -466,7 +467,7 @@
   },
   "Eric Schmidt": {
     "kind": "person",
-    "summary": "An investor named in Anthropic’s Series A announcement. This record concerns his participation in the company’s early financing.",
+    "summary": "An investor named in Anthropic\u2019s Series A announcement. This record concerns his participation in the company\u2019s early financing.",
     "sources": [
       "A1"
     ],
@@ -475,7 +476,7 @@
   },
   "Evan Hubinger": {
     "kind": "person",
-    "summary": "A researcher identified by Joe Benton as his manager on Anthropic’s safety team. His public response to Jacob Coxon is also included in the incident’s discussion record.",
+    "summary": "A researcher identified by Joe Benton as his manager on Anthropic\u2019s safety team. His public response to Jacob Coxon is also included in the incident\u2019s discussion record.",
     "sources": [
       "M5",
       "X2",
@@ -486,7 +487,7 @@
   },
   "FTX / Alameda estate": {
     "kind": "organization",
-    "summary": "The bankruptcy-estate grouping used for the documented sale of Anthropic shares. The cited filing records the estate’s realization of value from those holdings.",
+    "summary": "The bankruptcy-estate grouping used for the documented sale of Anthropic shares. The cited filing records the estate\u2019s realization of value from those holdings.",
     "sources": [
       "F2"
     ],
@@ -528,21 +529,21 @@
       "G4"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Moskovitz–Tuna philanthropy"
+    "subtitle": "Moskovitz\u2013Tuna philanthropy"
   },
   "Google DeepMind": {
     "kind": "organization",
-    "summary": "An AI developer named in METR’s disclosures concerning model evaluation access and free tokens. It appears in the laboratory-access branch of the evaluation network.",
+    "summary": "An AI developer named in METR\u2019s disclosures concerning model evaluation access and free tokens. It appears in the laboratory-access branch of the evaluation network.",
     "sources": [
       "M1",
       "M2"
     ],
     "updated": "2026-09-14",
-    "subtitle": "AI developer · METR access"
+    "subtitle": "AI developer \u00b7 METR access"
   },
   "GovAI": {
     "kind": "organization",
-    "summary": "An AI governance organization whose support is acknowledged in Open Philanthropy’s published review. Its profile follows the philanthropic funding record.",
+    "summary": "An AI governance organization whose support is acknowledged in Open Philanthropy\u2019s published review. Its profile follows the philanthropic funding record.",
     "sources": [
       "G3"
     ],
@@ -551,7 +552,7 @@
   },
   "Greenoaks": {
     "kind": "organization",
-    "summary": "An investment firm named as a co-lead in Anthropic’s Series H announcement. The graph records its participation in that financing event.",
+    "summary": "An investment firm named as a co-lead in Anthropic\u2019s Series H announcement. The graph records its participation in that financing event.",
     "sources": [
       "A3"
     ],
@@ -569,7 +570,7 @@
   },
   "Holden Karnofsky": {
     "kind": "person",
-    "summary": "A co-founder and former leader of Open Philanthropy who later joined Anthropic’s technical staff. The investigation also records his historical OpenAI board role and disclosed marriage to Daniela Amodei.",
+    "summary": "A co-founder and former leader of Open Philanthropy who later joined Anthropic\u2019s technical staff. The investigation also records his historical OpenAI board role and disclosed marriage to Daniela Amodei.",
     "sources": [
       "G11",
       "G5",
@@ -590,7 +591,7 @@
   },
   "IAPS": {
     "kind": "organization",
-    "summary": "An organization listed in SFF’s 2025 funding recommendations under Tallinn-funded recommendations. This profile records its place in that grantmaking network.",
+    "summary": "An organization listed in SFF\u2019s 2025 funding recommendations under Tallinn-funded recommendations. This profile records its place in that grantmaking network.",
     "sources": [
       "S2"
     ],
@@ -615,20 +616,20 @@
   },
   "Jacob Coxon": {
     "kind": "person",
-    "summary": "A former Anthropic researcher whose resignation and public account prompted the discussion investigated here. His account also describes earlier pretraining work at OpenAI; subsequent responses are recorded separately.",
+    "subtitle": "Former Anthropic pretraining researcher",
+    "summary": "Jacob Coxon is a former Anthropic pretraining researcher, not a safety-team lead, whose 8 September 2026 resignation is the public entry point for this investigation rather than a core funding node. He spent about four months at Anthropic after earlier OpenAI pretraining work, including a credit on OpenAI\u2019s GPT-4o contributor list, and told Axios he left before Anthropic\u2019s six-month equity vest while still holding OpenAI equity. Writing as @hilbertspaess, he posted that neither company was acting responsibly; a Wall Street Journal exclusive quoting him appeared before that thread, with recaps disagreeing on whether the gap was about eight or eighteen minutes. Later commentary naming first-wave amplifiers is recorded separately and is not part of this profile\u2019s factual claim.",
     "sources": [
-      "C3",
-      "M5",
       "X1",
-      "X2",
-      "X3"
+      "X9",
+      "X12",
+      "O2",
+      "X13"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "Former Anthropic researcher"
+    "updated": "2026-09-14"
   },
   "Jane Street individuals": {
     "kind": "group",
-    "summary": "A collective label for individuals at Jane Street acknowledged in METR’s funding update. The node preserves the disclosure’s description of the supporters as individuals.",
+    "summary": "A collective label for individuals at Jane Street acknowledged in METR\u2019s funding update. The node preserves the disclosure\u2019s description of the supporters as individuals.",
     "sources": [
       "M2"
     ],
@@ -637,7 +638,7 @@
   },
   "Jason Matheny": {
     "kind": "person",
-    "summary": "An Anthropic founding trustee whose appointment materials identified him as RAND’s CEO. This entry preserves the historical affiliation associated with that trust appointment.",
+    "summary": "An Anthropic founding trustee whose appointment materials identified him as RAND\u2019s CEO. This entry preserves the historical affiliation associated with that trust appointment.",
     "sources": [
       "A4"
     ],
@@ -646,7 +647,7 @@
   },
   "Jim McClave": {
     "kind": "person",
-    "summary": "An investor named in both Anthropic’s Series A and Series B announcements. His entries connect the participants in the company’s first two recorded financing rounds.",
+    "summary": "An investor named in both Anthropic\u2019s Series A and Series B announcements. His entries connect the participants in the company\u2019s first two recorded financing rounds.",
     "sources": [
       "A1",
       "A2"
@@ -656,7 +657,7 @@
   },
   "Joe Benton": {
     "kind": "person",
-    "summary": "A former Anthropic safety researcher who publicly described his departure and an upcoming move to METR. His account identifies Evan Hubinger as his manager and says Coxon’s resignation prompted his post.",
+    "summary": "A former Anthropic safety researcher who publicly described his departure and an upcoming move to METR. His account identifies Evan Hubinger as his manager and says Coxon\u2019s resignation prompted his post.",
     "sources": [
       "M5"
     ],
@@ -665,7 +666,7 @@
   },
   "John Collison": {
     "kind": "person",
-    "summary": "An investor named in Conjecture’s founding announcement. His entry records participation in the alignment company’s investor group.",
+    "summary": "An investor named in Conjecture\u2019s founding announcement. His entry records participation in the alignment company\u2019s investor group.",
     "sources": [
       "C1"
     ],
@@ -683,12 +684,12 @@
   },
   "Lachlan Phillips": {
     "kind": "person",
-    "summary": "A public commentator whose post criticized the evaluator proposal involving METR. His entry belongs to the incident’s public-discussion branch.",
+    "summary": "A public commentator whose post criticized the evaluator proposal involving METR. His entry belongs to the incident\u2019s public-discussion branch.",
     "sources": [
       "X4"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Commentator · evaluator critique"
+    "subtitle": "Commentator \u00b7 evaluator critique"
   },
   "Leopold Aschenbrenner": {
     "kind": "person",
@@ -701,7 +702,7 @@
   },
   "Longview Philanthropy": {
     "kind": "organization",
-    "summary": "A philanthropic organization acknowledged as a supporter in METR’s funding update. It appears in the evaluation organization’s funding network.",
+    "summary": "A philanthropic organization acknowledged as a supporter in METR\u2019s funding update. It appears in the evaluation organization\u2019s funding network.",
     "sources": [
       "M2"
     ],
@@ -710,7 +711,7 @@
   },
   "Lord Clement-Jones": {
     "kind": "person",
-    "summary": "The parliamentarian identified in ControlAI’s account as introducing the UK AI kill-switch amendment. His role connects the organization’s drafting account to parliamentary activity.",
+    "summary": "The parliamentarian identified in ControlAI\u2019s account as introducing the UK AI kill-switch amendment. His role connects the organization\u2019s drafting account to parliamentary activity.",
     "sources": [
       "C3"
     ],
@@ -719,7 +720,7 @@
   },
   "Luke Muehlhauser": {
     "kind": "person",
-    "summary": "An AI governance grantmaker at Open Philanthropy and a former Anthropic board member. His own account and reporting on Tallinn’s advocacy provide the personnel and governance records used here.",
+    "summary": "An AI governance grantmaker at Open Philanthropy and a former Anthropic board member. His own account and reporting on Tallinn\u2019s advocacy provide the personnel and governance records used here.",
     "sources": [
       "A7",
       "F3",
@@ -730,7 +731,7 @@
   },
   "MATS": {
     "kind": "organization",
-    "summary": "A program named in Coefficient Giving’s discussion of supported AI safety organizations. Its profile records that philanthropic support relationship.",
+    "summary": "A program named in Coefficient Giving\u2019s discussion of supported AI safety organizations. Its profile records that philanthropic support relationship.",
     "sources": [
       "G1"
     ],
@@ -757,7 +758,7 @@
   },
   "MIRI": {
     "kind": "organization",
-    "summary": "A research organization appearing in SFF’s 2025 funding recommendations with Tallinn identified as participating funder. The entry concerns the recommendation recorded in that funding round.",
+    "summary": "A research organization appearing in SFF\u2019s 2025 funding recommendations with Tallinn identified as participating funder. The entry concerns the recommendation recorded in that funding round.",
     "sources": [
       "S2"
     ],
@@ -766,17 +767,17 @@
   },
   "Meta": {
     "kind": "organization",
-    "summary": "An AI developer listed in METR’s disclosures concerning evaluation access and free tokens. Its entry records resources made available for model evaluations.",
+    "summary": "An AI developer listed in METR\u2019s disclosures concerning evaluation access and free tokens. Its entry records resources made available for model evaluations.",
     "sources": [
       "M1",
       "M2"
     ],
     "updated": "2026-09-14",
-    "subtitle": "AI developer · METR access"
+    "subtitle": "AI developer \u00b7 METR access"
   },
   "NIST / CAISI": {
     "kind": "organization",
-    "summary": "The institutional grouping used here for US government AI standards and evaluation work. The records connect Paul Christiano’s technical-advisory role and METR’s consortium participation.",
+    "summary": "The institutional grouping used here for US government AI standards and evaluation work. The records connect Paul Christiano\u2019s technical-advisory role and METR\u2019s consortium participation.",
     "sources": [
       "M1",
       "O1"
@@ -786,7 +787,7 @@
   },
   "Nat Friedman": {
     "kind": "person",
-    "summary": "An investor named in Conjecture’s founding announcement. His profile follows the company’s published list of early backers.",
+    "summary": "An investor named in Conjecture\u2019s founding announcement. His profile follows the company\u2019s published list of early backers.",
     "sources": [
       "C1"
     ],
@@ -804,7 +805,7 @@
   },
   "Nishad Singh": {
     "kind": "person",
-    "summary": "An investor named in Anthropic’s Series B announcement. His entry links him to the April 2022 financing led by Sam Bankman-Fried.",
+    "summary": "An investor named in Anthropic\u2019s Series B announcement. His entry links him to the April 2022 financing led by Sam Bankman-Fried.",
     "sources": [
       "A2"
     ],
@@ -813,7 +814,7 @@
   },
   "OpenAI": {
     "kind": "organization",
-    "summary": "An AI developer connected here through alignment research, historical and subsequent governance roles, philanthropic support and METR evaluation access. Coxon’s account also records earlier employment there.",
+    "summary": "An AI developer connected here through alignment research, historical and subsequent governance roles, philanthropic support and METR evaluation access. Coxon\u2019s account also records earlier employment there.",
     "sources": [
       "G10",
       "G11",
@@ -827,7 +828,7 @@
   },
   "Packard Foundation": {
     "kind": "organization",
-    "summary": "A foundation acknowledged in METR’s funding update. Its profile records support within the evaluator’s philanthropic network.",
+    "summary": "A foundation acknowledged in METR\u2019s funding update. Its profile records support within the evaluator\u2019s philanthropic network.",
     "sources": [
       "M2"
     ],
@@ -836,7 +837,7 @@
   },
   "Patrick Collison": {
     "kind": "person",
-    "summary": "An investor named in Conjecture’s launch announcement. His entry records participation in the alignment company’s investor group.",
+    "summary": "An investor named in Conjecture\u2019s launch announcement. His entry records participation in the alignment company\u2019s investor group.",
     "sources": [
       "C1"
     ],
@@ -845,7 +846,7 @@
   },
   "Paul Christiano": {
     "kind": "person",
-    "summary": "An alignment researcher and ARC founder with historical roles at OpenAI and Anthropic’s trust. The investigation also records government advisory work, an OpenAI Foundation board appointment and his marriage to Ajeya Cotra.",
+    "summary": "An alignment researcher and ARC founder with historical roles at OpenAI and Anthropic\u2019s trust. The investigation also records government advisory work, an OpenAI Foundation board appointment and his marriage to Ajeya Cotra.",
     "sources": [
       "A4",
       "M3",
@@ -857,7 +858,7 @@
   },
   "Pew Charitable Trusts": {
     "kind": "organization",
-    "summary": "A philanthropic institution acknowledged in METR’s funding update. It appears as a supporter in the evaluation organization’s disclosed funding network.",
+    "summary": "A philanthropic institution acknowledged in METR\u2019s funding update. It appears as a supporter in the evaluation organization\u2019s disclosed funding network.",
     "sources": [
       "M2"
     ],
@@ -875,7 +876,7 @@
   },
   "RAND": {
     "kind": "organization",
-    "summary": "A research institution named in Coefficient Giving’s support discussion. Anthropic’s trust announcement also identifies Jason Matheny as RAND’s CEO at his trustee appointment.",
+    "summary": "A research institution named in Coefficient Giving\u2019s support discussion. Anthropic\u2019s trust announcement also identifies Jason Matheny as RAND\u2019s CEO at his trustee appointment.",
     "sources": [
       "A4",
       "G1"
@@ -885,7 +886,7 @@
   },
   "Redwood Research": {
     "kind": "organization",
-    "summary": "An AI research organization named in Coefficient Giving’s funding discussion. Its inclusion follows the disclosed grantmaking relationship.",
+    "summary": "An AI research organization named in Coefficient Giving\u2019s funding discussion. Its inclusion follows the disclosed grantmaking relationship.",
     "sources": [
       "G1"
     ],
@@ -904,7 +905,7 @@
   },
   "Sam Bankman-Fried": {
     "kind": "person",
-    "summary": "The lead investor named in Anthropic’s Series B announcement and an investor named in Conjecture’s launch announcement. These two financing records connect him to distinct AI-company branches.",
+    "summary": "The lead investor named in Anthropic\u2019s Series B announcement and an investor named in Conjecture\u2019s launch announcement. These two financing records connect him to distinct AI-company branches.",
     "sources": [
       "A2",
       "C1"
@@ -919,11 +920,11 @@
       "X5"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Commentator · policy critique"
+    "subtitle": "Commentator \u00b7 policy critique"
   },
   "Schmidt Sciences": {
     "kind": "organization",
-    "summary": "An organization acknowledged as a supporter in METR’s funding update. Its profile follows the evaluation organization’s donor disclosure.",
+    "summary": "An organization acknowledged as a supporter in METR\u2019s funding update. Its profile follows the evaluation organization\u2019s donor disclosure.",
     "sources": [
       "M2"
     ],
@@ -932,7 +933,7 @@
   },
   "Sequoia Capital": {
     "kind": "organization",
-    "summary": "An investment firm named as a co-lead in Anthropic’s Series H announcement. The record connects it to the later financing round.",
+    "summary": "An investment firm named as a co-lead in Anthropic\u2019s Series H announcement. The record connects it to the later financing round.",
     "sources": [
       "A3"
     ],
@@ -941,7 +942,7 @@
   },
   "Sid Black": {
     "kind": "person",
-    "summary": "A co-founder named in Conjecture’s launch announcement. His profile records his founding role in the alignment research company.",
+    "summary": "A co-founder named in Conjecture\u2019s launch announcement. His profile records his founding role in the alignment research company.",
     "sources": [
       "C1"
     ],
@@ -950,7 +951,7 @@
   },
   "Sijbrandij Foundation": {
     "kind": "organization",
-    "summary": "A foundation acknowledged in METR’s funding update. It appears as a supporter in the disclosed philanthropic network.",
+    "summary": "A foundation acknowledged in METR\u2019s funding update. It appears as a supporter in the disclosed philanthropic network.",
     "sources": [
       "M2"
     ],
@@ -959,16 +960,16 @@
   },
   "Tarbell Center for AI Journalism": {
     "kind": "organization",
-    "summary": "A journalism organization appearing in SFF’s 2025 funding recommendations with Tallinn identified as funder. Its entry connects the funding network to AI journalism.",
+    "summary": "A journalism organization appearing in SFF\u2019s 2025 funding recommendations with Tallinn identified as funder. Its entry connects the funding network to AI journalism.",
     "sources": [
       "S2"
     ],
     "updated": "2026-09-14",
     "subtitle": "AI journalism organization"
   },
-  "Tino Cuéllar": {
+  "Tino Cu\u00e9llar": {
     "kind": "person",
-    "summary": "A former Carnegie Endowment president and co-leader of California’s Frontier AI Working Group. Anthropic’s announcement describes his transition from its trust to an announced global-affairs executive role.",
+    "summary": "A former Carnegie Endowment president and co-leader of California\u2019s Frontier AI Working Group. Anthropic\u2019s announcement describes his transition from its trust to an announced global-affairs executive role.",
     "sources": [
       "A5"
     ],
@@ -977,7 +978,7 @@
   },
   "UK AI Security Institute": {
     "kind": "organization",
-    "summary": "The UK government institution with which METR reports a partnership. The profile records the evaluator’s relationship with a public-sector AI institution.",
+    "summary": "The UK government institution with which METR reports a partnership. The profile records the evaluator\u2019s relationship with a public-sector AI institution.",
     "sources": [
       "M1"
     ],
@@ -995,7 +996,7 @@
   },
   "UK ASI Bill": {
     "kind": "policy",
-    "summary": "The UK Artificial Superintelligence Bill, linked to Alex Sobel’s parliamentary sponsorship and ControlAI’s drafting account. Its sources include the official parliamentary bill record.",
+    "summary": "The UK Artificial Superintelligence Bill, linked to Alex Sobel\u2019s parliamentary sponsorship and ControlAI\u2019s drafting account. Its sources include the official parliamentary bill record.",
     "sources": [
       "C3",
       "C5",
@@ -1012,7 +1013,7 @@
       "L1"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Sanders–Casar proposal"
+    "subtitle": "Sanders\u2013Casar proposal"
   },
   "US policy institutions": {
     "kind": "group",
@@ -1041,5 +1042,53 @@
     ],
     "updated": "2026-09-14",
     "subtitle": "Former Anthropic trustee"
+  },
+  "Wall Street Journal": {
+    "kind": "organization",
+    "subtitle": "Resignation exclusive",
+    "summary": "The Wall Street Journal published an exclusive interview quoting Jacob Coxon on his Anthropic resignation. Recaps place that exclusive minutes before his X thread; this record stores the sequence and the unresolved eight-versus-eighteen-minute disagreement rather than treating ordinary advance press contact as covert coordination.",
+    "sources": [
+      "X12",
+      "X13",
+      "X16"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Nathan Calvin": {
+    "kind": "person",
+    "subtitle": "Named first-wave amplifier",
+    "summary": "A recap of Parker Thayer\u2019s timeline names Nathan Calvin of Encode AI among the first accounts to quote-post Jacob Coxon\u2019s resignation thread within about fifteen minutes. This profile records that reported identification. Original post IDs were not captured in this ingest, so the amplification edge remains reported rather than documented.",
+    "sources": [
+      "X10"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Peter Wildeford": {
+    "kind": "person",
+    "subtitle": "Named first-wave amplifier",
+    "summary": "A recap of Parker Thayer\u2019s timeline names Peter Wildeford of the AI Policy Network among the first accounts to quote-post Jacob Coxon\u2019s resignation thread within about fifteen minutes. Original post IDs were not captured here. The affiliation and amplification records stay reported until those posts are in the source registry.",
+    "sources": [
+      "X10"
+    ],
+    "updated": "2026-09-14"
+  },
+  "AI Policy Network": {
+    "kind": "organization",
+    "subtitle": "Named Wildeford affiliation",
+    "summary": "An organization named in the OfficeChai recap of Parker Thayer\u2019s timeline as Peter Wildeford\u2019s affiliation among first-wave amplifiers of Coxon\u2019s thread. It is recorded separately from Encode AI, Encode Justice and the AI Policy Institute until primary records establish any legal relationship. This ingest does not add a Survival and Flourishing Fund edge for this name.",
+    "sources": [
+      "X10"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Daniel Kokotajlo": {
+    "kind": "person",
+    "subtitle": "AI Futures Project",
+    "summary": "Daniel Kokotajlo is identified in Coxon\u2019s TIME interview as founder of the AI Futures Project, and in later recaps as a first-wave quote-poster of the resignation thread. The project affiliation is documented from that interview. The quote-post itself remains reported until an original status ID is captured. Named amplification is not treated as proof of paid coordination.",
+    "sources": [
+      "X14",
+      "X10"
+    ],
+    "updated": "2026-09-14"
   }
 }

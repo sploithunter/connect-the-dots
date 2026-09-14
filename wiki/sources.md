@@ -1,6 +1,6 @@
 # Source index
 
-59 source records with usage notes and backlinks.
+65 source records with usage notes and backlinks.
 
 - [A1: Anthropic: $124M Series A, May 2021](sources/A1.md) — primary; recorded access 2026-09-14.
 - [A2: Anthropic: $580M Series B, April 2022](sources/A2.md) — primary; recorded access 2026-09-14.
@@ -61,5 +61,11 @@
 - [G11: OpenAI: supporters and 2018 board roster](sources/G11.md) — primary; recorded access 2026-09-14.
 - [M7: Ajeya Cotra: career account](sources/M7.md) — primary; recorded access 2026-09-14.
 - [F5: Avital Balwit: personal professional biography](sources/F5.md) — primary; recorded access 2026-09-14.
+- [X12: WSJ exclusive: Anthropic researcher quits over out-of-control AI fears](sources/X12.md) — original reporting; recorded access 2026-09-14.
+- [X13: Pivot to AI: Jacob Coxon media-campaign recap](sources/X13.md) — commentary / allegation; recorded access 2026-09-14.
+- [X14: TIME: Coxon interview](sources/X14.md) — original reporting; recorded access 2026-09-14.
+- [X15: WIRED: Coxon interview and Anthropic statement](sources/X15.md) — original reporting; recorded access 2026-09-14.
+- [X16: kingy.ai evidence audit of Coxon-launch claims](sources/X16.md) — secondary analysis; recorded access 2026-09-14.
+- [O2: OpenAI: GPT-4o contributions](sources/O2.md) — primary; recorded access 2026-09-14.
 
 [Wiki home](index.md)

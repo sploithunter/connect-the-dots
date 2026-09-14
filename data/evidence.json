@@ -8,16 +8,16 @@
       "label": "AI Futures Project"
     },
     {
-      "id": "AI Policy Institute",
-      "label": "AI Policy Institute"
-    },
-    {
       "id": "AI policy development",
       "label": "AI policy development"
     },
     {
-      "id": "ARC",
-      "label": "ARC"
+      "id": "AI Policy Institute",
+      "label": "AI Policy Institute"
+    },
+    {
+      "id": "AI Policy Network",
+      "label": "AI Policy Network"
     },
     {
       "id": "Ajeya Cotra",
@@ -56,6 +56,10 @@
       "label": "Anthropic LTBT"
     },
     {
+      "id": "ARC",
+      "label": "ARC"
+    },
+    {
       "id": "Arthur Breitman",
       "label": "Arthur Breitman"
     },
@@ -88,22 +92,6 @@
       "label": "CAIS Action Fund"
     },
     {
-      "id": "CERR",
-      "label": "CERR"
-    },
-    {
-      "id": "CNAS",
-      "label": "CNAS"
-    },
-    {
-      "id": "CSER",
-      "label": "CSER"
-    },
-    {
-      "id": "CSET",
-      "label": "CSET"
-    },
-    {
       "id": "California Frontier AI Working Group",
       "label": "California Frontier AI Working Group"
     },
@@ -124,6 +112,14 @@
       "label": "Caroline Ellison"
     },
     {
+      "id": "CERR",
+      "label": "CERR"
+    },
+    {
+      "id": "CNAS",
+      "label": "CNAS"
+    },
+    {
       "id": "Coefficient Giving / Open Philanthropy",
       "label": "Coefficient Giving / Open Philanthropy"
     },
@@ -140,8 +136,20 @@
       "label": "ControlAI"
     },
     {
+      "id": "CSER",
+      "label": "CSER"
+    },
+    {
+      "id": "CSET",
+      "label": "CSET"
+    },
+    {
       "id": "Daniel Gross",
       "label": "Daniel Gross"
+    },
+    {
+      "id": "Daniel Kokotajlo",
+      "label": "Daniel Kokotajlo"
     },
     {
       "id": "Daniela Amodei",
@@ -162,10 +170,6 @@
     {
       "id": "Dustin Moskovitz",
       "label": "Dustin Moskovitz"
-    },
-    {
-      "id": "EU AI Office",
-      "label": "EU AI Office"
     },
     {
       "id": "Economic Security Project Action",
@@ -190,6 +194,10 @@
     {
       "id": "Eric Schmidt",
       "label": "Eric Schmidt"
+    },
+    {
+      "id": "EU AI Office",
+      "label": "EU AI Office"
     },
     {
       "id": "Evan Hubinger",
@@ -300,6 +308,10 @@
       "label": "MATS"
     },
     {
+      "id": "Meta",
+      "label": "Meta"
+    },
+    {
       "id": "METR",
       "label": "METR"
     },
@@ -308,16 +320,12 @@
       "label": "MIRI"
     },
     {
-      "id": "Meta",
-      "label": "Meta"
-    },
-    {
-      "id": "NIST / CAISI",
-      "label": "NIST / CAISI"
-    },
-    {
       "id": "Nat Friedman",
       "label": "Nat Friedman"
+    },
+    {
+      "id": "Nathan Calvin",
+      "label": "Nathan Calvin"
     },
     {
       "id": "Nick Beckstead",
@@ -326,6 +334,10 @@
     {
       "id": "Nishad Singh",
       "label": "Nishad Singh"
+    },
+    {
+      "id": "NIST / CAISI",
+      "label": "NIST / CAISI"
     },
     {
       "id": "OpenAI",
@@ -344,6 +356,10 @@
       "label": "Paul Christiano"
     },
     {
+      "id": "Peter Wildeford",
+      "label": "Peter Wildeford"
+    },
+    {
       "id": "Pew Charitable Trusts",
       "label": "Pew Charitable Trusts"
     },
@@ -358,10 +374,6 @@
     {
       "id": "Redwood Research",
       "label": "Redwood Research"
-    },
-    {
-      "id": "SFF",
-      "label": "SFF"
     },
     {
       "id": "Sam Bankman-Fried",
@@ -380,6 +392,10 @@
       "label": "Sequoia Capital"
     },
     {
+      "id": "SFF",
+      "label": "SFF"
+    },
+    {
       "id": "Sid Black",
       "label": "Sid Black"
     },
@@ -392,16 +408,16 @@
       "label": "Tarbell Center for AI Journalism"
     },
     {
-      "id": "Tino Cuéllar",
-      "label": "Tino Cuéllar"
-    },
-    {
-      "id": "UK AI Security Institute",
-      "label": "UK AI Security Institute"
+      "id": "Tino Cu\u00e9llar",
+      "label": "Tino Cu\u00e9llar"
     },
     {
       "id": "UK AI kill-switch amendment",
       "label": "UK AI kill-switch amendment"
+    },
+    {
+      "id": "UK AI Security Institute",
+      "label": "UK AI Security Institute"
     },
     {
       "id": "UK ASI Bill",
@@ -414,6 +430,10 @@
     {
       "id": "US policy institutions",
       "label": "US policy institutions"
+    },
+    {
+      "id": "Wall Street Journal",
+      "label": "Wall Street Journal"
     },
     {
       "id": "Will MacAskill",
@@ -669,7 +689,7 @@
       "target": "Anthropic",
       "relation": "Co-founder; CEO",
       "type": "employment",
-      "date": "2021–",
+      "date": "2021\u2013",
       "evidence": "documented",
       "sources": [
         "A1"
@@ -683,7 +703,7 @@
       "target": "Anthropic",
       "relation": "Co-founder; president",
       "type": "employment",
-      "date": "2021–",
+      "date": "2021\u2013",
       "evidence": "documented",
       "sources": [
         "A1"
@@ -965,7 +985,7 @@
       "target": "SFF",
       "relation": "Donor / participating funder",
       "type": "funding",
-      "date": "2019–2025 documented",
+      "date": "2019\u20132025 documented",
       "evidence": "documented",
       "sources": [
         "S1",
@@ -1532,12 +1552,12 @@
       "target": "AI policy development",
       "relation": "Solicits AI governance projects",
       "type": "legislation",
-      "date": "2025–2026 program",
+      "date": "2025\u20132026 program",
       "evidence": "documented",
       "sources": [
         "G9"
       ],
-      "note": "Funding strategy; not proof of any particular bill’s authorship.",
+      "note": "Funding strategy; not proof of any particular bill\u2019s authorship.",
       "amount": null
     },
     {
@@ -1546,7 +1566,7 @@
       "target": "OpenAI",
       "relation": "Led alignment research",
       "type": "employment",
-      "date": "2017–2021",
+      "date": "2017\u20132021",
       "evidence": "documented",
       "sources": [
         "O1"
@@ -1575,7 +1595,7 @@
       "target": "METR",
       "relation": "Incubated ARC Evals; spun out",
       "type": "governance",
-      "date": "2022–2023",
+      "date": "2022\u20132023",
       "evidence": "documented",
       "sources": [
         "M3",
@@ -1590,7 +1610,7 @@
       "target": "METR",
       "relation": "Founder and CEO",
       "type": "employment",
-      "date": "2022–",
+      "date": "2022\u2013",
       "evidence": "documented",
       "sources": [
         "M3",
@@ -1689,7 +1709,7 @@
       "target": "Anthropic",
       "relation": "Special board-election rights",
       "type": "governance",
-      "date": "2023–",
+      "date": "2023\u2013",
       "evidence": "documented",
       "sources": [
         "A4"
@@ -1727,7 +1747,7 @@
     },
     {
       "id": "E093",
-      "source": "Tino Cuéllar",
+      "source": "Tino Cu\u00e9llar",
       "target": "Carnegie Endowment",
       "relation": "Former president",
       "type": "employment",
@@ -1741,7 +1761,7 @@
     },
     {
       "id": "E094",
-      "source": "Tino Cuéllar",
+      "source": "Tino Cu\u00e9llar",
       "target": "California Frontier AI Working Group",
       "relation": "Co-led",
       "type": "legislation",
@@ -1755,7 +1775,7 @@
     },
     {
       "id": "E095",
-      "source": "Tino Cuéllar",
+      "source": "Tino Cu\u00e9llar",
       "target": "Anthropic LTBT",
       "relation": "Former trustee",
       "type": "governance",
@@ -1769,7 +1789,7 @@
     },
     {
       "id": "E096",
-      "source": "Tino Cuéllar",
+      "source": "Tino Cu\u00e9llar",
       "target": "Anthropic",
       "relation": "Announced Chief Global Affairs Officer",
       "type": "employment",
@@ -2145,9 +2165,10 @@
       "date": "2026-09-08 US / 09 UTC",
       "evidence": "documented",
       "sources": [
-        "X1"
+        "X1",
+        "X9"
       ],
-      "note": "",
+      "note": "Axios interview: about four months at Anthropic, left before the six-month vest, still held OpenAI equity. Public resignation is not itself evidence of paid direction.",
       "amount": null
     },
     {
@@ -2159,9 +2180,10 @@
       "date": "before Anthropic",
       "evidence": "documented",
       "sources": [
-        "X1"
+        "X1",
+        "O2"
       ],
-      "note": "",
+      "note": "Named on OpenAI\u2019s GPT-4o contributor list. Distinct from later Anthropic employment.",
       "amount": null
     },
     {
@@ -2323,6 +2345,119 @@
       ],
       "note": "",
       "amount": null
+    },
+    {
+      "note": "The exclusive exists. Pivot to AI and OfficeChai recaps place publication about 18 minutes before X1 at 2026-09-09T00:04:00Z, which would be 2026-09-08T23:46:00Z. An eight-minute gap would be 23:56 UTC. Live WSJ HTML did not yield an independent publisher timestamp in this ingest; kingy.ai notes the 18-minute figure was not independently reproduced. Advance newspaper contact is not evidence of paid coordination.",
+      "amount": null,
+      "id": "E135",
+      "source": "Wall Street Journal",
+      "target": "Jacob Coxon",
+      "relation": "Quoted resignation exclusive before the X thread",
+      "type": "amplification",
+      "date": "2026-09-08",
+      "evidence": "documented",
+      "sources": [
+        "X12",
+        "X13"
+      ]
+    },
+    {
+      "note": "Recap places this among the first three quote-posts within about 15 minutes of X1. Status ID and UTC timestamp were not captured. Public amplification is not evidence of advance planning.",
+      "amount": null,
+      "id": "E136",
+      "source": "Nathan Calvin",
+      "target": "Jacob Coxon",
+      "relation": "Reported quote-post of the resignation thread",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "reported",
+      "sources": [
+        "X10"
+      ]
+    },
+    {
+      "note": "Named as \u201cNathan Calvin of Encode AI\u201d in the OfficeChai recap. Encode AI remains a separate legal name from Encode Justice.",
+      "amount": null,
+      "id": "E137",
+      "source": "Nathan Calvin",
+      "target": "Encode AI",
+      "relation": "Reported affiliation",
+      "type": "employment",
+      "date": "2026-09 recap",
+      "evidence": "reported",
+      "sources": [
+        "X10"
+      ]
+    },
+    {
+      "note": "Recap places this among the first three quote-posts within about 15 minutes of X1. Status ID and UTC timestamp were not captured. Public amplification is not evidence of advance planning.",
+      "amount": null,
+      "id": "E138",
+      "source": "Peter Wildeford",
+      "target": "Jacob Coxon",
+      "relation": "Reported quote-post of the resignation thread",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "reported",
+      "sources": [
+        "X10"
+      ]
+    },
+    {
+      "note": "Named as \u201cPeter Wildeford of the AI Policy Network\u201d in the OfficeChai recap. Distinct from the in-graph AI Policy Institute until sources map the names.",
+      "amount": null,
+      "id": "E139",
+      "source": "Peter Wildeford",
+      "target": "AI Policy Network",
+      "relation": "Reported affiliation",
+      "type": "employment",
+      "date": "2026-09 recap",
+      "evidence": "reported",
+      "sources": [
+        "X10"
+      ]
+    },
+    {
+      "note": "Recap places this among the first three quote-posts within about 15 minutes of X1. Status ID and UTC timestamp were not captured. Public amplification is not evidence of advance planning.",
+      "amount": null,
+      "id": "E140",
+      "source": "Daniel Kokotajlo",
+      "target": "Jacob Coxon",
+      "relation": "Reported quote-post of the resignation thread",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "reported",
+      "sources": [
+        "X10"
+      ]
+    },
+    {
+      "note": "TIME describes the AI Futures Project as started by Daniel Kokotajlo. Distinct from the reported quote-post edge.",
+      "amount": null,
+      "id": "E141",
+      "source": "Daniel Kokotajlo",
+      "target": "AI Futures Project",
+      "relation": "Identified as founder",
+      "type": "employment",
+      "date": "2026-09-09 TIME interview",
+      "evidence": "documented",
+      "sources": [
+        "X14"
+      ]
+    },
+    {
+      "id": "E142",
+      "source": "Jacob Coxon",
+      "target": "AI Futures Project",
+      "relation": "Said he hoped to do work in that vein",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "X14"
+      ],
+      "note": "TIME interview. A stated research interest is not an employment or funding edge, and is not evidence that the launch was directed.",
+      "amount": null
     }
   ],
   "events": [
@@ -2476,7 +2611,7 @@
     {
       "date": "2026-07-21",
       "lane": "Policy funding",
-      "title": "Anthropic’s announced Public First Action support reaches $40M",
+      "title": "Anthropic\u2019s announced Public First Action support reaches $40M",
       "sources": [
         "A6"
       ],
@@ -2485,7 +2620,7 @@
     {
       "date": "2026-08-04",
       "lane": "Personnel",
-      "title": "Cuéllar announced as Anthropic global affairs chief; leaves trust",
+      "title": "Cu\u00e9llar announced as Anthropic global affairs chief; leaves trust",
       "sources": [
         "A5"
       ],
@@ -2529,6 +2664,17 @@
       "precision": "day"
     },
     {
+      "date": "2026-09-08T23:46:00Z",
+      "lane": "Incident",
+      "title": "WSJ exclusive quoting Coxon (18-minute recap timestamp; not independently confirmed)",
+      "sources": [
+        "X12",
+        "X13",
+        "X16"
+      ],
+      "precision": "minute"
+    },
+    {
       "date": "2026-09-09T00:04:00Z",
       "lane": "Incident",
       "title": "Coxon resignation post (Sept 8 in US time zones)",
@@ -2536,6 +2682,15 @@
         "X1"
       ],
       "precision": "minute"
+    },
+    {
+      "date": "2026-09-09",
+      "lane": "Incident",
+      "title": "Named first-wave quote-posts reported within about 15 minutes of X1",
+      "sources": [
+        "X10"
+      ],
+      "precision": "day"
     },
     {
       "date": "2026-09-09T01:27:00Z",
@@ -2645,7 +2800,7 @@
         "X10",
         "X7"
       ],
-      "needed": "Original post IDs, UTC timestamps, complete sampling frame and funding records for the correct legal organizations."
+      "needed": "Original quote-post status IDs, UTC timestamps and quote vs repost type. Named people and orgs are now graph nodes with reported amplification edges; do not treat those edges as documented until the posts are captured. Timing and common funders alone do not establish paid direction."
     },
     {
       "claim": "Tallinn is currently an Anthropic board observer",
@@ -2685,7 +2840,7 @@
       "needed": "Draft history, communications or attributable testimony; donor-to-organization-to-consultation is the supported path."
     },
     {
-      "claim": "Coxon’s launch was paid or covertly directed",
+      "claim": "Coxon\u2019s launch was paid or covertly directed",
       "status": "not established",
       "sources": [
         "X7",
@@ -2708,7 +2863,7 @@
         "X7",
         "A1"
       ],
-      "needed": "Cap table and legal investment vehicle. Moskovitz’s named participation is not itself an Open Phil grant or shareholding."
+      "needed": "Cap table and legal investment vehicle. Moskovitz\u2019s named participation is not itself an Open Phil grant or shareholding."
     },
     {
       "claim": "Moskovitz/Tuna Anthropic stake moved into a nonprofit vehicle",
@@ -2719,7 +2874,7 @@
       "needed": "Transfer instrument or official donor/recipient disclosure; identify vehicle and date."
     },
     {
-      "claim": "FTX grants connect directly to today’s ControlAI lobbying budget",
+      "claim": "FTX grants connect directly to today\u2019s ControlAI lobbying budget",
       "status": "not established",
       "sources": [
         "F1",
@@ -2764,7 +2919,7 @@
     },
     "A5": {
       "id": "A5",
-      "title": "Anthropic: Tino Cuéllar appointment, August 2026",
+      "title": "Anthropic: Tino Cu\u00e9llar appointment, August 2026",
       "url": "https://www.anthropic.com/news/tino-cuellar",
       "kind": "primary",
       "note": "",
@@ -2815,7 +2970,7 @@
       "title": "ARC Evals spin-out announcement",
       "url": "https://metr.org/blog/2023-09-19-spin-out-announcement/",
       "kind": "primary",
-      "note": "Contains a later note on Christiano’s 2024 government appointment; do not date that note to September 2023.",
+      "note": "Contains a later note on Christiano\u2019s 2024 government appointment; do not date that note to September 2023.",
       "accessed": "2026-09-14"
     },
     "M4": {
@@ -2828,7 +2983,7 @@
     },
     "M5": {
       "id": "M5",
-      "title": "Joe Benton: Why I left Anthropic’s safety team",
+      "title": "Joe Benton: Why I left Anthropic\u2019s safety team",
       "url": "https://jbenton1.substack.com/p/why-i-left-anthropics-safety-team",
       "kind": "primary",
       "note": "",
@@ -2836,7 +2991,7 @@
     },
     "M6": {
       "id": "M6",
-      "title": "Kelsey Piper: disclosure of Christiano–Cotra marriage",
+      "title": "Kelsey Piper: disclosure of Christiano\u2013Cotra marriage",
       "url": "https://www.planned-obsolescence.org/p/ethics-of-red-teaming",
       "kind": "primary",
       "note": "",
@@ -2887,12 +3042,12 @@
       "title": "Karnofsky: AI risk reduction, September 2024",
       "url": "https://carnegie-production-assets.s3.amazonaws.com/static/files/Karnofsky%20-%20AI%20Risk%20Reduction-1.pdf",
       "kind": "primary",
-      "note": "Author’s public family and financial-interest disclosure.",
+      "note": "Author\u2019s public family and financial-interest disclosure.",
       "accessed": "2026-09-14"
     },
     "G6": {
       "id": "G6",
-      "title": "Luke Muehlhauser: Why I resigned from Anthropic’s board",
+      "title": "Luke Muehlhauser: Why I resigned from Anthropic\u2019s board",
       "url": "https://lukemuehlhauser.com/",
       "kind": "primary",
       "note": "",
@@ -2988,7 +3143,7 @@
     },
     "L1": {
       "id": "L1",
-      "title": "Sanders–Casar announcement, September 3, 2026",
+      "title": "Sanders\u2013Casar announcement, September 3, 2026",
       "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
       "kind": "primary",
       "note": "",
@@ -2996,7 +3151,7 @@
     },
     "L2": {
       "id": "L2",
-      "title": "Sanders–Casar official proposal summary",
+      "title": "Sanders\u2013Casar official proposal summary",
       "url": "https://www.sanders.senate.gov/wp-content/uploads/Ban-Artificial-Superintelligence-Act-Release-Summary.pdf",
       "kind": "primary",
       "note": "One-page summary, not authenticated full statutory text or evidence of enactment.",
@@ -3063,12 +3218,12 @@
       "title": "FTX Recovery Trust motion, March 2, 2025, docket 29834",
       "url": "https://document.epiq11.com/document/getdocumentsbydocket/?docketId=1144805&docketNumber=29834&projectCode=FTX&source=DM",
       "kind": "primary",
-      "note": "Party’s court filing, including summary of Anthropic share sales; not a new judicial finding.",
+      "note": "Party\u2019s court filing, including summary of Anthropic share sales; not a new judicial finding.",
       "accessed": "2026-09-14"
     },
     "F3": {
       "id": "F3",
-      "title": "Semafor: Tallinn’s Anthropic investment and governance preferences",
+      "title": "Semafor: Tallinn\u2019s Anthropic investment and governance preferences",
       "url": "https://www.semafor.com/article/04/28/2023/co-founder-of-skype-invested-in-hot-ai-startups-but-thinks-he-failed",
       "kind": "original reporting",
       "note": "",
@@ -3087,8 +3242,9 @@
       "title": "Jacob Coxon resignation post",
       "url": "https://x.com/hilbertspaess/status/2097476196791709843",
       "kind": "primary public post",
-      "note": "",
-      "accessed": "2026-09-14"
+      "note": "Posted 2026-09-09T00:04:00Z (6:04 PM PT on 8 Sep). Wayback calendar URL stored because a dated capture was not independently retrieved in this ingest.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/hilbertspaess/status/2097476196791709843"
     },
     "X2": {
       "id": "X2",
@@ -3096,7 +3252,8 @@
       "url": "https://x.com/EvanHub/status/2097497037956891126",
       "kind": "primary public post",
       "note": "",
-      "accessed": "2026-09-14"
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/EvanHub/status/2097497037956891126"
     },
     "X3": {
       "id": "X3",
@@ -3104,7 +3261,8 @@
       "url": "https://x.com/EvanHub/status/2097528891846074828",
       "kind": "primary public post",
       "note": "",
-      "accessed": "2026-09-14"
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/EvanHub/status/2097528891846074828"
     },
     "X4": {
       "id": "X4",
@@ -3140,11 +3298,12 @@
     },
     "X8": {
       "id": "X8",
-      "title": "Karpathy’s response to Amodei",
+      "title": "Karpathy\u2019s response to Amodei",
       "url": "https://x.com/karpathy/status/2098811935114551617",
       "kind": "primary public post",
       "note": "",
-      "accessed": "2026-09-14"
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/karpathy/status/2098811935114551617"
     },
     "X9": {
       "id": "X9",
@@ -3152,22 +3311,24 @@
       "url": "https://www.axios.com/2026/09/09/anthropic-researcher-ai-warning-interview",
       "kind": "original reporting",
       "note": "",
-      "accessed": "2026-09-14"
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.axios.com/2026/09/09/anthropic-researcher-ai-warning-interview"
     },
     "X10": {
       "id": "X10",
-      "title": "OfficeChai: allegations concerning Coxon’s funding and amplifiers",
+      "title": "OfficeChai: allegations concerning Coxon\u2019s funding and amplifiers",
       "url": "https://officechai.com/ai/questions-arise-over-anthropic-quitter-jacob-coxons-neutrality-and-ties-to-ai-safety-pr-groups-after-mega-viral-x-post/",
       "kind": "secondary allegation report",
       "note": "",
-      "accessed": "2026-09-14"
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://officechai.com/ai/questions-arise-over-anthropic-quitter-jacob-coxons-neutrality-and-ties-to-ai-safety-pr-groups-after-mega-viral-x-post/"
     },
     "X11": {
       "id": "X11",
       "title": "Brian Chau thread about Newspeak House",
       "url": "https://threadnavigator.com/thread/2097879639934779786/",
       "kind": "commentary / allegation",
-      "note": "Mirror of author’s thread; affiliation and causal claims require independent confirmation.",
+      "note": "Mirror of author\u2019s thread; affiliation and causal claims require independent confirmation.",
       "accessed": "2026-09-14"
     },
     "G10": {
@@ -3201,6 +3362,60 @@
       "kind": "primary",
       "note": "",
       "accessed": "2026-09-14"
+    },
+    "X12": {
+      "id": "X12",
+      "title": "WSJ exclusive: Anthropic researcher quits over out-of-control AI fears",
+      "url": "https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628",
+      "kind": "original reporting",
+      "note": "Paywalled live page. Recaps say it appeared before Coxon\u2019s X thread; a stable publisher timestamp was not independently read from the live HTML in this ingest.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628"
+    },
+    "X13": {
+      "id": "X13",
+      "title": "Pivot to AI: Jacob Coxon media-campaign recap",
+      "url": "https://pivot-to-ai.com/2026/09/10/jacob-coxon-how-to-run-an-ai-doomsday-media-campaign/",
+      "kind": "commentary / allegation",
+      "note": "Reports that the WSJ exclusive appeared 18 minutes before the first tweet and points to WSJ Wayback copies dated 8 Sep and 10 Sep. Used for the timing lead and archive pointers, not as proof of paid direction.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://pivot-to-ai.com/2026/09/10/jacob-coxon-how-to-run-an-ai-doomsday-media-campaign/"
+    },
+    "X14": {
+      "id": "X14",
+      "title": "TIME: Coxon interview",
+      "url": "https://time.com/article/2026/09/09/ai-anthropic-openai-jacob-coxon/",
+      "kind": "original reporting",
+      "note": "Interview describing pretraining work, the resignation post, and Coxon\u2019s stated interest in work in the vein of the AI Futures Project.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://time.com/article/2026/09/09/ai-anthropic-openai-jacob-coxon/"
+    },
+    "X15": {
+      "id": "X15",
+      "title": "WIRED: Coxon interview and Anthropic statement",
+      "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
+      "kind": "original reporting",
+      "note": "Includes Coxon\u2019s \u201ccrunch time for humanity\u201d remarks and an Anthropic spokesperson statement. Not used as evidence of covert coordination.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/"
+    },
+    "X16": {
+      "id": "X16",
+      "title": "kingy.ai evidence audit of Coxon-launch claims",
+      "url": "https://kingy.ai/blog/anthropic-ai-warning-psyop-evidence-audit/",
+      "kind": "secondary analysis",
+      "note": "Records that the exact 18-minute WSJ-before-tweet figure and the first-wave quote-post ordering were not independently reproduced from a stable public timestamp record in that audit.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://kingy.ai/blog/anthropic-ai-warning-psyop-evidence-audit/"
+    },
+    "O2": {
+      "id": "O2",
+      "title": "OpenAI: GPT-4o contributions",
+      "url": "https://openai.com/gpt-4o-contributions/",
+      "kind": "primary",
+      "note": "Public contributor list naming Jacob Coxon among GPT-4o contributions.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://openai.com/gpt-4o-contributions/"
     }
   }
 }
