@@ -92,3 +92,7 @@ Implemented the requested split workflow as two independent neighborhood panes r
 ## 2026-09-14 — Single/split graph parity
 
 Replaced the split-only node-picker workflow with two copies of the existing Network View/search controls. Centralized graph membership, labels, edge geometry and legends; bridges now connect displayed views without requiring node selections. Clicking inspects before explicit focus, and inspector focus remains in the active pane. Per-pane filters and menu choices are independent. Browser checks compare node/edge IDs, glyph markup and relative layout coordinates with the single graph, including Capital & philanthropy, METR & governance, Overview and All connections.
+
+## 2026-09-14 — Connecting routes independent of context depth
+
+Added shortest-first connecting routes through seven links, including intermediate nodes outside each pane’s context depth. Seven-link routes are tangential. Kept canonical base views and explicit type filters; added a processing-budget notice for partial results. Verified both Conjecture personnel routes to ControlAI from depth-one SBF/Sanders focuses, plus algorithm boundary/branch/parallel-record tests and browser source, drag/reset, filter and export checks.

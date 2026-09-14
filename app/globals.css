@@ -241,3 +241,5 @@ body {
 .split-legends .legend-note { margin-left:0; }
 .canvas-section:has(.split-explorer)>.explore-controls { padding-top:16px; }
 @media(max-width:700px){.split-legends{gap:10px}.split-pane-controls .search input{font-size:12px}.split-pane-controls .view-select{font-size:13px!important}.split-pane-controls .search-results{min-width:180px}.split-pane-controls:last-child .search-results{left:auto;right:0}}
+.connecting-count { display:block; color:#e5bf89; margin-top:4px; }
+.connection-depth-note { margin-top:12px; }

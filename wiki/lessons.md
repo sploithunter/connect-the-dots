@@ -18,6 +18,8 @@
 
 - **Split mode must reuse the single graph interface.** A custom node picker and a copied starting snapshot were confusing because they omitted the named Network Views. Both panes now use the same view menu, search, membership logic, labels and layout as the single graph. Bridges activate from the displayed views, without requiring node picks. Browser parity checks protect this behavior.
 
+- **Context depth must not hide connecting routes.** Depth-one SBF/Sanders neighborhoods hid the Conjecture personnel links to ControlAI. Connecting-route expansion now runs independently of context depth, through seven links; only surrounding branches follow the depth control. Seven-link routes are tangential, and processing-budget truncation is explicit.
+
 ## Design choices and limits
 
 The curated overview is intentionally a subset. All-connections view can become dense; focused views and zoom are the available navigation tools. Layout proximity is not a data field. Source cards explain recorded uses of publications; full-publication summaries and archived article bodies are not available for every source.

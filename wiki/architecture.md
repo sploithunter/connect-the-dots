@@ -8,6 +8,7 @@
 | `app/page.tsx` | Graph layout, curated views, selection, profile/source inspector and SVG export |
 | `app/globals.css` | Tailwind imports, design tokens and graph/inspector styling |
 | `components/split-graph.tsx` | Two independent neighborhood panes with cross-pane relationship overlays |
+| `lib/connecting-graph.mjs` | Seven-link connector search and intermediate-node expansion independent of context depth |
 | `lib/graph-view.mjs` | Shared view membership/filtering and cross-pane records |
 | `components/graph-controls.tsx` | Shared Network View menu, search and legend |
 | `components/graph-node.tsx` | Shared node glyphs and labels |
@@ -45,3 +46,5 @@ See [Finding paths](path-finder.md). Search reads the canonical dataset independ
 The runtime `bridge` view computes the union of bounded paths between two focus IDs, or one selected route. Endpoint selection and inspector selection are independent. Partial comparisons show the chosen endpoint’s immediate connections for graph picking; complete disconnected comparisons retain both endpoints. The neighborhood view includes induced connections within the selected radius. The action bar and bounded navigation history stay beside the graph.
 
 The runtime `split` mode is separate from path comparison. It mounts two independently controlled copies of the single graph, each with the same configured view menu, search, labels and layout. Connections are computed automatically between their displayed node sets and projected across a shared SVG coordinate system. See [Split graph exploration](split-graph.md).
+
+Split views first use canonical `graphView` membership for context, then add connecting routes through seven links. Neighborhood anchors are fixed search endpoints; named views use their base node sets. Biconnected-block pruning removes irrelevant branches before bounded breadth-first path search. Original edge records and directions are preserved. Candidate discovery has no arbitrary hop cap, but the returned route search is explicitly limited to seven links and a 50,000-step budget. Added nodes belong to the nearer endpoint/view; ties go left. Overview uses its configured layout when no extra nodes are needed and the normal automatic layout when connectors extend it.
