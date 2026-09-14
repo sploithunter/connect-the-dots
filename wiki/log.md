@@ -60,3 +60,7 @@ Expanded the Coxon profile into a public-entry briefing and rewrote the incident
 
 Added 15 members of Congress who posted in the days after Coxon’s thread, plus 9 Sep quote/response edges for Sanders and Casar. Documented original X URLs for Sanders, Casar, Luna, Van Hollen and Beyer; HuffPost and NJ Globe cover the rest of the quoted set. Positions are not collapsed: ban/pause vs regulate-while-competing vs special-session/race framing. Added a Coxon-window Congress view. Did not add governors, Ted Cruz, or Marsha Blackburn as promoter nodes. The Sep 3 Sanders–Casar announcement remains a separate legislation record.
 
+
+## [2026-09-14] lint — PR 11 reconciliation
+
+Reviewed the Coxon/congressional additions and retained their source attribution. Corrected the WSJ-before-X edge to reported because its timing relies on recaps. Removed the uncited eight-minute alternative from the topic narrative. Relabeled Wayback calendar links as archive lookups rather than archived copies, validated archive URL schemes, and added a regression check. Adjusted the incident narrative to preserve the repository's neutral investigative framing.

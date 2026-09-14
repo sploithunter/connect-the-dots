@@ -2,7 +2,7 @@
 
 [Wiki home](../index.md) · [Policy](policy.md) · [Evaluation](evaluation.md)
 
-[Jacob Coxon](../entities/jacob-coxon.md) is the public entry point for this investigation: most contemporaneous coverage starts with his resignation, even though he is not a core funding or governance node. The sections below separate participant posts, the news-before-thread sequence, and named amplifiers. Do not read timing or shared funders as paid direction; that claim remains an open lead.
+[Jacob Coxon](../entities/jacob-coxon.md) is the public entry point for this investigation: most contemporaneous coverage starts with his resignation, even though he is not a core funding or governance node. The sections below separate participant posts, the news-before-thread sequence, and named amplifiers. Questions about funding and direction remain in the lead records.
 
 ## Participant accounts
 
@@ -16,9 +16,9 @@ What would close remaining gaps: a primary Anthropic employment-date record inde
 
 ## News timing
 
-The [Wall Street Journal](../entities/wall-street-journal.md) published an exclusive quoting Coxon. Recaps place that exclusive **before** the X thread. Pivot to AI and the OfficeChai recap of Parker Thayer give **about 18 minutes**, which, from X1 at `2026-09-09T00:04:00Z`, implies `2026-09-08T23:46:00Z`. Some readers remember a shorter gap on the order of **eight minutes** (`23:56 UTC`). The graph stores those publisher timestamps as sourced recap inferences; it does not hard-code either figure as independently confirmed.
+The [Wall Street Journal](../entities/wall-street-journal.md) published an exclusive quoting Coxon. Recaps place that exclusive **before** the X thread. Pivot to AI and the OfficeChai recap of Parker Thayer give **about 18 minutes**, which, from X1 at `2026-09-09T00:04:00Z`, implies `2026-09-08T23:46:00Z`. The graph records that timestamp as an inference from the cited recaps, pending a dated publisher capture.
 
-The live WSJ page did not yield a stable publisher timestamp in this ingest. [kingy.ai](../sources/X16.md) notes that the 18-minute figure was not independently reproduced from a stable public record. Wayback calendar links are attached to [X12](../sources/X12.md) and [X1](../sources/X1.md) so later work can recover dated copies. Advance contact with a newspaper is ordinary for a planned resignation and is not, by itself, covert coordination.
+The live WSJ page did not yield a stable publisher timestamp in this ingest. [kingy.ai](../sources/X16.md) notes that the 18-minute figure was not independently reproduced from a stable public record. Wayback calendar links are attached to [X12](../sources/X12.md) and [X1](../sources/X1.md) so later work can recover dated copies.
 
 What would close the gap: a dated WSJ capture or publisher timestamp, then a derived interval (`WSJ published N minutes before X1`) shown from those two datetimes rather than from a canned number.
 
@@ -30,7 +30,7 @@ Encode AI and the AI Futures Project already appear on the Survival and Flourish
 
 Sampling frame used here: named first-wave quote-posts in the OfficeChai/Thayer recap, described as within about 15 minutes of X1. Quote versus repost was not distinguished. Later commentators ([Lachlan Phillips](../entities/lachlan-phillips.md), [Brian Roemmele](../entities/brian-roemmele.md), [Sayer Ji](../entities/sayer-ji.md)) are later discussion, not that first-wave frame. [X4](../sources/X4.md), [X6](../sources/X6.md), [X7](../sources/X7.md), [X5](../sources/X5.md).
 
-What would close the amplifier lead: original `https://x.com/.../status/` URLs with UTC times. What would close the covert-direction lead: payments, instructions, authenticated messages or campaign contracts. Timing and common funders are not sufficient. The incident view seeds now include Coxon, the newspaper exclusive, the named first-wave accounts and their named organizations.
+What would close the amplifier lead: original `https://x.com/.../status/` URLs with UTC times. What would close the covert-direction lead: payments, instructions, authenticated messages or campaign contracts. The incident view seeds now include Coxon, the newspaper exclusive, the named first-wave accounts and their named organizations.
 
 ## Congressional posts in the same window
 

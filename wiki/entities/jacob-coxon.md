@@ -20,7 +20,7 @@ Profile sources: [X1](../sources/X1.md), [X9](../sources/X9.md), [X12](../source
 - **2026-09-09 UTC · documented · E124:** [Evan Hubinger](evan-hubinger.md) → Public response → [Jacob Coxon](jacob-coxon.md). [X2](../sources/X2.md), [X3](../sources/X3.md).
 - **2026-09-09 · documented · E125:** [ControlAI](controlai.md) → Cited resignation in advocacy post → [Jacob Coxon](jacob-coxon.md). [C3](../sources/C3.md).
 - **2026-09-11 · documented · E126:** [Joe Benton](joe-benton.md) → Said resignation prompted his post → [Jacob Coxon](jacob-coxon.md). [M5](../sources/M5.md).
-- **2026-09-08 · documented · E135:** [Wall Street Journal](wall-street-journal.md) → Quoted resignation exclusive before the X thread → [Jacob Coxon](jacob-coxon.md). [X12](../sources/X12.md), [X13](../sources/X13.md).
+- **2026-09-08 · reported · E135:** [Wall Street Journal](wall-street-journal.md) → Reported resignation exclusive before the X thread → [Jacob Coxon](jacob-coxon.md). [X12](../sources/X12.md), [X13](../sources/X13.md).
 - **2026-09-09 · reported · E136:** [Nathan Calvin](nathan-calvin.md) → Reported quote-post of the resignation thread → [Jacob Coxon](jacob-coxon.md). [X10](../sources/X10.md).
 - **2026-09-09 · reported · E138:** [Peter Wildeford](peter-wildeford.md) → Reported quote-post of the resignation thread → [Jacob Coxon](jacob-coxon.md). [X10](../sources/X10.md).
 - **2026-09-09 · reported · E140:** [Daniel Kokotajlo](daniel-kokotajlo.md) → Reported quote-post of the resignation thread → [Jacob Coxon](jacob-coxon.md). [X10](../sources/X10.md).

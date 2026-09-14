@@ -468,8 +468,8 @@
       "label": "Ted Lieu"
     },
     {
-      "id": "Tino Cu\u00e9llar",
-      "label": "Tino Cu\u00e9llar"
+      "id": "Tino Cuéllar",
+      "label": "Tino Cuéllar"
     },
     {
       "id": "UK AI Security Institute",
@@ -749,7 +749,7 @@
       "target": "Anthropic",
       "relation": "Co-founder; CEO",
       "type": "employment",
-      "date": "2021\u2013",
+      "date": "2021–",
       "evidence": "documented",
       "sources": [
         "A1"
@@ -763,7 +763,7 @@
       "target": "Anthropic",
       "relation": "Co-founder; president",
       "type": "employment",
-      "date": "2021\u2013",
+      "date": "2021–",
       "evidence": "documented",
       "sources": [
         "A1"
@@ -1045,7 +1045,7 @@
       "target": "SFF",
       "relation": "Donor / participating funder",
       "type": "funding",
-      "date": "2019\u20132025 documented",
+      "date": "2019–2025 documented",
       "evidence": "documented",
       "sources": [
         "S1",
@@ -1612,12 +1612,12 @@
       "target": "AI policy development",
       "relation": "Solicits AI governance projects",
       "type": "legislation",
-      "date": "2025\u20132026 program",
+      "date": "2025–2026 program",
       "evidence": "documented",
       "sources": [
         "G9"
       ],
-      "note": "Funding strategy; not proof of any particular bill\u2019s authorship.",
+      "note": "Funding strategy; not proof of any particular bill’s authorship.",
       "amount": null
     },
     {
@@ -1626,7 +1626,7 @@
       "target": "OpenAI",
       "relation": "Led alignment research",
       "type": "employment",
-      "date": "2017\u20132021",
+      "date": "2017–2021",
       "evidence": "documented",
       "sources": [
         "O1"
@@ -1655,7 +1655,7 @@
       "target": "METR",
       "relation": "Incubated ARC Evals; spun out",
       "type": "governance",
-      "date": "2022\u20132023",
+      "date": "2022–2023",
       "evidence": "documented",
       "sources": [
         "M3",
@@ -1670,7 +1670,7 @@
       "target": "METR",
       "relation": "Founder and CEO",
       "type": "employment",
-      "date": "2022\u2013",
+      "date": "2022–",
       "evidence": "documented",
       "sources": [
         "M3",
@@ -1769,7 +1769,7 @@
       "target": "Anthropic",
       "relation": "Special board-election rights",
       "type": "governance",
-      "date": "2023\u2013",
+      "date": "2023–",
       "evidence": "documented",
       "sources": [
         "A4"
@@ -1807,7 +1807,7 @@
     },
     {
       "id": "E093",
-      "source": "Tino Cu\u00e9llar",
+      "source": "Tino Cuéllar",
       "target": "Carnegie Endowment",
       "relation": "Former president",
       "type": "employment",
@@ -1821,7 +1821,7 @@
     },
     {
       "id": "E094",
-      "source": "Tino Cu\u00e9llar",
+      "source": "Tino Cuéllar",
       "target": "California Frontier AI Working Group",
       "relation": "Co-led",
       "type": "legislation",
@@ -1835,7 +1835,7 @@
     },
     {
       "id": "E095",
-      "source": "Tino Cu\u00e9llar",
+      "source": "Tino Cuéllar",
       "target": "Anthropic LTBT",
       "relation": "Former trustee",
       "type": "governance",
@@ -1849,7 +1849,7 @@
     },
     {
       "id": "E096",
-      "source": "Tino Cu\u00e9llar",
+      "source": "Tino Cuéllar",
       "target": "Anthropic",
       "relation": "Announced Chief Global Affairs Officer",
       "type": "employment",
@@ -2243,7 +2243,7 @@
         "X1",
         "O2"
       ],
-      "note": "Named on OpenAI\u2019s GPT-4o contributor list. Distinct from later Anthropic employment.",
+      "note": "Named on OpenAI’s GPT-4o contributor list. Distinct from later Anthropic employment.",
       "amount": null
     },
     {
@@ -2407,15 +2407,15 @@
       "amount": null
     },
     {
-      "note": "The exclusive exists. Pivot to AI and OfficeChai recaps place publication about 18 minutes before X1 at 2026-09-09T00:04:00Z, which would be 2026-09-08T23:46:00Z. An eight-minute gap would be 23:56 UTC. Live WSJ HTML did not yield an independent publisher timestamp in this ingest; kingy.ai notes the 18-minute figure was not independently reproduced. Advance newspaper contact is not evidence of paid coordination.",
+      "note": "Pivot to AI and OfficeChai recaps place the WSJ exclusive about 18 minutes before X1 at 2026-09-09T00:04:00Z, implying 2026-09-08T23:46:00Z. The publisher timestamp remains a follow-up item requiring a dated capture.",
       "amount": null,
       "id": "E135",
       "source": "Wall Street Journal",
       "target": "Jacob Coxon",
-      "relation": "Quoted resignation exclusive before the X thread",
+      "relation": "Reported resignation exclusive before the X thread",
       "type": "amplification",
       "date": "2026-09-08",
-      "evidence": "documented",
+      "evidence": "reported",
       "sources": [
         "X12",
         "X13"
@@ -2436,7 +2436,7 @@
       ]
     },
     {
-      "note": "Named as \u201cNathan Calvin of Encode AI\u201d in the OfficeChai recap. Encode AI remains a separate legal name from Encode Justice.",
+      "note": "Named as “Nathan Calvin of Encode AI” in the OfficeChai recap. Encode AI remains a separate legal name from Encode Justice.",
       "amount": null,
       "id": "E137",
       "source": "Nathan Calvin",
@@ -2464,7 +2464,7 @@
       ]
     },
     {
-      "note": "Named as \u201cPeter Wildeford of the AI Policy Network\u201d in the OfficeChai recap. Distinct from the in-graph AI Policy Institute until sources map the names.",
+      "note": "Named as “Peter Wildeford of the AI Policy Network” in the OfficeChai recap. Distinct from the in-graph AI Policy Institute until sources map the names.",
       "amount": null,
       "id": "E139",
       "source": "Peter Wildeford",
@@ -2531,7 +2531,7 @@
         "L10",
         "L7"
       ],
-      "note": "The 3 Sep announcement predates the resignation. This edge is the 9 Sep quote-post, not authorship of Coxon\u2019s thread.",
+      "note": "The 3 Sep announcement predates the resignation. This edge is the 9 Sep quote-post, not authorship of Coxon’s thread.",
       "amount": null
     },
     {
@@ -2546,7 +2546,7 @@
         "L11",
         "L7"
       ],
-      "note": "Points to the already-previewed Sanders\u2013Casar proposal.",
+      "note": "Points to the already-previewed Sanders–Casar proposal.",
       "amount": null
     },
     {
@@ -2666,7 +2666,7 @@
       "id": "E153",
       "source": "Ro Khanna",
       "target": "Jacob Coxon",
-      "relation": "Said lack of control, not just misuse; urged US\u2013China safety standards",
+      "relation": "Said lack of control, not just misuse; urged US–China safety standards",
       "type": "amplification",
       "date": "2026-09-09",
       "evidence": "documented",
@@ -2702,7 +2702,7 @@
         "L13",
         "L7"
       ],
-      "note": "Hill describes this as a response to Coxon\u2019s post.",
+      "note": "Hill describes this as a response to Coxon’s post.",
       "amount": null
     },
     {
@@ -2914,7 +2914,7 @@
     {
       "date": "2026-07-21",
       "lane": "Policy funding",
-      "title": "Anthropic\u2019s announced Public First Action support reaches $40M",
+      "title": "Anthropic’s announced Public First Action support reaches $40M",
       "sources": [
         "A6"
       ],
@@ -2923,7 +2923,7 @@
     {
       "date": "2026-08-04",
       "lane": "Personnel",
-      "title": "Cu\u00e9llar announced as Anthropic global affairs chief; leaves trust",
+      "title": "Cuéllar announced as Anthropic global affairs chief; leaves trust",
       "sources": [
         "A5"
       ],
@@ -3155,7 +3155,7 @@
       "needed": "Draft history, communications or attributable testimony; donor-to-organization-to-consultation is the supported path."
     },
     {
-      "claim": "Coxon\u2019s launch was paid or covertly directed",
+      "claim": "Coxon’s launch was paid or covertly directed",
       "status": "not established",
       "sources": [
         "X7",
@@ -3178,7 +3178,7 @@
         "X7",
         "A1"
       ],
-      "needed": "Cap table and legal investment vehicle. Moskovitz\u2019s named participation is not itself an Open Phil grant or shareholding."
+      "needed": "Cap table and legal investment vehicle. Moskovitz’s named participation is not itself an Open Phil grant or shareholding."
     },
     {
       "claim": "Moskovitz/Tuna Anthropic stake moved into a nonprofit vehicle",
@@ -3189,7 +3189,7 @@
       "needed": "Transfer instrument or official donor/recipient disclosure; identify vehicle and date."
     },
     {
-      "claim": "FTX grants connect directly to today\u2019s ControlAI lobbying budget",
+      "claim": "FTX grants connect directly to today’s ControlAI lobbying budget",
       "status": "not established",
       "sources": [
         "F1",
@@ -3259,7 +3259,7 @@
     },
     "A5": {
       "id": "A5",
-      "title": "Anthropic: Tino Cu\u00e9llar appointment, August 2026",
+      "title": "Anthropic: Tino Cuéllar appointment, August 2026",
       "url": "https://www.anthropic.com/news/tino-cuellar",
       "kind": "primary",
       "note": "",
@@ -3310,7 +3310,7 @@
       "title": "ARC Evals spin-out announcement",
       "url": "https://metr.org/blog/2023-09-19-spin-out-announcement/",
       "kind": "primary",
-      "note": "Contains a later note on Christiano\u2019s 2024 government appointment; do not date that note to September 2023.",
+      "note": "Contains a later note on Christiano’s 2024 government appointment; do not date that note to September 2023.",
       "accessed": "2026-09-14"
     },
     "M4": {
@@ -3323,7 +3323,7 @@
     },
     "M5": {
       "id": "M5",
-      "title": "Joe Benton: Why I left Anthropic\u2019s safety team",
+      "title": "Joe Benton: Why I left Anthropic’s safety team",
       "url": "https://jbenton1.substack.com/p/why-i-left-anthropics-safety-team",
       "kind": "primary",
       "note": "",
@@ -3331,7 +3331,7 @@
     },
     "M6": {
       "id": "M6",
-      "title": "Kelsey Piper: disclosure of Christiano\u2013Cotra marriage",
+      "title": "Kelsey Piper: disclosure of Christiano–Cotra marriage",
       "url": "https://www.planned-obsolescence.org/p/ethics-of-red-teaming",
       "kind": "primary",
       "note": "",
@@ -3382,12 +3382,12 @@
       "title": "Karnofsky: AI risk reduction, September 2024",
       "url": "https://carnegie-production-assets.s3.amazonaws.com/static/files/Karnofsky%20-%20AI%20Risk%20Reduction-1.pdf",
       "kind": "primary",
-      "note": "Author\u2019s public family and financial-interest disclosure.",
+      "note": "Author’s public family and financial-interest disclosure.",
       "accessed": "2026-09-14"
     },
     "G6": {
       "id": "G6",
-      "title": "Luke Muehlhauser: Why I resigned from Anthropic\u2019s board",
+      "title": "Luke Muehlhauser: Why I resigned from Anthropic’s board",
       "url": "https://lukemuehlhauser.com/",
       "kind": "primary",
       "note": "",
@@ -3483,7 +3483,7 @@
     },
     "L1": {
       "id": "L1",
-      "title": "Sanders\u2013Casar announcement, September 3, 2026",
+      "title": "Sanders–Casar announcement, September 3, 2026",
       "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
       "kind": "primary",
       "note": "",
@@ -3491,7 +3491,7 @@
     },
     "L2": {
       "id": "L2",
-      "title": "Sanders\u2013Casar official proposal summary",
+      "title": "Sanders–Casar official proposal summary",
       "url": "https://www.sanders.senate.gov/wp-content/uploads/Ban-Artificial-Superintelligence-Act-Release-Summary.pdf",
       "kind": "primary",
       "note": "One-page summary, not authenticated full statutory text or evidence of enactment.",
@@ -3558,12 +3558,12 @@
       "title": "FTX Recovery Trust motion, March 2, 2025, docket 29834",
       "url": "https://document.epiq11.com/document/getdocumentsbydocket/?docketId=1144805&docketNumber=29834&projectCode=FTX&source=DM",
       "kind": "primary",
-      "note": "Party\u2019s court filing, including summary of Anthropic share sales; not a new judicial finding.",
+      "note": "Party’s court filing, including summary of Anthropic share sales; not a new judicial finding.",
       "accessed": "2026-09-14"
     },
     "F3": {
       "id": "F3",
-      "title": "Semafor: Tallinn\u2019s Anthropic investment and governance preferences",
+      "title": "Semafor: Tallinn’s Anthropic investment and governance preferences",
       "url": "https://www.semafor.com/article/04/28/2023/co-founder-of-skype-invested-in-hot-ai-startups-but-thinks-he-failed",
       "kind": "original reporting",
       "note": "",
@@ -3638,7 +3638,7 @@
     },
     "X8": {
       "id": "X8",
-      "title": "Karpathy\u2019s response to Amodei",
+      "title": "Karpathy’s response to Amodei",
       "url": "https://x.com/karpathy/status/2098811935114551617",
       "kind": "primary public post",
       "note": "",
@@ -3656,7 +3656,7 @@
     },
     "X10": {
       "id": "X10",
-      "title": "OfficeChai: allegations concerning Coxon\u2019s funding and amplifiers",
+      "title": "OfficeChai: allegations concerning Coxon’s funding and amplifiers",
       "url": "https://officechai.com/ai/questions-arise-over-anthropic-quitter-jacob-coxons-neutrality-and-ties-to-ai-safety-pr-groups-after-mega-viral-x-post/",
       "kind": "secondary allegation report",
       "note": "",
@@ -3668,7 +3668,7 @@
       "title": "Brian Chau thread about Newspeak House",
       "url": "https://threadnavigator.com/thread/2097879639934779786/",
       "kind": "commentary / allegation",
-      "note": "Mirror of author\u2019s thread; affiliation and causal claims require independent confirmation.",
+      "note": "Mirror of author’s thread; affiliation and causal claims require independent confirmation.",
       "accessed": "2026-09-14"
     },
     "G10": {
@@ -3708,7 +3708,7 @@
       "title": "WSJ exclusive: Anthropic researcher quits over out-of-control AI fears",
       "url": "https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628",
       "kind": "original reporting",
-      "note": "Paywalled live page. Recaps say it appeared before Coxon\u2019s X thread; a stable publisher timestamp was not independently read from the live HTML in this ingest.",
+      "note": "Paywalled live page. Recaps say it appeared before Coxon’s X thread; a stable publisher timestamp was not independently read from the live HTML in this ingest.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628"
     },
@@ -3726,7 +3726,7 @@
       "title": "TIME: Coxon interview",
       "url": "https://time.com/article/2026/09/09/ai-anthropic-openai-jacob-coxon/",
       "kind": "original reporting",
-      "note": "Interview describing pretraining work, the resignation post, and Coxon\u2019s stated interest in work in the vein of the AI Futures Project.",
+      "note": "Interview describing pretraining work, the resignation post, and Coxon’s stated interest in work in the vein of the AI Futures Project.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://time.com/article/2026/09/09/ai-anthropic-openai-jacob-coxon/"
     },
@@ -3735,7 +3735,7 @@
       "title": "WIRED: Coxon interview and Anthropic statement",
       "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
       "kind": "original reporting",
-      "note": "Includes Coxon\u2019s \u201ccrunch time for humanity\u201d remarks and an Anthropic spokesperson statement. Not used as evidence of covert coordination.",
+      "note": "Includes Coxon’s “crunch time for humanity” remarks and an Anthropic spokesperson statement. Not used as evidence of covert coordination.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/"
     },
@@ -3759,7 +3759,7 @@
     },
     "L7": {
       "id": "L7",
-      "title": "The Hill: lawmakers sound alarm after Anthropic researchers\u2019 warning",
+      "title": "The Hill: lawmakers sound alarm after Anthropic researchers’ warning",
       "url": "https://thehill.com/homenews/senate/6080316-lawmakers-ai-safety-warnings/",
       "kind": "original reporting",
       "note": "9 Sep 2026 roundup with original X status URLs for Sanders, Casar, Luna, Van Hollen and Beyer.",
@@ -3780,7 +3780,7 @@
       "title": "New Jersey Globe: Kim calls for bipartisan AI legislation",
       "url": "https://newjerseyglobe.com/congress/kim-calls-for-bipartisan-ai-legislation-warning-technology-is-advancing-beyond-human-control/",
       "kind": "original reporting",
-      "note": "14 Sep 2026 recap of Kim\u2019s Coxon-window remarks: MATCH/BLADE, child protections, Mythos-proofing. Not itself an X status URL.",
+      "note": "14 Sep 2026 recap of Kim’s Coxon-window remarks: MATCH/BLADE, child protections, Mythos-proofing. Not itself an X status URL.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://newjerseyglobe.com/congress/kim-calls-for-bipartisan-ai-legislation-warning-technology-is-advancing-beyond-human-control/"
     },
@@ -3795,7 +3795,7 @@
     },
     "L11": {
       "id": "L11",
-      "title": "Greg Casar: Congress must pass Sanders\u2013Casar superintelligence ban",
+      "title": "Greg Casar: Congress must pass Sanders–Casar superintelligence ban",
       "url": "https://x.com/RepCasar/status/2097685220442923030",
       "kind": "primary public post",
       "note": "9 Sep 2026. Calls the researcher warnings an emergency and demands hearings plus the already-previewed ban.",
@@ -3816,7 +3816,7 @@
       "title": "Chris Van Hollen: pump the brakes after Coxon thread",
       "url": "https://x.com/ChrisVanHollen/status/2097759332305715241",
       "kind": "primary public post",
-      "note": "Hill says he responded to Coxon\u2019s post; calls for mandatory safeguards, testing, and dialogue with China.",
+      "note": "Hill says he responded to Coxon’s post; calls for mandatory safeguards, testing, and dialogue with China.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://x.com/ChrisVanHollen/status/2097759332305715241"
     },
@@ -3831,10 +3831,10 @@
     },
     "L16": {
       "id": "L16",
-      "title": "Kim\u2013Hagerty BLADE Act press release",
+      "title": "Kim–Hagerty BLADE Act press release",
       "url": "https://www.kim.senate.gov/press_release/senators-kim-and-hagerty-lead-colleagues-in-introducing-bill-to-protect-american-ai-technology-from-foreign-attacks/",
       "kind": "primary",
-      "note": "6 Aug 2026 introduction of BLADE; also describes the earlier MATCH Act. Predates Coxon; used for Kim\u2019s named bills, not as a Coxon quote.",
+      "note": "6 Aug 2026 introduction of BLADE; also describes the earlier MATCH Act. Predates Coxon; used for Kim’s named bills, not as a Coxon quote.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://www.kim.senate.gov/press_release/senators-kim-and-hagerty-lead-colleagues-in-introducing-bill-to-protect-american-ai-technology-from-foreign-attacks/"
     }

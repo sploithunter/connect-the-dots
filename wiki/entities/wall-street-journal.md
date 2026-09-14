@@ -15,7 +15,7 @@ Profile sources: [X12](../sources/X12.md), [X13](../sources/X13.md), [X16](../so
 
 ## Dated relationship records
 
-- **2026-09-08 · documented · E135:** [Wall Street Journal](wall-street-journal.md) → Quoted resignation exclusive before the X thread → [Jacob Coxon](jacob-coxon.md). [X12](../sources/X12.md), [X13](../sources/X13.md).
+- **2026-09-08 · reported · E135:** [Wall Street Journal](wall-street-journal.md) → Reported resignation exclusive before the X thread → [Jacob Coxon](jacob-coxon.md). [X12](../sources/X12.md), [X13](../sources/X13.md).
 
 ## Related pages
 

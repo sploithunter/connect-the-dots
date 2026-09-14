@@ -9,4 +9,6 @@ test('dangling endpoints and unsafe source URLs are rejected',()=>{const d=struc
 test('US proposal wiki page preserves both primary source paths',()=>{const page=compileWiki(data,profiles).get('wiki/entities/us-ban-asi-proposal.md');assert.ok(page.includes('../sources/C3.md'));assert.ok(page.includes('../sources/L1.md'));assert.ok(page.includes(profiles['US Ban ASI proposal'].summary));});
 
 test('new profiles must include an informative graph subtitle',()=>{const p=structuredClone(profiles);delete p.METR.subtitle;assert.ok(validateData(data,p).some(e=>e.includes('subtitle required')));});
-test('source wiki pages include archive links when present',()=>{const page=compileWiki(data,profiles).get('wiki/sources/X1.md');assert.ok(page.includes('Archived or Memento copy'));assert.ok(page.includes(data.sources.X1.archiveUrl));});
+test('source wiki pages include archive links when present',()=>{const page=compileWiki(data,profiles).get('wiki/sources/X1.md');assert.ok(page.includes('Archive lookup'));assert.ok(page.includes(data.sources.X1.archiveUrl));});
+
+test('archive links reject unsafe URL schemes',()=>{const d=structuredClone(data);d.sources.X1.archiveUrl='javascript:alert(1)';assert.ok(validateData(d,profiles).some(e=>e.includes('archive URL required')));});
