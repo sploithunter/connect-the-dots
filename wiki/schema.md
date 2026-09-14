@@ -4,7 +4,7 @@
 
 ## Canonical records
 
-`data/evidence.json` holds nodes, directed relationship records, sources, events and follow-up leads. `data/node-profiles.json` holds the written profiles shown in the app. Stable node IDs are currently readable names. Renaming an ID requires updating every endpoint, profile key and curated-view anchor, then regenerating the wiki.
+`data/evidence.json` holds nodes, directed relationship records, sources, events and follow-up leads. `data/node-profiles.json` holds the written profiles shown in the app. Stable node IDs are currently readable names. Renaming an ID requires updating every endpoint, profile key and configured view anchor, then regenerating the wiki.
 
 Every profile requires:
 
@@ -31,3 +31,7 @@ Maintain `wiki/topics/`, this schema, the other guides, `wiki/index.md` and the 
 ## Validation boundaries
 
 Build checks reject missing/placeholder profiles, bad kinds, unresolved citations, invalid source URLs, missing endpoints, duplicate IDs, stale generated pages and broken local wiki links. Regression tests deliberately exercise incomplete-node and unsafe-link failures. Structural validation cannot establish that a cited source supports a sentence, that a page is still reachable, or that an older role is current; source reading and editorial review are required for those questions.
+
+## Presentation configuration
+
+`config/network.json` defines views, seeds, starting points, label aliases, overview coordinates and relationship styles. These IDs and styles are validated with the evidence records. See [configuration instructions](configuration.md).

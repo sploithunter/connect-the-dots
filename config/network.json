@@ -1,0 +1,202 @@
+{
+  "defaultView": "overview",
+  "relationshipTypes": {
+    "investment": {
+      "label": "Investment",
+      "color": "#d8a45f"
+    },
+    "funding": {
+      "label": "Funding",
+      "color": "#d8a45f"
+    },
+    "employment": {
+      "label": "Employment",
+      "color": "#71b9df"
+    },
+    "governance": {
+      "label": "Governance",
+      "color": "#b39bdd"
+    },
+    "family": {
+      "label": "Family",
+      "color": "#ed9baf"
+    },
+    "access": {
+      "label": "Evaluation / access",
+      "color": "#68c7b1"
+    },
+    "legislation": {
+      "label": "Policy work",
+      "color": "#d6d980"
+    },
+    "proposal": {
+      "label": "Proposal",
+      "color": "#d6d980"
+    },
+    "amplification": {
+      "label": "Public statements",
+      "color": "#b0bac8"
+    }
+  },
+  "displayLabels": {
+    "Coefficient Giving / Open Philanthropy": "Coefficient Giving",
+    "Sam Bankman-Fried": "Sam Bankman-Fried",
+    "UK AI Security Institute": "UK AI Security Institute",
+    "FTX / Alameda estate": "FTX / Alameda estate",
+    "California Frontier AI Working Group": "California AI Working Group"
+  },
+  "overviewPositions": {
+    "Sam Bankman-Fried": [
+      130,
+      120
+    ],
+    "Jaan Tallinn": [
+      130,
+      375
+    ],
+    "Dustin Moskovitz": [
+      130,
+      680
+    ],
+    "Conjecture": [
+      410,
+      120
+    ],
+    "Anthropic": [
+      450,
+      400
+    ],
+    "Good Ventures": [
+      410,
+      715
+    ],
+    "Connor Leahy": [
+      680,
+      65
+    ],
+    "Gabriel Alfour": [
+      680,
+      185
+    ],
+    "ControlAI": [
+      920,
+      120
+    ],
+    "UK ASI Bill": [
+      1200,
+      65
+    ],
+    "US Ban ASI proposal": [
+      1200,
+      185
+    ],
+    "Daniela Amodei": [
+      700,
+      330
+    ],
+    "Holden Karnofsky": [
+      710,
+      465
+    ],
+    "Coefficient Giving / Open Philanthropy": [
+      680,
+      750
+    ],
+    "ARC": [
+      940,
+      715
+    ],
+    "Paul Christiano": [
+      1200,
+      710
+    ],
+    "Ajeya Cotra": [
+      1200,
+      850
+    ],
+    "METR": [
+      990,
+      450
+    ],
+    "Public First Action": [
+      690,
+      590
+    ],
+    "OpenAI": [
+      1250,
+      550
+    ]
+  },
+  "views": {
+    "overview": {
+      "label": "Overview",
+      "seeds": []
+    },
+    "funding": {
+      "label": "Capital & philanthropy",
+      "seeds": [
+        "Anthropic",
+        "Conjecture",
+        "Good Ventures",
+        "Coefficient Giving / Open Philanthropy",
+        "SFF",
+        "FTX / Alameda estate"
+      ]
+    },
+    "metr": {
+      "label": "METR & governance",
+      "seeds": [
+        "METR",
+        "ARC",
+        "Paul Christiano",
+        "Ajeya Cotra",
+        "Beth Barnes",
+        "Holden Karnofsky",
+        "Daniela Amodei",
+        "Anthropic LTBT",
+        "NIST / CAISI"
+      ]
+    },
+    "policy": {
+      "label": "Policy & legislation",
+      "seeds": [
+        "ControlAI",
+        "US Ban ASI proposal",
+        "UK ASI Bill",
+        "UK AI kill-switch amendment",
+        "Public First Action",
+        "CAIS Action Fund",
+        "California SB 1047",
+        "Horizon Institute"
+      ]
+    },
+    "incident": {
+      "label": "Coxon & public discussion",
+      "seeds": [
+        "Jacob Coxon",
+        "Joe Benton",
+        "Evan Hubinger",
+        "Brian Roemmele",
+        "Sayer Ji",
+        "Lachlan Phillips",
+        "Andrej Karpathy"
+      ]
+    },
+    "all": {
+      "label": "All connections",
+      "seeds": []
+    },
+    "neighborhood": {
+      "label": "Selected neighborhood",
+      "seeds": []
+    }
+  },
+  "startNodes": [
+    "Jaan Tallinn",
+    "Sam Bankman-Fried",
+    "Anthropic",
+    "METR",
+    "ControlAI",
+    "Jacob Coxon"
+  ]
+}

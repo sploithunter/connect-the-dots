@@ -1,0 +1,37 @@
+{
+  "node": {
+    "id": "REPLACE_WITH_ENTITY_NAME",
+    "label": "REPLACE_WITH_ENTITY_NAME",
+    "kind": "organization",
+    "subtitle": "REPLACE_WITH_SHORT_ROLE",
+    "summary": "REPLACE_WITH_A_SOURCED_DESCRIPTION_OF_IDENTITY_AND_RELEVANCE. Explain what the entity does and why it belongs in this investigation.",
+    "sources": ["REPLACE_WITH_SOURCE_ID"],
+    "updated": "YYYY-MM-DD"
+  },
+  "sources": [
+    {
+      "id": "REPLACE_WITH_SOURCE_ID",
+      "title": "REPLACE_WITH_PUBLICATION_TITLE",
+      "url": "https://example.com/replace-with-source",
+      "kind": "primary",
+      "note": "",
+      "accessed": "YYYY-MM-DD"
+    }
+  ],
+  "connections": [
+    {
+      "id": "REPLACE_WITH_UNUSED_EDGE_ID",
+      "source": "REPLACE_WITH_ENTITY_NAME",
+      "target": "METR",
+      "relation": "REPLACE_WITH_SOURCED_RELATIONSHIP",
+      "type": "funding",
+      "date": "YYYY-MM-DD",
+      "evidence": "documented",
+      "sources": ["REPLACE_WITH_SOURCE_ID"],
+      "note": "",
+      "amount": null
+    }
+  ],
+  "views": ["metr"],
+  "startNode": false
+}

@@ -21,3 +21,7 @@ Start with the [wiki index](wiki/index.md) and [AGENTS.md](AGENTS.md). The wiki 
 Every new node must have a substantive, cited profile in `data/node-profiles.json`. After editing evidence or profiles, run `npm run wiki:build`, update affected topic pages and append to `wiki/log.md`. `npm run build` rejects incomplete profiles, invalid references and stale generated wiki pages before publishing.
 
 Repository operations use **sploithunter only**.
+
+## Add nodes without editing application code
+
+See the [one-file import guide](wiki/configuration.md) and [JSON template](examples/node.template.json). Run `npm run node:add -- your-node.json --dry-run`, then repeat without `--dry-run` to import the sourced profile and connections. The importer updates data and wiki pages together. Preset views, labels, colors and overview positions are in `config/network.json`.

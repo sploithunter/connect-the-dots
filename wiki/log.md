@@ -17,3 +17,7 @@ All 105 profiles, 134 relationships, 59 source records and 166 generated pages p
 ## [2026-09-14] update — Informative labels on the graph
 
 Added authored subtitles to all 105 node profiles and rendered them beneath graph titles, including Sanders–Casar attribution for the US proposal and an AI safety evaluation description for METR. Increased card height and layout separation to accommodate the labels. Search now matches subtitles as well as entity names. The schema and validator require subtitles for future nodes, and entity wiki pages include them.
+
+## [2026-09-14] update — Configuration-driven graph and single-file imports
+
+Moved all curated entity lists, view labels, starting points, display aliases, overview coordinates and relationship colors into config/network.json. Added a node packet importer with dry-run validation, duplicate protection and wiki/log regeneration. Added regression tests for successful imports, invalid packets and configuration-only view/category additions. No demonstration nodes were added to the live dataset.

@@ -14,6 +14,8 @@ A maintained research and engineering knowledge base for the [interactive graph]
 
 ## Working on the repository
 
+- [Configuration and one-file imports](configuration.md) — add nodes and views without editing application code.
+
 - [Agent instructions](../AGENTS.md) — account boundary and definition of a complete contribution.
 - [Schema](schema.md) — canonical data, profile requirements and evidence semantics.
 - [Workflow](workflow.md) — ingest, query, maintain, validate and publish.

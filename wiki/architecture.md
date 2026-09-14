@@ -9,6 +9,8 @@
 | `app/globals.css` | Tailwind imports, design tokens and graph/inspector styling |
 | `components/ui/` | Shared button, input and select primitives |
 | `data/evidence.json` | Canonical graph, timeline, leads and source registry |
+| `config/network.json` | Declarative view membership, labels, colors, start nodes and overview layout |
+| `scripts/import-node.mjs` | Validated one-file node import with wiki regeneration and dry-run support |
 | `data/node-profiles.json` | Authored descriptions and citations for every node |
 | `scripts/knowledge.mjs` | Data validation and deterministic wiki compilation |
 | `scripts/wiki.mjs` | Generation, stale-page and local-link checks |

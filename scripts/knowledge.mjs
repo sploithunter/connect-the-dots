@@ -5,15 +5,15 @@ export const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'
 export const readJson=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
 export const slug=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const md=s=>String(s).replace(/\[/g,'\\[').replace(/\]/g,'\\]');
-export function validateData(data,profiles){
+export function validateData(data,profiles,config=readJson('config/network.json')){
  const errors=[], fail=s=>errors.push(s), nodes=new Set(), edgeIds=new Set(), slugs=new Set();
  const present=s=>typeof s==='string'&&s.trim().length>0;
- const placeholder=s=>/\b(TODO|TBD|placeholder|lorem ipsum|coming soon)\b/i.test(s);
+ const placeholder=s=>/\b(TODO|TBD|placeholder|lorem ipsum|coming soon|REPLACE_WITH\w*)\b/i.test(s);
  const refs=(list,where)=>{if(!Array.isArray(list)||!list.length){fail(`${where}: sources required`);return;}for(const id of list)if(!data.sources[id])fail(`${where}: unknown source ${id}`);};
  for(const n of data.nodes){
   if(nodes.has(n.id))fail(`duplicate node ${n.id}`);nodes.add(n.id);
   if(slugs.has(slug(n.id)))fail(`wiki slug collision ${n.id}`);slugs.add(slug(n.id));
-  if(!present(n.label))fail(`${n.id}: label required`);
+  if(!present(n.label)||placeholder(n.label)||placeholder(n.id))fail(`${n.id}: label required`);
   const p=profiles[n.id];if(!p){fail(`${n.id}: profile required`);continue;}
   if(!['person','organization','policy','group','topic'].includes(p.kind))fail(`${n.id}: invalid kind`);
   if(!present(p.subtitle)||p.subtitle.length>64||placeholder(p.subtitle))fail(`${n.id}: concise subtitle required (maximum 64 characters)`);
@@ -25,9 +25,9 @@ export function validateData(data,profiles){
  for(const e of data.edges){
   if(edgeIds.has(e.id))fail(`duplicate edge ${e.id}`);edgeIds.add(e.id);
   if(!nodes.has(e.source)||!nodes.has(e.target))fail(`${e.id}: missing endpoint`);
-  if(!present(e.relation)||!present(e.date)||!present(e.evidence))fail(`${e.id}: relation, date and status required`);
+  if(!present(e.relation)||placeholder(e.relation)||!present(e.date)||e.date==='YYYY-MM-DD'||!present(e.evidence))fail(`${e.id}: relation, date and status required`);
   if(!['documented','reported','unverified lead'].includes(e.evidence))fail(`${e.id}: invalid evidence status`);
-  if(!['investment','funding','employment','governance','family','access','legislation','proposal','amplification'].includes(e.type))fail(`${e.id}: invalid relationship type`);
+  if(!Object.hasOwn(config.relationshipTypes,e.type))fail(`${e.id}: invalid relationship type`);
   refs(e.sources,e.id);
  }
  for(const [id,s] of Object.entries(data.sources)){
@@ -36,6 +36,15 @@ export function validateData(data,profiles){
  }
  for(const [i,e] of data.events.entries())refs(e.sources,`event ${i}`);
  for(const [i,e] of data.leads.entries())refs(e.sources,`lead ${i}`);
+ if(!config.views[config.defaultView])fail('config: default view does not exist');
+ for(const required of ['overview','all','neighborhood'])if(!config.views[required])fail(`config: required view ${required} missing`);
+ for(const [id,v] of Object.entries(config.views)){
+  if(!present(v.label)||!Array.isArray(v.seeds))fail(`config: invalid view ${id}`);
+  else for(const seed of v.seeds)if(!nodes.has(seed))fail(`config: unknown seed ${seed}`);
+ }
+ for(const id of [...config.startNodes,...Object.keys(config.displayLabels),...Object.keys(config.overviewPositions)])if(!nodes.has(id))fail(`config: unknown node ${id}`);
+ for(const [id,point] of Object.entries(config.overviewPositions))if(!Array.isArray(point)||point.length!==2||point.some(v=>!Number.isFinite(v)))fail(`config: invalid coordinates for ${id}`);
+ for(const [id,t] of Object.entries(config.relationshipTypes))if(!present(t.label)||!/^#[0-9a-f]{6}$/i.test(t.color))fail(`config: invalid relationship style ${id}`);
  return errors;
 }
 export function compileWiki(data,profiles){

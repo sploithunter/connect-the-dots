@@ -6,32 +6,24 @@ import {Input} from '@/components/ui/input';
 import {Select,SelectTrigger,SelectValue,SelectContent,SelectItem} from '@/components/ui/select';
 import {Network,Search,Plus,Minus,Maximize,ArrowUpRight,ArrowRight,Download,X,Focus} from 'lucide-react';
 import raw from '@/data/evidence.json';
+import network from '@/config/network.json';
+const core=network.overviewPositions as Record<string,number[]>;
+const viewNames:Record<string,string>=Object.fromEntries(Object.entries(network.views).map(([id,v])=>[id,v.label]));
+const groups:Record<string,string[]>=Object.fromEntries(Object.entries(network.views).map(([id,v])=>[id,v.seeds]));
+const COLORS:Record<string,string>=Object.fromEntries(Object.entries(network.relationshipTypes).map(([id,t])=>[id,t.color]));
+const TYPE:Record<string,string>=Object.fromEntries(Object.entries(network.relationshipTypes).map(([id,t])=>[id,t.label]));
 import profileData from '@/data/node-profiles.json';
 const profiles:Record<string,{kind:string,subtitle:string,summary:string,sources:string[],updated:string}>=profileData;
 
 type Edge=typeof raw.edges[number];
 type Point={id:string,x:number,y:number};
 const sources=raw.sources as Record<string,{title:string,url:string,kind:string,note:string}>;
-const COLORS:Record<string,string>={investment:'#d8a45f',funding:'#d8a45f',employment:'#71b9df',governance:'#b39bdd',family:'#ed9baf',access:'#68c7b1',legislation:'#d6d980',proposal:'#d6d980',amplification:'#b0bac8'};
-const TYPE:Record<string,string>={investment:'Investment',funding:'Funding',employment:'Employment',governance:'Governance',family:'Family',access:'Evaluation / access',legislation:'Policy work',proposal:'Proposal',amplification:'Public statements'};
-const short=(s:string)=>(({'Coefficient Giving / Open Philanthropy':'Coefficient Giving','Sam Bankman-Fried':'Sam Bankman-Fried','UK AI Security Institute':'UK AI Security Institute','FTX / Alameda estate':'FTX / Alameda estate','California Frontier AI Working Group':'California AI Working Group'} as Record<string,string>)[s]||s);
-const core:Record<string,[number,number]>={
- 'Sam Bankman-Fried':[130,120],'Jaan Tallinn':[130,375],'Dustin Moskovitz':[130,680],
- 'Conjecture':[410,120],'Anthropic':[450,400],'Good Ventures':[410,715],
- 'Connor Leahy':[680,65],'Gabriel Alfour':[680,185],'ControlAI':[920,120],
- 'UK ASI Bill':[1200,65],'US Ban ASI proposal':[1200,185],
- 'Daniela Amodei':[700,330],'Holden Karnofsky':[710,465],
- 'Coefficient Giving / Open Philanthropy':[680,750],'ARC':[940,715],
- 'Paul Christiano':[1200,710],'Ajeya Cotra':[1200,850],'METR':[990,450],
- 'Public First Action':[690,590],'OpenAI':[1250,550]
-};
-const viewNames:Record<string,string>={overview:'Overview',funding:'Capital & philanthropy',metr:'METR & governance',policy:'Policy & legislation',incident:'Coxon & public discussion',all:'All connections',neighborhood:'Selected neighborhood'};
-const groups:Record<string,string[]>={
- funding:['Anthropic','Conjecture','Good Ventures','Coefficient Giving / Open Philanthropy','SFF','FTX / Alameda estate'],
- metr:['METR','ARC','Paul Christiano','Ajeya Cotra','Beth Barnes','Holden Karnofsky','Daniela Amodei','Anthropic LTBT','NIST / CAISI'],
- policy:['ControlAI','US Ban ASI proposal','UK ASI Bill','UK AI kill-switch amendment','Public First Action','CAIS Action Fund','California SB 1047','Horizon Institute'],
- incident:['Jacob Coxon','Joe Benton','Evan Hubinger','Brian Roemmele','Sayer Ji','Lachlan Phillips','Andrej Karpathy']
-};
+
+
+const short=(s:string)=>(network.displayLabels as Record<string,string>)[s]||raw.nodes.find(n=>n.id===s)?.label||s;
+
+
+
 function wrap(s:string,max=22){const words=short(s).split(' '),lines:string[]=[];let line='';for(const w of words){if((line+' '+w).trim().length>max&&line){lines.push(line);line=w;}else line+=(line?' ':'')+w;}if(line)lines.push(line);return lines;}
 function layout(ids:string[],edges:Edge[],overview:boolean):Point[]{
  if(overview)return ids.map(id=>({id,x:core[id][0],y:core[id][1]}));
@@ -74,7 +66,7 @@ function SourceNotes({records,profileSources=[]}:{records:Edge[],profileSources?
 }
 
 export default function Home(){
- const [view,setView]=useState('overview'),[selected,setSelected]=useState<string|null>(null),[active,setActive]=useState<Edge|null>(null),[search,setSearch]=useState(''),[zoom,setZoom]=useState(1),[pan,setPan]=useState({x:0,y:0}),[hover,setHover]=useState<string|null>(null);
+ const [view,setView]=useState<string>(network.defaultView),[selected,setSelected]=useState<string|null>(null),[active,setActive]=useState<Edge|null>(null),[search,setSearch]=useState(''),[zoom,setZoom]=useState(1),[pan,setPan]=useState({x:0,y:0}),[hover,setHover]=useState<string|null>(null);
  const [anchor,setAnchor]=useState<string|null>(null);
  const [excluded,setExcluded]=useState<string[]>([]);
  const svg=useRef<SVGSVGElement>(null),drag=useRef<{x:number,y:number,px:number,py:number}|null>(null);
@@ -85,7 +77,7 @@ export default function Home(){
   else if(view!=='all'){const set=new Set(groups[view]||[]);es=es.filter(e=>set.has(e.source)||set.has(e.target));}
   return es.filter(e=>!excluded.includes(e.type));
  },[view,anchor,excluded]);
- const ids=useMemo(()=>[...new Set(edges.flatMap(e=>[e.source,e.target]))],[edges]);
+ const ids=useMemo(()=>view==='all'?raw.nodes.map(n=>n.id):[...new Set(edges.flatMap(e=>[e.source,e.target]))],[edges,view]);
  const points=useMemo(()=>layout(ids,edges,view==='overview'),[ids,edges,view]);
  const map=useMemo(()=>new Map(points.map(p=>[p.id,p])),[points]);
  const box=useMemo(()=>{if(!points.length)return{x:0,y:0,w:1400,h:900};const xs=points.map(p=>p.x),ys=points.map(p=>p.y);return{x:Math.min(...xs)-145,y:Math.min(...ys)-100,w:Math.max(...xs)-Math.min(...xs)+290,h:Math.max(...ys)-Math.min(...ys)+200};},[points]);
@@ -121,7 +113,7 @@ export default function Home(){
     <div className="inspector-head"><span className="eyebrow">CONNECTION RECORD</span>{(selected||active)&&<Button size="icon" variant="ghost" aria-label="Clear selection" onClick={()=>{setActive(null);setSelected(null);}}><X/></Button>}</div>
     {active?<><span className="relation-tag" style={{color:COLORS[active.type]}}>{TYPE[active.type]}</span><h2>{active.source}</h2><ArrowRight className="record-arrow"/><h2>{active.target}</h2><p className="relationship">{active.relation}</p><dl><dt>Date / period</dt><dd>{active.date}</dd><dt>Source status</dt><dd>{active.evidence}</dd></dl>{context(active)&&<p className="note">{context(active)}</p>}<SourceNotes key={active.id} records={[active]}/><Button variant="outline" onClick={()=>neighborhood(active.source)}><Focus/>Explore {short(active.source)}</Button></>:
     selected?<><span className="relation-tag">{profiles[selected].kind}</span><h2>{selected}</h2><p className="subtle">{profiles[selected].subtitle}</p><section className="node-profile" aria-label="About this node"><h3>About</h3><p>{profiles[selected].summary}</p><div className="profile-citations">Profile sources: {profiles[selected].sources.map(id=><a key={id} href={sources[id].url} target="_blank" rel="noopener noreferrer" title={`${sources[id].title} (opens in a new tab)`}>{id}</a>)}</div><small>Profile updated {profiles[selected].updated}</small></section><p className="subtle">{links.length} recorded connections</p><Button variant="outline" className="neighbor-button" onClick={()=>neighborhood(selected)}><Focus/>Explore neighborhood</Button><SourceNotes key={selected} records={links} profileSources={profiles[selected].sources}/><h3>Connections</h3><div className="connection-list">{links.map(e=><button key={e.id} onClick={()=>setActive(e)}><span className="line-type" style={{background:COLORS[e.type]}}/><span><small>{e.source===selected?'→':'←'} {e.relation}</small><strong>{e.source===selected?e.target:e.source}</strong><em>{e.date}</em></span><ArrowUpRight size={14}/></button>)}</div></>:
-    <><h2>Follow a connection.</h2><p className="intro">People, capital, organizations and policy work in one sourced network.</p><div className="start-points"><h3>Start with</h3>{['Jaan Tallinn','Sam Bankman-Fried','Anthropic','METR','ControlAI','Jacob Coxon'].map(n=><Button variant="ghost" key={n} onClick={()=>neighborhood(n)}>{n}<ArrowRight size={16}/></Button>)}</div><div className="reading-key"><h3>Reading the graph</h3><p>Lines represent the relationship named in the record. Dates identify the relevant period.</p><p>Color follows connection type. Each record includes source links.</p></div></>}
+    <><h2>Follow a connection.</h2><p className="intro">People, capital, organizations and policy work in one sourced network.</p><div className="start-points"><h3>Start with</h3>{network.startNodes.map(n=><Button variant="ghost" key={n} onClick={()=>neighborhood(n)}>{n}<ArrowRight size={16}/></Button>)}</div><div className="reading-key"><h3>Reading the graph</h3><p>Lines represent the relationship named in the record. Dates identify the relevant period.</p><p>Color follows connection type. Each record includes source links.</p></div></>}
     <footer>Public-source investigation<br/>{raw.nodes.length} nodes · {raw.edges.length} relationship records<br/><a href="https://github.com/sploithunter/connect-the-dots/blob/main/wiki/index.md" target="_blank" rel="noopener noreferrer">Research & contributor wiki ↗</a></footer>
    </aside>
   </div>
