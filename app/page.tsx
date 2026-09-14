@@ -6,10 +6,11 @@ import {Input} from '@/components/ui/input';
 import {Select,SelectTrigger,SelectValue,SelectContent,SelectItem} from '@/components/ui/select';
 import {Network,Search,Plus,Minus,Maximize,ArrowUpRight,ArrowRight,Download,X,Focus,RotateCcw} from 'lucide-react';
 import raw from '@/data/evidence.json';
+import PathFinder from '@/components/path-finder';
 import {draggedPosition,graphBounds} from '@/lib/graph-drag.mjs';
 import network from '@/config/network.json';
 const core=network.overviewPositions as Record<string,number[]>;
-const viewNames:Record<string,string>=Object.fromEntries(Object.entries(network.views).map(([id,v])=>[id,v.label]));
+const viewNames:Record<string,string>={...Object.fromEntries(Object.entries(network.views).map(([id,v])=>[id,v.label])),path:'Selected path'};
 const groups:Record<string,string[]>=Object.fromEntries(Object.entries(network.views).map(([id,v])=>[id,v.seeds]));
 const COLORS:Record<string,string>=Object.fromEntries(Object.entries(network.relationshipTypes).map(([id,t])=>[id,t.color]));
 const TYPE:Record<string,string>=Object.fromEntries(Object.entries(network.relationshipTypes).map(([id,t])=>[id,t.label]));
@@ -69,6 +70,7 @@ function SourceNotes({records,profileSources=[]}:{records:Edge[],profileSources?
 
 export default function Home(){
  const [view,setView]=useState<string>(network.defaultView),[selected,setSelected]=useState<string|null>(null),[active,setActive]=useState<Edge|null>(null),[search,setSearch]=useState(''),[zoom,setZoom]=useState(1),[pan,setPan]=useState({x:0,y:0}),[hover,setHover]=useState<string|null>(null);
+ const [pathOpen,setPathOpen]=useState(false),[pathFrom,setPathFrom]=useState(''),[pathTo,setPathTo]=useState(''),[pathEdges,setPathEdges]=useState<string[]>([]);
  const [anchor,setAnchor]=useState<string|null>(null);
  const [excluded,setExcluded]=useState<string[]>([]);
  const svg=useRef<SVGSVGElement>(null),drag=useRef<{x:number,y:number,px:number,py:number}|null>(null);
@@ -77,14 +79,15 @@ export default function Home(){
  const [draggingNode,setDraggingNode]=useState<string|null>(null);
  const nodeDrag=useRef<{id:string,pointerId:number,x:number,y:number,origin:{x:number,y:number},inverse:DOMMatrix,moved:boolean}|null>(null);
  const suppressClick=useRef(false);
- const viewKey=JSON.stringify([view,view==='neighborhood'?anchor:null]);
+ const viewKey=JSON.stringify([view,view==='neighborhood'?anchor:view==='path'?pathEdges:null]);
  const edges=useMemo(()=>{
   let es=raw.edges;
-  if(view==='overview')es=es.filter(e=>e.source in core&&e.target in core);
+  if(view==='path')es=es.filter(e=>pathEdges.includes(e.id));
+  else if(view==='overview')es=es.filter(e=>e.source in core&&e.target in core);
   else if(view==='neighborhood'&&anchor)es=es.filter(e=>e.source===anchor||e.target===anchor);
   else if(view!=='all'){const set=new Set(groups[view]||[]);es=es.filter(e=>set.has(e.source)||set.has(e.target));}
   return es.filter(e=>!excluded.includes(e.type));
- },[view,anchor,excluded]);
+ },[view,anchor,excluded,pathEdges]);
  const ids=useMemo(()=>view==='all'?raw.nodes.map(n=>n.id):[...new Set(edges.flatMap(e=>[e.source,e.target]))],[edges,view]);
  const basePoints=useMemo(()=>layout(ids,edges,view==='overview'),[ids,edges,view]);
  const points=useMemo(()=>basePoints.map(p=>({...p,...positions[viewKey]?.[p.id]})),[basePoints,positions,viewKey]);
@@ -127,7 +130,7 @@ export default function Home(){
   <header className="masthead"><div className="brand"><Network size={24}/><div><h1>Connect the Dots</h1><span>AI safety · funding · institutions · policy</span></div></div><div className="dateline"><span className="live-dot"/>Evidence through {raw.as_of}</div><Button variant="outline" onClick={exportSvg}><Download/>Export graph</Button></header>
   <div className="workspace">
    <section className="canvas-section">
-    <div className="toolbar"><div><span className="eyebrow">NETWORK VIEW</span><Select value={view} onValueChange={v=>v&&changeView(v)}><SelectTrigger className="view-select"><SelectValue>{viewNames[view]}</SelectValue></SelectTrigger><SelectContent>{Object.entries(viewNames).filter(([v])=>v!=='neighborhood').map(([v,n])=><SelectItem key={v} value={v}>{n}</SelectItem>)}</SelectContent></Select></div><div className="search"><Search size={17}/><Input aria-label="Find a person or organization" placeholder="Find a person or organization" value={search} onChange={e=>setSearch(e.target.value)}/>{search&&<div className="search-results">{results.length?results.map(n=><Button variant="ghost" key={n.id} onClick={()=>neighborhood(n.id)}>{n.label}<ArrowUpRight size={15}/></Button>):<p>No matching entity.</p>}</div>}</div></div>
+    <div className="toolbar"><div><span className="eyebrow">NETWORK VIEW</span><Select value={view} onValueChange={v=>v&&changeView(v)}><SelectTrigger className="view-select"><SelectValue>{viewNames[view]}</SelectValue></SelectTrigger><SelectContent>{Object.entries(viewNames).filter(([v])=>!['neighborhood','path'].includes(v)).map(([v,n])=><SelectItem key={v} value={v}>{n}</SelectItem>)}</SelectContent></Select></div><div className="search"><Search size={17}/><Input aria-label="Find a person or organization" placeholder="Find a person or organization" value={search} onChange={e=>setSearch(e.target.value)}/>{search&&<div className="search-results">{results.length?results.map(n=><Button variant="ghost" key={n.id} onClick={()=>neighborhood(n.id)}>{n.label}<ArrowUpRight size={15}/></Button>):<p>No matching entity.</p>}</div>}</div></div>
     <div className="graph-wrap">
     <svg ref={svg} className="network-graph" viewBox={vbox} role="img" aria-label={`${viewNames[view]}: ${ids.length} nodes and ${edges.length} connections. Use search or the relationship panel to explore with a keyboard.`} onPointerDown={e=>{suppressClick.current=false;if(e.button!==0||!e.isPrimary)return;if((e.target as Element).closest('[data-node], [data-edge]'))return;drag.current={x:e.clientX,y:e.clientY,px:pan.x,py:pan.y};e.currentTarget.setPointerCapture(e.pointerId);}} onPointerMove={e=>{if(moveNode(e))return;if(drag.current){const r=e.currentTarget.getBoundingClientRect();const scale=Math.max(box.w/zoom/r.width,box.h/zoom/r.height);setPan({x:drag.current.px+(e.clientX-drag.current.x)*scale,y:drag.current.py+(e.clientY-drag.current.y)*scale});}}} onPointerUp={endNodeDrag} onPointerCancel={endNodeDrag} onLostPointerCapture={endNodeDrag}>
      <defs><pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#405164" opacity=".3"/></pattern></defs>
@@ -142,9 +145,9 @@ export default function Home(){
     <div className="legend">{Object.entries(TYPE).filter(([t])=>raw.edges.some(e=>e.type===t)).map(([t,label])=><button key={t} aria-pressed={!excluded.includes(t)} onClick={()=>{setExcluded(x=>x.includes(t)?x.filter(v=>v!==t):[...x,t]);resetCamera();}}><i style={{background:COLORS[t],opacity:excluded.includes(t)?.25:1}}/>{label}</button>)}<span className="legend-note">Dashed: proposal or open lead</span></div>
    </section>
    <aside className="inspector" aria-live="polite">
-    <div className="inspector-head"><span className="eyebrow">CONNECTION RECORD</span>{(selected||active)&&<Button size="icon" variant="ghost" aria-label="Clear selection" onClick={()=>{setActive(null);setSelected(null);}}><X/></Button>}</div>
+    <Button variant="outline" onClick={()=>setPathOpen(v=>!v)}>{pathOpen?'Hide path finder':'Find connections'}</Button>{pathOpen&&<PathFinder from={pathFrom} to={pathTo} setFrom={setPathFrom} setTo={setPathTo} onPath={ids=>{setPathEdges(ids);setView('path');setExcluded([]);setSelected(null);setActive(null);resetCamera();}}/>}<div className="inspector-head"><span className="eyebrow">CONNECTION RECORD</span>{(selected||active)&&<Button size="icon" variant="ghost" aria-label="Clear selection" onClick={()=>{setActive(null);setSelected(null);}}><X/></Button>}</div>
     {active?<><span className="relation-tag" style={{color:COLORS[active.type]}}>{TYPE[active.type]}</span><h2>{active.source}</h2><ArrowRight className="record-arrow"/><h2>{active.target}</h2><p className="relationship">{active.relation}</p><dl><dt>Date / period</dt><dd>{active.date}</dd><dt>Source status</dt><dd>{active.evidence}</dd></dl>{context(active)&&<p className="note">{context(active)}</p>}<SourceNotes key={active.id} records={[active]}/><Button variant="outline" onClick={()=>neighborhood(active.source)}><Focus/>Explore {short(active.source)}</Button></>:
-    selected?<><span className="relation-tag">{profiles[selected].kind}</span><h2>{selected}</h2><p className="subtle">{profiles[selected].subtitle}</p><section className="node-profile" aria-label="About this node"><h3>About</h3><p>{profiles[selected].summary}</p><div className="profile-citations">Profile sources: {profiles[selected].sources.map(id=><a key={id} href={sources[id].url} target="_blank" rel="noopener noreferrer" title={`${sources[id].title} (opens in a new tab)`}>{id}</a>)}</div><small>Profile updated {profiles[selected].updated}</small></section><p className="subtle">{links.length} recorded connections</p><Button variant="outline" className="neighbor-button" onClick={()=>neighborhood(selected)}><Focus/>Explore neighborhood</Button><SourceNotes key={selected} records={links} profileSources={profiles[selected].sources}/><h3>Connections</h3><div className="connection-list">{links.map(e=><button key={e.id} onClick={()=>setActive(e)}><span className="line-type" style={{background:COLORS[e.type]}}/><span><small>{e.source===selected?'→':'←'} {e.relation}</small><strong>{e.source===selected?e.target:e.source}</strong><em>{e.date}</em></span><ArrowUpRight size={14}/></button>)}</div></>:
+    selected?<><span className="relation-tag">{profiles[selected].kind}</span><h2>{selected}</h2><div className="endpoint-buttons"><Button variant="outline" onClick={()=>{setPathFrom(selected);setPathOpen(true);}}>Set as start</Button><Button variant="outline" onClick={()=>{setPathTo(selected);setPathOpen(true);}}>Set as destination</Button></div><p className="subtle">{profiles[selected].subtitle}</p><section className="node-profile" aria-label="About this node"><h3>About</h3><p>{profiles[selected].summary}</p><div className="profile-citations">Profile sources: {profiles[selected].sources.map(id=><a key={id} href={sources[id].url} target="_blank" rel="noopener noreferrer" title={`${sources[id].title} (opens in a new tab)`}>{id}</a>)}</div><small>Profile updated {profiles[selected].updated}</small></section><p className="subtle">{links.length} recorded connections</p><Button variant="outline" className="neighbor-button" onClick={()=>neighborhood(selected)}><Focus/>Explore neighborhood</Button><SourceNotes key={selected} records={links} profileSources={profiles[selected].sources}/><h3>Connections</h3><div className="connection-list">{links.map(e=><button key={e.id} onClick={()=>setActive(e)}><span className="line-type" style={{background:COLORS[e.type]}}/><span><small>{e.source===selected?'→':'←'} {e.relation}</small><strong>{e.source===selected?e.target:e.source}</strong><em>{e.date}</em></span><ArrowUpRight size={14}/></button>)}</div></>:
     <><h2>Follow a connection.</h2><p className="intro">People, capital, organizations and policy work in one sourced network.</p><div className="start-points"><h3>Start with</h3>{network.startNodes.map(n=><Button variant="ghost" key={n} onClick={()=>neighborhood(n)}>{n}<ArrowRight size={16}/></Button>)}</div><div className="reading-key"><h3>Reading the graph</h3><p>Lines represent the relationship named in the record. Dates identify the relevant period.</p><p>Color follows connection type. Each record includes source links.</p></div></>}
     <footer>Public-source investigation<br/>{raw.nodes.length} nodes · {raw.edges.length} relationship records<br/><a href="https://github.com/sploithunter/connect-the-dots/blob/main/wiki/index.md" target="_blank" rel="noopener noreferrer">Research & contributor wiki ↗</a></footer>
    </aside>

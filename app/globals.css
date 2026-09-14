@@ -169,3 +169,19 @@ body {
 
 .network-graph { touch-action: none; user-select: none; }
 .network-graph [data-node] text { pointer-events: none; }
+
+.path-finder { margin: 22px 0; padding-bottom: 24px; border-bottom: 1px solid #354b5c; }
+.path-finder label { display: block; font-size: 13px; margin: 10px 0; color: #d4e0e8; }
+.path-finder input:not([type=checkbox]) { margin-top: 6px; }
+.path-options select { margin-left: 12px; padding: 4px 10px; background: #16232f; border: 1px solid #536c80; border-radius: 5px; }
+.path-finder input[type=checkbox] { margin-right: 8px; accent-color: #d8a45f; }
+.path-filters { margin: 16px 0; font-size: 13px; }
+.path-finder summary { cursor: pointer; padding: 10px 0; color: #e5bf89; }
+.path-finder fieldset { border: 1px solid #354b5c; padding: 10px; margin: 10px 0; }
+.path-count { font-size: 13px; line-height: 1.6; margin: 18px 0; }
+.path-result { border: 1px solid #354b5c; background: #101d28; padding: 14px; border-radius: 8px; margin: 12px 0; }
+.path-route { font-size: 13px; line-height: 1.7; margin: 10px 0; }
+.path-step { padding: 12px 0; border-top: 1px solid #354b5c; font-size: 13px; line-height: 1.6; }
+.path-step small { display: block; color: #9eb3c3; }
+.path-step a { display: block; color: #e5bf89; text-decoration: underline; margin-top: 8px; }
+.endpoint-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }

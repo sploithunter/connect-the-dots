@@ -76,3 +76,7 @@ Added Gallego, Schiff, Warner, Gottheimer and Speaker Johnson, plus Yudkowsky (M
 ## [2026-09-14] lint — PRs 12 and 13 integration
 
 Combined the effective-altruism additions with the September 13–14 posts. Both branches allocated E160–E167, so the later-post records were reassigned E188–E195 while preserving the EA records as E160–E187. Merged profiles, view seeds, sources, timeline entries and open questions, then regenerated the complete wiki from the combined data.
+
+## 2026-09-14 — Two-entity path search
+
+Added searchable endpoints, node-profile endpoint actions, bounded shortest-first simple paths, direction/type/evidence filters and a funding-only shortcut. Results include visible relationship types and expandable dated, sourced records with amounts; selected routes open in a focused draggable graph. Documented search limits and evidence interpretation in [Finding paths](path-finder.md). Algorithm regressions and browser checks cover SBF-to-Sanders mixed paths, a direct Anthropic investment path, citation links and direction-sensitive funding filters.

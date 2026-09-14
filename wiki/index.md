@@ -13,6 +13,8 @@ A maintained research and engineering knowledge base for the [interactive graph]
 - [Coxon discussion](topics/incident.md) — public-entry briefing: participant accounts, news timing, named amplifiers and Coxon-window Congress.
 - [Open questions](open-questions.md) — research needed to extend the record.
 
+- [Finding paths](path-finder.md) — search between two entities and inspect each relationship.
+
 ## Working on the repository
 
 - [Configuration and one-file imports](configuration.md) — add nodes and views without editing application code.
