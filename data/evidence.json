@@ -12,6 +12,10 @@
       "label": "AI Policy Institute"
     },
     {
+      "id": "AI Policy Network",
+      "label": "AI Policy Network"
+    },
+    {
       "id": "AI policy development",
       "label": "AI policy development"
     },
@@ -48,6 +52,14 @@
       "label": "Andrej Karpathy"
     },
     {
+      "id": "Andy Kim",
+      "label": "Andy Kim"
+    },
+    {
+      "id": "Anna Paulina Luna",
+      "label": "Anna Paulina Luna"
+    },
+    {
       "id": "Anthropic",
       "label": "Anthropic"
     },
@@ -74,6 +86,10 @@
     {
       "id": "Beth Barnes",
       "label": "Beth Barnes"
+    },
+    {
+      "id": "Bill Foster",
+      "label": "Bill Foster"
     },
     {
       "id": "Brian Roemmele",
@@ -124,6 +140,18 @@
       "label": "Caroline Ellison"
     },
     {
+      "id": "Chris Deluzio",
+      "label": "Chris Deluzio"
+    },
+    {
+      "id": "Chris Murphy",
+      "label": "Chris Murphy"
+    },
+    {
+      "id": "Chris Van Hollen",
+      "label": "Chris Van Hollen"
+    },
+    {
       "id": "Coefficient Giving / Open Philanthropy",
       "label": "Coefficient Giving / Open Philanthropy"
     },
@@ -144,6 +172,10 @@
       "label": "Daniel Gross"
     },
     {
+      "id": "Daniel Kokotajlo",
+      "label": "Daniel Kokotajlo"
+    },
+    {
       "id": "Daniela Amodei",
       "label": "Daniela Amodei"
     },
@@ -152,8 +184,16 @@
       "label": "Dario Amodei"
     },
     {
+      "id": "Delia Ramirez",
+      "label": "Delia Ramirez"
+    },
+    {
       "id": "Des Browne",
       "label": "Des Browne"
+    },
+    {
+      "id": "Don Beyer",
+      "label": "Don Beyer"
     },
     {
       "id": "Dragoneer",
@@ -292,6 +332,10 @@
       "label": "Lord Clement-Jones"
     },
     {
+      "id": "Lori Trahan",
+      "label": "Lori Trahan"
+    },
+    {
       "id": "Luke Muehlhauser",
       "label": "Luke Muehlhauser"
     },
@@ -308,6 +352,10 @@
       "label": "MIRI"
     },
     {
+      "id": "Mark Kelly",
+      "label": "Mark Kelly"
+    },
+    {
       "id": "Meta",
       "label": "Meta"
     },
@@ -318,6 +366,14 @@
     {
       "id": "Nat Friedman",
       "label": "Nat Friedman"
+    },
+    {
+      "id": "Nathan Calvin",
+      "label": "Nathan Calvin"
+    },
+    {
+      "id": "Nathaniel Moran",
+      "label": "Nathaniel Moran"
     },
     {
       "id": "Nick Beckstead",
@@ -340,12 +396,24 @@
       "label": "Patrick Collison"
     },
     {
+      "id": "Patty Murray",
+      "label": "Patty Murray"
+    },
+    {
       "id": "Paul Christiano",
       "label": "Paul Christiano"
     },
     {
+      "id": "Peter Wildeford",
+      "label": "Peter Wildeford"
+    },
+    {
       "id": "Pew Charitable Trusts",
       "label": "Pew Charitable Trusts"
+    },
+    {
+      "id": "Pramila Jayapal",
+      "label": "Pramila Jayapal"
     },
     {
       "id": "Public First Action",
@@ -358,6 +426,10 @@
     {
       "id": "Redwood Research",
       "label": "Redwood Research"
+    },
+    {
+      "id": "Ro Khanna",
+      "label": "Ro Khanna"
     },
     {
       "id": "SFF",
@@ -392,6 +464,10 @@
       "label": "Tarbell Center for AI Journalism"
     },
     {
+      "id": "Ted Lieu",
+      "label": "Ted Lieu"
+    },
+    {
       "id": "Tino Cuéllar",
       "label": "Tino Cuéllar"
     },
@@ -414,6 +490,10 @@
     {
       "id": "US policy institutions",
       "label": "US policy institutions"
+    },
+    {
+      "id": "Wall Street Journal",
+      "label": "Wall Street Journal"
     },
     {
       "id": "Will MacAskill",
@@ -2145,9 +2225,10 @@
       "date": "2026-09-08 US / 09 UTC",
       "evidence": "documented",
       "sources": [
-        "X1"
+        "X1",
+        "X9"
       ],
-      "note": "",
+      "note": "Axios interview: about four months at Anthropic, left before the six-month vest, still held OpenAI equity. Public resignation is not itself evidence of paid direction.",
       "amount": null
     },
     {
@@ -2159,9 +2240,10 @@
       "date": "before Anthropic",
       "evidence": "documented",
       "sources": [
-        "X1"
+        "X1",
+        "O2"
       ],
-      "note": "",
+      "note": "Named on OpenAI’s GPT-4o contributor list. Distinct from later Anthropic employment.",
       "amount": null
     },
     {
@@ -2322,6 +2404,362 @@
         "F5"
       ],
       "note": "",
+      "amount": null
+    },
+    {
+      "note": "Pivot to AI and OfficeChai recaps place the WSJ exclusive about 18 minutes before X1 at 2026-09-09T00:04:00Z, implying 2026-09-08T23:46:00Z. The publisher timestamp remains a follow-up item requiring a dated capture.",
+      "amount": null,
+      "id": "E135",
+      "source": "Wall Street Journal",
+      "target": "Jacob Coxon",
+      "relation": "Reported resignation exclusive before the X thread",
+      "type": "amplification",
+      "date": "2026-09-08",
+      "evidence": "reported",
+      "sources": [
+        "X12",
+        "X13"
+      ]
+    },
+    {
+      "note": "Recap places this among the first three quote-posts within about 15 minutes of X1. Status ID and UTC timestamp were not captured. Public amplification is not evidence of advance planning.",
+      "amount": null,
+      "id": "E136",
+      "source": "Nathan Calvin",
+      "target": "Jacob Coxon",
+      "relation": "Reported quote-post of the resignation thread",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "reported",
+      "sources": [
+        "X10"
+      ]
+    },
+    {
+      "note": "Named as “Nathan Calvin of Encode AI” in the OfficeChai recap. Encode AI remains a separate legal name from Encode Justice.",
+      "amount": null,
+      "id": "E137",
+      "source": "Nathan Calvin",
+      "target": "Encode AI",
+      "relation": "Reported affiliation",
+      "type": "employment",
+      "date": "2026-09 recap",
+      "evidence": "reported",
+      "sources": [
+        "X10"
+      ]
+    },
+    {
+      "note": "Recap places this among the first three quote-posts within about 15 minutes of X1. Status ID and UTC timestamp were not captured. Public amplification is not evidence of advance planning.",
+      "amount": null,
+      "id": "E138",
+      "source": "Peter Wildeford",
+      "target": "Jacob Coxon",
+      "relation": "Reported quote-post of the resignation thread",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "reported",
+      "sources": [
+        "X10"
+      ]
+    },
+    {
+      "note": "Named as “Peter Wildeford of the AI Policy Network” in the OfficeChai recap. Distinct from the in-graph AI Policy Institute until sources map the names.",
+      "amount": null,
+      "id": "E139",
+      "source": "Peter Wildeford",
+      "target": "AI Policy Network",
+      "relation": "Reported affiliation",
+      "type": "employment",
+      "date": "2026-09 recap",
+      "evidence": "reported",
+      "sources": [
+        "X10"
+      ]
+    },
+    {
+      "note": "Recap places this among the first three quote-posts within about 15 minutes of X1. Status ID and UTC timestamp were not captured. Public amplification is not evidence of advance planning.",
+      "amount": null,
+      "id": "E140",
+      "source": "Daniel Kokotajlo",
+      "target": "Jacob Coxon",
+      "relation": "Reported quote-post of the resignation thread",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "reported",
+      "sources": [
+        "X10"
+      ]
+    },
+    {
+      "note": "TIME describes the AI Futures Project as started by Daniel Kokotajlo. Distinct from the reported quote-post edge.",
+      "amount": null,
+      "id": "E141",
+      "source": "Daniel Kokotajlo",
+      "target": "AI Futures Project",
+      "relation": "Identified as founder",
+      "type": "employment",
+      "date": "2026-09-09 TIME interview",
+      "evidence": "documented",
+      "sources": [
+        "X14"
+      ]
+    },
+    {
+      "id": "E142",
+      "source": "Jacob Coxon",
+      "target": "AI Futures Project",
+      "relation": "Said he hoped to do work in that vein",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "X14"
+      ],
+      "note": "TIME interview. A stated research interest is not an employment or funding edge, and is not evidence that the launch was directed.",
+      "amount": null
+    },
+    {
+      "id": "E143",
+      "source": "Bernie Sanders",
+      "target": "Jacob Coxon",
+      "relation": "Quoted resignation; pledged ban/pause legislation",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L10",
+        "L7"
+      ],
+      "note": "The 3 Sep announcement predates the resignation. This edge is the 9 Sep quote-post, not authorship of Coxon’s thread.",
+      "amount": null
+    },
+    {
+      "id": "E144",
+      "source": "Greg Casar",
+      "target": "Jacob Coxon",
+      "relation": "Called researcher warnings an emergency; demanded hearings and the ban",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L11",
+        "L7"
+      ],
+      "note": "Points to the already-previewed Sanders–Casar proposal.",
+      "amount": null
+    },
+    {
+      "id": "E145",
+      "source": "Andy Kim",
+      "target": "Jacob Coxon",
+      "relation": "Called for Senate-wide AI guardrails after researcher warnings",
+      "type": "amplification",
+      "date": "2026-09-14",
+      "evidence": "documented",
+      "sources": [
+        "L9"
+      ],
+      "note": "Globe recap of his remarks in the days after the warnings. MATCH/BLADE predate Coxon. Original X status not captured.",
+      "amount": null
+    },
+    {
+      "id": "E146",
+      "source": "Chris Murphy",
+      "target": "Jacob Coxon",
+      "relation": "Quoted Coxon; argued regulation can let research continue",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L8"
+      ],
+      "note": "Coxon-window congressional post. Quoting or reacting to a viral resignation is not evidence of paid direction. Several members already had AI bills or talking points before 8 Sep.",
+      "amount": null
+    },
+    {
+      "id": "E147",
+      "source": "Mark Kelly",
+      "target": "Jacob Coxon",
+      "relation": "Said Washington must act on fast-moving AI",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L8"
+      ],
+      "note": "Coxon-window congressional post. Quoting or reacting to a viral resignation is not evidence of paid direction. Several members already had AI bills or talking points before 8 Sep.",
+      "amount": null
+    },
+    {
+      "id": "E148",
+      "source": "Patty Murray",
+      "target": "Jacob Coxon",
+      "relation": "Called on Congress to regulate after researcher warnings",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L8"
+      ],
+      "note": "HuffPost quotes the regulate-now text. A Hubinger-specific quote is not separately evidenced in that excerpt.",
+      "amount": null
+    },
+    {
+      "id": "E149",
+      "source": "Lori Trahan",
+      "target": "Jacob Coxon",
+      "relation": "Cited resigning researchers and pushed Congress to act",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L8"
+      ],
+      "note": "Coxon-window congressional post. Quoting or reacting to a viral resignation is not evidence of paid direction. Several members already had AI bills or talking points before 8 Sep.",
+      "amount": null
+    },
+    {
+      "id": "E150",
+      "source": "Pramila Jayapal",
+      "target": "Jacob Coxon",
+      "relation": "Called AI companies out of control; demanded shutdowns",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L8"
+      ],
+      "note": "Coxon-window congressional post. Quoting or reacting to a viral resignation is not evidence of paid direction. Several members already had AI bills or talking points before 8 Sep.",
+      "amount": null
+    },
+    {
+      "id": "E151",
+      "source": "Ted Lieu",
+      "target": "Jacob Coxon",
+      "relation": "Told leadership to take up the AI Kill Switch Bill",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L8"
+      ],
+      "note": "US kill-switch bill is distinct from the UK amendment already in the graph.",
+      "amount": null
+    },
+    {
+      "id": "E152",
+      "source": "Anna Paulina Luna",
+      "target": "Jacob Coxon",
+      "relation": "Called for a House special session on the superintelligence race",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L12",
+        "L7"
+      ],
+      "note": "Hill places the post in the researcher-warning cycle. Frames winning/protecting, not a Sanders-style ban.",
+      "amount": null
+    },
+    {
+      "id": "E153",
+      "source": "Ro Khanna",
+      "target": "Jacob Coxon",
+      "relation": "Said lack of control, not just misuse; urged US–China safety standards",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L8"
+      ],
+      "note": "Coxon-window congressional post. Quoting or reacting to a viral resignation is not evidence of paid direction. Several members already had AI bills or talking points before 8 Sep.",
+      "amount": null
+    },
+    {
+      "id": "E154",
+      "source": "Nathaniel Moran",
+      "target": "Jacob Coxon",
+      "relation": "Said Congress cannot ignore AI risks while pursuing innovation",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L8"
+      ],
+      "note": "Coxon-window congressional post. Quoting or reacting to a viral resignation is not evidence of paid direction. Several members already had AI bills or talking points before 8 Sep.",
+      "amount": null
+    },
+    {
+      "id": "E155",
+      "source": "Chris Van Hollen",
+      "target": "Jacob Coxon",
+      "relation": "Responded to the thread; called for safeguards and testing",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L13",
+        "L7"
+      ],
+      "note": "Hill describes this as a response to Coxon’s post.",
+      "amount": null
+    },
+    {
+      "id": "E156",
+      "source": "Don Beyer",
+      "target": "Jacob Coxon",
+      "relation": "Cited the warnings; demanded hearings and ready bills",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L14",
+        "L7"
+      ],
+      "note": "Coxon-window congressional post. Quoting or reacting to a viral resignation is not evidence of paid direction. Several members already had AI bills or talking points before 8 Sep.",
+      "amount": null
+    },
+    {
+      "id": "E157",
+      "source": "Bill Foster",
+      "target": "Jacob Coxon",
+      "relation": "Argued software-only controls cannot contain superhuman AI",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L8"
+      ],
+      "note": "Coxon-window congressional post. Quoting or reacting to a viral resignation is not evidence of paid direction. Several members already had AI bills or talking points before 8 Sep.",
+      "amount": null
+    },
+    {
+      "id": "E158",
+      "source": "Delia Ramirez",
+      "target": "Jacob Coxon",
+      "relation": "Demanded congressional AI oversight after the warnings",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L8"
+      ],
+      "note": "Coxon-window congressional post. Quoting or reacting to a viral resignation is not evidence of paid direction. Several members already had AI bills or talking points before 8 Sep.",
+      "amount": null
+    },
+    {
+      "id": "E159",
+      "source": "Chris Deluzio",
+      "target": "Jacob Coxon",
+      "relation": "Called superintelligence risk an emergency for national action",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "L8"
+      ],
+      "note": "Coxon-window congressional post. Quoting or reacting to a viral resignation is not evidence of paid direction. Several members already had AI bills or talking points before 8 Sep.",
       "amount": null
     }
   ],
@@ -2529,6 +2967,17 @@
       "precision": "day"
     },
     {
+      "date": "2026-09-08T23:46:00Z",
+      "lane": "Incident",
+      "title": "WSJ exclusive quoting Coxon (18-minute recap timestamp; not independently confirmed)",
+      "sources": [
+        "X12",
+        "X13",
+        "X16"
+      ],
+      "precision": "minute"
+    },
+    {
       "date": "2026-09-09T00:04:00Z",
       "lane": "Incident",
       "title": "Coxon resignation post (Sept 8 in US time zones)",
@@ -2538,6 +2987,15 @@
       "precision": "minute"
     },
     {
+      "date": "2026-09-09",
+      "lane": "Incident",
+      "title": "Named first-wave quote-posts reported within about 15 minutes of X1",
+      "sources": [
+        "X10"
+      ],
+      "precision": "day"
+    },
+    {
       "date": "2026-09-09T01:27:00Z",
       "lane": "Incident",
       "title": "Hubinger publicly responds with personal extinction estimate",
@@ -2545,6 +3003,18 @@
         "X2"
       ],
       "precision": "minute"
+    },
+    {
+      "date": "2026-09-09",
+      "lane": "Incident",
+      "title": "Members of Congress post on hearings, guardrails, pause/ban, or kill switches after Coxon/Hubinger",
+      "sources": [
+        "L7",
+        "L8",
+        "L10",
+        "L11"
+      ],
+      "precision": "day"
     },
     {
       "date": "2026-09-09",
@@ -2645,7 +3115,7 @@
         "X10",
         "X7"
       ],
-      "needed": "Original post IDs, UTC timestamps, complete sampling frame and funding records for the correct legal organizations."
+      "needed": "Original quote-post status IDs, UTC timestamps and quote vs repost type. Named people and orgs are now graph nodes with reported amplification edges; do not treat those edges as documented until the posts are captured. Timing and common funders alone do not establish paid direction."
     },
     {
       "claim": "Tallinn is currently an Anthropic board observer",
@@ -2727,6 +3197,31 @@
         "C2"
       ],
       "needed": "Grant and fiscal-sponsorship records, restricted-use terms, repayments and current accounts; Conjecture equity is not ControlAI funding."
+    },
+    {
+      "claim": "Yassamin Ansari and other unnamed members posted Coxon-window AI statements not yet captured as nodes",
+      "status": "reported allegation",
+      "sources": [
+        "L8"
+      ],
+      "needed": "Original posts and UTC timestamps. This ingest covers named Hill/HuffPost/Globe members, not a complete census."
+    },
+    {
+      "claim": "Marsha Blackburn is slated for a Pro-Human Assembly event with Sanders and Casar",
+      "status": "unverified",
+      "sources": [
+        "L7"
+      ],
+      "needed": "Event notice and any matching high-volume X thread in the Coxon window. No such thread was captured here; do not treat event billing as a Coxon quote-post."
+    },
+    {
+      "claim": "Luna and Khanna are jointly writing a human-interface and kill-switch framework",
+      "status": "reported allegation",
+      "sources": [
+        "L8",
+        "L12"
+      ],
+      "needed": "A primary post, Dear Colleague, or bill text naming both members. Recaps are not that instrument."
     }
   ],
   "sources": {
@@ -3087,8 +3582,9 @@
       "title": "Jacob Coxon resignation post",
       "url": "https://x.com/hilbertspaess/status/2097476196791709843",
       "kind": "primary public post",
-      "note": "",
-      "accessed": "2026-09-14"
+      "note": "Posted 2026-09-09T00:04:00Z (6:04 PM PT on 8 Sep). Wayback calendar URL stored because a dated capture was not independently retrieved in this ingest.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/hilbertspaess/status/2097476196791709843"
     },
     "X2": {
       "id": "X2",
@@ -3096,7 +3592,8 @@
       "url": "https://x.com/EvanHub/status/2097497037956891126",
       "kind": "primary public post",
       "note": "",
-      "accessed": "2026-09-14"
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/EvanHub/status/2097497037956891126"
     },
     "X3": {
       "id": "X3",
@@ -3104,7 +3601,8 @@
       "url": "https://x.com/EvanHub/status/2097528891846074828",
       "kind": "primary public post",
       "note": "",
-      "accessed": "2026-09-14"
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/EvanHub/status/2097528891846074828"
     },
     "X4": {
       "id": "X4",
@@ -3144,7 +3642,8 @@
       "url": "https://x.com/karpathy/status/2098811935114551617",
       "kind": "primary public post",
       "note": "",
-      "accessed": "2026-09-14"
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/karpathy/status/2098811935114551617"
     },
     "X9": {
       "id": "X9",
@@ -3152,7 +3651,8 @@
       "url": "https://www.axios.com/2026/09/09/anthropic-researcher-ai-warning-interview",
       "kind": "original reporting",
       "note": "",
-      "accessed": "2026-09-14"
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.axios.com/2026/09/09/anthropic-researcher-ai-warning-interview"
     },
     "X10": {
       "id": "X10",
@@ -3160,7 +3660,8 @@
       "url": "https://officechai.com/ai/questions-arise-over-anthropic-quitter-jacob-coxons-neutrality-and-ties-to-ai-safety-pr-groups-after-mega-viral-x-post/",
       "kind": "secondary allegation report",
       "note": "",
-      "accessed": "2026-09-14"
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://officechai.com/ai/questions-arise-over-anthropic-quitter-jacob-coxons-neutrality-and-ties-to-ai-safety-pr-groups-after-mega-viral-x-post/"
     },
     "X11": {
       "id": "X11",
@@ -3201,6 +3702,141 @@
       "kind": "primary",
       "note": "",
       "accessed": "2026-09-14"
+    },
+    "X12": {
+      "id": "X12",
+      "title": "WSJ exclusive: Anthropic researcher quits over out-of-control AI fears",
+      "url": "https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628",
+      "kind": "original reporting",
+      "note": "Paywalled live page. Recaps say it appeared before Coxon’s X thread; a stable publisher timestamp was not independently read from the live HTML in this ingest.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628"
+    },
+    "X13": {
+      "id": "X13",
+      "title": "Pivot to AI: Jacob Coxon media-campaign recap",
+      "url": "https://pivot-to-ai.com/2026/09/10/jacob-coxon-how-to-run-an-ai-doomsday-media-campaign/",
+      "kind": "commentary / allegation",
+      "note": "Reports that the WSJ exclusive appeared 18 minutes before the first tweet and points to WSJ Wayback copies dated 8 Sep and 10 Sep. Used for the timing lead and archive pointers, not as proof of paid direction.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://pivot-to-ai.com/2026/09/10/jacob-coxon-how-to-run-an-ai-doomsday-media-campaign/"
+    },
+    "X14": {
+      "id": "X14",
+      "title": "TIME: Coxon interview",
+      "url": "https://time.com/article/2026/09/09/ai-anthropic-openai-jacob-coxon/",
+      "kind": "original reporting",
+      "note": "Interview describing pretraining work, the resignation post, and Coxon’s stated interest in work in the vein of the AI Futures Project.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://time.com/article/2026/09/09/ai-anthropic-openai-jacob-coxon/"
+    },
+    "X15": {
+      "id": "X15",
+      "title": "WIRED: Coxon interview and Anthropic statement",
+      "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
+      "kind": "original reporting",
+      "note": "Includes Coxon’s “crunch time for humanity” remarks and an Anthropic spokesperson statement. Not used as evidence of covert coordination.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/"
+    },
+    "X16": {
+      "id": "X16",
+      "title": "kingy.ai evidence audit of Coxon-launch claims",
+      "url": "https://kingy.ai/blog/anthropic-ai-warning-psyop-evidence-audit/",
+      "kind": "secondary analysis",
+      "note": "Records that the exact 18-minute WSJ-before-tweet figure and the first-wave quote-post ordering were not independently reproduced from a stable public timestamp record in that audit.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://kingy.ai/blog/anthropic-ai-warning-psyop-evidence-audit/"
+    },
+    "O2": {
+      "id": "O2",
+      "title": "OpenAI: GPT-4o contributions",
+      "url": "https://openai.com/gpt-4o-contributions/",
+      "kind": "primary",
+      "note": "Public contributor list naming Jacob Coxon among GPT-4o contributions.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://openai.com/gpt-4o-contributions/"
+    },
+    "L7": {
+      "id": "L7",
+      "title": "The Hill: lawmakers sound alarm after Anthropic researchers’ warning",
+      "url": "https://thehill.com/homenews/senate/6080316-lawmakers-ai-safety-warnings/",
+      "kind": "original reporting",
+      "note": "9 Sep 2026 roundup with original X status URLs for Sanders, Casar, Luna, Van Hollen and Beyer.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://thehill.com/homenews/senate/6080316-lawmakers-ai-safety-warnings/"
+    },
+    "L8": {
+      "id": "L8",
+      "title": "HuffPost: lawmakers call for regulation after AI threat warning",
+      "url": "https://www.huffpost.com/entry/lawmakers-call-for-regulation-after-warning-about-ai-threat-to-humanity-tktk_n_6aa2c3b6e4b06fbaa80f6b0f",
+      "kind": "original reporting",
+      "note": "10 Sep 2026 compilation of quoted congressional posts in the days after Coxon. Several excerpts lack captured status IDs in this ingest.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.huffpost.com/entry/lawmakers-call-for-regulation-after-warning-about-ai-threat-to-humanity-tktk_n_6aa2c3b6e4b06fbaa80f6b0f"
+    },
+    "L9": {
+      "id": "L9",
+      "title": "New Jersey Globe: Kim calls for bipartisan AI legislation",
+      "url": "https://newjerseyglobe.com/congress/kim-calls-for-bipartisan-ai-legislation-warning-technology-is-advancing-beyond-human-control/",
+      "kind": "original reporting",
+      "note": "14 Sep 2026 recap of Kim’s Coxon-window remarks: MATCH/BLADE, child protections, Mythos-proofing. Not itself an X status URL.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://newjerseyglobe.com/congress/kim-calls-for-bipartisan-ai-legislation-warning-technology-is-advancing-beyond-human-control/"
+    },
+    "L10": {
+      "id": "L10",
+      "title": "Bernie Sanders quotes Coxon and pledges ban/pause legislation",
+      "url": "https://x.com/BernieSanders/status/2097705093520863568",
+      "kind": "primary public post",
+      "note": "9 Sep 2026. Quotes Coxon; the Ban ASI announcement with Casar was 3 Sep.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/BernieSanders/status/2097705093520863568"
+    },
+    "L11": {
+      "id": "L11",
+      "title": "Greg Casar: Congress must pass Sanders–Casar superintelligence ban",
+      "url": "https://x.com/RepCasar/status/2097685220442923030",
+      "kind": "primary public post",
+      "note": "9 Sep 2026. Calls the researcher warnings an emergency and demands hearings plus the already-previewed ban.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/RepCasar/status/2097685220442923030"
+    },
+    "L12": {
+      "id": "L12",
+      "title": "Anna Paulina Luna calls for a House special session on AI",
+      "url": "https://x.com/RepLuna/status/2097641199196684682",
+      "kind": "primary public post",
+      "note": "Hill-linked Coxon-window post. Race-toward-superintelligence framing with a first-priority-protect-Americans line.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/RepLuna/status/2097641199196684682"
+    },
+    "L13": {
+      "id": "L13",
+      "title": "Chris Van Hollen: pump the brakes after Coxon thread",
+      "url": "https://x.com/ChrisVanHollen/status/2097759332305715241",
+      "kind": "primary public post",
+      "note": "Hill says he responded to Coxon’s post; calls for mandatory safeguards, testing, and dialogue with China.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/ChrisVanHollen/status/2097759332305715241"
+    },
+    "L14": {
+      "id": "L14",
+      "title": "Don Beyer: doing nothing on AI is unacceptable",
+      "url": "https://x.com/RepDonBeyer/status/2097728914906869764",
+      "kind": "primary public post",
+      "note": "Coxon-window post criticizing early House adjournment and calling for hearings and ready bills.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://x.com/RepDonBeyer/status/2097728914906869764"
+    },
+    "L16": {
+      "id": "L16",
+      "title": "Kim–Hagerty BLADE Act press release",
+      "url": "https://www.kim.senate.gov/press_release/senators-kim-and-hagerty-lead-colleagues-in-introducing-bill-to-protect-american-ai-technology-from-foreign-attacks/",
+      "kind": "primary",
+      "note": "6 Aug 2026 introduction of BLADE; also describes the earlier MATCH Act. Predates Coxon; used for Kim’s named bills, not as a Coxon quote.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.kim.senate.gov/press_release/senators-kim-and-hagerty-lead-colleagues-in-introducing-bill-to-protect-american-ai-technology-from-foreign-attacks/"
     }
   }
 }

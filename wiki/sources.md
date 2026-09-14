@@ -1,6 +1,6 @@
 # Source index
 
-59 source records with usage notes and backlinks.
+74 source records with usage notes and backlinks.
 
 - [A1: Anthropic: $124M Series A, May 2021](sources/A1.md) — primary; recorded access 2026-09-14.
 - [A2: Anthropic: $580M Series B, April 2022](sources/A2.md) — primary; recorded access 2026-09-14.
@@ -61,5 +61,20 @@
 - [G11: OpenAI: supporters and 2018 board roster](sources/G11.md) — primary; recorded access 2026-09-14.
 - [M7: Ajeya Cotra: career account](sources/M7.md) — primary; recorded access 2026-09-14.
 - [F5: Avital Balwit: personal professional biography](sources/F5.md) — primary; recorded access 2026-09-14.
+- [X12: WSJ exclusive: Anthropic researcher quits over out-of-control AI fears](sources/X12.md) — original reporting; recorded access 2026-09-14.
+- [X13: Pivot to AI: Jacob Coxon media-campaign recap](sources/X13.md) — commentary / allegation; recorded access 2026-09-14.
+- [X14: TIME: Coxon interview](sources/X14.md) — original reporting; recorded access 2026-09-14.
+- [X15: WIRED: Coxon interview and Anthropic statement](sources/X15.md) — original reporting; recorded access 2026-09-14.
+- [X16: kingy.ai evidence audit of Coxon-launch claims](sources/X16.md) — secondary analysis; recorded access 2026-09-14.
+- [O2: OpenAI: GPT-4o contributions](sources/O2.md) — primary; recorded access 2026-09-14.
+- [L7: The Hill: lawmakers sound alarm after Anthropic researchers’ warning](sources/L7.md) — original reporting; recorded access 2026-09-14.
+- [L8: HuffPost: lawmakers call for regulation after AI threat warning](sources/L8.md) — original reporting; recorded access 2026-09-14.
+- [L9: New Jersey Globe: Kim calls for bipartisan AI legislation](sources/L9.md) — original reporting; recorded access 2026-09-14.
+- [L10: Bernie Sanders quotes Coxon and pledges ban/pause legislation](sources/L10.md) — primary public post; recorded access 2026-09-14.
+- [L11: Greg Casar: Congress must pass Sanders–Casar superintelligence ban](sources/L11.md) — primary public post; recorded access 2026-09-14.
+- [L12: Anna Paulina Luna calls for a House special session on AI](sources/L12.md) — primary public post; recorded access 2026-09-14.
+- [L13: Chris Van Hollen: pump the brakes after Coxon thread](sources/L13.md) — primary public post; recorded access 2026-09-14.
+- [L14: Don Beyer: doing nothing on AI is unacceptable](sources/L14.md) — primary public post; recorded access 2026-09-14.
+- [L16: Kim–Hagerty BLADE Act press release](sources/L16.md) — primary; recorded access 2026-09-14.
 
 [Wiki home](index.md)

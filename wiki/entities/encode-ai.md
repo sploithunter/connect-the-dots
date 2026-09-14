@@ -16,10 +16,12 @@ Profile sources: [S2](../sources/S2.md).
 ## Dated relationship records
 
 - **2025 · documented · E041:** [SFF](sff.md) → Tallinn-funded recommendation → [Encode AI](encode-ai.md). [S2](../sources/S2.md).
+- **2026-09 recap · reported · E137:** [Nathan Calvin](nathan-calvin.md) → Reported affiliation → [Encode AI](encode-ai.md). [X10](../sources/X10.md).
 
 ## Related pages
 
 - [SFF](sff.md)
+- [Nathan Calvin](nathan-calvin.md)
 
 [Entity index](../entities.md) · [Wiki home](../index.md)
 

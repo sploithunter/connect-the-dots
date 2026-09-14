@@ -31,3 +31,36 @@ Confirmed the repository is public under sploithunter. Added the standard MIT li
 Added pointer-based node dragging, connected-edge updates, zoom-aware movement and a Reset layout button for the current view. Manual arrangements are kept per view while the page is open. Background pan and click-to-inspect remain separate gestures. Fit and SVG export include manually moved positions. Added regression checks for coordinate conversion and moved-node bounds.
 
 Validation: 14 automated tests and the production build passed. A local browser check exercised actual pointer dragging, edge updates, click suppression, normal inspection, zoomed dragging, layout reset and background panning without page errors.
+
+## [2026-09-14] ingest — Wall Street Journal
+
+Imported a populated node profile, 1 cited relationship records and 6 new source records from a node packet. Regenerated entity/source pages and indexes. Review affected topic guides before publication.
+
+## [2026-09-14] ingest — Nathan Calvin
+
+Imported a populated node profile, 2 cited relationship records and 0 new source records from a node packet. Regenerated entity/source pages and indexes. Review affected topic guides before publication.
+
+## [2026-09-14] ingest — Peter Wildeford
+
+Imported a populated node profile, 1 cited relationship records and 0 new source records from a node packet. Regenerated entity/source pages and indexes. Review affected topic guides before publication.
+
+## [2026-09-14] ingest — AI Policy Network
+
+Imported a populated node profile, 1 cited relationship records and 0 new source records from a node packet. Regenerated entity/source pages and indexes. Review affected topic guides before publication.
+
+## [2026-09-14] ingest — Daniel Kokotajlo
+
+Imported a populated node profile, 2 cited relationship records and 0 new source records from a node packet. Regenerated entity/source pages and indexes. Review affected topic guides before publication.
+
+## [2026-09-14] update — Coxon launch record (timing, amplifiers, archives)
+
+Expanded the Coxon profile into a public-entry briefing and rewrote the incident topic into participant accounts, news timing, and named amplifiers. Added a WSJ exclusive event using the 18-minute recap inference (`2026-09-08T23:46:00Z` vs X1 at `2026-09-09T00:04:00Z`) while recording the eight-minute disagreement and that kingy.ai did not independently reproduce the interval. Attached Wayback calendar `archiveUrl` values to X1–X3, X8–X10, X12–X16 and O2; inspector source cards and wiki source pages expose those links. Incident-view seeds now include the newspaper, named first-wave accounts, Encode AI, AI Futures Project and AI Policy Network. Quote-post edges remain `reported` until original status IDs are captured. The covert-direction lead is unchanged.
+
+## [2026-09-14] ingest — Coxon-window congressional posts
+
+Added 15 members of Congress who posted in the days after Coxon’s thread, plus 9 Sep quote/response edges for Sanders and Casar. Documented original X URLs for Sanders, Casar, Luna, Van Hollen and Beyer; HuffPost and NJ Globe cover the rest of the quoted set. Positions are not collapsed: ban/pause vs regulate-while-competing vs special-session/race framing. Added a Coxon-window Congress view. Did not add governors, Ted Cruz, or Marsha Blackburn as promoter nodes. The Sep 3 Sanders–Casar announcement remains a separate legislation record.
+
+
+## [2026-09-14] lint — PR 11 reconciliation
+
+Reviewed the Coxon/congressional additions and retained their source attribution. Corrected the WSJ-before-X edge to reported because its timing relies on recaps. Removed the uncited eight-minute alternative from the topic narrative. Relabeled Wayback calendar links as archive lookups rather than archived copies, validated archive URL schemes, and added a regression check. Adjusted the incident narrative to preserve the repository's neutral investigative framing.

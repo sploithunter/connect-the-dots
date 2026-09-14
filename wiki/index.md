@@ -9,7 +9,7 @@ A maintained research and engineering knowledge base for the [interactive graph]
 - [Funding and institutions](topics/funding.md) — investment and philanthropic routes.
 - [Evaluation and governance](topics/evaluation.md) — ARC, METR, laboratories and personnel.
 - [Policy development](topics/policy.md) — drafting, consultation, sponsorship and fellowships.
-- [Coxon discussion](topics/incident.md) — resignation, responses and subsequent public discussion.
+- [Coxon discussion](topics/incident.md) — public-entry briefing: participant accounts, news timing, named amplifiers and Coxon-window Congress.
 - [Open questions](open-questions.md) — research needed to extend the record.
 
 ## Working on the repository

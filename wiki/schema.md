@@ -20,7 +20,7 @@ Avoid generic filler. For a person, explain the relevant role and institution. F
 
 Each relationship has an ID, source and target node, relation, type, date/period, evidence status, source IDs and optional note/amount. `documented`, `reported` and `unverified lead` are the current evidence statuses. Dates preserve the period in the source. Amounts must specify whether they represent an individual investment, round total, grant, recommendation, commitment or payment.
 
-Source records have `id`, `title`, `url`, `kind`, `note` and `accessed` (null only for an explicitly classified unretrieved lead with an explanatory note); optional `rawPath` points to a permitted local source capture. Source kind identifies provenance, while relationship evidence status describes the particular claim. Keep both. Profile source IDs can include sources beyond those cited by edges; the UI will display them too.
+Source records have `id`, `title`, `url`, `kind`, `note` and `accessed` (null only for an explicitly classified unretrieved lead with an explanatory note); optional `rawPath` points to a permitted local source capture, and optional `archiveUrl` points to a Wayback, Perma, or other Memento copy. An archive link is not a substitute for reading the original. Source kind identifies provenance, while relationship evidence status describes the particular claim. Keep both. Profile source IDs can include sources beyond those cited by edges; the UI will display them too.
 
 ## Generated and maintained pages
 
