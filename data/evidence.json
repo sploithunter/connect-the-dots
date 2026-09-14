@@ -1,0 +1,3206 @@
+{
+  "title": "AI safety: capital, institutions and the Coxon controversy",
+  "as_of": "2026-09-14",
+  "scope": "Public US/UK relationships connected to supplied posts. Evidence inventory, not complete global census.",
+  "nodes": [
+    {
+      "id": "AI Futures Project",
+      "label": "AI Futures Project"
+    },
+    {
+      "id": "AI Policy Institute",
+      "label": "AI Policy Institute"
+    },
+    {
+      "id": "AI policy development",
+      "label": "AI policy development"
+    },
+    {
+      "id": "ARC",
+      "label": "ARC"
+    },
+    {
+      "id": "Ajeya Cotra",
+      "label": "Ajeya Cotra"
+    },
+    {
+      "id": "Alameda Research",
+      "label": "Alameda Research"
+    },
+    {
+      "id": "Alex Sobel",
+      "label": "Alex Sobel"
+    },
+    {
+      "id": "Altimeter Capital",
+      "label": "Altimeter Capital"
+    },
+    {
+      "id": "Amazon",
+      "label": "Amazon"
+    },
+    {
+      "id": "Andrea Miotti",
+      "label": "Andrea Miotti"
+    },
+    {
+      "id": "Andrej Karpathy",
+      "label": "Andrej Karpathy"
+    },
+    {
+      "id": "Anthropic",
+      "label": "Anthropic"
+    },
+    {
+      "id": "Anthropic LTBT",
+      "label": "Anthropic LTBT"
+    },
+    {
+      "id": "Arthur Breitman",
+      "label": "Arthur Breitman"
+    },
+    {
+      "id": "Audacious Project",
+      "label": "Audacious Project"
+    },
+    {
+      "id": "Avital Balwit",
+      "label": "Avital Balwit"
+    },
+    {
+      "id": "Bernie Sanders",
+      "label": "Bernie Sanders"
+    },
+    {
+      "id": "Beth Barnes",
+      "label": "Beth Barnes"
+    },
+    {
+      "id": "Brian Roemmele",
+      "label": "Brian Roemmele"
+    },
+    {
+      "id": "CAIS",
+      "label": "CAIS"
+    },
+    {
+      "id": "CAIS Action Fund",
+      "label": "CAIS Action Fund"
+    },
+    {
+      "id": "CERR",
+      "label": "CERR"
+    },
+    {
+      "id": "CNAS",
+      "label": "CNAS"
+    },
+    {
+      "id": "CSER",
+      "label": "CSER"
+    },
+    {
+      "id": "CSET",
+      "label": "CSET"
+    },
+    {
+      "id": "California Frontier AI Working Group",
+      "label": "California Frontier AI Working Group"
+    },
+    {
+      "id": "California SB 1047",
+      "label": "California SB 1047"
+    },
+    {
+      "id": "Cari Tuna",
+      "label": "Cari Tuna"
+    },
+    {
+      "id": "Carnegie Endowment",
+      "label": "Carnegie Endowment"
+    },
+    {
+      "id": "Caroline Ellison",
+      "label": "Caroline Ellison"
+    },
+    {
+      "id": "Coefficient Giving / Open Philanthropy",
+      "label": "Coefficient Giving / Open Philanthropy"
+    },
+    {
+      "id": "Conjecture",
+      "label": "Conjecture"
+    },
+    {
+      "id": "Connor Leahy",
+      "label": "Connor Leahy"
+    },
+    {
+      "id": "ControlAI",
+      "label": "ControlAI"
+    },
+    {
+      "id": "Daniel Gross",
+      "label": "Daniel Gross"
+    },
+    {
+      "id": "Daniela Amodei",
+      "label": "Daniela Amodei"
+    },
+    {
+      "id": "Dario Amodei",
+      "label": "Dario Amodei"
+    },
+    {
+      "id": "Des Browne",
+      "label": "Des Browne"
+    },
+    {
+      "id": "Dragoneer",
+      "label": "Dragoneer"
+    },
+    {
+      "id": "Dustin Moskovitz",
+      "label": "Dustin Moskovitz"
+    },
+    {
+      "id": "EU AI Office",
+      "label": "EU AI Office"
+    },
+    {
+      "id": "Economic Security Project Action",
+      "label": "Economic Security Project Action"
+    },
+    {
+      "id": "Effective Ventures",
+      "label": "Effective Ventures"
+    },
+    {
+      "id": "Encode AI",
+      "label": "Encode AI"
+    },
+    {
+      "id": "Encode Justice",
+      "label": "Encode Justice"
+    },
+    {
+      "id": "Epoch AI",
+      "label": "Epoch AI"
+    },
+    {
+      "id": "Eric Schmidt",
+      "label": "Eric Schmidt"
+    },
+    {
+      "id": "Evan Hubinger",
+      "label": "Evan Hubinger"
+    },
+    {
+      "id": "FTX / Alameda estate",
+      "label": "FTX / Alameda estate"
+    },
+    {
+      "id": "FTX Future Fund",
+      "label": "FTX Future Fund"
+    },
+    {
+      "id": "Future of Life Institute",
+      "label": "Future of Life Institute"
+    },
+    {
+      "id": "Gabriel Alfour",
+      "label": "Gabriel Alfour"
+    },
+    {
+      "id": "Good Ventures",
+      "label": "Good Ventures"
+    },
+    {
+      "id": "Google DeepMind",
+      "label": "Google DeepMind"
+    },
+    {
+      "id": "GovAI",
+      "label": "GovAI"
+    },
+    {
+      "id": "Greenoaks",
+      "label": "Greenoaks"
+    },
+    {
+      "id": "Greg Casar",
+      "label": "Greg Casar"
+    },
+    {
+      "id": "Holden Karnofsky",
+      "label": "Holden Karnofsky"
+    },
+    {
+      "id": "Horizon Institute",
+      "label": "Horizon Institute"
+    },
+    {
+      "id": "IAPS",
+      "label": "IAPS"
+    },
+    {
+      "id": "Jaan Tallinn",
+      "label": "Jaan Tallinn"
+    },
+    {
+      "id": "Jacob Coxon",
+      "label": "Jacob Coxon"
+    },
+    {
+      "id": "Jane Street individuals",
+      "label": "Jane Street individuals"
+    },
+    {
+      "id": "Jason Matheny",
+      "label": "Jason Matheny"
+    },
+    {
+      "id": "Jim McClave",
+      "label": "Jim McClave"
+    },
+    {
+      "id": "Joe Benton",
+      "label": "Joe Benton"
+    },
+    {
+      "id": "John Collison",
+      "label": "John Collison"
+    },
+    {
+      "id": "Ketan Ramakrishnan",
+      "label": "Ketan Ramakrishnan"
+    },
+    {
+      "id": "Lachlan Phillips",
+      "label": "Lachlan Phillips"
+    },
+    {
+      "id": "Leopold Aschenbrenner",
+      "label": "Leopold Aschenbrenner"
+    },
+    {
+      "id": "Longview Philanthropy",
+      "label": "Longview Philanthropy"
+    },
+    {
+      "id": "Lord Clement-Jones",
+      "label": "Lord Clement-Jones"
+    },
+    {
+      "id": "Luke Muehlhauser",
+      "label": "Luke Muehlhauser"
+    },
+    {
+      "id": "MATS",
+      "label": "MATS"
+    },
+    {
+      "id": "METR",
+      "label": "METR"
+    },
+    {
+      "id": "MIRI",
+      "label": "MIRI"
+    },
+    {
+      "id": "Meta",
+      "label": "Meta"
+    },
+    {
+      "id": "NIST / CAISI",
+      "label": "NIST / CAISI"
+    },
+    {
+      "id": "Nat Friedman",
+      "label": "Nat Friedman"
+    },
+    {
+      "id": "Nick Beckstead",
+      "label": "Nick Beckstead"
+    },
+    {
+      "id": "Nishad Singh",
+      "label": "Nishad Singh"
+    },
+    {
+      "id": "OpenAI",
+      "label": "OpenAI"
+    },
+    {
+      "id": "Packard Foundation",
+      "label": "Packard Foundation"
+    },
+    {
+      "id": "Patrick Collison",
+      "label": "Patrick Collison"
+    },
+    {
+      "id": "Paul Christiano",
+      "label": "Paul Christiano"
+    },
+    {
+      "id": "Pew Charitable Trusts",
+      "label": "Pew Charitable Trusts"
+    },
+    {
+      "id": "Public First Action",
+      "label": "Public First Action"
+    },
+    {
+      "id": "RAND",
+      "label": "RAND"
+    },
+    {
+      "id": "Redwood Research",
+      "label": "Redwood Research"
+    },
+    {
+      "id": "SFF",
+      "label": "SFF"
+    },
+    {
+      "id": "Sam Bankman-Fried",
+      "label": "Sam Bankman-Fried"
+    },
+    {
+      "id": "Sayer Ji",
+      "label": "Sayer Ji"
+    },
+    {
+      "id": "Schmidt Sciences",
+      "label": "Schmidt Sciences"
+    },
+    {
+      "id": "Sequoia Capital",
+      "label": "Sequoia Capital"
+    },
+    {
+      "id": "Sid Black",
+      "label": "Sid Black"
+    },
+    {
+      "id": "Sijbrandij Foundation",
+      "label": "Sijbrandij Foundation"
+    },
+    {
+      "id": "Tarbell Center for AI Journalism",
+      "label": "Tarbell Center for AI Journalism"
+    },
+    {
+      "id": "Tino Cuéllar",
+      "label": "Tino Cuéllar"
+    },
+    {
+      "id": "UK AI Security Institute",
+      "label": "UK AI Security Institute"
+    },
+    {
+      "id": "UK AI kill-switch amendment",
+      "label": "UK AI kill-switch amendment"
+    },
+    {
+      "id": "UK ASI Bill",
+      "label": "UK ASI Bill"
+    },
+    {
+      "id": "US Ban ASI proposal",
+      "label": "US Ban ASI proposal"
+    },
+    {
+      "id": "US policy institutions",
+      "label": "US policy institutions"
+    },
+    {
+      "id": "Will MacAskill",
+      "label": "Will MacAskill"
+    },
+    {
+      "id": "Zach Robinson",
+      "label": "Zach Robinson"
+    }
+  ],
+  "edges": [
+    {
+      "id": "E001",
+      "source": "Jaan Tallinn",
+      "target": "Anthropic",
+      "relation": "Led Series A",
+      "type": "investment",
+      "date": "2021-05-28",
+      "evidence": "documented",
+      "sources": [
+        "A1"
+      ],
+      "note": "Round total $124M; individual checks not assigned.",
+      "amount": null
+    },
+    {
+      "id": "E002",
+      "source": "Dustin Moskovitz",
+      "target": "Anthropic",
+      "relation": "Series A investor",
+      "type": "investment",
+      "date": "2021-05-28",
+      "evidence": "documented",
+      "sources": [
+        "A1"
+      ],
+      "note": "Round total $124M; individual checks not assigned.",
+      "amount": null
+    },
+    {
+      "id": "E003",
+      "source": "Jim McClave",
+      "target": "Anthropic",
+      "relation": "Series A investor",
+      "type": "investment",
+      "date": "2021-05-28",
+      "evidence": "documented",
+      "sources": [
+        "A1"
+      ],
+      "note": "Round total $124M; individual checks not assigned.",
+      "amount": null
+    },
+    {
+      "id": "E004",
+      "source": "Eric Schmidt",
+      "target": "Anthropic",
+      "relation": "Series A investor",
+      "type": "investment",
+      "date": "2021-05-28",
+      "evidence": "documented",
+      "sources": [
+        "A1"
+      ],
+      "note": "Round total $124M; individual checks not assigned.",
+      "amount": null
+    },
+    {
+      "id": "E005",
+      "source": "CERR",
+      "target": "Anthropic",
+      "relation": "Series A investor",
+      "type": "investment",
+      "date": "2021-05-28",
+      "evidence": "documented",
+      "sources": [
+        "A1"
+      ],
+      "note": "Round total $124M; individual checks not assigned.",
+      "amount": null
+    },
+    {
+      "id": "E006",
+      "source": "Sam Bankman-Fried",
+      "target": "Anthropic",
+      "relation": "Led Series B",
+      "type": "investment",
+      "date": "2022-04-29",
+      "evidence": "documented",
+      "sources": [
+        "A2"
+      ],
+      "note": "Round total $580M; not a personal $580M donation.",
+      "amount": null
+    },
+    {
+      "id": "E007",
+      "source": "Caroline Ellison",
+      "target": "Anthropic",
+      "relation": "Series B investor",
+      "type": "investment",
+      "date": "2022-04-29",
+      "evidence": "documented",
+      "sources": [
+        "A2"
+      ],
+      "note": "Round total $580M; not a personal $580M donation.",
+      "amount": null
+    },
+    {
+      "id": "E008",
+      "source": "Nishad Singh",
+      "target": "Anthropic",
+      "relation": "Series B investor",
+      "type": "investment",
+      "date": "2022-04-29",
+      "evidence": "documented",
+      "sources": [
+        "A2"
+      ],
+      "note": "Round total $580M; not a personal $580M donation.",
+      "amount": null
+    },
+    {
+      "id": "E009",
+      "source": "Jaan Tallinn",
+      "target": "Anthropic",
+      "relation": "Series B investor",
+      "type": "investment",
+      "date": "2022-04-29",
+      "evidence": "documented",
+      "sources": [
+        "A2"
+      ],
+      "note": "Round total $580M; not a personal $580M donation.",
+      "amount": null
+    },
+    {
+      "id": "E010",
+      "source": "Jim McClave",
+      "target": "Anthropic",
+      "relation": "Series B investor",
+      "type": "investment",
+      "date": "2022-04-29",
+      "evidence": "documented",
+      "sources": [
+        "A2"
+      ],
+      "note": "Round total $580M; not a personal $580M donation.",
+      "amount": null
+    },
+    {
+      "id": "E011",
+      "source": "CERR",
+      "target": "Anthropic",
+      "relation": "Series B investor",
+      "type": "investment",
+      "date": "2022-04-29",
+      "evidence": "documented",
+      "sources": [
+        "A2"
+      ],
+      "note": "Round total $580M; not a personal $580M donation.",
+      "amount": null
+    },
+    {
+      "id": "E012",
+      "source": "Altimeter Capital",
+      "target": "Anthropic",
+      "relation": "Co-led Series H",
+      "type": "investment",
+      "date": "2026-05-28",
+      "evidence": "documented",
+      "sources": [
+        "A3"
+      ],
+      "note": "Round total $65B, not individual contribution.",
+      "amount": null
+    },
+    {
+      "id": "E013",
+      "source": "Dragoneer",
+      "target": "Anthropic",
+      "relation": "Co-led Series H",
+      "type": "investment",
+      "date": "2026-05-28",
+      "evidence": "documented",
+      "sources": [
+        "A3"
+      ],
+      "note": "Round total $65B, not individual contribution.",
+      "amount": null
+    },
+    {
+      "id": "E014",
+      "source": "Greenoaks",
+      "target": "Anthropic",
+      "relation": "Co-led Series H",
+      "type": "investment",
+      "date": "2026-05-28",
+      "evidence": "documented",
+      "sources": [
+        "A3"
+      ],
+      "note": "Round total $65B, not individual contribution.",
+      "amount": null
+    },
+    {
+      "id": "E015",
+      "source": "Sequoia Capital",
+      "target": "Anthropic",
+      "relation": "Co-led Series H",
+      "type": "investment",
+      "date": "2026-05-28",
+      "evidence": "documented",
+      "sources": [
+        "A3"
+      ],
+      "note": "Round total $65B, not individual contribution.",
+      "amount": null
+    },
+    {
+      "id": "E016",
+      "source": "FTX / Alameda estate",
+      "target": "Anthropic",
+      "relation": "Sold Anthropic shares",
+      "type": "investment",
+      "date": "by 2025-03-02",
+      "evidence": "documented",
+      "sources": [
+        "F2"
+      ],
+      "note": "Historical stake realized by estate; not current SBF control.",
+      "amount": null
+    },
+    {
+      "id": "E017",
+      "source": "Jaan Tallinn",
+      "target": "Alameda Research",
+      "relation": "Early financing reported",
+      "type": "investment",
+      "date": "2017-era",
+      "evidence": "reported",
+      "sources": [
+        "F4"
+      ],
+      "note": "Loan financing; not a donation or current holding.",
+      "amount": null
+    },
+    {
+      "id": "E018",
+      "source": "Dario Amodei",
+      "target": "Anthropic",
+      "relation": "Co-founder; CEO",
+      "type": "employment",
+      "date": "2021–",
+      "evidence": "documented",
+      "sources": [
+        "A1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E019",
+      "source": "Daniela Amodei",
+      "target": "Anthropic",
+      "relation": "Co-founder; president",
+      "type": "employment",
+      "date": "2021–",
+      "evidence": "documented",
+      "sources": [
+        "A1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E020",
+      "source": "Dario Amodei",
+      "target": "Daniela Amodei",
+      "relation": "Siblings",
+      "type": "family",
+      "date": "public biography",
+      "evidence": "documented",
+      "sources": [
+        "A1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E021",
+      "source": "Holden Karnofsky",
+      "target": "Daniela Amodei",
+      "relation": "Married",
+      "type": "family",
+      "date": "public disclosure 2024",
+      "evidence": "documented",
+      "sources": [
+        "G5"
+      ],
+      "note": "Family relationship is not organizational ownership.",
+      "amount": null
+    },
+    {
+      "id": "E022",
+      "source": "Holden Karnofsky",
+      "target": "Coefficient Giving / Open Philanthropy",
+      "relation": "Co-founded; former CEO/co-CEO",
+      "type": "governance",
+      "date": "historical; CEO role ended 2023",
+      "evidence": "reported",
+      "sources": [
+        "G7"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E023",
+      "source": "Holden Karnofsky",
+      "target": "Anthropic",
+      "relation": "Joined technical staff",
+      "type": "employment",
+      "date": "2025-01",
+      "evidence": "reported",
+      "sources": [
+        "G7"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E024",
+      "source": "Dustin Moskovitz",
+      "target": "Good Ventures",
+      "relation": "Co-founder / donor",
+      "type": "funding",
+      "date": "historical and current disclosure",
+      "evidence": "documented",
+      "sources": [
+        "G4"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E025",
+      "source": "Cari Tuna",
+      "target": "Good Ventures",
+      "relation": "Co-founder / donor",
+      "type": "funding",
+      "date": "historical and current disclosure",
+      "evidence": "documented",
+      "sources": [
+        "G4"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E026",
+      "source": "Good Ventures",
+      "target": "Coefficient Giving / Open Philanthropy",
+      "relation": "Major philanthropic partner",
+      "type": "funding",
+      "date": "through 2026",
+      "evidence": "documented",
+      "sources": [
+        "G4"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E027",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "ARC",
+      "relation": "Reported grants; verify original records",
+      "type": "funding",
+      "date": "2022 alleged",
+      "evidence": "unverified lead",
+      "sources": [
+        "X7",
+        "G8"
+      ],
+      "note": "Commentary and a ledger lead; primary grant pages not recovered. Amounts withheld.",
+      "amount": null
+    },
+    {
+      "id": "E028",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "Redwood Research",
+      "relation": "Funding acknowledged",
+      "type": "funding",
+      "date": "2025 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "G1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E029",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "Epoch AI",
+      "relation": "Funding acknowledged",
+      "type": "funding",
+      "date": "2025 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "G1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E030",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "CSET",
+      "relation": "Funding acknowledged",
+      "type": "funding",
+      "date": "2025 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "G1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E031",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "RAND",
+      "relation": "Funding acknowledged",
+      "type": "funding",
+      "date": "2025 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "G1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E032",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "CNAS",
+      "relation": "Funding acknowledged",
+      "type": "funding",
+      "date": "2025 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "G1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E033",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "MATS",
+      "relation": "Funding acknowledged",
+      "type": "funding",
+      "date": "2025 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "G1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E034",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "CAIS",
+      "relation": "Funding acknowledged",
+      "type": "funding",
+      "date": "2023 review",
+      "evidence": "documented",
+      "sources": [
+        "G2"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E035",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "GovAI",
+      "relation": "Funding acknowledged",
+      "type": "funding",
+      "date": "2021 review",
+      "evidence": "documented",
+      "sources": [
+        "G3"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E036",
+      "source": "Luke Muehlhauser",
+      "target": "Coefficient Giving / Open Philanthropy",
+      "relation": "AI governance grantmaker",
+      "type": "employment",
+      "date": "2024 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "G6"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E037",
+      "source": "Luke Muehlhauser",
+      "target": "Anthropic",
+      "relation": "Former board member",
+      "type": "governance",
+      "date": "ended 2024-05-28",
+      "evidence": "documented",
+      "sources": [
+        "G6",
+        "A7"
+      ],
+      "note": "Says no Anthropic equity; resigned because dual roles grew complicated.",
+      "amount": null
+    },
+    {
+      "id": "E038",
+      "source": "Jaan Tallinn",
+      "target": "Luke Muehlhauser",
+      "relation": "Advocated board appointment",
+      "type": "governance",
+      "date": "reported 2023",
+      "evidence": "reported",
+      "sources": [
+        "F3"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E039",
+      "source": "Jaan Tallinn",
+      "target": "SFF",
+      "relation": "Donor / participating funder",
+      "type": "funding",
+      "date": "2019–2025 documented",
+      "evidence": "documented",
+      "sources": [
+        "S1",
+        "S2"
+      ],
+      "note": "SFF is a grant-recommendation process, not a single legal parent of recipients.",
+      "amount": null
+    },
+    {
+      "id": "E040",
+      "source": "SFF",
+      "target": "METR",
+      "relation": "Tallinn-funded recommendation",
+      "type": "funding",
+      "date": "2025",
+      "evidence": "documented",
+      "sources": [
+        "S2"
+      ],
+      "note": "Not proof full amount was disbursed; matching components conditional.",
+      "amount": null
+    },
+    {
+      "id": "E041",
+      "source": "SFF",
+      "target": "Encode AI",
+      "relation": "Tallinn-funded recommendation",
+      "type": "funding",
+      "date": "2025",
+      "evidence": "documented",
+      "sources": [
+        "S2"
+      ],
+      "note": "Not proof full amount was disbursed; matching components conditional.",
+      "amount": null
+    },
+    {
+      "id": "E042",
+      "source": "SFF",
+      "target": "AI Policy Institute",
+      "relation": "Tallinn-funded recommendation",
+      "type": "funding",
+      "date": "2025",
+      "evidence": "documented",
+      "sources": [
+        "S2"
+      ],
+      "note": "Not proof full amount was disbursed; matching components conditional.",
+      "amount": null
+    },
+    {
+      "id": "E043",
+      "source": "SFF",
+      "target": "AI Futures Project",
+      "relation": "Tallinn-funded recommendation",
+      "type": "funding",
+      "date": "2025",
+      "evidence": "documented",
+      "sources": [
+        "S2"
+      ],
+      "note": "Not proof full amount was disbursed; matching components conditional.",
+      "amount": null
+    },
+    {
+      "id": "E044",
+      "source": "SFF",
+      "target": "MIRI",
+      "relation": "Tallinn-funded recommendation",
+      "type": "funding",
+      "date": "2025",
+      "evidence": "documented",
+      "sources": [
+        "S2"
+      ],
+      "note": "Not proof full amount was disbursed; matching components conditional.",
+      "amount": null
+    },
+    {
+      "id": "E045",
+      "source": "SFF",
+      "target": "IAPS",
+      "relation": "Tallinn-funded recommendation",
+      "type": "funding",
+      "date": "2025",
+      "evidence": "documented",
+      "sources": [
+        "S2"
+      ],
+      "note": "Not proof full amount was disbursed; matching components conditional.",
+      "amount": null
+    },
+    {
+      "id": "E046",
+      "source": "SFF",
+      "target": "Tarbell Center for AI Journalism",
+      "relation": "Tallinn-funded recommendation",
+      "type": "funding",
+      "date": "2025",
+      "evidence": "documented",
+      "sources": [
+        "S2"
+      ],
+      "note": "Not proof full amount was disbursed; matching components conditional.",
+      "amount": null
+    },
+    {
+      "id": "E047",
+      "source": "Jaan Tallinn",
+      "target": "Future of Life Institute",
+      "relation": "Co-founder",
+      "type": "governance",
+      "date": "historical; current profile",
+      "evidence": "documented",
+      "sources": [
+        "S3"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E048",
+      "source": "Jaan Tallinn",
+      "target": "CSER",
+      "relation": "Co-founder",
+      "type": "governance",
+      "date": "historical; current profile",
+      "evidence": "documented",
+      "sources": [
+        "S3"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E049",
+      "source": "Jaan Tallinn",
+      "target": "CAIS",
+      "relation": "Board member",
+      "type": "governance",
+      "date": "current profile",
+      "evidence": "documented",
+      "sources": [
+        "S3"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E050",
+      "source": "Jaan Tallinn",
+      "target": "ControlAI",
+      "relation": "Financial backer",
+      "type": "funding",
+      "date": "reported September 2026",
+      "evidence": "reported",
+      "sources": [
+        "C4"
+      ],
+      "note": "Amount, proportion, vehicle and donor conditions not established.",
+      "amount": null
+    },
+    {
+      "id": "E051",
+      "source": "Sam Bankman-Fried",
+      "target": "Conjecture",
+      "relation": "Named investor",
+      "type": "investment",
+      "date": "2022 launch",
+      "evidence": "documented",
+      "sources": [
+        "C1"
+      ],
+      "note": "Historical investment; no inferred ControlAI ownership.",
+      "amount": null
+    },
+    {
+      "id": "E052",
+      "source": "Andrej Karpathy",
+      "target": "Conjecture",
+      "relation": "Named investor",
+      "type": "investment",
+      "date": "2022 launch",
+      "evidence": "documented",
+      "sources": [
+        "C1"
+      ],
+      "note": "Historical investment; no inferred ControlAI ownership.",
+      "amount": null
+    },
+    {
+      "id": "E053",
+      "source": "Nat Friedman",
+      "target": "Conjecture",
+      "relation": "Named investor",
+      "type": "investment",
+      "date": "2022 launch",
+      "evidence": "documented",
+      "sources": [
+        "C1"
+      ],
+      "note": "Historical investment; no inferred ControlAI ownership.",
+      "amount": null
+    },
+    {
+      "id": "E054",
+      "source": "Daniel Gross",
+      "target": "Conjecture",
+      "relation": "Named investor",
+      "type": "investment",
+      "date": "2022 launch",
+      "evidence": "documented",
+      "sources": [
+        "C1"
+      ],
+      "note": "Historical investment; no inferred ControlAI ownership.",
+      "amount": null
+    },
+    {
+      "id": "E055",
+      "source": "Patrick Collison",
+      "target": "Conjecture",
+      "relation": "Named investor",
+      "type": "investment",
+      "date": "2022 launch",
+      "evidence": "documented",
+      "sources": [
+        "C1"
+      ],
+      "note": "Historical investment; no inferred ControlAI ownership.",
+      "amount": null
+    },
+    {
+      "id": "E056",
+      "source": "John Collison",
+      "target": "Conjecture",
+      "relation": "Named investor",
+      "type": "investment",
+      "date": "2022 launch",
+      "evidence": "documented",
+      "sources": [
+        "C1"
+      ],
+      "note": "Historical investment; no inferred ControlAI ownership.",
+      "amount": null
+    },
+    {
+      "id": "E057",
+      "source": "Arthur Breitman",
+      "target": "Conjecture",
+      "relation": "Named investor",
+      "type": "investment",
+      "date": "2022 launch",
+      "evidence": "documented",
+      "sources": [
+        "C1"
+      ],
+      "note": "Historical investment; no inferred ControlAI ownership.",
+      "amount": null
+    },
+    {
+      "id": "E058",
+      "source": "Connor Leahy",
+      "target": "Conjecture",
+      "relation": "Co-founder",
+      "type": "employment",
+      "date": "2022",
+      "evidence": "documented",
+      "sources": [
+        "C1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E059",
+      "source": "Gabriel Alfour",
+      "target": "Conjecture",
+      "relation": "Co-founder",
+      "type": "employment",
+      "date": "2022",
+      "evidence": "documented",
+      "sources": [
+        "C1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E060",
+      "source": "Sid Black",
+      "target": "Conjecture",
+      "relation": "Co-founder",
+      "type": "employment",
+      "date": "2022",
+      "evidence": "documented",
+      "sources": [
+        "C1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E061",
+      "source": "Andrea Miotti",
+      "target": "Conjecture",
+      "relation": "Former employee",
+      "type": "employment",
+      "date": "before ControlAI",
+      "evidence": "reported",
+      "sources": [
+        "C4"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E062",
+      "source": "Andrea Miotti",
+      "target": "ControlAI",
+      "relation": "Founder and CEO",
+      "type": "employment",
+      "date": "current profile",
+      "evidence": "documented",
+      "sources": [
+        "C2"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E063",
+      "source": "Connor Leahy",
+      "target": "ControlAI",
+      "relation": "US executive director",
+      "type": "employment",
+      "date": "current profile",
+      "evidence": "documented",
+      "sources": [
+        "C2"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E064",
+      "source": "Gabriel Alfour",
+      "target": "ControlAI",
+      "relation": "Advisor; helped found",
+      "type": "employment",
+      "date": "current profile",
+      "evidence": "documented",
+      "sources": [
+        "C2"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E065",
+      "source": "Des Browne",
+      "target": "ControlAI",
+      "relation": "Advisor",
+      "type": "employment",
+      "date": "current profile",
+      "evidence": "documented",
+      "sources": [
+        "C2"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E066",
+      "source": "ControlAI",
+      "target": "UK ASI Bill",
+      "relation": "Drafted",
+      "type": "legislation",
+      "date": "2026-09-08",
+      "evidence": "documented",
+      "sources": [
+        "C3",
+        "C5"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E067",
+      "source": "Alex Sobel",
+      "target": "UK ASI Bill",
+      "relation": "Parliamentary sponsor",
+      "type": "legislation",
+      "date": "2026-09-08",
+      "evidence": "documented",
+      "sources": [
+        "L3"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E068",
+      "source": "ControlAI",
+      "target": "US Ban ASI proposal",
+      "relation": "Consulted on framework",
+      "type": "legislation",
+      "date": "2026-09-03",
+      "evidence": "documented",
+      "sources": [
+        "C3"
+      ],
+      "note": "Consultation, not proven sole authorship of final bill.",
+      "amount": null
+    },
+    {
+      "id": "E069",
+      "source": "Bernie Sanders",
+      "target": "US Ban ASI proposal",
+      "relation": "Announced with Casar",
+      "type": "legislation",
+      "date": "2026-09-03",
+      "evidence": "documented",
+      "sources": [
+        "L1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E070",
+      "source": "Greg Casar",
+      "target": "US Ban ASI proposal",
+      "relation": "Announced with Sanders",
+      "type": "legislation",
+      "date": "2026-09-03",
+      "evidence": "documented",
+      "sources": [
+        "L1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E071",
+      "source": "ControlAI",
+      "target": "UK AI kill-switch amendment",
+      "relation": "Drafted amendment",
+      "type": "legislation",
+      "date": "2026-09-01",
+      "evidence": "documented",
+      "sources": [
+        "C3"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E072",
+      "source": "Lord Clement-Jones",
+      "target": "UK AI kill-switch amendment",
+      "relation": "Introduced amendment",
+      "type": "legislation",
+      "date": "2026-09-01",
+      "evidence": "documented",
+      "sources": [
+        "C3"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E073",
+      "source": "CAIS",
+      "target": "CAIS Action Fund",
+      "relation": "Launched advocacy affiliate",
+      "type": "governance",
+      "date": "2024",
+      "evidence": "documented",
+      "sources": [
+        "L5"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E074",
+      "source": "CAIS Action Fund",
+      "target": "California SB 1047",
+      "relation": "Co-sponsor",
+      "type": "legislation",
+      "date": "2024",
+      "evidence": "documented",
+      "sources": [
+        "L4"
+      ],
+      "note": "Historical bill; sponsorship is not enactment. Encode naming retained from legislative source.",
+      "amount": null
+    },
+    {
+      "id": "E075",
+      "source": "Economic Security Project Action",
+      "target": "California SB 1047",
+      "relation": "Co-sponsor",
+      "type": "legislation",
+      "date": "2024",
+      "evidence": "documented",
+      "sources": [
+        "L4"
+      ],
+      "note": "Historical bill; sponsorship is not enactment. Encode naming retained from legislative source.",
+      "amount": null
+    },
+    {
+      "id": "E076",
+      "source": "Encode Justice",
+      "target": "California SB 1047",
+      "relation": "Co-sponsor",
+      "type": "legislation",
+      "date": "2024",
+      "evidence": "documented",
+      "sources": [
+        "L4"
+      ],
+      "note": "Historical bill; sponsorship is not enactment. Encode naming retained from legislative source.",
+      "amount": null
+    },
+    {
+      "id": "E077",
+      "source": "Anthropic",
+      "target": "Public First Action",
+      "relation": "Announced $40M total support",
+      "type": "funding",
+      "date": "2026-07-21",
+      "evidence": "documented",
+      "sources": [
+        "A6"
+      ],
+      "note": "Company states donations restricted to public education and policy, excluding election influence.",
+      "amount": {
+        "value": 40000000,
+        "currency": "USD",
+        "basis": "announced cumulative support"
+      }
+    },
+    {
+      "id": "E078",
+      "source": "Horizon Institute",
+      "target": "US policy institutions",
+      "relation": "Places fellows; legislative drafting duties",
+      "type": "legislation",
+      "date": "current program",
+      "evidence": "documented",
+      "sources": [
+        "H1",
+        "H2"
+      ],
+      "note": "General pipeline; no verified Sanders placement.",
+      "amount": null
+    },
+    {
+      "id": "E079",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "AI policy development",
+      "relation": "Solicits AI governance projects",
+      "type": "legislation",
+      "date": "2025–2026 program",
+      "evidence": "documented",
+      "sources": [
+        "G9"
+      ],
+      "note": "Funding strategy; not proof of any particular bill’s authorship.",
+      "amount": null
+    },
+    {
+      "id": "E080",
+      "source": "Paul Christiano",
+      "target": "OpenAI",
+      "relation": "Led alignment research",
+      "type": "employment",
+      "date": "2017–2021",
+      "evidence": "documented",
+      "sources": [
+        "O1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E081",
+      "source": "Paul Christiano",
+      "target": "ARC",
+      "relation": "Founder",
+      "type": "governance",
+      "date": "2021",
+      "evidence": "documented",
+      "sources": [
+        "M3",
+        "O1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E082",
+      "source": "ARC",
+      "target": "METR",
+      "relation": "Incubated ARC Evals; spun out",
+      "type": "governance",
+      "date": "2022–2023",
+      "evidence": "documented",
+      "sources": [
+        "M3",
+        "M4"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E083",
+      "source": "Beth Barnes",
+      "target": "METR",
+      "relation": "Founder and CEO",
+      "type": "employment",
+      "date": "2022–",
+      "evidence": "documented",
+      "sources": [
+        "M3",
+        "M1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E084",
+      "source": "Ajeya Cotra",
+      "target": "METR",
+      "relation": "Technical staff",
+      "type": "employment",
+      "date": "current September 2026",
+      "evidence": "documented",
+      "sources": [
+        "M1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E085",
+      "source": "Ajeya Cotra",
+      "target": "Paul Christiano",
+      "relation": "Married",
+      "type": "family",
+      "date": "public disclosure",
+      "evidence": "documented",
+      "sources": [
+        "M6"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E086",
+      "source": "Joe Benton",
+      "target": "Anthropic",
+      "relation": "Former safety team researcher",
+      "type": "employment",
+      "date": "ended late August 2026",
+      "evidence": "documented",
+      "sources": [
+        "M5"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E087",
+      "source": "Joe Benton",
+      "target": "METR",
+      "relation": "Announced upcoming move",
+      "type": "employment",
+      "date": "2026-09-11",
+      "evidence": "documented",
+      "sources": [
+        "M5"
+      ],
+      "note": "Incoming; exact first day unverified.",
+      "amount": null
+    },
+    {
+      "id": "E088",
+      "source": "Evan Hubinger",
+      "target": "Joe Benton",
+      "relation": "Managed Benton",
+      "type": "employment",
+      "date": "before late August 2026",
+      "evidence": "documented",
+      "sources": [
+        "M5"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E089",
+      "source": "Paul Christiano",
+      "target": "Anthropic LTBT",
+      "relation": "Former founding trustee",
+      "type": "governance",
+      "date": "2023-09 to 2024-04",
+      "evidence": "documented",
+      "sources": [
+        "A4"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E090",
+      "source": "Anthropic LTBT",
+      "target": "Anthropic",
+      "relation": "Special board-election rights",
+      "type": "governance",
+      "date": "2023–",
+      "evidence": "documented",
+      "sources": [
+        "A4"
+      ],
+      "note": "Private corporate governance, not public regulatory authority.",
+      "amount": null
+    },
+    {
+      "id": "E091",
+      "source": "Paul Christiano",
+      "target": "NIST / CAISI",
+      "relation": "Senior technical advisor",
+      "type": "employment",
+      "date": "current September 2026",
+      "evidence": "documented",
+      "sources": [
+        "O1"
+      ],
+      "note": "OpenAI states recusal from OpenAI matters AND all model evaluations.",
+      "amount": null
+    },
+    {
+      "id": "E092",
+      "source": "Paul Christiano",
+      "target": "OpenAI",
+      "relation": "Foundation board and safety committee",
+      "type": "governance",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "O1"
+      ],
+      "note": "Non-voting observer on commercial PBC board; distinct roles.",
+      "amount": null
+    },
+    {
+      "id": "E093",
+      "source": "Tino Cuéllar",
+      "target": "Carnegie Endowment",
+      "relation": "Former president",
+      "type": "employment",
+      "date": "before August 2026",
+      "evidence": "documented",
+      "sources": [
+        "A5"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E094",
+      "source": "Tino Cuéllar",
+      "target": "California Frontier AI Working Group",
+      "relation": "Co-led",
+      "type": "legislation",
+      "date": "before August 2026",
+      "evidence": "documented",
+      "sources": [
+        "A5"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E095",
+      "source": "Tino Cuéllar",
+      "target": "Anthropic LTBT",
+      "relation": "Former trustee",
+      "type": "governance",
+      "date": "2026-01 to 2026-08",
+      "evidence": "documented",
+      "sources": [
+        "A5"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E096",
+      "source": "Tino Cuéllar",
+      "target": "Anthropic",
+      "relation": "Announced Chief Global Affairs Officer",
+      "type": "employment",
+      "date": "2026-08-04",
+      "evidence": "documented",
+      "sources": [
+        "A5"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E097",
+      "source": "Zach Robinson",
+      "target": "Anthropic LTBT",
+      "relation": "Former founding trustee",
+      "type": "governance",
+      "date": "2023-09 to 2026-01",
+      "evidence": "documented",
+      "sources": [
+        "A4"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E098",
+      "source": "Zach Robinson",
+      "target": "Effective Ventures",
+      "relation": "EV US leader at trust appointment",
+      "type": "employment",
+      "date": "2023-09",
+      "evidence": "documented",
+      "sources": [
+        "A4"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E099",
+      "source": "Jason Matheny",
+      "target": "Anthropic LTBT",
+      "relation": "Former founding trustee",
+      "type": "governance",
+      "date": "2023-09 to 2023-12",
+      "evidence": "documented",
+      "sources": [
+        "A4"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E100",
+      "source": "Jason Matheny",
+      "target": "RAND",
+      "relation": "RAND CEO at trust appointment",
+      "type": "employment",
+      "date": "2023-09",
+      "evidence": "documented",
+      "sources": [
+        "A4"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E101",
+      "source": "Anthropic",
+      "target": "METR",
+      "relation": "Evaluation access / free tokens",
+      "type": "access",
+      "date": "partnerships disclosed by September 2026",
+      "evidence": "documented",
+      "sources": [
+        "M1",
+        "M2"
+      ],
+      "note": "In-kind access; no cash compensation accepted from frontier companies, per METR.",
+      "amount": null
+    },
+    {
+      "id": "E102",
+      "source": "OpenAI",
+      "target": "METR",
+      "relation": "Evaluation access / free tokens",
+      "type": "access",
+      "date": "partnerships disclosed by September 2026",
+      "evidence": "documented",
+      "sources": [
+        "M1",
+        "M2"
+      ],
+      "note": "In-kind access; no cash compensation accepted from frontier companies, per METR.",
+      "amount": null
+    },
+    {
+      "id": "E103",
+      "source": "Google DeepMind",
+      "target": "METR",
+      "relation": "Evaluation access / free tokens",
+      "type": "access",
+      "date": "partnerships disclosed by September 2026",
+      "evidence": "documented",
+      "sources": [
+        "M1",
+        "M2"
+      ],
+      "note": "In-kind access; no cash compensation accepted from frontier companies, per METR.",
+      "amount": null
+    },
+    {
+      "id": "E104",
+      "source": "Meta",
+      "target": "METR",
+      "relation": "Evaluation access / free tokens",
+      "type": "access",
+      "date": "partnerships disclosed by September 2026",
+      "evidence": "documented",
+      "sources": [
+        "M1",
+        "M2"
+      ],
+      "note": "In-kind access; no cash compensation accepted from frontier companies, per METR.",
+      "amount": null
+    },
+    {
+      "id": "E105",
+      "source": "Amazon",
+      "target": "METR",
+      "relation": "Evaluation access / free tokens",
+      "type": "access",
+      "date": "partnerships disclosed by September 2026",
+      "evidence": "documented",
+      "sources": [
+        "M1",
+        "M2"
+      ],
+      "note": "In-kind access; no cash compensation accepted from frontier companies, per METR.",
+      "amount": null
+    },
+    {
+      "id": "E106",
+      "source": "METR",
+      "target": "UK AI Security Institute",
+      "relation": "Partner",
+      "type": "access",
+      "date": "current disclosure",
+      "evidence": "documented",
+      "sources": [
+        "M1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E107",
+      "source": "METR",
+      "target": "EU AI Office",
+      "relation": "Technical-assistance contract",
+      "type": "access",
+      "date": "current disclosure",
+      "evidence": "documented",
+      "sources": [
+        "M1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E108",
+      "source": "METR",
+      "target": "NIST / CAISI",
+      "relation": "Consortium participation",
+      "type": "access",
+      "date": "current disclosure",
+      "evidence": "documented",
+      "sources": [
+        "M1"
+      ],
+      "note": "Consortium membership, not delegated licensing authority.",
+      "amount": null
+    },
+    {
+      "id": "E109",
+      "source": "Audacious Project",
+      "target": "METR",
+      "relation": "Support acknowledged",
+      "type": "funding",
+      "date": "2026-08-14 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "M2"
+      ],
+      "note": "Support over multiple years; not allocated shares of the $71M recent commitments.",
+      "amount": null
+    },
+    {
+      "id": "E110",
+      "source": "Jane Street individuals",
+      "target": "METR",
+      "relation": "Support acknowledged",
+      "type": "funding",
+      "date": "2026-08-14 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "M2"
+      ],
+      "note": "Support over multiple years; not allocated shares of the $71M recent commitments.",
+      "amount": null
+    },
+    {
+      "id": "E111",
+      "source": "Schmidt Sciences",
+      "target": "METR",
+      "relation": "Support acknowledged",
+      "type": "funding",
+      "date": "2026-08-14 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "M2"
+      ],
+      "note": "Support over multiple years; not allocated shares of the $71M recent commitments.",
+      "amount": null
+    },
+    {
+      "id": "E112",
+      "source": "Packard Foundation",
+      "target": "METR",
+      "relation": "Support acknowledged",
+      "type": "funding",
+      "date": "2026-08-14 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "M2"
+      ],
+      "note": "Support over multiple years; not allocated shares of the $71M recent commitments.",
+      "amount": null
+    },
+    {
+      "id": "E113",
+      "source": "Pew Charitable Trusts",
+      "target": "METR",
+      "relation": "Support acknowledged",
+      "type": "funding",
+      "date": "2026-08-14 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "M2"
+      ],
+      "note": "Support over multiple years; not allocated shares of the $71M recent commitments.",
+      "amount": null
+    },
+    {
+      "id": "E114",
+      "source": "Sijbrandij Foundation",
+      "target": "METR",
+      "relation": "Support acknowledged",
+      "type": "funding",
+      "date": "2026-08-14 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "M2"
+      ],
+      "note": "Support over multiple years; not allocated shares of the $71M recent commitments.",
+      "amount": null
+    },
+    {
+      "id": "E115",
+      "source": "Longview Philanthropy",
+      "target": "METR",
+      "relation": "Support acknowledged",
+      "type": "funding",
+      "date": "2026-08-14 disclosure",
+      "evidence": "documented",
+      "sources": [
+        "M2"
+      ],
+      "note": "Support over multiple years; not allocated shares of the $71M recent commitments.",
+      "amount": null
+    },
+    {
+      "id": "E116",
+      "source": "Anthropic",
+      "target": "METR",
+      "relation": "Proposes embedded evaluators such as",
+      "type": "proposal",
+      "date": "September 2026",
+      "evidence": "documented",
+      "sources": [
+        "D1"
+      ],
+      "note": "Example provider; not a verified exclusive contract or statutory monopoly.",
+      "amount": null
+    },
+    {
+      "id": "E117",
+      "source": "Will MacAskill",
+      "target": "FTX Future Fund",
+      "relation": "Former team member; resigned",
+      "type": "employment",
+      "date": "2022-11",
+      "evidence": "documented",
+      "sources": [
+        "F1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E118",
+      "source": "Nick Beckstead",
+      "target": "FTX Future Fund",
+      "relation": "Former team member; resigned",
+      "type": "employment",
+      "date": "2022-11",
+      "evidence": "documented",
+      "sources": [
+        "F1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E119",
+      "source": "Avital Balwit",
+      "target": "FTX Future Fund",
+      "relation": "Former team member; resigned",
+      "type": "employment",
+      "date": "2022-11",
+      "evidence": "documented",
+      "sources": [
+        "F1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E120",
+      "source": "Leopold Aschenbrenner",
+      "target": "FTX Future Fund",
+      "relation": "Former team member; resigned",
+      "type": "employment",
+      "date": "2022-11",
+      "evidence": "documented",
+      "sources": [
+        "F1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E121",
+      "source": "Ketan Ramakrishnan",
+      "target": "FTX Future Fund",
+      "relation": "Former team member; resigned",
+      "type": "employment",
+      "date": "2022-11",
+      "evidence": "documented",
+      "sources": [
+        "F1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E122",
+      "source": "Jacob Coxon",
+      "target": "Anthropic",
+      "relation": "Former researcher; resigned",
+      "type": "employment",
+      "date": "2026-09-08 US / 09 UTC",
+      "evidence": "documented",
+      "sources": [
+        "X1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E123",
+      "source": "Jacob Coxon",
+      "target": "OpenAI",
+      "relation": "Former pretraining researcher",
+      "type": "employment",
+      "date": "before Anthropic",
+      "evidence": "documented",
+      "sources": [
+        "X1"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E124",
+      "source": "Evan Hubinger",
+      "target": "Jacob Coxon",
+      "relation": "Public response",
+      "type": "amplification",
+      "date": "2026-09-09 UTC",
+      "evidence": "documented",
+      "sources": [
+        "X2",
+        "X3"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E125",
+      "source": "ControlAI",
+      "target": "Jacob Coxon",
+      "relation": "Cited resignation in advocacy post",
+      "type": "amplification",
+      "date": "2026-09-09",
+      "evidence": "documented",
+      "sources": [
+        "C3"
+      ],
+      "note": "Public amplification, not evidence of advance planning.",
+      "amount": null
+    },
+    {
+      "id": "E126",
+      "source": "Joe Benton",
+      "target": "Jacob Coxon",
+      "relation": "Said resignation prompted his post",
+      "type": "amplification",
+      "date": "2026-09-11",
+      "evidence": "documented",
+      "sources": [
+        "M5"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E127",
+      "source": "Andrej Karpathy",
+      "target": "Dario Amodei",
+      "relation": "Endorsed pacing proposal",
+      "type": "amplification",
+      "date": "2026-09-12 UTC",
+      "evidence": "documented",
+      "sources": [
+        "X8"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E128",
+      "source": "Lachlan Phillips",
+      "target": "METR",
+      "relation": "Criticized evaluator proposal",
+      "type": "amplification",
+      "date": "2026-09-13 UTC",
+      "evidence": "documented",
+      "sources": [
+        "X4"
+      ],
+      "note": "Claim of exclusive EA rights is commentary, not an established institutional relationship.",
+      "amount": null
+    },
+    {
+      "id": "E129",
+      "source": "Sayer Ji",
+      "target": "ControlAI",
+      "relation": "Alleged legislative conflict",
+      "type": "amplification",
+      "date": "2026-09-14 UTC",
+      "evidence": "documented",
+      "sources": [
+        "X5"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E130",
+      "source": "Brian Roemmele",
+      "target": "METR",
+      "relation": "Published critique",
+      "type": "amplification",
+      "date": "2026-09-13 article",
+      "evidence": "documented",
+      "sources": [
+        "X6",
+        "X7"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E131",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "OpenAI",
+      "relation": "$30M grant",
+      "type": "funding",
+      "date": "2017",
+      "evidence": "documented",
+      "sources": [
+        "G10"
+      ],
+      "note": "",
+      "amount": {
+        "value": 30000000,
+        "currency": "USD",
+        "basis": "grant reported in annual review"
+      }
+    },
+    {
+      "id": "E132",
+      "source": "Holden Karnofsky",
+      "target": "OpenAI",
+      "relation": "Historical board member",
+      "type": "governance",
+      "date": "2018 roster",
+      "evidence": "documented",
+      "sources": [
+        "G11"
+      ],
+      "note": "Historical, not current.",
+      "amount": null
+    },
+    {
+      "id": "E133",
+      "source": "Ajeya Cotra",
+      "target": "Coefficient Giving / Open Philanthropy",
+      "relation": "Former research and grantmaking work",
+      "type": "employment",
+      "date": "before METR",
+      "evidence": "documented",
+      "sources": [
+        "M7"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E134",
+      "source": "Avital Balwit",
+      "target": "Anthropic",
+      "relation": "Chief of staff to Dario Amodei",
+      "type": "employment",
+      "date": "current professional biography",
+      "evidence": "documented",
+      "sources": [
+        "F5"
+      ],
+      "note": "",
+      "amount": null
+    }
+  ],
+  "events": [
+    {
+      "date": "2017",
+      "lane": "Capital",
+      "title": "Open Philanthropy reports $30M OpenAI grant",
+      "sources": [
+        "G10"
+      ],
+      "precision": "year"
+    },
+    {
+      "date": "2021-05-28",
+      "lane": "Capital",
+      "title": "Anthropic Series A led by Tallinn",
+      "sources": [
+        "A1"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2022-04-29",
+      "lane": "Capital",
+      "title": "Anthropic Series B led by Bankman-Fried",
+      "sources": [
+        "A2"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2022",
+      "lane": "Institutions",
+      "title": "Conjecture names investors and founders",
+      "sources": [
+        "C1"
+      ],
+      "precision": "year"
+    },
+    {
+      "date": "2022",
+      "lane": "Institutions",
+      "title": "ARC incubates ARC Evals",
+      "sources": [
+        "M3"
+      ],
+      "precision": "year"
+    },
+    {
+      "date": "2022-11",
+      "lane": "Capital",
+      "title": "FTX Future Fund team resigns amid collapse",
+      "sources": [
+        "F1"
+      ],
+      "precision": "month"
+    },
+    {
+      "date": "2023-09-19",
+      "lane": "Governance",
+      "title": "Anthropic announces LTBT; ARC announces evals spin-out",
+      "sources": [
+        "A4",
+        "M3"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2023-12-04",
+      "lane": "Institutions",
+      "title": "METR name announced",
+      "sources": [
+        "M4"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2024-04",
+      "lane": "Governance",
+      "title": "Christiano leaves Anthropic trust for US AISI",
+      "sources": [
+        "A4"
+      ],
+      "precision": "month"
+    },
+    {
+      "date": "2024-05-28",
+      "lane": "Governance",
+      "title": "Muehlhauser leaves Anthropic board",
+      "sources": [
+        "G6",
+        "A7"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2024",
+      "lane": "Legislation",
+      "title": "CAIS Action Fund co-sponsors SB 1047",
+      "sources": [
+        "L4",
+        "L5"
+      ],
+      "precision": "year"
+    },
+    {
+      "date": "2025-01",
+      "lane": "Personnel",
+      "title": "Karnofsky joins Anthropic, reported",
+      "sources": [
+        "G7"
+      ],
+      "precision": "month"
+    },
+    {
+      "date": "2025-03-02",
+      "lane": "Capital",
+      "title": "FTX filing reports completed Anthropic share sales",
+      "sources": [
+        "F2"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2025",
+      "lane": "Capital",
+      "title": "SFF recommendations link Tallinn to evaluators and policy groups",
+      "sources": [
+        "S2"
+      ],
+      "precision": "year"
+    },
+    {
+      "date": "2025-11",
+      "lane": "Institutions",
+      "title": "Open Philanthropy becomes Coefficient Giving",
+      "sources": [
+        "G4"
+      ],
+      "precision": "month"
+    },
+    {
+      "date": "2026-05-28",
+      "lane": "Capital",
+      "title": "Anthropic announces $65B Series H",
+      "sources": [
+        "A3"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-07-21",
+      "lane": "Policy funding",
+      "title": "Anthropic’s announced Public First Action support reaches $40M",
+      "sources": [
+        "A6"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-08-04",
+      "lane": "Personnel",
+      "title": "Cuéllar announced as Anthropic global affairs chief; leaves trust",
+      "sources": [
+        "A5"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-08-14",
+      "lane": "Capital",
+      "title": "METR announces approximately $71M in commitments over six months",
+      "sources": [
+        "M2"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-09-01",
+      "lane": "Legislation",
+      "title": "Clement-Jones introduces ControlAI kill-switch amendment",
+      "sources": [
+        "C3"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-09-03",
+      "lane": "Legislation",
+      "title": "Sanders and Casar announce ASI ban framework",
+      "sources": [
+        "L1"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-09-08",
+      "lane": "Legislation",
+      "title": "Sobel introduces UK ASI Bill",
+      "sources": [
+        "L3",
+        "C3"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-09-09T00:04:00Z",
+      "lane": "Incident",
+      "title": "Coxon resignation post (Sept 8 in US time zones)",
+      "sources": [
+        "X1"
+      ],
+      "precision": "minute"
+    },
+    {
+      "date": "2026-09-09T01:27:00Z",
+      "lane": "Incident",
+      "title": "Hubinger publicly responds with personal extinction estimate",
+      "sources": [
+        "X2"
+      ],
+      "precision": "minute"
+    },
+    {
+      "date": "2026-09-09",
+      "lane": "Advocacy",
+      "title": "ControlAI uses resignation to discuss legislative campaign",
+      "sources": [
+        "C3"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-09-09",
+      "lane": "Governance",
+      "title": "Christiano appointed to OpenAI Foundation board",
+      "sources": [
+        "O1"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-09-11",
+      "lane": "Incident",
+      "title": "Benton explains departure and incoming METR move",
+      "sources": [
+        "M5"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-09",
+      "lane": "Proposal",
+      "title": "Amodei publishes pacing and embedded-evaluator proposal",
+      "sources": [
+        "D1"
+      ],
+      "precision": "month"
+    },
+    {
+      "date": "2026-09-12",
+      "lane": "Reaction",
+      "title": "Karpathy endorses Amodei proposal",
+      "sources": [
+        "X8"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-09-13",
+      "lane": "Reaction",
+      "title": "Phillips alleges exclusive EA building and monitoring rights",
+      "sources": [
+        "X4"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-09-13",
+      "lane": "Reaction",
+      "title": "Roemmele publishes extended METR critique",
+      "sources": [
+        "X7"
+      ],
+      "precision": "day"
+    },
+    {
+      "date": "2026-09-14",
+      "lane": "Reaction",
+      "title": "Ji and Roemmele seed posts circulate (Sept 13 US)",
+      "sources": [
+        "X5",
+        "X6"
+      ],
+      "precision": "day"
+    }
+  ],
+  "leads": [
+    {
+      "claim": "Coxon received a $20,159 LTFF scholarship",
+      "status": "unverified",
+      "sources": [
+        "X10",
+        "X7"
+      ],
+      "needed": "Original grant record identifying recipient, year, fund and payment. Public accounts conflict on 2020 vs 2022."
+    },
+    {
+      "claim": "Coxon belonged to Newspeak House",
+      "status": "unverified",
+      "sources": [
+        "X11"
+      ],
+      "needed": "Original cohort biography and identity confirmation; no inference of operational control from affiliation."
+    },
+    {
+      "claim": "First 15-minute amplifiers included Nathan Calvin, Peter Wildeford and Daniel Kokotajlo",
+      "status": "reported allegation",
+      "sources": [
+        "X10",
+        "X7"
+      ],
+      "needed": "Original post IDs, UTC timestamps, complete sampling frame and funding records for the correct legal organizations."
+    },
+    {
+      "claim": "Tallinn is currently an Anthropic board observer",
+      "status": "unverified",
+      "sources": [
+        "X5"
+      ],
+      "needed": "Current official governance record or confirmation of observer rights. Historical advocacy for Muehlhauser does not establish this."
+    },
+    {
+      "claim": "Closed weights are exempt from Sanders proposal",
+      "status": "unsupported by reviewed summary",
+      "sources": [
+        "X5",
+        "L2"
+      ],
+      "needed": "Actual exemption in authenticated full bill. Capability test does not say modification must be by an outsider."
+    },
+    {
+      "claim": "METR received exclusive power to approve AI",
+      "status": "unsupported by reviewed proposal",
+      "sources": [
+        "X4",
+        "X6",
+        "D1"
+      ],
+      "needed": "Executed exclusive contract or enacted delegation; proposal instead gives METR as an example."
+    },
+    {
+      "claim": "Tallinn personally drafted Sanders bill",
+      "status": "unsupported",
+      "sources": [
+        "X7",
+        "C3",
+        "C4"
+      ],
+      "needed": "Draft history, communications or attributable testimony; donor-to-organization-to-consultation is the supported path."
+    },
+    {
+      "claim": "Coxon’s launch was paid or covertly directed",
+      "status": "not established",
+      "sources": [
+        "X7",
+        "X10"
+      ],
+      "needed": "Payments, instructions, authenticated messages or campaign contracts; timing and common funders alone are insufficient."
+    },
+    {
+      "claim": "Foreign traffic proves bot purchasing",
+      "status": "not established",
+      "sources": [
+        "X7"
+      ],
+      "needed": "Original analytics provenance, bot methodology and payment/campaign evidence."
+    },
+    {
+      "claim": "Open Philanthropy directly owns Anthropic",
+      "status": "not established",
+      "sources": [
+        "X7",
+        "A1"
+      ],
+      "needed": "Cap table and legal investment vehicle. Moskovitz’s named participation is not itself an Open Phil grant or shareholding."
+    },
+    {
+      "claim": "Moskovitz/Tuna Anthropic stake moved into a nonprofit vehicle",
+      "status": "unverified in this record",
+      "sources": [
+        "X7"
+      ],
+      "needed": "Transfer instrument or official donor/recipient disclosure; identify vehicle and date."
+    },
+    {
+      "claim": "FTX grants connect directly to today’s ControlAI lobbying budget",
+      "status": "not established",
+      "sources": [
+        "F1",
+        "C1",
+        "C2"
+      ],
+      "needed": "Grant and fiscal-sponsorship records, restricted-use terms, repayments and current accounts; Conjecture equity is not ControlAI funding."
+    }
+  ],
+  "sources": {
+    "A1": {
+      "id": "A1",
+      "title": "Anthropic: $124M Series A, May 2021",
+      "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "A2": {
+      "id": "A2",
+      "title": "Anthropic: $580M Series B, April 2022",
+      "url": "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "A3": {
+      "id": "A3",
+      "title": "Anthropic: Series H, May 2026",
+      "url": "https://www.anthropic.com/news/series-h",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "A4": {
+      "id": "A4",
+      "title": "Anthropic: Long-Term Benefit Trust, with later updates",
+      "url": "https://www.anthropic.com/news/the-long-term-benefit-trust",
+      "kind": "primary",
+      "note": "Historical announcement updated in place; later appointment announcements can supersede it.",
+      "accessed": "2026-09-14"
+    },
+    "A5": {
+      "id": "A5",
+      "title": "Anthropic: Tino Cuéllar appointment, August 2026",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "A6": {
+      "id": "A6",
+      "title": "Anthropic: Public First Action support, July 2026",
+      "url": "https://www.anthropic.com/news/donation-public-first-action",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "A7": {
+      "id": "A7",
+      "title": "Anthropic: Jay Kreps appointment and Muehlhauser departure",
+      "url": "https://www.anthropic.com/news/jay-kreps-appointed-to-board-of-directors",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "D1": {
+      "id": "D1",
+      "title": "Dario Amodei: We Must Pace the Frontier",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "kind": "primary",
+      "note": "Proposal and announced unilateral commitment; not a statute or executed public contract.",
+      "accessed": "2026-09-14"
+    },
+    "M1": {
+      "id": "M1",
+      "title": "METR: About, team, partnerships and independence",
+      "url": "https://metr.org/about",
+      "kind": "primary",
+      "note": "Organization self-disclosure; current page.",
+      "accessed": "2026-09-14"
+    },
+    "M2": {
+      "id": "M2",
+      "title": "METR: August 2026 funding update",
+      "url": "https://metr.org/blog/2026-08-14-funding-update/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "M3": {
+      "id": "M3",
+      "title": "ARC Evals spin-out announcement",
+      "url": "https://metr.org/blog/2023-09-19-spin-out-announcement/",
+      "kind": "primary",
+      "note": "Contains a later note on Christiano’s 2024 government appointment; do not date that note to September 2023.",
+      "accessed": "2026-09-14"
+    },
+    "M4": {
+      "id": "M4",
+      "title": "ARC Evals renamed METR",
+      "url": "https://metr.org/blog/2023-12-04-metr-announcement/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "M5": {
+      "id": "M5",
+      "title": "Joe Benton: Why I left Anthropic’s safety team",
+      "url": "https://jbenton1.substack.com/p/why-i-left-anthropics-safety-team",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "M6": {
+      "id": "M6",
+      "title": "Kelsey Piper: disclosure of Christiano–Cotra marriage",
+      "url": "https://www.planned-obsolescence.org/p/ethics-of-red-teaming",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "O1": {
+      "id": "O1",
+      "title": "OpenAI: Paul Christiano joins Foundation Board",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board/",
+      "kind": "primary",
+      "note": "Voting Foundation board role; non-voting PBC observer. Government recusal stated in footnote.",
+      "accessed": "2026-09-14"
+    },
+    "G1": {
+      "id": "G1",
+      "title": "Coefficient Giving: AI safety and security need more funders",
+      "url": "https://coefficientgiving.org/research/ai-safety-and-security-need-more-funders/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "G2": {
+      "id": "G2",
+      "title": "Coefficient Giving: 2023 progress and 2024 plans",
+      "url": "https://coefficientgiving.org/research/our-progress-in-2023-and-plans-for-2024/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "G3": {
+      "id": "G3",
+      "title": "Coefficient Giving: 2021 progress and 2022 plans",
+      "url": "https://coefficientgiving.org/research/our-progress-in-2021-and-plans-for-2022/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "G4": {
+      "id": "G4",
+      "title": "Good Ventures press: Open Philanthropy becomes Coefficient Giving",
+      "url": "https://goodventures.org/press/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "G5": {
+      "id": "G5",
+      "title": "Karnofsky: AI risk reduction, September 2024",
+      "url": "https://carnegie-production-assets.s3.amazonaws.com/static/files/Karnofsky%20-%20AI%20Risk%20Reduction-1.pdf",
+      "kind": "primary",
+      "note": "Author’s public family and financial-interest disclosure.",
+      "accessed": "2026-09-14"
+    },
+    "G6": {
+      "id": "G6",
+      "title": "Luke Muehlhauser: Why I resigned from Anthropic’s board",
+      "url": "https://lukemuehlhauser.com/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "G7": {
+      "id": "G7",
+      "title": "Karnofsky profile and January 2025 employment",
+      "url": "https://www.alignmentforum.org/w/holden-karnofsky",
+      "kind": "secondary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "G8": {
+      "id": "G8",
+      "title": "Open Philanthropy grants to ARC: compiled ledger lead",
+      "url": "https://donations.vipulnaik.com/donorDonee.php?donee=Alignment+Research+Center&donor=Open+Philanthropy",
+      "kind": "unretrieved lead",
+      "note": "Suggested by Grok; direct retrieval failed. Not independently inspected. Original grants require verification.",
+      "accessed": null
+    },
+    "G9": {
+      "id": "G9",
+      "title": "Coefficient Giving: AI governance proposals",
+      "url": "https://coefficientgiving.org/funds/navigating-transformative-ai/request-for-proposals-ai-governance/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "S1": {
+      "id": "S1",
+      "title": "Survival and Flourishing Fund: structure and history",
+      "url": "https://survivalandflourishing.fund/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "S2": {
+      "id": "S2",
+      "title": "SFF: 2025 recommendations and conditional matching pledges",
+      "url": "https://survivalandflourishing.fund/2025/recommendations",
+      "kind": "primary",
+      "note": "Recommendation totals are not necessarily disbursements. Matching pledges are conditional and included in totals.",
+      "accessed": "2026-09-14"
+    },
+    "S3": {
+      "id": "S3",
+      "title": "Future of Life Institute: Jaan Tallinn",
+      "url": "https://futureoflife.org/person/jaan-tallinn/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "C1": {
+      "id": "C1",
+      "title": "Conjecture founding announcement and investors",
+      "url": "https://www.conjecture.dev/research/we-are-conjecture-a-new-alignment-research-startup",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "C2": {
+      "id": "C2",
+      "title": "ControlAI: team and legal forms",
+      "url": "https://controlai.org/about",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "C3": {
+      "id": "C3",
+      "title": "ControlAI: legislative work, September 9, 2026",
+      "url": "https://blog.controlai.org/p/first-bill-introduced-to-ban-superintelligent",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "C4": {
+      "id": "C4",
+      "title": "WIRED: UK lawmakers and ControlAI",
+      "url": "https://www.wired.com/story/uk-lawmakers-are-scrambling-in-response-to-ai-summer-of-chaos/",
+      "kind": "original reporting",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "C5": {
+      "id": "C5",
+      "title": "ControlAI: UK ASI bill",
+      "url": "https://controlai.org/uk-asi-bill",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "L1": {
+      "id": "L1",
+      "title": "Sanders–Casar announcement, September 3, 2026",
+      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "L2": {
+      "id": "L2",
+      "title": "Sanders–Casar official proposal summary",
+      "url": "https://www.sanders.senate.gov/wp-content/uploads/Ban-Artificial-Superintelligence-Act-Release-Summary.pdf",
+      "kind": "primary",
+      "note": "One-page summary, not authenticated full statutory text or evidence of enactment.",
+      "accessed": "2026-09-14"
+    },
+    "L3": {
+      "id": "L3",
+      "title": "UK Parliament: Artificial Superintelligence Bill",
+      "url": "https://bills.parliament.uk/bills/4288",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "L4": {
+      "id": "L4",
+      "title": "California Assembly analysis of SB 1047",
+      "url": "https://apcp.assembly.ca.gov/media/823",
+      "kind": "primary",
+      "note": "2024 bill analysis; sponsorship does not mean enactment.",
+      "accessed": "2026-09-14"
+    },
+    "L5": {
+      "id": "L5",
+      "title": "CAIS: 2024 year in review",
+      "url": "https://newsletter.safe.ai/p/aisn-45-center-for-ai-safety-2024",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "L6": {
+      "id": "L6",
+      "title": "CAIS Action Fund: policy work",
+      "url": "https://action.safe.ai/work",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "H1": {
+      "id": "H1",
+      "title": "Horizon Institute for Public Service",
+      "url": "https://horizonpublicservice.org/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "H2": {
+      "id": "H2",
+      "title": "Horizon: fellowship duties",
+      "url": "https://horizonpublicservice.org/programs/become-a-fellow/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "F1": {
+      "id": "F1",
+      "title": "FTX Future Fund team resignation, November 2022",
+      "url": "https://forum.effectivealtruism.org/posts/xafpj3on76uRDoBja/the-ftx-future-fund-team-has-resigned-1/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "F2": {
+      "id": "F2",
+      "title": "FTX Recovery Trust motion, March 2, 2025, docket 29834",
+      "url": "https://document.epiq11.com/document/getdocumentsbydocket/?docketId=1144805&docketNumber=29834&projectCode=FTX&source=DM",
+      "kind": "primary",
+      "note": "Party’s court filing, including summary of Anthropic share sales; not a new judicial finding.",
+      "accessed": "2026-09-14"
+    },
+    "F3": {
+      "id": "F3",
+      "title": "Semafor: Tallinn’s Anthropic investment and governance preferences",
+      "url": "https://www.semafor.com/article/04/28/2023/co-founder-of-skype-invested-in-hot-ai-startups-but-thinks-he-failed",
+      "kind": "original reporting",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "F4": {
+      "id": "F4",
+      "title": "Semafor: early Alameda financing",
+      "url": "https://www.semafor.com/article/12/07/2022/charity-money-launched-sam-bankman-frieds-empire",
+      "kind": "original reporting",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "X1": {
+      "id": "X1",
+      "title": "Jacob Coxon resignation post",
+      "url": "https://x.com/hilbertspaess/status/2097476196791709843",
+      "kind": "primary public post",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "X2": {
+      "id": "X2",
+      "title": "Evan Hubinger response",
+      "url": "https://x.com/EvanHub/status/2097497037956891126",
+      "kind": "primary public post",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "X3": {
+      "id": "X3",
+      "title": "Hubinger clarification about current models",
+      "url": "https://x.com/EvanHub/status/2097528891846074828",
+      "kind": "primary public post",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "X4": {
+      "id": "X4",
+      "title": "Lachlan Phillips / bitcloud seed post",
+      "url": "https://x.com/bitcloud/status/2099012097023566040",
+      "kind": "commentary / allegation",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "X5": {
+      "id": "X5",
+      "title": "Sayer Ji seed thread",
+      "url": "https://x.com/sayerjigmi/status/2099296084187107464",
+      "kind": "commentary / allegation",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "X6": {
+      "id": "X6",
+      "title": "Brian Roemmele seed post",
+      "url": "https://x.com/BrianRoemmele/status/2099335176287637909",
+      "kind": "commentary / allegation",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "X7": {
+      "id": "X7",
+      "title": "Brian Roemmele: METR article",
+      "url": "https://readmultiplex.com/2026/09/13/metr-the-new-ai-measurement-gatekeepers-and-the-quiet-path-to-state-control-of-ai/",
+      "kind": "commentary / allegation",
+      "note": "Read directly in Chrome; web extractor failed. Used for claims to investigate, not proof of covert coordination.",
+      "accessed": "2026-09-14"
+    },
+    "X8": {
+      "id": "X8",
+      "title": "Karpathy’s response to Amodei",
+      "url": "https://x.com/karpathy/status/2098811935114551617",
+      "kind": "primary public post",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "X9": {
+      "id": "X9",
+      "title": "Axios: Coxon interview",
+      "url": "https://www.axios.com/2026/09/09/anthropic-researcher-ai-warning-interview",
+      "kind": "original reporting",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "X10": {
+      "id": "X10",
+      "title": "OfficeChai: allegations concerning Coxon’s funding and amplifiers",
+      "url": "https://officechai.com/ai/questions-arise-over-anthropic-quitter-jacob-coxons-neutrality-and-ties-to-ai-safety-pr-groups-after-mega-viral-x-post/",
+      "kind": "secondary allegation report",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "X11": {
+      "id": "X11",
+      "title": "Brian Chau thread about Newspeak House",
+      "url": "https://threadnavigator.com/thread/2097879639934779786/",
+      "kind": "commentary / allegation",
+      "note": "Mirror of author’s thread; affiliation and causal claims require independent confirmation.",
+      "accessed": "2026-09-14"
+    },
+    "G10": {
+      "id": "G10",
+      "title": "Open Philanthropy: 2017 review documents OpenAI grant",
+      "url": "https://coefficientgiving.org/research/our-progress-in-2017-and-plans-for-2018/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "G11": {
+      "id": "G11",
+      "title": "OpenAI: supporters and 2018 board roster",
+      "url": "https://openai.com/index/openai-supporters/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "M7": {
+      "id": "M7",
+      "title": "Ajeya Cotra: career account",
+      "url": "https://acotra.substack.com/p/im-never-satisfied",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    },
+    "F5": {
+      "id": "F5",
+      "title": "Avital Balwit: personal professional biography",
+      "url": "https://www.avitalbalwit.com/",
+      "kind": "primary",
+      "note": "",
+      "accessed": "2026-09-14"
+    }
+  }
+}
