@@ -1,6 +1,6 @@
 # Source index
 
-74 source records with usage notes and backlinks.
+84 source records with usage notes and backlinks.
 
 - [A1: Anthropic: $124M Series A, May 2021](sources/A1.md) — primary; recorded access 2026-09-14.
 - [A2: Anthropic: $580M Series B, April 2022](sources/A2.md) — primary; recorded access 2026-09-14.
@@ -76,5 +76,15 @@
 - [L13: Chris Van Hollen: pump the brakes after Coxon thread](sources/L13.md) — primary public post; recorded access 2026-09-14.
 - [L14: Don Beyer: doing nothing on AI is unacceptable](sources/L14.md) — primary public post; recorded access 2026-09-14.
 - [L16: Kim–Hagerty BLADE Act press release](sources/L16.md) — primary; recorded access 2026-09-14.
+- [L17: Ruben Gallego: regulate AI now; it will not care about nationality](sources/L17.md) — primary public post; recorded access 2026-09-14.
+- [L18: Adam Schiff: news and warnings this week; Congress asleep toward AGI](sources/L18.md) — primary public post; recorded access 2026-09-14.
+- [L19: Mark Warner: AI companies sounding the alarm; Congress cannot sit out](sources/L19.md) — primary public post; recorded access 2026-09-14.
+- [L20: Josh Gottheimer: slowdown call is rich; wants mandatory national rules](sources/L20.md) — primary public post; recorded access 2026-09-14.
+- [L21: Ted Lieu: Speaker can subpoena AI leaders instead of delaying](sources/L21.md) — primary public post; recorded access 2026-09-14.
+- [L22: Bloomberg: Johnson wants a meeting with AI leaders before legislation](sources/L22.md) — original reporting; recorded access 2026-09-14.
+- [X17: Eliezer Yudkowsky: make “don’t die to AI” bipartisan](sources/X17.md) — primary public post; recorded access 2026-09-14.
+- [I1: MIRI: About](sources/I1.md) — primary; recorded access 2026-09-14.
+- [I2: MIRI: Team](sources/I2.md) — primary; recorded access 2026-09-14.
+- [L23: Warner: Framework for America’s AI Future](sources/L23.md) — primary; recorded access 2026-09-14.
 
 [Wiki home](index.md)

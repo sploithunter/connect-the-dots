@@ -64,3 +64,7 @@ Added 15 members of Congress who posted in the days after Coxon’s thread, plus
 ## [2026-09-14] lint — PR 11 reconciliation
 
 Reviewed the Coxon/congressional additions and retained their source attribution. Corrected the WSJ-before-X edge to reported because its timing relies on recaps. Removed the uncited eight-minute alternative from the topic narrative. Relabeled Wayback calendar links as archive lookups rather than archived copies, validated archive URL schemes, and added a regression check. Adjusted the incident narrative to preserve the repository's neutral investigative framing.
+
+## [2026-09-14] ingest — 13–14 Sep congressional posts and Yudkowsky
+
+Added Gallego, Schiff, Warner, Gottheimer and Speaker Johnson, plus Yudkowsky (MIRI cofounder, not Congress). Recorded original X URLs and UTC times. Schiff’s eleven-post thread is regulate-and-compete with in-company monitors, not a ban. Warner’s September post points back to his 21 July Framework for America’s AI Future. Gottheimer is a reaction to Dario slowdown coverage. Lieu’s 14 Sep post quote-posts Bloomberg on Johnson’s “one big meeting.” Positions are not collapsed onto Coxon quotes.

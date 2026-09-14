@@ -42,6 +42,9 @@ Profile sources: [X1](../sources/X1.md), [X9](../sources/X9.md), [X12](../source
 - **2026-09-09 · documented · E157:** [Bill Foster](bill-foster.md) → Argued software-only controls cannot contain superhuman AI → [Jacob Coxon](jacob-coxon.md). [L8](../sources/L8.md).
 - **2026-09-09 · documented · E158:** [Delia Ramirez](delia-ramirez.md) → Demanded congressional AI oversight after the warnings → [Jacob Coxon](jacob-coxon.md). [L8](../sources/L8.md).
 - **2026-09-09 · documented · E159:** [Chris Deluzio](chris-deluzio.md) → Called superintelligence risk an emergency for national action → [Jacob Coxon](jacob-coxon.md). [L8](../sources/L8.md).
+- **2026-09-13 · documented · E160:** [Ruben Gallego](ruben-gallego.md) → Called to regulate now; said dangerous AI will not care about nationality → [Jacob Coxon](jacob-coxon.md). [L17](../sources/L17.md).
+- **2026-09-13 · documented · E161:** [Adam Schiff](adam-schiff.md) → Asked if Congress is asleep at the wheel heading toward AGI → [Jacob Coxon](jacob-coxon.md). [L18](../sources/L18.md).
+- **2026-09-13 · documented · E167:** [Eliezer Yudkowsky](eliezer-yudkowsky.md) → Urged making “don’t die to AI” a bipartisan project → [Jacob Coxon](jacob-coxon.md). [X17](../sources/X17.md).
 
 ## Related pages
 
@@ -72,6 +75,9 @@ Profile sources: [X1](../sources/X1.md), [X9](../sources/X9.md), [X12](../source
 - [Bill Foster](bill-foster.md)
 - [Delia Ramirez](delia-ramirez.md)
 - [Chris Deluzio](chris-deluzio.md)
+- [Ruben Gallego](ruben-gallego.md)
+- [Adam Schiff](adam-schiff.md)
+- [Eliezer Yudkowsky](eliezer-yudkowsky.md)
 
 [Entity index](../entities.md) · [Wiki home](../index.md)
 

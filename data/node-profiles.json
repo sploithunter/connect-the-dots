@@ -762,12 +762,14 @@
   },
   "MIRI": {
     "kind": "organization",
-    "summary": "A research organization appearing in SFF\u2019s 2025 funding recommendations with Tallinn identified as participating funder. The entry concerns the recommendation recorded in that funding round.",
+    "subtitle": "AI safety research; Yudkowsky cofounded",
+    "summary": "The Machine Intelligence Research Institute, a Berkeley nonprofit that describes its work as preventing extinction from artificial superintelligence. Its about page names Eliezer Yudkowsky as a founder in 2000; the team page lists him as co-founder and a board member. MIRI also appears in SFF\u2019s 2025 recommendations with Tallinn as a participating funder. Those are founder, governance and funding-recommendation records.",
     "sources": [
+      "I1",
+      "I2",
       "S2"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "AI safety research"
+    "updated": "2026-09-14"
   },
   "Meta": {
     "kind": "organization",
@@ -1152,10 +1154,12 @@
   },
   "Ted Lieu": {
     "kind": "person",
-    "subtitle": "US AI kill-switch legislation",
-    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, told Republican leadership to take up the bipartisan AI Kill Switch Bill. He has a longer public record arguing third-party evaluators are insufficient if models cannot be turned off. This US kill-switch push is recorded separately from the UK amendment already in the graph.",
+    "subtitle": "Kill-switch; subpoena AI leaders",
+    "summary": "A US representative whose 9 September Coxon-window post, as quoted by HuffPost, told Republican leadership to take up the bipartisan AI Kill Switch Bill. On 14 September he quote-posted Bloomberg\u2019s report that Speaker Johnson wanted one big meeting before AI legislation, and said the majority could issue subpoenas to AI industry leaders immediately instead of adding House vacation. The US kill-switch push remains separate from the UK amendment already in the graph.",
     "sources": [
-      "L8"
+      "L8",
+      "L21",
+      "L22"
     ],
     "updated": "2026-09-14"
   },
@@ -1231,6 +1235,74 @@
     "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, told readers burying their heads about superintelligence risk to wake up, called the situation an emergency, and demanded national action. This is a shorter wake-up statement in the same window, not a detailed legislative package.",
     "sources": [
       "L8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Ruben Gallego": {
+    "kind": "person",
+    "subtitle": "Regulate now; AI indifferent to nationality",
+    "summary": "A US senator from Arizona whose 13 September 2026 post said AI is unlike prior technology, that once it becomes fully dangerous it will not care whether someone is Chinese or American, and that Congress cannot wait three years to regulate. The post does not name Coxon; it is recorded in the same warning-week snapshot. The attached video is not separately transcribed here.",
+    "sources": [
+      "L17"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Adam Schiff": {
+    "kind": "person",
+    "subtitle": "In-company monitors; pace, don\u2019t lock in",
+    "summary": "A US senator from California whose 13 September 2026 thread said that week\u2019s news and warnings made it fair to ask whether Congress is asleep heading toward AGI. He said experts and executives were calling out frontier-AI risks, that he had spent four years hearing from California companies and researchers about an existential threat, that rogue collusive agents were a harbinger, and that self-regulation had already failed on social media. He wants legislation requiring independent monitors inside AI companies and pacing of new developments, without locking in monopolies or ceding ground to China, plus work on employment, tax and energy. That is regulate-and-compete, not a ban. The thread does not name Coxon. In-company monitors are not treated here as the same thing as METR.",
+    "sources": [
+      "L18"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Mark Warner": {
+    "kind": "person",
+    "subtitle": "July AI framework; companies sounding alarm",
+    "summary": "A US senator from Virginia and vice chair of Senate Intelligence. On 14 September 2026 he said even the companies building AI are sounding the alarm and that Congress cannot sit on the sidelines, linking his 21 July 2026 \u201cFramework for America\u2019s AI Future.\u201d That July package predates Coxon and covers data-center infrastructure, competition and safety, workforce, and national security, including a Secure AI Development Act for mandatory secure testing of advanced models. Lead-with-guardrails, not a ban.",
+    "sources": [
+      "L19",
+      "L23"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Framework for America's AI Future": {
+    "kind": "policy",
+    "subtitle": "Warner July 2026 AI agenda",
+    "summary": "A legislative package Warner announced on 21 July 2026 to set rules of the road for AI while keeping US leadership. The press release groups bills on data-center disclosure, AI agents, CSAM/NCII, workforce transition, STEM doctorates, and a Secure AI Development Act for mandatory secure testing of frontier models plus incident reporting. His 14 September post points back to this agenda; it is not a Coxon-week introduction.",
+    "sources": [
+      "L23",
+      "L19"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Josh Gottheimer": {
+    "kind": "person",
+    "subtitle": "House AI Commission; mandatory rules",
+    "summary": "A US representative from New Jersey who, as self-described co-chair of the House AI Commission, posted on 13 September 2026 that it is rich for AI leaders to call for a slowdown after racing ahead, that self-policing and third-party audits are not enough, and that he wants national mandatory rules. The post links Politico\u2019s headline on Anthropic CEO Dario Amodei seeking an immediate slowdown. That is a reaction to the Dario coverage, not a Coxon quote.",
+    "sources": [
+      "L20"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Mike Johnson": {
+    "kind": "person",
+    "subtitle": "Don't rush AI bills; one big meeting",
+    "summary": "The Speaker of the House. Bloomberg reported on 13 September 2026 that he said federal AI legislation should not be rushed and that industry leaders should be summoned to one big meeting first. Ted Lieu quote-posted that report the next day and said the majority already has subpoena power. Johnson\u2019s own status URL was not captured here; the record follows Bloomberg as quoted in Lieu\u2019s post.",
+    "sources": [
+      "L22",
+      "L21"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Eliezer Yudkowsky": {
+    "kind": "person",
+    "subtitle": "MIRI cofounder; bipartisan AI-risk",
+    "summary": "MIRI\u2019s about page names him a founder of the organization (then the Singularity Institute) in 2000; the team page lists him as co-founder and a board member. On 13 September 2026 he posted that nothing was more important than making \u201cdon\u2019t die to AI\u201d a bipartisan project rather than a Democrat-polarized issue, asking Democrats not to throw barbs and Republicans to treat it as defending home and family. Those posts do not name Coxon or a specific bill.",
+    "sources": [
+      "I1",
+      "I2",
+      "X17"
     ],
     "updated": "2026-09-14"
   }
