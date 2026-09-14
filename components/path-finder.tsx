@@ -21,7 +21,7 @@ export default function PathFinder({from,to,setFrom,setTo,onPath}:{from:string,t
  const sourceMap=raw.sources as Record<string,{title:string,url:string}>;
  return <section className="path-finder" aria-label="Find connections">
   <h2>Find connections</h2>
-  <p className="subtle">Choose two people or organizations. Paths are listed shortest first.</p>
+  <p className="subtle">Choose any two nodes: people, organizations, proposals or events. Paths are listed shortest first.</p>
   <datalist id="path-entities">{raw.nodes.map(n=><option key={n.id} value={n.id}>{n.label}</option>)}</datalist>
   <label>From<Input list="path-entities" aria-label="Path start" value={from} onChange={e=>setFrom(e.target.value)} placeholder="Search an entity"/></label>
   <Button variant="ghost" onClick={()=>{setFrom(to);setTo(from);}}>Swap endpoints ↕</Button>
