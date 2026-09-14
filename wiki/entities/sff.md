@@ -21,7 +21,7 @@ Profile sources: [S1](../sources/S1.md), [S2](../sources/S2.md).
 - **2025 · documented · E042:** [SFF](sff.md) → Tallinn-funded recommendation → [AI Policy Institute](ai-policy-institute.md). [S2](../sources/S2.md).
 - **2025 · documented · E043:** [SFF](sff.md) → Tallinn-funded recommendation → [AI Futures Project](ai-futures-project.md). [S2](../sources/S2.md).
 - **2025 · documented · E044:** [SFF](sff.md) → Tallinn-funded recommendation → [MIRI](miri.md). [S2](../sources/S2.md).
-- **2025 · documented · E045:** [SFF](sff.md) → Tallinn-funded recommendation → [IAPS](iaps.md). [S2](../sources/S2.md).
+- **2025 · documented · E045:** [SFF](sff.md) → Tallinn-funded recommendation → [IAPS](iaps.md). [S2](../sources/S2.md), [W11](../sources/W11.md).
 - **2025 · documented · E046:** [SFF](sff.md) → Tallinn-funded recommendation → [Tarbell Center for AI Journalism](tarbell-center-for-ai-journalism.md). [S2](../sources/S2.md).
 
 ## Related pages

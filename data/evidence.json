@@ -4,6 +4,10 @@
   "scope": "Public US/UK relationships connected to supplied posts. Evidence inventory, not complete global census.",
   "nodes": [
     {
+      "id": "80,000 Hours",
+      "label": "80,000 Hours"
+    },
+    {
       "id": "AI Futures Project",
       "label": "AI Futures Project"
     },
@@ -140,6 +144,10 @@
       "label": "Caroline Ellison"
     },
     {
+      "id": "Centre for Effective Altruism",
+      "label": "Centre for Effective Altruism"
+    },
+    {
       "id": "Chris Deluzio",
       "label": "Chris Deluzio"
     },
@@ -204,12 +212,20 @@
       "label": "Dustin Moskovitz"
     },
     {
+      "id": "EA Funds",
+      "label": "EA Funds"
+    },
+    {
       "id": "EU AI Office",
       "label": "EU AI Office"
     },
     {
       "id": "Economic Security Project Action",
       "label": "Economic Security Project Action"
+    },
+    {
+      "id": "Effective Altruism",
+      "label": "Effective Altruism"
     },
     {
       "id": "Effective Ventures",
@@ -250,6 +266,14 @@
     {
       "id": "Gabriel Alfour",
       "label": "Gabriel Alfour"
+    },
+    {
+      "id": "GiveWell",
+      "label": "GiveWell"
+    },
+    {
+      "id": "Giving What We Can",
+      "label": "Giving What We Can"
     },
     {
       "id": "Good Ventures",
@@ -322,6 +346,10 @@
     {
       "id": "Leopold Aschenbrenner",
       "label": "Leopold Aschenbrenner"
+    },
+    {
+      "id": "Long-Term Future Fund",
+      "label": "Long-Term Future Fund"
     },
     {
       "id": "Longview Philanthropy",
@@ -428,6 +456,10 @@
       "label": "Redwood Research"
     },
     {
+      "id": "Rethink Priorities",
+      "label": "Rethink Priorities"
+    },
+    {
       "id": "Ro Khanna",
       "label": "Ro Khanna"
     },
@@ -468,8 +500,12 @@
       "label": "Ted Lieu"
     },
     {
-      "id": "Tino Cuéllar",
-      "label": "Tino Cuéllar"
+      "id": "Tino Cu\u00e9llar",
+      "label": "Tino Cu\u00e9llar"
+    },
+    {
+      "id": "Toby Ord",
+      "label": "Toby Ord"
     },
     {
       "id": "UK AI Security Institute",
@@ -749,7 +785,7 @@
       "target": "Anthropic",
       "relation": "Co-founder; CEO",
       "type": "employment",
-      "date": "2021–",
+      "date": "2021\u2013",
       "evidence": "documented",
       "sources": [
         "A1"
@@ -763,7 +799,7 @@
       "target": "Anthropic",
       "relation": "Co-founder; president",
       "type": "employment",
-      "date": "2021–",
+      "date": "2021\u2013",
       "evidence": "documented",
       "sources": [
         "A1"
@@ -1045,7 +1081,7 @@
       "target": "SFF",
       "relation": "Donor / participating funder",
       "type": "funding",
-      "date": "2019–2025 documented",
+      "date": "2019\u20132025 documented",
       "evidence": "documented",
       "sources": [
         "S1",
@@ -1133,9 +1169,10 @@
       "date": "2025",
       "evidence": "documented",
       "sources": [
-        "S2"
+        "S2",
+        "W11"
       ],
-      "note": "Not proof full amount was disbursed; matching components conditional.",
+      "note": "Not proof full amount was disbursed; matching components conditional. A Wildeford IAPS application also names SFF among existing funders.",
       "amount": null
     },
     {
@@ -1612,12 +1649,12 @@
       "target": "AI policy development",
       "relation": "Solicits AI governance projects",
       "type": "legislation",
-      "date": "2025–2026 program",
+      "date": "2025\u20132026 program",
       "evidence": "documented",
       "sources": [
         "G9"
       ],
-      "note": "Funding strategy; not proof of any particular bill’s authorship.",
+      "note": "Funding strategy; not proof of any particular bill\u2019s authorship.",
       "amount": null
     },
     {
@@ -1626,7 +1663,7 @@
       "target": "OpenAI",
       "relation": "Led alignment research",
       "type": "employment",
-      "date": "2017–2021",
+      "date": "2017\u20132021",
       "evidence": "documented",
       "sources": [
         "O1"
@@ -1655,7 +1692,7 @@
       "target": "METR",
       "relation": "Incubated ARC Evals; spun out",
       "type": "governance",
-      "date": "2022–2023",
+      "date": "2022\u20132023",
       "evidence": "documented",
       "sources": [
         "M3",
@@ -1670,7 +1707,7 @@
       "target": "METR",
       "relation": "Founder and CEO",
       "type": "employment",
-      "date": "2022–",
+      "date": "2022\u2013",
       "evidence": "documented",
       "sources": [
         "M3",
@@ -1769,7 +1806,7 @@
       "target": "Anthropic",
       "relation": "Special board-election rights",
       "type": "governance",
-      "date": "2023–",
+      "date": "2023\u2013",
       "evidence": "documented",
       "sources": [
         "A4"
@@ -1807,7 +1844,7 @@
     },
     {
       "id": "E093",
-      "source": "Tino Cuéllar",
+      "source": "Tino Cu\u00e9llar",
       "target": "Carnegie Endowment",
       "relation": "Former president",
       "type": "employment",
@@ -1821,7 +1858,7 @@
     },
     {
       "id": "E094",
-      "source": "Tino Cuéllar",
+      "source": "Tino Cu\u00e9llar",
       "target": "California Frontier AI Working Group",
       "relation": "Co-led",
       "type": "legislation",
@@ -1835,7 +1872,7 @@
     },
     {
       "id": "E095",
-      "source": "Tino Cuéllar",
+      "source": "Tino Cu\u00e9llar",
       "target": "Anthropic LTBT",
       "relation": "Former trustee",
       "type": "governance",
@@ -1849,7 +1886,7 @@
     },
     {
       "id": "E096",
-      "source": "Tino Cuéllar",
+      "source": "Tino Cu\u00e9llar",
       "target": "Anthropic",
       "relation": "Announced Chief Global Affairs Officer",
       "type": "employment",
@@ -2243,7 +2280,7 @@
         "X1",
         "O2"
       ],
-      "note": "Named on OpenAI’s GPT-4o contributor list. Distinct from later Anthropic employment.",
+      "note": "Named on OpenAI\u2019s GPT-4o contributor list. Distinct from later Anthropic employment.",
       "amount": null
     },
     {
@@ -2436,7 +2473,7 @@
       ]
     },
     {
-      "note": "Named as “Nathan Calvin of Encode AI” in the OfficeChai recap. Encode AI remains a separate legal name from Encode Justice.",
+      "note": "Named as \u201cNathan Calvin of Encode AI\u201d in the OfficeChai recap. Encode AI remains a separate legal name from Encode Justice.",
       "amount": null,
       "id": "E137",
       "source": "Nathan Calvin",
@@ -2464,7 +2501,7 @@
       ]
     },
     {
-      "note": "Named as “Peter Wildeford of the AI Policy Network” in the OfficeChai recap. Distinct from the in-graph AI Policy Institute until sources map the names.",
+      "note": "Named as \u201cPeter Wildeford of the AI Policy Network\u201d in the OfficeChai recap. Distinct from documented IAPS and Rethink Priorities roles until sources map the names.",
       "amount": null,
       "id": "E139",
       "source": "Peter Wildeford",
@@ -2531,7 +2568,7 @@
         "L10",
         "L7"
       ],
-      "note": "The 3 Sep announcement predates the resignation. This edge is the 9 Sep quote-post, not authorship of Coxon’s thread.",
+      "note": "The 3 Sep announcement predates the resignation. This edge is the 9 Sep quote-post, not authorship of Coxon\u2019s thread.",
       "amount": null
     },
     {
@@ -2546,7 +2583,7 @@
         "L11",
         "L7"
       ],
-      "note": "Points to the already-previewed Sanders–Casar proposal.",
+      "note": "Points to the already-previewed Sanders\u2013Casar proposal.",
       "amount": null
     },
     {
@@ -2666,7 +2703,7 @@
       "id": "E153",
       "source": "Ro Khanna",
       "target": "Jacob Coxon",
-      "relation": "Said lack of control, not just misuse; urged US–China safety standards",
+      "relation": "Said lack of control, not just misuse; urged US\u2013China safety standards",
       "type": "amplification",
       "date": "2026-09-09",
       "evidence": "documented",
@@ -2702,7 +2739,7 @@
         "L13",
         "L7"
       ],
-      "note": "Hill describes this as a response to Coxon’s post.",
+      "note": "Hill describes this as a response to Coxon\u2019s post.",
       "amount": null
     },
     {
@@ -2760,6 +2797,417 @@
         "L8"
       ],
       "note": "Coxon-window congressional post. Quoting or reacting to a viral resignation is not evidence of paid direction. Several members already had AI bills or talking points before 8 Sep.",
+      "amount": null
+    },
+    {
+      "id": "E160",
+      "source": "Will MacAskill",
+      "target": "Effective Altruism",
+      "relation": "Wrote that he helped start the movement",
+      "type": "affiliation",
+      "date": "self-description on personal site",
+      "evidence": "documented",
+      "sources": [
+        "W1",
+        "W2"
+      ],
+      "note": "Movement self-identification or organisational self-description. Not a legal membership roll and not proof of later operational control.",
+      "amount": null
+    },
+    {
+      "id": "E161",
+      "source": "Toby Ord",
+      "target": "Effective Altruism",
+      "relation": "Named cofounder in GWWC and BBC accounts of the movement",
+      "type": "affiliation",
+      "date": "2009\u20132012 founding period",
+      "evidence": "documented",
+      "sources": [
+        "W13",
+        "W7"
+      ],
+      "note": "Movement self-identification or organisational self-description. Not a legal membership roll and not proof of later operational control.",
+      "amount": null
+    },
+    {
+      "id": "E162",
+      "source": "Will MacAskill",
+      "target": "Giving What We Can",
+      "relation": "Cofounded",
+      "type": "governance",
+      "date": "2009",
+      "evidence": "documented",
+      "sources": [
+        "W1",
+        "W2",
+        "W13"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E163",
+      "source": "Toby Ord",
+      "target": "Giving What We Can",
+      "relation": "Cofounded",
+      "type": "governance",
+      "date": "2009",
+      "evidence": "documented",
+      "sources": [
+        "W13",
+        "W7"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E164",
+      "source": "Will MacAskill",
+      "target": "80,000 Hours",
+      "relation": "Cofounded",
+      "type": "governance",
+      "date": "2011",
+      "evidence": "documented",
+      "sources": [
+        "W1",
+        "W3"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E165",
+      "source": "Will MacAskill",
+      "target": "Centre for Effective Altruism",
+      "relation": "Cofounded",
+      "type": "governance",
+      "date": "2012",
+      "evidence": "documented",
+      "sources": [
+        "W1",
+        "W5"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E166",
+      "source": "Will MacAskill",
+      "target": "Effective Ventures",
+      "relation": "Trustee of the umbrella charity",
+      "type": "governance",
+      "date": "listed in 2022 disambiguation",
+      "evidence": "documented",
+      "sources": [
+        "W4",
+        "W10"
+      ],
+      "note": "EV retrospective also notes his FTX Foundation advisor role.",
+      "amount": null
+    },
+    {
+      "id": "E167",
+      "source": "Nick Beckstead",
+      "target": "Effective Ventures",
+      "relation": "Trustee of the umbrella charity",
+      "type": "governance",
+      "date": "listed in 2022 disambiguation",
+      "evidence": "documented",
+      "sources": [
+        "W4",
+        "W10"
+      ],
+      "note": "EV retrospective: CEO of FTX Foundation while a trustee; recused from FTX-related EV discussions.",
+      "amount": null
+    },
+    {
+      "id": "E168",
+      "source": "Centre for Effective Altruism",
+      "target": "Effective Altruism",
+      "relation": "Community organisation for the movement",
+      "type": "affiliation",
+      "date": "current self-description",
+      "evidence": "documented",
+      "sources": [
+        "W5"
+      ],
+      "note": "Movement self-identification or organisational self-description. Not a legal membership roll and not proof of later operational control.",
+      "amount": null
+    },
+    {
+      "id": "E169",
+      "source": "Giving What We Can",
+      "target": "Effective Altruism",
+      "relation": "Founding pledge organisation; self-describes as embodying EA",
+      "type": "affiliation",
+      "date": "2009 onward",
+      "evidence": "documented",
+      "sources": [
+        "W13",
+        "W5"
+      ],
+      "note": "Movement self-identification or organisational self-description. Not a legal membership roll and not proof of later operational control.",
+      "amount": null
+    },
+    {
+      "id": "E170",
+      "source": "80,000 Hours",
+      "target": "Effective Altruism",
+      "relation": "Says it is part of the EA community",
+      "type": "affiliation",
+      "date": "about page 2026",
+      "evidence": "documented",
+      "sources": [
+        "W3"
+      ],
+      "note": "Movement self-identification or organisational self-description. Not a legal membership roll and not proof of later operational control.",
+      "amount": null
+    },
+    {
+      "id": "E171",
+      "source": "EA Funds",
+      "target": "Centre for Effective Altruism",
+      "relation": "CEA describes EA Funds as its grantmaking",
+      "type": "governance",
+      "date": "CEA homepage",
+      "evidence": "documented",
+      "sources": [
+        "W5"
+      ],
+      "note": "The LTFF page separately identifies EA Funds as an EV project.",
+      "amount": null
+    },
+    {
+      "id": "E172",
+      "source": "Long-Term Future Fund",
+      "target": "EA Funds",
+      "relation": "Fund on the EA Funds platform",
+      "type": "governance",
+      "date": "historical fund page",
+      "evidence": "documented",
+      "sources": [
+        "W6"
+      ],
+      "note": "Closed; EA Funds launched a Transformative AI Fund in its stead. Successor funds are not this node.",
+      "amount": null
+    },
+    {
+      "id": "E173",
+      "source": "Effective Ventures",
+      "target": "Centre for Effective Altruism",
+      "relation": "Umbrella / fiscal sponsor after the 2022 rename",
+      "type": "governance",
+      "date": "2022 rename; CEA remained a project",
+      "evidence": "documented",
+      "sources": [
+        "W4",
+        "W3",
+        "W10"
+      ],
+      "note": "Present-day CEA is not the same legal entity as the original umbrella name.",
+      "amount": null
+    },
+    {
+      "id": "E174",
+      "source": "Effective Ventures",
+      "target": "80,000 Hours",
+      "relation": "Fiscal sponsor until spin-out",
+      "type": "governance",
+      "date": "until 2025-04-01 per 80k",
+      "evidence": "documented",
+      "sources": [
+        "W3",
+        "W10"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E175",
+      "source": "Effective Ventures",
+      "target": "Giving What We Can",
+      "relation": "Listed among EV umbrella projects",
+      "type": "governance",
+      "date": "named on 80k about page",
+      "evidence": "documented",
+      "sources": [
+        "W3",
+        "W4"
+      ],
+      "note": "80k still listed GWWC under the EV umbrella after 80k\u2019s own 2025 spin-out.",
+      "amount": null
+    },
+    {
+      "id": "E176",
+      "source": "Effective Ventures",
+      "target": "EA Funds",
+      "relation": "LTFF page identifies EA Funds as an EV project",
+      "type": "governance",
+      "date": "stated on LTFF page",
+      "evidence": "documented",
+      "sources": [
+        "W6"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E177",
+      "source": "Effective Ventures",
+      "target": "Longview Philanthropy",
+      "relation": "Former same-entity / sponsored project",
+      "type": "governance",
+      "date": "named in EV wind-down account",
+      "evidence": "documented",
+      "sources": [
+        "W10"
+      ],
+      "note": "EV post treats Longview and GovAI as having been in the same legal entity.",
+      "amount": null
+    },
+    {
+      "id": "E178",
+      "source": "Effective Ventures",
+      "target": "GovAI",
+      "relation": "Former same-entity / sponsored project",
+      "type": "governance",
+      "date": "named in EV wind-down account",
+      "evidence": "documented",
+      "sources": [
+        "W10"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E179",
+      "source": "Holden Karnofsky",
+      "target": "GiveWell",
+      "relation": "Cofounded; former co-executive director",
+      "type": "governance",
+      "date": "2007 founding; historical ED role",
+      "evidence": "documented",
+      "sources": [
+        "W8"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E180",
+      "source": "Coefficient Giving / Open Philanthropy",
+      "target": "80,000 Hours",
+      "relation": "Primary philanthropic funder",
+      "type": "funding",
+      "date": "disclosed on 80k about page",
+      "evidence": "documented",
+      "sources": [
+        "W3"
+      ],
+      "note": "80k: funded primarily by Coefficient Giving. Not a statement that 80k is Open Phil.",
+      "amount": null
+    },
+    {
+      "id": "E181",
+      "source": "Sam Bankman-Fried",
+      "target": "Effective Altruism",
+      "relation": "Publicly identified as an EA / earn-to-give proponent",
+      "type": "affiliation",
+      "date": "public interviews before FTX collapse",
+      "evidence": "documented",
+      "sources": [
+        "W7"
+      ],
+      "note": "Historical public identification. Not a finding about later criminal liability, and not a finding that Anthropic is an EA organisation.",
+      "amount": null
+    },
+    {
+      "id": "E182",
+      "source": "FTX Future Fund",
+      "target": "Effective Altruism",
+      "relation": "Reporting treats it as SBF\u2019s EA-branded giving vehicle",
+      "type": "affiliation",
+      "date": "2022 fund period",
+      "evidence": "documented",
+      "sources": [
+        "W7",
+        "W10"
+      ],
+      "note": "Movement self-identification or organisational self-description. Not a legal membership roll and not proof of later operational control.",
+      "amount": null
+    },
+    {
+      "id": "E183",
+      "source": "Peter Wildeford",
+      "target": "Rethink Priorities",
+      "relation": "Cofounded; former co-CEO",
+      "type": "governance",
+      "date": "2018 founding; co-CEO until 2024",
+      "evidence": "documented",
+      "sources": [
+        "W9",
+        "W14"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E184",
+      "source": "Peter Wildeford",
+      "target": "IAPS",
+      "relation": "Cofounded",
+      "type": "governance",
+      "date": "named on IAPS leadership announcement",
+      "evidence": "documented",
+      "sources": [
+        "W15"
+      ],
+      "note": "Distinct from the reported \u2018AI Policy Network\u2019 recap name.",
+      "amount": null
+    },
+    {
+      "id": "E185",
+      "source": "Peter Wildeford",
+      "target": "IAPS",
+      "relation": "Chief Advisory Executive, later chief strategy officer",
+      "type": "employment",
+      "date": "RP 2024 announcement; IAPS 2025 transition",
+      "evidence": "documented",
+      "sources": [
+        "W14",
+        "W15",
+        "W11"
+      ],
+      "note": "Manifund application uses peter@iaps.ai. Distinct from the reported AI Policy Network recap.",
+      "amount": null
+    },
+    {
+      "id": "E186",
+      "source": "Rethink Priorities",
+      "target": "IAPS",
+      "relation": "Sponsors the think tank",
+      "type": "governance",
+      "date": "RP CEO announcement 2024",
+      "evidence": "documented",
+      "sources": [
+        "W14"
+      ],
+      "note": "",
+      "amount": null
+    },
+    {
+      "id": "E187",
+      "source": "Jacob Coxon",
+      "target": "Long-Term Future Fund",
+      "relation": "Alleged scholarship recipient",
+      "type": "funding",
+      "date": "2020 or 2022 in conflicting recaps",
+      "evidence": "unverified lead",
+      "sources": [
+        "X10",
+        "X7"
+      ],
+      "note": "Amount and year conflict in public recaps. Not upgraded from the existing lead.",
       "amount": null
     }
   ],
@@ -2914,7 +3362,7 @@
     {
       "date": "2026-07-21",
       "lane": "Policy funding",
-      "title": "Anthropic’s announced Public First Action support reaches $40M",
+      "title": "Anthropic\u2019s announced Public First Action support reaches $40M",
       "sources": [
         "A6"
       ],
@@ -2923,7 +3371,7 @@
     {
       "date": "2026-08-04",
       "lane": "Personnel",
-      "title": "Cuéllar announced as Anthropic global affairs chief; leaves trust",
+      "title": "Cu\u00e9llar announced as Anthropic global affairs chief; leaves trust",
       "sources": [
         "A5"
       ],
@@ -3155,7 +3603,7 @@
       "needed": "Draft history, communications or attributable testimony; donor-to-organization-to-consultation is the supported path."
     },
     {
-      "claim": "Coxon’s launch was paid or covertly directed",
+      "claim": "Coxon\u2019s launch was paid or covertly directed",
       "status": "not established",
       "sources": [
         "X7",
@@ -3178,7 +3626,7 @@
         "X7",
         "A1"
       ],
-      "needed": "Cap table and legal investment vehicle. Moskovitz’s named participation is not itself an Open Phil grant or shareholding."
+      "needed": "Cap table and legal investment vehicle. Moskovitz\u2019s named participation is not itself an Open Phil grant or shareholding."
     },
     {
       "claim": "Moskovitz/Tuna Anthropic stake moved into a nonprofit vehicle",
@@ -3189,7 +3637,7 @@
       "needed": "Transfer instrument or official donor/recipient disclosure; identify vehicle and date."
     },
     {
-      "claim": "FTX grants connect directly to today’s ControlAI lobbying budget",
+      "claim": "FTX grants connect directly to today\u2019s ControlAI lobbying budget",
       "status": "not established",
       "sources": [
         "F1",
@@ -3222,6 +3670,17 @@
         "L12"
       ],
       "needed": "A primary post, Dear Colleague, or bill text naming both members. Recaps are not that instrument."
+    },
+    {
+      "claim": "OfficeChai\u2019s \u2018AI Policy Network\u2019 is the same legal entity as IAPS",
+      "status": "unverified",
+      "sources": [
+        "X10",
+        "W12",
+        "W14",
+        "W15"
+      ],
+      "needed": "A primary IAPS, RP or Wildeford page using the name AI Policy Network, or a legal filing mapping the names. Do not merge the nodes until then."
     }
   ],
   "sources": {
@@ -3259,7 +3718,7 @@
     },
     "A5": {
       "id": "A5",
-      "title": "Anthropic: Tino Cuéllar appointment, August 2026",
+      "title": "Anthropic: Tino Cu\u00e9llar appointment, August 2026",
       "url": "https://www.anthropic.com/news/tino-cuellar",
       "kind": "primary",
       "note": "",
@@ -3310,7 +3769,7 @@
       "title": "ARC Evals spin-out announcement",
       "url": "https://metr.org/blog/2023-09-19-spin-out-announcement/",
       "kind": "primary",
-      "note": "Contains a later note on Christiano’s 2024 government appointment; do not date that note to September 2023.",
+      "note": "Contains a later note on Christiano\u2019s 2024 government appointment; do not date that note to September 2023.",
       "accessed": "2026-09-14"
     },
     "M4": {
@@ -3323,7 +3782,7 @@
     },
     "M5": {
       "id": "M5",
-      "title": "Joe Benton: Why I left Anthropic’s safety team",
+      "title": "Joe Benton: Why I left Anthropic\u2019s safety team",
       "url": "https://jbenton1.substack.com/p/why-i-left-anthropics-safety-team",
       "kind": "primary",
       "note": "",
@@ -3331,7 +3790,7 @@
     },
     "M6": {
       "id": "M6",
-      "title": "Kelsey Piper: disclosure of Christiano–Cotra marriage",
+      "title": "Kelsey Piper: disclosure of Christiano\u2013Cotra marriage",
       "url": "https://www.planned-obsolescence.org/p/ethics-of-red-teaming",
       "kind": "primary",
       "note": "",
@@ -3382,12 +3841,12 @@
       "title": "Karnofsky: AI risk reduction, September 2024",
       "url": "https://carnegie-production-assets.s3.amazonaws.com/static/files/Karnofsky%20-%20AI%20Risk%20Reduction-1.pdf",
       "kind": "primary",
-      "note": "Author’s public family and financial-interest disclosure.",
+      "note": "Author\u2019s public family and financial-interest disclosure.",
       "accessed": "2026-09-14"
     },
     "G6": {
       "id": "G6",
-      "title": "Luke Muehlhauser: Why I resigned from Anthropic’s board",
+      "title": "Luke Muehlhauser: Why I resigned from Anthropic\u2019s board",
       "url": "https://lukemuehlhauser.com/",
       "kind": "primary",
       "note": "",
@@ -3483,7 +3942,7 @@
     },
     "L1": {
       "id": "L1",
-      "title": "Sanders–Casar announcement, September 3, 2026",
+      "title": "Sanders\u2013Casar announcement, September 3, 2026",
       "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
       "kind": "primary",
       "note": "",
@@ -3491,7 +3950,7 @@
     },
     "L2": {
       "id": "L2",
-      "title": "Sanders–Casar official proposal summary",
+      "title": "Sanders\u2013Casar official proposal summary",
       "url": "https://www.sanders.senate.gov/wp-content/uploads/Ban-Artificial-Superintelligence-Act-Release-Summary.pdf",
       "kind": "primary",
       "note": "One-page summary, not authenticated full statutory text or evidence of enactment.",
@@ -3558,12 +4017,12 @@
       "title": "FTX Recovery Trust motion, March 2, 2025, docket 29834",
       "url": "https://document.epiq11.com/document/getdocumentsbydocket/?docketId=1144805&docketNumber=29834&projectCode=FTX&source=DM",
       "kind": "primary",
-      "note": "Party’s court filing, including summary of Anthropic share sales; not a new judicial finding.",
+      "note": "Party\u2019s court filing, including summary of Anthropic share sales; not a new judicial finding.",
       "accessed": "2026-09-14"
     },
     "F3": {
       "id": "F3",
-      "title": "Semafor: Tallinn’s Anthropic investment and governance preferences",
+      "title": "Semafor: Tallinn\u2019s Anthropic investment and governance preferences",
       "url": "https://www.semafor.com/article/04/28/2023/co-founder-of-skype-invested-in-hot-ai-startups-but-thinks-he-failed",
       "kind": "original reporting",
       "note": "",
@@ -3638,7 +4097,7 @@
     },
     "X8": {
       "id": "X8",
-      "title": "Karpathy’s response to Amodei",
+      "title": "Karpathy\u2019s response to Amodei",
       "url": "https://x.com/karpathy/status/2098811935114551617",
       "kind": "primary public post",
       "note": "",
@@ -3656,7 +4115,7 @@
     },
     "X10": {
       "id": "X10",
-      "title": "OfficeChai: allegations concerning Coxon’s funding and amplifiers",
+      "title": "OfficeChai: allegations concerning Coxon\u2019s funding and amplifiers",
       "url": "https://officechai.com/ai/questions-arise-over-anthropic-quitter-jacob-coxons-neutrality-and-ties-to-ai-safety-pr-groups-after-mega-viral-x-post/",
       "kind": "secondary allegation report",
       "note": "",
@@ -3668,7 +4127,7 @@
       "title": "Brian Chau thread about Newspeak House",
       "url": "https://threadnavigator.com/thread/2097879639934779786/",
       "kind": "commentary / allegation",
-      "note": "Mirror of author’s thread; affiliation and causal claims require independent confirmation.",
+      "note": "Mirror of author\u2019s thread; affiliation and causal claims require independent confirmation.",
       "accessed": "2026-09-14"
     },
     "G10": {
@@ -3708,7 +4167,7 @@
       "title": "WSJ exclusive: Anthropic researcher quits over out-of-control AI fears",
       "url": "https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628",
       "kind": "original reporting",
-      "note": "Paywalled live page. Recaps say it appeared before Coxon’s X thread; a stable publisher timestamp was not independently read from the live HTML in this ingest.",
+      "note": "Paywalled live page. Recaps say it appeared before Coxon\u2019s X thread; a stable publisher timestamp was not independently read from the live HTML in this ingest.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628"
     },
@@ -3726,7 +4185,7 @@
       "title": "TIME: Coxon interview",
       "url": "https://time.com/article/2026/09/09/ai-anthropic-openai-jacob-coxon/",
       "kind": "original reporting",
-      "note": "Interview describing pretraining work, the resignation post, and Coxon’s stated interest in work in the vein of the AI Futures Project.",
+      "note": "Interview describing pretraining work, the resignation post, and Coxon\u2019s stated interest in work in the vein of the AI Futures Project.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://time.com/article/2026/09/09/ai-anthropic-openai-jacob-coxon/"
     },
@@ -3735,7 +4194,7 @@
       "title": "WIRED: Coxon interview and Anthropic statement",
       "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/",
       "kind": "original reporting",
-      "note": "Includes Coxon’s “crunch time for humanity” remarks and an Anthropic spokesperson statement. Not used as evidence of covert coordination.",
+      "note": "Includes Coxon\u2019s \u201ccrunch time for humanity\u201d remarks and an Anthropic spokesperson statement. Not used as evidence of covert coordination.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/"
     },
@@ -3759,7 +4218,7 @@
     },
     "L7": {
       "id": "L7",
-      "title": "The Hill: lawmakers sound alarm after Anthropic researchers’ warning",
+      "title": "The Hill: lawmakers sound alarm after Anthropic researchers\u2019 warning",
       "url": "https://thehill.com/homenews/senate/6080316-lawmakers-ai-safety-warnings/",
       "kind": "original reporting",
       "note": "9 Sep 2026 roundup with original X status URLs for Sanders, Casar, Luna, Van Hollen and Beyer.",
@@ -3780,7 +4239,7 @@
       "title": "New Jersey Globe: Kim calls for bipartisan AI legislation",
       "url": "https://newjerseyglobe.com/congress/kim-calls-for-bipartisan-ai-legislation-warning-technology-is-advancing-beyond-human-control/",
       "kind": "original reporting",
-      "note": "14 Sep 2026 recap of Kim’s Coxon-window remarks: MATCH/BLADE, child protections, Mythos-proofing. Not itself an X status URL.",
+      "note": "14 Sep 2026 recap of Kim\u2019s Coxon-window remarks: MATCH/BLADE, child protections, Mythos-proofing. Not itself an X status URL.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://newjerseyglobe.com/congress/kim-calls-for-bipartisan-ai-legislation-warning-technology-is-advancing-beyond-human-control/"
     },
@@ -3795,7 +4254,7 @@
     },
     "L11": {
       "id": "L11",
-      "title": "Greg Casar: Congress must pass Sanders–Casar superintelligence ban",
+      "title": "Greg Casar: Congress must pass Sanders\u2013Casar superintelligence ban",
       "url": "https://x.com/RepCasar/status/2097685220442923030",
       "kind": "primary public post",
       "note": "9 Sep 2026. Calls the researcher warnings an emergency and demands hearings plus the already-previewed ban.",
@@ -3816,7 +4275,7 @@
       "title": "Chris Van Hollen: pump the brakes after Coxon thread",
       "url": "https://x.com/ChrisVanHollen/status/2097759332305715241",
       "kind": "primary public post",
-      "note": "Hill says he responded to Coxon’s post; calls for mandatory safeguards, testing, and dialogue with China.",
+      "note": "Hill says he responded to Coxon\u2019s post; calls for mandatory safeguards, testing, and dialogue with China.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://x.com/ChrisVanHollen/status/2097759332305715241"
     },
@@ -3831,12 +4290,147 @@
     },
     "L16": {
       "id": "L16",
-      "title": "Kim–Hagerty BLADE Act press release",
+      "title": "Kim\u2013Hagerty BLADE Act press release",
       "url": "https://www.kim.senate.gov/press_release/senators-kim-and-hagerty-lead-colleagues-in-introducing-bill-to-protect-american-ai-technology-from-foreign-attacks/",
       "kind": "primary",
-      "note": "6 Aug 2026 introduction of BLADE; also describes the earlier MATCH Act. Predates Coxon; used for Kim’s named bills, not as a Coxon quote.",
+      "note": "6 Aug 2026 introduction of BLADE; also describes the earlier MATCH Act. Predates Coxon; used for Kim\u2019s named bills, not as a Coxon quote.",
       "accessed": "2026-09-14",
       "archiveUrl": "https://web.archive.org/web/*/https://www.kim.senate.gov/press_release/senators-kim-and-hagerty-lead-colleagues-in-introducing-bill-to-protect-american-ai-technology-from-foreign-attacks/"
+    },
+    "W1": {
+      "id": "W1",
+      "title": "William MacAskill: personal site",
+      "url": "https://www.williammacaskill.com/",
+      "kind": "primary",
+      "note": "Self-description: helped start effective altruism; cofounded GWWC, 80,000 Hours and CEA.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.williammacaskill.com/"
+    },
+    "W2": {
+      "id": "W2",
+      "title": "Giving What We Can: William MacAskill",
+      "url": "https://www.givingwhatwecan.org/people/william-macaskill",
+      "kind": "primary",
+      "note": "GWWC names him co-founder of the EA movement, GWWC, 80,000 Hours and CEA.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.givingwhatwecan.org/people/william-macaskill"
+    },
+    "W3": {
+      "id": "W3",
+      "title": "80,000 Hours: About",
+      "url": "https://80000hours.org/about/",
+      "kind": "primary",
+      "note": "Self-describes as part of the EA community; funded primarily by Coefficient Giving; EV project until 1 Apr 2025; names Will as a founder.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://80000hours.org/about/"
+    },
+    "W4": {
+      "id": "W4",
+      "title": "CEA Disambiguation (EA Forum)",
+      "url": "https://forum.effectivealtruism.org/posts/xaMLvzbaBMFjX88Z2/cea-disambiguation",
+      "kind": "primary",
+      "note": "Explains the 2022 rename of the umbrella charity to Effective Ventures and lists then-trustees including MacAskill and Beckstead.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://forum.effectivealtruism.org/posts/xaMLvzbaBMFjX88Z2/cea-disambiguation"
+    },
+    "W5": {
+      "id": "W5",
+      "title": "Centre for Effective Altruism: homepage",
+      "url": "https://www.centreforeffectivealtruism.org/",
+      "kind": "primary",
+      "note": "CEA\u2019s description of EA and of EA Funds as its grantmaking arm.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.centreforeffectivealtruism.org/"
+    },
+    "W6": {
+      "id": "W6",
+      "title": "EA Funds: Long-Term Future Fund",
+      "url": "https://funds.effectivealtruism.org/funds/far-future",
+      "kind": "primary",
+      "note": "LTFF page on the EA Funds platform. The fund later closed; Coxon scholarship claims remain a separate lead.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://funds.effectivealtruism.org/funds/far-future"
+    },
+    "W7": {
+      "id": "W7",
+      "title": "BBC Worklife: FTX\u2019s Sam Bankman-Fried believed in effective altruism",
+      "url": "https://www.bbc.com/worklife/article/20231009-ftxs-sam-bankman-fried-believed-in-effective-altruism-what-is-it",
+      "kind": "original reporting",
+      "note": "Describes SBF as a public EA proponent and Moskovitz as a major funder of EA-aligned giving. Not a membership roll.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.bbc.com/worklife/article/20231009-ftxs-sam-bankman-fried-believed-in-effective-altruism-what-is-it"
+    },
+    "W8": {
+      "id": "W8",
+      "title": "Carnegie Endowment: Holden Karnofsky biography",
+      "url": "https://carnegieendowment.org/people/holden-karnofsky",
+      "kind": "primary",
+      "note": "Names Karnofsky as GiveWell co-founder/co-ED and Open Philanthropy co-founder/CEO.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://carnegieendowment.org/people/holden-karnofsky"
+    },
+    "W9": {
+      "id": "W9",
+      "title": "Rethink Priorities: five years, Wildeford and Davis",
+      "url": "https://rethinkpriorities.org/five-years-of-rethink-priorities-what-weve-learned/",
+      "kind": "primary",
+      "note": "Wildeford as RP co-founder; RP work with CEA, Open Philanthropy and 80,000 Hours.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://rethinkpriorities.org/five-years-of-rethink-priorities-what-weve-learned/"
+    },
+    "W10": {
+      "id": "W10",
+      "title": "Reflections and lessons from Effective Ventures (EA Forum)",
+      "url": "https://forum.effectivealtruism.org/posts/AuSah98NtR5qv8zQA/reflections-and-lessons-from-effective-ventures-1",
+      "kind": "primary",
+      "note": "EV US/UK history; FTX ties including trustees Beckstead and MacAskill; Longview and GovAI as former same-entity projects.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://forum.effectivealtruism.org/posts/AuSah98NtR5qv8zQA/reflections-and-lessons-from-effective-ventures-1"
+    },
+    "W11": {
+      "id": "W11",
+      "title": "Manifund: AI policy work at IAPS (Peter Wildeford)",
+      "url": "https://mani.fund/projects/ai-policy-work--iaps",
+      "kind": "primary",
+      "note": "Wildeford-authored IAPS funding application; names SFF among IAPS funders.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://mani.fund/projects/ai-policy-work--iaps"
+    },
+    "W12": {
+      "id": "W12",
+      "title": "Institute for AI Policy and Strategy",
+      "url": "https://www.iaps.ai/",
+      "kind": "primary",
+      "note": "IAPS self-description as a nonpartisan AI policy think tank. Does not name Wildeford on the homepage.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.iaps.ai/"
+    },
+    "W13": {
+      "id": "W13",
+      "title": "Giving What We Can: About us",
+      "url": "https://www.givingwhatwecan.org/about-us",
+      "kind": "primary",
+      "note": "Names Toby Ord and Will MacAskill as 2009 founders; describes GWWC as one of the first organisations to embody effective altruism.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.givingwhatwecan.org/about-us"
+    },
+    "W14": {
+      "id": "W14",
+      "title": "Rethink Priorities: CEO announcement",
+      "url": "https://rethinkpriorities.org/ceo-announcement/",
+      "kind": "primary",
+      "note": "Wildeford as RP cofounder/former co-CEO and Chief Advisory Executive at RP-sponsored IAPS.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://rethinkpriorities.org/ceo-announcement/"
+    },
+    "W15": {
+      "id": "W15",
+      "title": "IAPS: Jenny Marron appointed executive director",
+      "url": "https://www.iaps.ai/news/iaps-leadership-announcements",
+      "kind": "primary",
+      "note": "IAPS names Wildeford as cofounder and former Chief Advisory Executive, transitioning to chief strategy officer.",
+      "accessed": "2026-09-14",
+      "archiveUrl": "https://web.archive.org/web/*/https://www.iaps.ai/news/iaps-leadership-announcements"
     }
   }
 }

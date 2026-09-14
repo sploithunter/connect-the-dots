@@ -42,6 +42,7 @@ Profile sources: [X1](../sources/X1.md), [X9](../sources/X9.md), [X12](../source
 - **2026-09-09 · documented · E157:** [Bill Foster](bill-foster.md) → Argued software-only controls cannot contain superhuman AI → [Jacob Coxon](jacob-coxon.md). [L8](../sources/L8.md).
 - **2026-09-09 · documented · E158:** [Delia Ramirez](delia-ramirez.md) → Demanded congressional AI oversight after the warnings → [Jacob Coxon](jacob-coxon.md). [L8](../sources/L8.md).
 - **2026-09-09 · documented · E159:** [Chris Deluzio](chris-deluzio.md) → Called superintelligence risk an emergency for national action → [Jacob Coxon](jacob-coxon.md). [L8](../sources/L8.md).
+- **2020 or 2022 in conflicting recaps · unverified lead · E187:** [Jacob Coxon](jacob-coxon.md) → Alleged scholarship recipient → [Long-Term Future Fund](long-term-future-fund.md). [X10](../sources/X10.md), [X7](../sources/X7.md).
 
 ## Related pages
 
@@ -72,6 +73,7 @@ Profile sources: [X1](../sources/X1.md), [X9](../sources/X9.md), [X12](../source
 - [Bill Foster](bill-foster.md)
 - [Delia Ramirez](delia-ramirez.md)
 - [Chris Deluzio](chris-deluzio.md)
+- [Long-Term Future Fund](long-term-future-fund.md)
 
 [Entity index](../entities.md) · [Wiki home](../index.md)
 
