@@ -16,7 +16,7 @@ Every node gets actual authored information and citations. Its graph label also 
 
 ## Visual conventions
 
-Use a dark blue canvas, light labels, restrained borders and gold accents for navigation/citations. Preserve the existing connection-type palette: gold for investment/funding, blue for employment, purple for governance, pink for family, teal for evaluation/access, yellow-green for policy/proposals, and gray for public statements. Dashed lines distinguish proposals/open leads. Do not use color or proximity to imply severity, blame or certainty.
+Use a dark blue canvas, light labels, restrained borders and gold accents for navigation/citations. Preserve the existing connection-type palette: gold for investment/funding, blue for employment, purple for governance, pink for family, teal for evaluation/access, yellow-green for policy/proposals, gray for public statements, and sage for affiliation / identity. Dashed lines distinguish proposals/open leads. Affiliation edges record self-identification or an organisation’s self-description as part of a movement; they are not a legal membership roll. Do not use color or proximity to imply severity, blame or certainty.
 
 Keep the overview curated and readable, with focused views and the complete graph available separately. Preserve pan, zoom, search, neighborhood exploration and SVG export. Keep the inspector readable and scrollable. Use accessible native disclosure controls or existing component primitives, visible focus states, semantic headings and meaningful link text. Labels remain SVG text so exports stay sharp and selectable.
 

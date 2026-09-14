@@ -7,6 +7,7 @@ A maintained research and engineering knowledge base for the [interactive graph]
 - [Entity index](entities.md) — populated profiles, dated connections and cross-references for every node.
 - [Source index](sources.md) — citation metadata, recorded usage and backlinks to profiles.
 - [Funding and institutions](topics/funding.md) — investment and philanthropic routes.
+- [Effective altruism](topics/ea.md) — founders, community organisations, grant vehicles, and what a grant is not.
 - [Evaluation and governance](topics/evaluation.md) — ARC, METR, laboratories and personnel.
 - [Policy development](topics/policy.md) — drafting, consultation, sponsorship and fellowships.
 - [Coxon discussion](topics/incident.md) — public-entry briefing: participant accounts, news timing, named amplifiers and Coxon-window Congress.

@@ -7,11 +7,11 @@ updated: 2026-09-14
 
 # Coefficient Giving / Open Philanthropy
 
-**AI research & policy funder**
+**AI and EA-aligned grantmaker**
 
-A philanthropic grantmaking organization linked to Good Ventures and co-founded by Holden Karnofsky. Its records describe support for AI research and policy organizations, governance-project solicitations and an earlier OpenAI grant.
+A philanthropic grantmaking organization linked to Good Ventures and co-founded by Holden Karnofsky. It is the principal funder of 80,000 Hours and a major funder of other EA-aligned AI and community work. Those are grantmaking records. Open Philanthropy is not a membership organisation, and a grant from it is not treated here as proof that the recipient is an EA.
 
-Profile sources: [G1](../sources/G1.md), [G10](../sources/G10.md), [G2](../sources/G2.md), [G3](../sources/G3.md), [G4](../sources/G4.md), [G6](../sources/G6.md), [G7](../sources/G7.md), [G8](../sources/G8.md), [G9](../sources/G9.md), [M7](../sources/M7.md), [X7](../sources/X7.md).
+Profile sources: [G1](../sources/G1.md), [G10](../sources/G10.md), [G2](../sources/G2.md), [G3](../sources/G3.md), [G4](../sources/G4.md), [G6](../sources/G6.md), [G7](../sources/G7.md), [G8](../sources/G8.md), [G9](../sources/G9.md), [M7](../sources/M7.md), [X7](../sources/X7.md), [W3](../sources/W3.md), [W8](../sources/W8.md).
 
 ## Dated relationship records
 
@@ -30,6 +30,7 @@ Profile sources: [G1](../sources/G1.md), [G10](../sources/G10.md), [G2](../sourc
 - **2025–2026 program · documented · E079:** [Coefficient Giving / Open Philanthropy](coefficient-giving-open-philanthropy.md) → Solicits AI governance projects → [AI policy development](ai-policy-development.md). [G9](../sources/G9.md).
 - **2017 · documented · E131:** [Coefficient Giving / Open Philanthropy](coefficient-giving-open-philanthropy.md) → $30M grant → [OpenAI](openai.md). [G10](../sources/G10.md).
 - **before METR · documented · E133:** [Ajeya Cotra](ajeya-cotra.md) → Former research and grantmaking work → [Coefficient Giving / Open Philanthropy](coefficient-giving-open-philanthropy.md). [M7](../sources/M7.md).
+- **disclosed on 80k about page · documented · E180:** [Coefficient Giving / Open Philanthropy](coefficient-giving-open-philanthropy.md) → Primary philanthropic funder → [80,000 Hours](80-000-hours.md). [W3](../sources/W3.md).
 
 ## Related pages
 
@@ -48,6 +49,7 @@ Profile sources: [G1](../sources/G1.md), [G10](../sources/G10.md), [G2](../sourc
 - [AI policy development](ai-policy-development.md)
 - [OpenAI](openai.md)
 - [Ajeya Cotra](ajeya-cotra.md)
+- [80,000 Hours](80-000-hours.md)
 
 [Entity index](../entities.md) · [Wiki home](../index.md)
 

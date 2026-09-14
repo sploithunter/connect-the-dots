@@ -15,7 +15,7 @@ Profile sources: [L18](../sources/L18.md).
 
 ## Dated relationship records
 
-- **2026-09-13 · documented · E161:** [Adam Schiff](adam-schiff.md) → Asked if Congress is asleep at the wheel heading toward AGI → [Jacob Coxon](jacob-coxon.md). [L18](../sources/L18.md).
+- **2026-09-13 · documented · E189:** [Adam Schiff](adam-schiff.md) → Asked if Congress is asleep at the wheel heading toward AGI → [Jacob Coxon](jacob-coxon.md). [L18](../sources/L18.md).
 
 ## Related pages
 

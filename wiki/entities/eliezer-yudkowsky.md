@@ -15,8 +15,8 @@ Profile sources: [I1](../sources/I1.md), [I2](../sources/I2.md), [X17](../source
 
 ## Dated relationship records
 
-- **2000 founding; current team page · documented · E166:** [Eliezer Yudkowsky](eliezer-yudkowsky.md) → Cofounded; listed as board member → [MIRI](miri.md). [I1](../sources/I1.md), [I2](../sources/I2.md).
-- **2026-09-13 · documented · E167:** [Eliezer Yudkowsky](eliezer-yudkowsky.md) → Urged making “don’t die to AI” a bipartisan project → [Jacob Coxon](jacob-coxon.md). [X17](../sources/X17.md).
+- **2000 founding; current team page · documented · E194:** [Eliezer Yudkowsky](eliezer-yudkowsky.md) → Cofounded; listed as board member → [MIRI](miri.md). [I1](../sources/I1.md), [I2](../sources/I2.md).
+- **2026-09-13 · documented · E195:** [Eliezer Yudkowsky](eliezer-yudkowsky.md) → Urged making “don’t die to AI” a bipartisan project → [Jacob Coxon](jacob-coxon.md). [X17](../sources/X17.md).
 
 ## Related pages
 

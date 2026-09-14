@@ -16,7 +16,7 @@ Profile sources: [I1](../sources/I1.md), [I2](../sources/I2.md), [S2](../sources
 ## Dated relationship records
 
 - **2025 · documented · E044:** [SFF](sff.md) → Tallinn-funded recommendation → [MIRI](miri.md). [S2](../sources/S2.md).
-- **2000 founding; current team page · documented · E166:** [Eliezer Yudkowsky](eliezer-yudkowsky.md) → Cofounded; listed as board member → [MIRI](miri.md). [I1](../sources/I1.md), [I2](../sources/I2.md).
+- **2000 founding; current team page · documented · E194:** [Eliezer Yudkowsky](eliezer-yudkowsky.md) → Cofounded; listed as board member → [MIRI](miri.md). [I1](../sources/I1.md), [I2](../sources/I2.md).
 
 ## Related pages
 

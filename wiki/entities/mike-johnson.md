@@ -15,7 +15,7 @@ Profile sources: [L22](../sources/L22.md), [L21](../sources/L21.md).
 
 ## Dated relationship records
 
-- **2026-09-14 · documented · E165:** [Ted Lieu](ted-lieu.md) → Said the Speaker can subpoena AI leaders instead of delaying for a meeting → [Mike Johnson](mike-johnson.md). [L21](../sources/L21.md), [L22](../sources/L22.md).
+- **2026-09-14 · documented · E193:** [Ted Lieu](ted-lieu.md) → Said the Speaker can subpoena AI leaders instead of delaying for a meeting → [Mike Johnson](mike-johnson.md). [L21](../sources/L21.md), [L22](../sources/L22.md).
 
 ## Related pages
 

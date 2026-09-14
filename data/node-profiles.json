@@ -1,7 +1,7 @@
 {
   "AI Futures Project": {
     "kind": "organization",
-    "summary": "A research project appearing in the Survival and Flourishing Fund\u2019s 2025 funding recommendations, with Tallinn identified as a participating funder. TIME identifies Daniel Kokotajlo as its founder, and Coxon said he hoped to do work in that vein. The SFF recommendation, the founder identification and Coxon\u2019s stated interest are separate records.",
+    "summary": "A research project appearing in the Survival and Flourishing Fund’s 2025 funding recommendations, with Tallinn identified as a participating funder. TIME identifies Daniel Kokotajlo as its founder, and Coxon said he hoped to do work in that vein. The SFF recommendation, the founder identification and Coxon’s stated interest are separate records.",
     "sources": [
       "S2",
       "X14"
@@ -11,7 +11,7 @@
   },
   "AI Policy Institute": {
     "kind": "organization",
-    "summary": "A policy organization listed in SFF\u2019s 2025 recommendations with Tallinn identified as the participating funder. The record concerns a funding recommendation and its stated conditions.",
+    "summary": "A policy organization listed in SFF’s 2025 recommendations with Tallinn identified as the participating funder. The record concerns a funding recommendation and its stated conditions.",
     "sources": [
       "S2"
     ],
@@ -20,7 +20,7 @@
   },
   "AI policy development": {
     "kind": "topic",
-    "summary": "A category for projects solicited through Coefficient Giving\u2019s AI governance funding program. It represents a policy-development activity rather than one legal organization or bill.",
+    "summary": "A category for projects solicited through Coefficient Giving’s AI governance funding program. It represents a policy-development activity rather than one legal organization or bill.",
     "sources": [
       "G9"
     ],
@@ -42,27 +42,27 @@
   },
   "Ajeya Cotra": {
     "kind": "person",
-    "summary": "A researcher whose career account describes research and grantmaking at Open Philanthropy before work at METR. Her disclosed marriage to Paul Christiano connects the personnel and family portions of the network.",
+    "subtitle": "METR; former Open Phil",
+    "summary": "A researcher whose career account describes research and grantmaking at Open Philanthropy before work at METR. Open Philanthropy is the principal EA-aligned mega-funder in this graph; her Open Phil employment is the documented institutional link. Marriage to Paul Christiano is a separate family record. This profile does not add a self-identification-as-EA edge.",
     "sources": [
       "M1",
       "M6",
       "M7"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "METR researcher"
+    "updated": "2026-09-14"
   },
   "Alameda Research": {
     "kind": "organization",
-    "summary": "The trading firm appearing here through reporting on early financing from Jaan Tallinn. Its financing history is a separate record from the later FTX / Alameda estate\u2019s sale of Anthropic shares.",
+    "summary": "The trading firm appearing here through reporting on early financing from Jaan Tallinn. Its financing history is a separate record from the later FTX / Alameda estate’s sale of Anthropic shares.",
     "sources": [
       "F4"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Trading firm \u00b7 FTX network"
+    "subtitle": "Trading firm · FTX network"
   },
   "Alex Sobel": {
     "kind": "person",
-    "summary": "The parliamentary sponsor associated with the UK Artificial Superintelligence Bill. His entry connects the parliamentary bill record to ControlAI\u2019s account of drafting work.",
+    "summary": "The parliamentary sponsor associated with the UK Artificial Superintelligence Bill. His entry connects the parliamentary bill record to ControlAI’s account of drafting work.",
     "sources": [
       "L3"
     ],
@@ -71,7 +71,7 @@
   },
   "Altimeter Capital": {
     "kind": "organization",
-    "summary": "An investment firm named as a co-lead in Anthropic\u2019s Series H announcement. The financing record places it in the company\u2019s later-round investor group.",
+    "summary": "An investment firm named as a co-lead in Anthropic’s Series H announcement. The financing record places it in the company’s later-round investor group.",
     "sources": [
       "A3"
     ],
@@ -80,17 +80,17 @@
   },
   "Amazon": {
     "kind": "organization",
-    "summary": "A technology company listed in METR\u2019s disclosures concerning evaluation access and free model tokens. This profile concerns resources used in model evaluation.",
+    "summary": "A technology company listed in METR’s disclosures concerning evaluation access and free model tokens. This profile concerns resources used in model evaluation.",
     "sources": [
       "M1",
       "M2"
     ],
     "updated": "2026-09-14",
-    "subtitle": "AI developer \u00b7 METR access"
+    "subtitle": "AI developer · METR access"
   },
   "Andrea Miotti": {
     "kind": "person",
-    "summary": "ControlAI\u2019s founder and CEO, identified in its team materials. Reporting also describes his earlier employment at Conjecture, creating a personnel link between the two organizations.",
+    "summary": "ControlAI’s founder and CEO, identified in its team materials. Reporting also describes his earlier employment at Conjecture, creating a personnel link between the two organizations.",
     "sources": [
       "C2",
       "C4"
@@ -100,7 +100,7 @@
   },
   "Andrej Karpathy": {
     "kind": "person",
-    "summary": "An AI researcher named among Conjecture\u2019s investors in its founding announcement. The investigation separately records his public endorsement of Dario Amodei\u2019s proposal for pacing frontier AI development.",
+    "summary": "An AI researcher named among Conjecture’s investors in its founding announcement. The investigation separately records his public endorsement of Dario Amodei’s proposal for pacing frontier AI development.",
     "sources": [
       "C1",
       "X8"
@@ -134,7 +134,7 @@
   },
   "Anthropic LTBT": {
     "kind": "organization",
-    "summary": "Anthropic\u2019s Long-Term Benefit Trust, a governance body with special rights to elect company board members. Its historical trustee roster connects researchers and leaders from several institutions.",
+    "summary": "Anthropic’s Long-Term Benefit Trust, a governance body with special rights to elect company board members. Its historical trustee roster connects researchers and leaders from several institutions.",
     "sources": [
       "A4",
       "A5"
@@ -144,7 +144,7 @@
   },
   "Arthur Breitman": {
     "kind": "person",
-    "summary": "An investor named in Conjecture\u2019s founding announcement. His profile records participation in the company\u2019s initial investor network.",
+    "summary": "An investor named in Conjecture’s founding announcement. His profile records participation in the company’s initial investor network.",
     "sources": [
       "C1"
     ],
@@ -153,7 +153,7 @@
   },
   "Audacious Project": {
     "kind": "organization",
-    "summary": "A philanthropic initiative acknowledged in METR\u2019s funding update. It appears in the investigation as one of the evaluation organization\u2019s supporters.",
+    "summary": "A philanthropic initiative acknowledged in METR’s funding update. It appears in the investigation as one of the evaluation organization’s supporters.",
     "sources": [
       "M2"
     ],
@@ -173,7 +173,7 @@
   "Bernie Sanders": {
     "kind": "person",
     "subtitle": "US ASI ban/pause co-sponsor",
-    "summary": "A US senator who jointly announced the Ban Artificial Superintelligence proposal with Greg Casar on 3 September 2026, before Coxon\u2019s resignation. On 9 September he quoted Coxon, said the builders themselves admit the technology could threaten humanity, and said he would introduce legislation to ban superintelligence and pause AI development \u2014 the already-previewed proposal, not a new bill created by the thread. Follow-up posts in reader recaps collected similar researcher quotes; those follow-ups are not separately edged here.",
+    "summary": "A US senator who jointly announced the Ban Artificial Superintelligence proposal with Greg Casar on 3 September 2026, before Coxon’s resignation. On 9 September he quoted Coxon, said the builders themselves admit the technology could threaten humanity, and said he would introduce legislation to ban superintelligence and pause AI development — the already-previewed proposal, not a new bill created by the thread. Follow-up posts in reader recaps collected similar researcher quotes; those follow-ups are not separately edged here.",
     "sources": [
       "L1",
       "L10",
@@ -183,7 +183,7 @@
   },
   "Beth Barnes": {
     "kind": "person",
-    "summary": "METR\u2019s founder and CEO, identified in its organization and spin-out materials. Her profile anchors the history of the evaluation effort that began as ARC Evals.",
+    "summary": "METR’s founder and CEO, identified in its organization and spin-out materials. Her profile anchors the history of the evaluation effort that began as ARC Evals.",
     "sources": [
       "M1",
       "M3"
@@ -199,11 +199,11 @@
       "X7"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Commentator \u00b7 METR critique"
+    "subtitle": "Commentator · METR critique"
   },
   "CAIS": {
     "kind": "organization",
-    "summary": "The Center for AI Safety, appearing through philanthropic funding, Jaan Tallinn\u2019s board role, and its launch of an advocacy affiliate. CAIS Action Fund has its own record for legislative advocacy.",
+    "summary": "The Center for AI Safety, appearing through philanthropic funding, Jaan Tallinn’s board role, and its launch of an advocacy affiliate. CAIS Action Fund has its own record for legislative advocacy.",
     "sources": [
       "G2",
       "L5",
@@ -214,7 +214,7 @@
   },
   "CAIS Action Fund": {
     "kind": "organization",
-    "summary": "CAIS\u2019s advocacy affiliate, listed as a co-sponsor of California SB 1047. Its record connects the institutional network to the bill\u2019s published legislative analysis.",
+    "summary": "CAIS’s advocacy affiliate, listed as a co-sponsor of California SB 1047. Its record connects the institutional network to the bill’s published legislative analysis.",
     "sources": [
       "L4",
       "L5"
@@ -224,7 +224,7 @@
   },
   "CERR": {
     "kind": "organization",
-    "summary": "The Center for Emerging Risk Research, named as an investor in Anthropic\u2019s Series A and Series B announcements. Its investment entries span both early financing rounds.",
+    "summary": "The Center for Emerging Risk Research, named as an investor in Anthropic’s Series A and Series B announcements. Its investment entries span both early financing rounds.",
     "sources": [
       "A1",
       "A2"
@@ -234,7 +234,7 @@
   },
   "CNAS": {
     "kind": "organization",
-    "summary": "The Center for a New American Security, named in Coefficient Giving\u2019s discussion of organizations it supports. Its inclusion here follows that funding disclosure.",
+    "summary": "The Center for a New American Security, named in Coefficient Giving’s discussion of organizations it supports. Its inclusion here follows that funding disclosure.",
     "sources": [
       "G1"
     ],
@@ -252,7 +252,7 @@
   },
   "CSET": {
     "kind": "organization",
-    "summary": "The Center for Security and Emerging Technology, identified in Coefficient Giving\u2019s funding discussion. Its record places it among research and policy recipients in the philanthropic branch.",
+    "summary": "The Center for Security and Emerging Technology, identified in Coefficient Giving’s funding discussion. Its record places it among research and policy recipients in the philanthropic branch.",
     "sources": [
       "G1"
     ],
@@ -261,7 +261,7 @@
   },
   "California Frontier AI Working Group": {
     "kind": "organization",
-    "summary": "A California policy working group co-led by Tino Cu\u00e9llar. The profile connects his policy work with his subsequent Anthropic governance and executive appointments.",
+    "summary": "A California policy working group co-led by Tino Cuéllar. The profile connects his policy work with his subsequent Anthropic governance and executive appointments.",
     "sources": [
       "A5"
     ],
@@ -279,7 +279,7 @@
   },
   "Cari Tuna": {
     "kind": "person",
-    "summary": "A co-founder and donor of Good Ventures alongside Dustin Moskovitz. Good Ventures\u2019 philanthropic partnership with Open Philanthropy provides the next step in this funding branch.",
+    "summary": "A co-founder and donor of Good Ventures alongside Dustin Moskovitz. Good Ventures’ philanthropic partnership with Open Philanthropy provides the next step in this funding branch.",
     "sources": [
       "G4"
     ],
@@ -288,16 +288,16 @@
   },
   "Carnegie Endowment": {
     "kind": "organization",
-    "summary": "An institution formerly led by Tino Cu\u00e9llar. His Anthropic appointment announcement records that earlier presidency alongside his policy and governance work.",
+    "summary": "An institution formerly led by Tino Cuéllar. His Anthropic appointment announcement records that earlier presidency alongside his policy and governance work.",
     "sources": [
       "A5"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Former Cu\u00e9llar institution"
+    "subtitle": "Former Cuéllar institution"
   },
   "Caroline Ellison": {
     "kind": "person",
-    "summary": "An investor named in Anthropic\u2019s April 2022 Series B announcement. That round was led by Sam Bankman-Fried.",
+    "summary": "An investor named in Anthropic’s April 2022 Series B announcement. That round was led by Sam Bankman-Fried.",
     "sources": [
       "A2"
     ],
@@ -306,7 +306,7 @@
   },
   "Coefficient Giving / Open Philanthropy": {
     "kind": "organization",
-    "summary": "A philanthropic grantmaking organization linked to Good Ventures and co-founded by Holden Karnofsky. Its records describe support for AI research and policy organizations, governance-project solicitations and an earlier OpenAI grant.",
+    "summary": "A philanthropic grantmaking organization linked to Good Ventures and co-founded by Holden Karnofsky. It is the principal funder of 80,000 Hours and a major funder of other EA-aligned AI and community work. Those are grantmaking records. Open Philanthropy is not a membership organisation, and a grant from it is not treated here as proof that the recipient is an EA.",
     "sources": [
       "G1",
       "G10",
@@ -318,10 +318,12 @@
       "G8",
       "G9",
       "M7",
-      "X7"
+      "X7",
+      "W3",
+      "W8"
     ],
     "updated": "2026-09-14",
-    "subtitle": "AI research & policy funder"
+    "subtitle": "AI and EA-aligned grantmaker"
   },
   "Conjecture": {
     "kind": "organization",
@@ -335,7 +337,7 @@
   },
   "Connor Leahy": {
     "kind": "person",
-    "summary": "A Conjecture co-founder identified in its launch announcement. ControlAI\u2019s team page also identifies him as its US executive director.",
+    "summary": "A Conjecture co-founder identified in its launch announcement. ControlAI’s team page also identifies him as its US executive director.",
     "sources": [
       "C1",
       "C2"
@@ -345,7 +347,7 @@
   },
   "ControlAI": {
     "kind": "organization",
-    "summary": "An AI policy advocacy organization led by Andrea Miotti. Its own account describes UK legislative drafting and consultation on the Sanders\u2013Casar framework; the investigation also records its personnel, financial backing and public advocacy.",
+    "summary": "An AI policy advocacy organization led by Andrea Miotti. Its own account describes UK legislative drafting and consultation on the Sanders–Casar framework; the investigation also records its personnel, financial backing and public advocacy.",
     "sources": [
       "C2",
       "C3",
@@ -358,7 +360,7 @@
   },
   "Daniel Gross": {
     "kind": "person",
-    "summary": "An investor named in Conjecture\u2019s founding announcement. His inclusion follows the company\u2019s published investor list.",
+    "summary": "An investor named in Conjecture’s founding announcement. His inclusion follows the company’s published investor list.",
     "sources": [
       "C1"
     ],
@@ -367,7 +369,7 @@
   },
   "Daniela Amodei": {
     "kind": "person",
-    "summary": "An Anthropic co-founder and president, and Dario Amodei\u2019s sibling. The investigation also includes the publicly disclosed family relationship between her and Holden Karnofsky.",
+    "summary": "An Anthropic co-founder and president, and Dario Amodei’s sibling. The investigation also includes the publicly disclosed family relationship between her and Holden Karnofsky.",
     "sources": [
       "A1",
       "G5"
@@ -377,7 +379,7 @@
   },
   "Dario Amodei": {
     "kind": "person",
-    "summary": "Anthropic\u2019s co-founder and CEO, and Daniela Amodei\u2019s sibling. His public proposal for pacing frontier AI development is part of the policy discussion traced by the graph.",
+    "summary": "Anthropic’s co-founder and CEO, and Daniela Amodei’s sibling. His public proposal for pacing frontier AI development is part of the policy discussion traced by the graph.",
     "sources": [
       "A1",
       "X8"
@@ -387,7 +389,7 @@
   },
   "Des Browne": {
     "kind": "person",
-    "summary": "An advisor listed on ControlAI\u2019s team page. His entry records an advisory relationship within the policy-advocacy organization.",
+    "summary": "An advisor listed on ControlAI’s team page. His entry records an advisory relationship within the policy-advocacy organization.",
     "sources": [
       "C2"
     ],
@@ -396,7 +398,7 @@
   },
   "Dragoneer": {
     "kind": "organization",
-    "summary": "An investment firm named as a co-lead in Anthropic\u2019s Series H financing announcement. Its entry belongs to the later-round investor branch.",
+    "summary": "An investment firm named as a co-lead in Anthropic’s Series H financing announcement. Its entry belongs to the later-round investor branch.",
     "sources": [
       "A3"
     ],
@@ -405,13 +407,14 @@
   },
   "Dustin Moskovitz": {
     "kind": "person",
-    "summary": "An investor in Anthropic\u2019s Series A and a co-founder and donor of Good Ventures. Those records connect early AI-company financing with a major philanthropic partner of Open Philanthropy.",
+    "subtitle": "Anthropic investor; Good Ventures",
+    "summary": "An Anthropic Series A investor and cofounder of Good Ventures with Cari Tuna. Good Ventures is the principal funder of Open Philanthropy / Coefficient Giving, which in turn funds many EA-aligned organisations. BBC describes him as backing effective-altruist causes. That is a funding path, not a sourced ‘I am an EA’ self-identification in this ingest.",
     "sources": [
       "A1",
-      "G4"
+      "G4",
+      "W7"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "Investor & philanthropist"
+    "updated": "2026-09-14"
   },
   "EU AI Office": {
     "kind": "organization",
@@ -433,16 +436,19 @@
   },
   "Effective Ventures": {
     "kind": "organization",
-    "summary": "The organization whose US operation Zach Robinson led when appointed as an Anthropic founding trustee. The profile preserves the institutional affiliation at the time of that appointment.",
+    "subtitle": "EA umbrella charity (UK/US)",
+    "summary": "The legal umbrella, formerly named Centre for Effective Altruism, that housed CEA, 80,000 Hours, Giving What We Can and other projects. Zach Robinson led EV US when appointed to Anthropic’s trust. An EV retrospective says trustees MacAskill and Beckstead also held FTX Foundation roles and that Longview and GovAI were among projects in the group. Taking an EV job is not the same as a public ‘I am an EA’ statement.",
     "sources": [
-      "A4"
+      "A4",
+      "W4",
+      "W10",
+      "W3"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "Former Robinson institution"
+    "updated": "2026-09-14"
   },
   "Encode AI": {
     "kind": "organization",
-    "summary": "An organization appearing in SFF\u2019s 2025 recommendations with Tallinn identified as funder. The dataset separately retains the name Encode Justice where it appears in the SB 1047 source.",
+    "summary": "An organization appearing in SFF’s 2025 recommendations with Tallinn identified as funder. The dataset separately retains the name Encode Justice where it appears in the SB 1047 source.",
     "sources": [
       "S2"
     ],
@@ -460,7 +466,7 @@
   },
   "Epoch AI": {
     "kind": "organization",
-    "summary": "A research organization named in Coefficient Giving\u2019s discussion of supported organizations. Its entry follows the disclosed philanthropic relationship.",
+    "summary": "A research organization named in Coefficient Giving’s discussion of supported organizations. Its entry follows the disclosed philanthropic relationship.",
     "sources": [
       "G1"
     ],
@@ -469,7 +475,7 @@
   },
   "Eric Schmidt": {
     "kind": "person",
-    "summary": "An investor named in Anthropic\u2019s Series A announcement. This record concerns his participation in the company\u2019s early financing.",
+    "summary": "An investor named in Anthropic’s Series A announcement. This record concerns his participation in the company’s early financing.",
     "sources": [
       "A1"
     ],
@@ -478,7 +484,7 @@
   },
   "Evan Hubinger": {
     "kind": "person",
-    "summary": "A researcher identified by Joe Benton as his manager on Anthropic\u2019s safety team. His public response to Jacob Coxon is also included in the incident\u2019s discussion record.",
+    "summary": "A researcher identified by Joe Benton as his manager on Anthropic’s safety team. His public response to Jacob Coxon is also included in the incident’s discussion record.",
     "sources": [
       "M5",
       "X2",
@@ -489,7 +495,7 @@
   },
   "FTX / Alameda estate": {
     "kind": "organization",
-    "summary": "The bankruptcy-estate grouping used for the documented sale of Anthropic shares. The cited filing records the estate\u2019s realization of value from those holdings.",
+    "summary": "The bankruptcy-estate grouping used for the documented sale of Anthropic shares. The cited filing records the estate’s realization of value from those holdings.",
     "sources": [
       "F2"
     ],
@@ -498,12 +504,14 @@
   },
   "FTX Future Fund": {
     "kind": "organization",
-    "summary": "The philanthropic fund whose team collectively resigned in November 2022. Its resignation statement identifies personnel who can be followed through later professional affiliations.",
+    "subtitle": "SBF philanthropic vehicle",
+    "summary": "The philanthropic fund whose team collectively resigned in November 2022. Reporting treats it as Bankman-Fried’s EA-branded giving vehicle. Team members in this graph are recorded from that resignation statement, not as a finding that each later employer is an EA organisation.",
     "sources": [
-      "F1"
+      "F1",
+      "W7",
+      "W10"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "Former philanthropic fund"
+    "updated": "2026-09-14"
   },
   "Future of Life Institute": {
     "kind": "organization",
@@ -531,30 +539,31 @@
       "G4"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Moskovitz\u2013Tuna philanthropy"
+    "subtitle": "Moskovitz–Tuna philanthropy"
   },
   "Google DeepMind": {
     "kind": "organization",
-    "summary": "An AI developer named in METR\u2019s disclosures concerning model evaluation access and free tokens. It appears in the laboratory-access branch of the evaluation network.",
+    "summary": "An AI developer named in METR’s disclosures concerning model evaluation access and free tokens. It appears in the laboratory-access branch of the evaluation network.",
     "sources": [
       "M1",
       "M2"
     ],
     "updated": "2026-09-14",
-    "subtitle": "AI developer \u00b7 METR access"
+    "subtitle": "AI developer · METR access"
   },
   "GovAI": {
     "kind": "organization",
-    "summary": "An AI governance organization whose support is acknowledged in Open Philanthropy\u2019s published review. Its profile follows the philanthropic funding record.",
+    "subtitle": "AI governance; former EV project",
+    "summary": "An AI governance organization whose support is acknowledged in Open Philanthropy’s published review. An Effective Ventures retrospective treats GovAI and Longview as having been in the same legal entity and later separated. Those are funding and historical-umbrella records.",
     "sources": [
-      "G3"
+      "G3",
+      "W10"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "AI governance research"
+    "updated": "2026-09-14"
   },
   "Greenoaks": {
     "kind": "organization",
-    "summary": "An investment firm named as a co-lead in Anthropic\u2019s Series H announcement. The graph records its participation in that financing event.",
+    "summary": "An investment firm named as a co-lead in Anthropic’s Series H announcement. The graph records its participation in that financing event.",
     "sources": [
       "A3"
     ],
@@ -574,14 +583,16 @@
   },
   "Holden Karnofsky": {
     "kind": "person",
-    "summary": "A co-founder and former leader of Open Philanthropy who later joined Anthropic\u2019s technical staff. The investigation also records his historical OpenAI board role and disclosed marriage to Daniela Amodei.",
+    "subtitle": "GiveWell and Open Phil cofounder",
+    "summary": "A cofounder of GiveWell and of Open Philanthropy / Coefficient Giving, later on Anthropic’s technical staff, with a disclosed marriage to Daniela Amodei and a historical OpenAI board role. Open Philanthropy has been a major funder of EA-aligned AI and community work. This profile records those institutions; it does not treat every Open Phil grantee as an EA member.",
     "sources": [
+      "W8",
       "G11",
-      "G5",
-      "G7"
+      "G4",
+      "G7",
+      "G5"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "Philanthropy / Anthropic"
+    "updated": "2026-09-14"
   },
   "Horizon Institute": {
     "kind": "organization",
@@ -595,12 +606,16 @@
   },
   "IAPS": {
     "kind": "organization",
-    "summary": "An organization listed in SFF\u2019s 2025 funding recommendations under Tallinn-funded recommendations. This profile records its place in that grantmaking network.",
+    "subtitle": "AI policy think tank",
+    "summary": "The Institute for AI Policy and Strategy, a policy-research organisation listed in SFF’s 2025 recommendations. Its site describes nonpartisan AI and national-security work. RP’s CEO announcement presents IAPS as an RP-sponsored think tank; IAPS names Wildeford as a cofounder. Distinct from the recap name AI Policy Network until records map them.",
     "sources": [
-      "S2"
+      "S2",
+      "W12",
+      "W14",
+      "W15",
+      "W11"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "AI policy organization"
+    "updated": "2026-09-14"
   },
   "Jaan Tallinn": {
     "kind": "person",
@@ -621,7 +636,7 @@
   "Jacob Coxon": {
     "kind": "person",
     "subtitle": "Former Anthropic pretraining researcher",
-    "summary": "Jacob Coxon is a former Anthropic pretraining researcher, not a safety-team lead, whose 8 September 2026 resignation is the public entry point for this investigation rather than a core funding node. He spent about four months at Anthropic after earlier OpenAI pretraining work, including a credit on OpenAI\u2019s GPT-4o contributor list, and told Axios he left before Anthropic\u2019s six-month equity vest while still holding OpenAI equity. Writing as @hilbertspaess, he posted that neither company was acting responsibly; a Wall Street Journal exclusive quoting him appeared before that thread, with recaps disagreeing on whether the gap was about eight or eighteen minutes. Later commentary naming first-wave amplifiers is recorded separately and is not part of this profile\u2019s factual claim.",
+    "summary": "Jacob Coxon is a former Anthropic pretraining researcher, not a safety-team lead, whose 8 September 2026 resignation is the public entry point for this investigation rather than a core funding node. He spent about four months at Anthropic after earlier OpenAI pretraining work, including a credit on OpenAI’s GPT-4o contributor list, and told Axios he left before Anthropic’s six-month equity vest while still holding OpenAI equity. Writing as @hilbertspaess, he posted that neither company was acting responsibly; a Wall Street Journal exclusive quoting him appeared before that thread, with recaps disagreeing on whether the gap was about eight or eighteen minutes. Later commentary naming first-wave amplifiers is recorded separately and is not part of this profile’s factual claim.",
     "sources": [
       "X1",
       "X9",
@@ -633,7 +648,7 @@
   },
   "Jane Street individuals": {
     "kind": "group",
-    "summary": "A collective label for individuals at Jane Street acknowledged in METR\u2019s funding update. The node preserves the disclosure\u2019s description of the supporters as individuals.",
+    "summary": "A collective label for individuals at Jane Street acknowledged in METR’s funding update. The node preserves the disclosure’s description of the supporters as individuals.",
     "sources": [
       "M2"
     ],
@@ -642,7 +657,7 @@
   },
   "Jason Matheny": {
     "kind": "person",
-    "summary": "An Anthropic founding trustee whose appointment materials identified him as RAND\u2019s CEO. This entry preserves the historical affiliation associated with that trust appointment.",
+    "summary": "An Anthropic founding trustee whose appointment materials identified him as RAND’s CEO. This entry preserves the historical affiliation associated with that trust appointment.",
     "sources": [
       "A4"
     ],
@@ -651,7 +666,7 @@
   },
   "Jim McClave": {
     "kind": "person",
-    "summary": "An investor named in both Anthropic\u2019s Series A and Series B announcements. His entries connect the participants in the company\u2019s first two recorded financing rounds.",
+    "summary": "An investor named in both Anthropic’s Series A and Series B announcements. His entries connect the participants in the company’s first two recorded financing rounds.",
     "sources": [
       "A1",
       "A2"
@@ -661,7 +676,7 @@
   },
   "Joe Benton": {
     "kind": "person",
-    "summary": "A former Anthropic safety researcher who publicly described his departure and an upcoming move to METR. His account identifies Evan Hubinger as his manager and says Coxon\u2019s resignation prompted his post.",
+    "summary": "A former Anthropic safety researcher who publicly described his departure and an upcoming move to METR. His account identifies Evan Hubinger as his manager and says Coxon’s resignation prompted his post.",
     "sources": [
       "M5"
     ],
@@ -670,7 +685,7 @@
   },
   "John Collison": {
     "kind": "person",
-    "summary": "An investor named in Conjecture\u2019s founding announcement. His entry records participation in the alignment company\u2019s investor group.",
+    "summary": "An investor named in Conjecture’s founding announcement. His entry records participation in the alignment company’s investor group.",
     "sources": [
       "C1"
     ],
@@ -688,12 +703,12 @@
   },
   "Lachlan Phillips": {
     "kind": "person",
-    "summary": "A public commentator whose post criticized the evaluator proposal involving METR. His entry belongs to the incident\u2019s public-discussion branch.",
+    "summary": "A public commentator whose post criticized the evaluator proposal involving METR. His entry belongs to the incident’s public-discussion branch.",
     "sources": [
       "X4"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Commentator \u00b7 evaluator critique"
+    "subtitle": "Commentator · evaluator critique"
   },
   "Leopold Aschenbrenner": {
     "kind": "person",
@@ -706,16 +721,17 @@
   },
   "Longview Philanthropy": {
     "kind": "organization",
-    "summary": "A philanthropic organization acknowledged as a supporter in METR\u2019s funding update. It appears in the evaluation organization\u2019s funding network.",
+    "subtitle": "METR supporter; former EV project",
+    "summary": "A philanthropic organization acknowledged as a supporter in METR’s funding update. An Effective Ventures retrospective treats Longview and GovAI as having been in the same legal entity and later separated. Those are funding and historical-umbrella records, not a current-role census.",
     "sources": [
-      "M2"
+      "M2",
+      "W10"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "METR philanthropic supporter"
+    "updated": "2026-09-14"
   },
   "Lord Clement-Jones": {
     "kind": "person",
-    "summary": "The parliamentarian identified in ControlAI\u2019s account as introducing the UK AI kill-switch amendment. His role connects the organization\u2019s drafting account to parliamentary activity.",
+    "summary": "The parliamentarian identified in ControlAI’s account as introducing the UK AI kill-switch amendment. His role connects the organization’s drafting account to parliamentary activity.",
     "sources": [
       "C3"
     ],
@@ -724,7 +740,7 @@
   },
   "Luke Muehlhauser": {
     "kind": "person",
-    "summary": "An AI governance grantmaker at Open Philanthropy and a former Anthropic board member. His own account and reporting on Tallinn\u2019s advocacy provide the personnel and governance records used here.",
+    "summary": "An AI governance grantmaker at Open Philanthropy and a former Anthropic board member. His own account and reporting on Tallinn’s advocacy provide the personnel and governance records used here.",
     "sources": [
       "A7",
       "F3",
@@ -735,7 +751,7 @@
   },
   "MATS": {
     "kind": "organization",
-    "summary": "A program named in Coefficient Giving\u2019s discussion of supported AI safety organizations. Its profile records that philanthropic support relationship.",
+    "summary": "A program named in Coefficient Giving’s discussion of supported AI safety organizations. Its profile records that philanthropic support relationship.",
     "sources": [
       "G1"
     ],
@@ -763,7 +779,7 @@
   "MIRI": {
     "kind": "organization",
     "subtitle": "AI safety research; Yudkowsky cofounded",
-    "summary": "The Machine Intelligence Research Institute, a Berkeley nonprofit that describes its work as preventing extinction from artificial superintelligence. Its about page names Eliezer Yudkowsky as a founder in 2000; the team page lists him as co-founder and a board member. MIRI also appears in SFF\u2019s 2025 recommendations with Tallinn as a participating funder. Those are founder, governance and funding-recommendation records.",
+    "summary": "The Machine Intelligence Research Institute, a Berkeley nonprofit that describes its work as preventing extinction from artificial superintelligence. Its about page names Eliezer Yudkowsky as a founder in 2000; the team page lists him as co-founder and a board member. MIRI also appears in SFF’s 2025 recommendations with Tallinn as a participating funder. Those are founder, governance and funding-recommendation records.",
     "sources": [
       "I1",
       "I2",
@@ -773,17 +789,17 @@
   },
   "Meta": {
     "kind": "organization",
-    "summary": "An AI developer listed in METR\u2019s disclosures concerning evaluation access and free tokens. Its entry records resources made available for model evaluations.",
+    "summary": "An AI developer listed in METR’s disclosures concerning evaluation access and free tokens. Its entry records resources made available for model evaluations.",
     "sources": [
       "M1",
       "M2"
     ],
     "updated": "2026-09-14",
-    "subtitle": "AI developer \u00b7 METR access"
+    "subtitle": "AI developer · METR access"
   },
   "NIST / CAISI": {
     "kind": "organization",
-    "summary": "The institutional grouping used here for US government AI standards and evaluation work. The records connect Paul Christiano\u2019s technical-advisory role and METR\u2019s consortium participation.",
+    "summary": "The institutional grouping used here for US government AI standards and evaluation work. The records connect Paul Christiano’s technical-advisory role and METR’s consortium participation.",
     "sources": [
       "M1",
       "O1"
@@ -793,7 +809,7 @@
   },
   "Nat Friedman": {
     "kind": "person",
-    "summary": "An investor named in Conjecture\u2019s founding announcement. His profile follows the company\u2019s published list of early backers.",
+    "summary": "An investor named in Conjecture’s founding announcement. His profile follows the company’s published list of early backers.",
     "sources": [
       "C1"
     ],
@@ -802,16 +818,18 @@
   },
   "Nick Beckstead": {
     "kind": "person",
-    "summary": "A former FTX Future Fund team member named in its collective resignation statement. His entry records his role in that personnel network.",
+    "subtitle": "EV trustee; FTX Future Fund",
+    "summary": "A named FTX Future Fund team member who resigned in November 2022. The CEA/EV disambiguation post lists him among Effective Ventures trustees, and the EV retrospective says he was CEO of the FTX Foundation while a trustee. Those are governance and employment records in the EA organisational stack.",
     "sources": [
-      "F1"
+      "F1",
+      "W4",
+      "W10"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "Former FTX Future Fund team"
+    "updated": "2026-09-14"
   },
   "Nishad Singh": {
     "kind": "person",
-    "summary": "An investor named in Anthropic\u2019s Series B announcement. His entry links him to the April 2022 financing led by Sam Bankman-Fried.",
+    "summary": "An investor named in Anthropic’s Series B announcement. His entry links him to the April 2022 financing led by Sam Bankman-Fried.",
     "sources": [
       "A2"
     ],
@@ -820,7 +838,7 @@
   },
   "OpenAI": {
     "kind": "organization",
-    "summary": "An AI developer connected here through alignment research, historical and subsequent governance roles, philanthropic support and METR evaluation access. Coxon\u2019s account also records earlier employment there.",
+    "summary": "An AI developer connected here through alignment research, historical and subsequent governance roles, philanthropic support and METR evaluation access. Coxon’s account also records earlier employment there.",
     "sources": [
       "G10",
       "G11",
@@ -834,7 +852,7 @@
   },
   "Packard Foundation": {
     "kind": "organization",
-    "summary": "A foundation acknowledged in METR\u2019s funding update. Its profile records support within the evaluator\u2019s philanthropic network.",
+    "summary": "A foundation acknowledged in METR’s funding update. Its profile records support within the evaluator’s philanthropic network.",
     "sources": [
       "M2"
     ],
@@ -843,7 +861,7 @@
   },
   "Patrick Collison": {
     "kind": "person",
-    "summary": "An investor named in Conjecture\u2019s launch announcement. His entry records participation in the alignment company\u2019s investor group.",
+    "summary": "An investor named in Conjecture’s launch announcement. His entry records participation in the alignment company’s investor group.",
     "sources": [
       "C1"
     ],
@@ -852,7 +870,7 @@
   },
   "Paul Christiano": {
     "kind": "person",
-    "summary": "An alignment researcher and ARC founder with historical roles at OpenAI and Anthropic\u2019s trust. The investigation also records government advisory work, an OpenAI Foundation board appointment and his marriage to Ajeya Cotra.",
+    "summary": "An alignment researcher and ARC founder with historical roles at OpenAI and Anthropic’s trust. The investigation also records government advisory work, an OpenAI Foundation board appointment and his marriage to Ajeya Cotra.",
     "sources": [
       "A4",
       "M3",
@@ -864,7 +882,7 @@
   },
   "Pew Charitable Trusts": {
     "kind": "organization",
-    "summary": "A philanthropic institution acknowledged in METR\u2019s funding update. It appears as a supporter in the evaluation organization\u2019s disclosed funding network.",
+    "summary": "A philanthropic institution acknowledged in METR’s funding update. It appears as a supporter in the evaluation organization’s disclosed funding network.",
     "sources": [
       "M2"
     ],
@@ -882,7 +900,7 @@
   },
   "RAND": {
     "kind": "organization",
-    "summary": "A research institution named in Coefficient Giving\u2019s support discussion. Anthropic\u2019s trust announcement also identifies Jason Matheny as RAND\u2019s CEO at his trustee appointment.",
+    "summary": "A research institution named in Coefficient Giving’s support discussion. Anthropic’s trust announcement also identifies Jason Matheny as RAND’s CEO at his trustee appointment.",
     "sources": [
       "A4",
       "G1"
@@ -892,7 +910,7 @@
   },
   "Redwood Research": {
     "kind": "organization",
-    "summary": "An AI research organization named in Coefficient Giving\u2019s funding discussion. Its inclusion follows the disclosed grantmaking relationship.",
+    "summary": "An AI research organization named in Coefficient Giving’s funding discussion. Its inclusion follows the disclosed grantmaking relationship.",
     "sources": [
       "G1"
     ],
@@ -911,13 +929,14 @@
   },
   "Sam Bankman-Fried": {
     "kind": "person",
-    "summary": "The lead investor named in Anthropic\u2019s Series B announcement and an investor named in Conjecture\u2019s launch announcement. These two financing records connect him to distinct AI-company branches.",
+    "subtitle": "FTX; public EA proponent",
+    "summary": "The lead investor named in Anthropic’s Series B and an investor named in Conjecture’s launch. BBC and related reporting describe him as a public effective-altruism proponent who said he aimed to earn in order to give. That public identification is recorded separately from the company investments and from later criminal proceedings.",
     "sources": [
       "A2",
-      "C1"
+      "C1",
+      "W7"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "Anthropic / Conjecture investor"
+    "updated": "2026-09-14"
   },
   "Sayer Ji": {
     "kind": "person",
@@ -926,11 +945,11 @@
       "X5"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Commentator \u00b7 policy critique"
+    "subtitle": "Commentator · policy critique"
   },
   "Schmidt Sciences": {
     "kind": "organization",
-    "summary": "An organization acknowledged as a supporter in METR\u2019s funding update. Its profile follows the evaluation organization\u2019s donor disclosure.",
+    "summary": "An organization acknowledged as a supporter in METR’s funding update. Its profile follows the evaluation organization’s donor disclosure.",
     "sources": [
       "M2"
     ],
@@ -939,7 +958,7 @@
   },
   "Sequoia Capital": {
     "kind": "organization",
-    "summary": "An investment firm named as a co-lead in Anthropic\u2019s Series H announcement. The record connects it to the later financing round.",
+    "summary": "An investment firm named as a co-lead in Anthropic’s Series H announcement. The record connects it to the later financing round.",
     "sources": [
       "A3"
     ],
@@ -948,7 +967,7 @@
   },
   "Sid Black": {
     "kind": "person",
-    "summary": "A co-founder named in Conjecture\u2019s launch announcement. His profile records his founding role in the alignment research company.",
+    "summary": "A co-founder named in Conjecture’s launch announcement. His profile records his founding role in the alignment research company.",
     "sources": [
       "C1"
     ],
@@ -957,7 +976,7 @@
   },
   "Sijbrandij Foundation": {
     "kind": "organization",
-    "summary": "A foundation acknowledged in METR\u2019s funding update. It appears as a supporter in the disclosed philanthropic network.",
+    "summary": "A foundation acknowledged in METR’s funding update. It appears as a supporter in the disclosed philanthropic network.",
     "sources": [
       "M2"
     ],
@@ -966,16 +985,16 @@
   },
   "Tarbell Center for AI Journalism": {
     "kind": "organization",
-    "summary": "A journalism organization appearing in SFF\u2019s 2025 funding recommendations with Tallinn identified as funder. Its entry connects the funding network to AI journalism.",
+    "summary": "A journalism organization appearing in SFF’s 2025 funding recommendations with Tallinn identified as funder. Its entry connects the funding network to AI journalism.",
     "sources": [
       "S2"
     ],
     "updated": "2026-09-14",
     "subtitle": "AI journalism organization"
   },
-  "Tino Cu\u00e9llar": {
+  "Tino Cuéllar": {
     "kind": "person",
-    "summary": "A former Carnegie Endowment president and co-leader of California\u2019s Frontier AI Working Group. Anthropic\u2019s announcement describes his transition from its trust to an announced global-affairs executive role.",
+    "summary": "A former Carnegie Endowment president and co-leader of California’s Frontier AI Working Group. Anthropic’s announcement describes his transition from its trust to an announced global-affairs executive role.",
     "sources": [
       "A5"
     ],
@@ -984,7 +1003,7 @@
   },
   "UK AI Security Institute": {
     "kind": "organization",
-    "summary": "The UK government institution with which METR reports a partnership. The profile records the evaluator\u2019s relationship with a public-sector AI institution.",
+    "summary": "The UK government institution with which METR reports a partnership. The profile records the evaluator’s relationship with a public-sector AI institution.",
     "sources": [
       "M1"
     ],
@@ -1002,7 +1021,7 @@
   },
   "UK ASI Bill": {
     "kind": "policy",
-    "summary": "The UK Artificial Superintelligence Bill, linked to Alex Sobel\u2019s parliamentary sponsorship and ControlAI\u2019s drafting account. Its sources include the official parliamentary bill record.",
+    "summary": "The UK Artificial Superintelligence Bill, linked to Alex Sobel’s parliamentary sponsorship and ControlAI’s drafting account. Its sources include the official parliamentary bill record.",
     "sources": [
       "C3",
       "C5",
@@ -1019,7 +1038,7 @@
       "L1"
     ],
     "updated": "2026-09-14",
-    "subtitle": "Sanders\u2013Casar proposal"
+    "subtitle": "Sanders–Casar proposal"
   },
   "US policy institutions": {
     "kind": "group",
@@ -1033,12 +1052,16 @@
   },
   "Will MacAskill": {
     "kind": "person",
-    "summary": "A former FTX Future Fund team member named in its collective resignation statement. His entry records that historical philanthropic affiliation.",
+    "subtitle": "EA cofounder; EV / FTX Fund roles",
+    "summary": "A moral philosopher who writes that he helped start effective altruism and cofounded Giving What We Can, 80,000 Hours and the Centre for Effective Altruism. He was an Effective Ventures trustee and a named FTX Future Fund team member who resigned in November 2022. Those are founder, trustee and employment records, not a claim that he directed later lab resignations.",
     "sources": [
-      "F1"
+      "W1",
+      "W2",
+      "W4",
+      "F1",
+      "W10"
     ],
-    "updated": "2026-09-14",
-    "subtitle": "Former FTX Future Fund team"
+    "updated": "2026-09-14"
   },
   "Zach Robinson": {
     "kind": "person",
@@ -1063,7 +1086,7 @@
   "Nathan Calvin": {
     "kind": "person",
     "subtitle": "Named first-wave amplifier",
-    "summary": "A recap of Parker Thayer\u2019s timeline names Nathan Calvin of Encode AI among the first accounts to quote-post Jacob Coxon\u2019s resignation thread within about fifteen minutes. This profile records that reported identification. Original post IDs were not captured in this ingest, so the amplification edge remains reported rather than documented.",
+    "summary": "A recap of Parker Thayer’s timeline names Nathan Calvin of Encode AI among the first accounts to quote-post Jacob Coxon’s resignation thread within about fifteen minutes. This profile records that reported identification. Original post IDs were not captured in this ingest, so the amplification edge remains reported rather than documented.",
     "sources": [
       "X10"
     ],
@@ -1071,9 +1094,13 @@
   },
   "Peter Wildeford": {
     "kind": "person",
-    "subtitle": "Named first-wave amplifier",
-    "summary": "A recap of Parker Thayer\u2019s timeline names Peter Wildeford of the AI Policy Network among the first accounts to quote-post Jacob Coxon\u2019s resignation thread within about fifteen minutes. Original post IDs were not captured here. The affiliation and amplification records stay reported until those posts are in the source registry.",
+    "subtitle": "Rethink Priorities; IAPS",
+    "summary": "Cofounder of Rethink Priorities and of IAPS. RP’s CEO announcement names him Chief Advisory Executive at RP-sponsored IAPS; IAPS later said he moved to chief strategy officer. A Manifund application in his name seeks IAPS hires and names SFF among funders. OfficeChai’s recap still names him as ‘AI Policy Network’ among first-wave Coxon amplifiers; that recap name stays a separate reported affiliation until a legal mapping is sourced.",
     "sources": [
+      "W9",
+      "W14",
+      "W15",
+      "W11",
       "X10"
     ],
     "updated": "2026-09-14"
@@ -1081,16 +1108,18 @@
   "AI Policy Network": {
     "kind": "organization",
     "subtitle": "Named Wildeford affiliation",
-    "summary": "An organization named in the OfficeChai recap of Parker Thayer\u2019s timeline as Peter Wildeford\u2019s affiliation among first-wave amplifiers of Coxon\u2019s thread. It is recorded separately from Encode AI, Encode Justice and the AI Policy Institute until primary records establish any legal relationship. This ingest does not add a Survival and Flourishing Fund edge for this name.",
+    "summary": "An organization named in the OfficeChai recap of Parker Thayer’s timeline as Peter Wildeford’s affiliation among first-wave amplifiers of Coxon’s thread. Wildeford’s documented roles are at Rethink Priorities and IAPS. This name is kept separate from IAPS, Encode AI, Encode Justice and the AI Policy Institute until a primary record maps them.",
     "sources": [
-      "X10"
+      "X10",
+      "W14",
+      "W15"
     ],
     "updated": "2026-09-14"
   },
   "Daniel Kokotajlo": {
     "kind": "person",
     "subtitle": "AI Futures Project",
-    "summary": "Daniel Kokotajlo is identified in Coxon\u2019s TIME interview as founder of the AI Futures Project, and in later recaps as a first-wave quote-poster of the resignation thread. The project affiliation is documented from that interview. The quote-post itself remains reported until an original status ID is captured. Named amplification is not treated as proof of paid coordination.",
+    "summary": "Daniel Kokotajlo is identified in Coxon’s TIME interview as founder of the AI Futures Project, and in later recaps as a first-wave quote-poster of the resignation thread. The project affiliation is documented from that interview. The quote-post itself remains reported until an original status ID is captured. Named amplification is not treated as proof of paid coordination.",
     "sources": [
       "X14",
       "X10"
@@ -1100,7 +1129,7 @@
   "Andy Kim": {
     "kind": "person",
     "subtitle": "Senate AI guardrails, Coxon window",
-    "summary": "A US senator who, in the days after the Coxon warnings, called for Senate-wide discussion and bipartisan AI legislation, saying the technology is moving faster than its creators can control. He pointed to his MATCH and BLADE bills, child-protection proposals, and a protocol to Mythos-proof critical infrastructure. That is a regulate-and-compete lane, not the Sanders\u2013Casar ban/pause. The Globe recap is dated 14 Sep; the original X status was not captured here.",
+    "summary": "A US senator who, in the days after the Coxon warnings, called for Senate-wide discussion and bipartisan AI legislation, saying the technology is moving faster than its creators can control. He pointed to his MATCH and BLADE bills, child-protection proposals, and a protocol to Mythos-proof critical infrastructure. That is a regulate-and-compete lane, not the Sanders–Casar ban/pause. The Globe recap is dated 14 Sep; the original X status was not captured here.",
     "sources": [
       "L9",
       "L16"
@@ -1110,7 +1139,7 @@
   "Chris Murphy": {
     "kind": "person",
     "subtitle": "Regulate while research continues",
-    "summary": "A US senator whose Coxon-window post, as quoted by HuffPost, said the \u201cblind race to build a death machine first\u201d can be solved with a regulatory system that lets research continue without destroying us. That is a regulate-now position, not an outright superintelligence ban. The original status ID was not captured in this ingest.",
+    "summary": "A US senator whose Coxon-window post, as quoted by HuffPost, said the “blind race to build a death machine first” can be solved with a regulatory system that lets research continue without destroying us. That is a regulate-now position, not an outright superintelligence ban. The original status ID was not captured in this ingest.",
     "sources": [
       "L8"
     ],
@@ -1119,7 +1148,7 @@
   "Mark Kelly": {
     "kind": "person",
     "subtitle": "Called Washington to act on AI",
-    "summary": "A US senator whose Coxon-window post, as quoted by HuffPost, said AI is moving fast, Washington needs to take it seriously, and Silicon Valley\u2019s \u201cbuild fast and break things\u201d approach is the wrong one for AI. Contemporaneous accounts also point back to his earlier AI for America framework. The original status ID was not captured here.",
+    "summary": "A US senator whose Coxon-window post, as quoted by HuffPost, said AI is moving fast, Washington needs to take it seriously, and Silicon Valley’s “build fast and break things” approach is the wrong one for AI. Contemporaneous accounts also point back to his earlier AI for America framework. The original status ID was not captured here.",
     "sources": [
       "L8"
     ],
@@ -1128,7 +1157,7 @@
   "Patty Murray": {
     "kind": "person",
     "subtitle": "Congress must regulate now",
-    "summary": "A US senator whose Coxon-window post, as quoted by HuffPost, argued that if we are smart enough to create such powerful AI we are smart enough to regulate it and that Congress needs to move now. Reader recaps say she was responding to Hubinger\u2019s 10%+ estimate; the HuffPost excerpt itself does not quote Hubinger, so that targeting is not separately edged.",
+    "summary": "A US senator whose Coxon-window post, as quoted by HuffPost, argued that if we are smart enough to create such powerful AI we are smart enough to regulate it and that Congress needs to move now. Reader recaps say she was responding to Hubinger’s 10%+ estimate; the HuffPost excerpt itself does not quote Hubinger, so that targeting is not separately edged.",
     "sources": [
       "L8"
     ],
@@ -1137,7 +1166,7 @@
   "Lori Trahan": {
     "kind": "person",
     "subtitle": "FRONTIER Act; Coxon-window post",
-    "summary": "A US representative whose Coxon-window post said \u201cthe call is coming from inside the house,\u201d citing resigning safety researchers, models breaking out of labs, and companies racing anyway. Contemporaneous reporting says she pushed her bipartisan FRONTIER Act. That is a national-standards / guardrails lane, not the Sanders\u2013Casar ban. The original status ID was not captured here.",
+    "summary": "A US representative whose Coxon-window post said “the call is coming from inside the house,” citing resigning safety researchers, models breaking out of labs, and companies racing anyway. Contemporaneous reporting says she pushed her bipartisan FRONTIER Act. That is a national-standards / guardrails lane, not the Sanders–Casar ban. The original status ID was not captured here.",
     "sources": [
       "L8"
     ],
@@ -1146,7 +1175,7 @@
   "Pramila Jayapal": {
     "kind": "person",
     "subtitle": "Shut down dangerous models",
-    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, said AI companies are \u201cout of control and a serious threat\u201d and called for shutting down dangerous models and pushing out the executives signing off on them. That is a harder shutdown lane than hearings-and-guardrails posts in the same window. The original status ID was not captured here.",
+    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, said AI companies are “out of control and a serious threat” and called for shutting down dangerous models and pushing out the executives signing off on them. That is a harder shutdown lane than hearings-and-guardrails posts in the same window. The original status ID was not captured here.",
     "sources": [
       "L8"
     ],
@@ -1155,7 +1184,7 @@
   "Ted Lieu": {
     "kind": "person",
     "subtitle": "Kill-switch; subpoena AI leaders",
-    "summary": "A US representative whose 9 September Coxon-window post, as quoted by HuffPost, told Republican leadership to take up the bipartisan AI Kill Switch Bill. On 14 September he quote-posted Bloomberg\u2019s report that Speaker Johnson wanted one big meeting before AI legislation, and said the majority could issue subpoenas to AI industry leaders immediately instead of adding House vacation. The US kill-switch push remains separate from the UK amendment already in the graph.",
+    "summary": "A US representative whose 9 September Coxon-window post, as quoted by HuffPost, told Republican leadership to take up the bipartisan AI Kill Switch Bill. On 14 September he quote-posted Bloomberg’s report that Speaker Johnson wanted one big meeting before AI legislation, and said the majority could issue subpoenas to AI industry leaders immediately instead of adding House vacation. The US kill-switch push remains separate from the UK amendment already in the graph.",
     "sources": [
       "L8",
       "L21",
@@ -1166,7 +1195,7 @@
   "Anna Paulina Luna": {
     "kind": "person",
     "subtitle": "Special session; race framing",
-    "summary": "A US representative whose Coxon-window post called for a House special session on AI, citing massive implications of a race toward superintelligence, and said the first priority is protecting Americans\u2019 data, privacy and physical safety. The Hill places the post in the researcher-warning cycle. Reader recaps add a human-interface/kill-switch framework with Rep. Ro Khanna; that joint-framework claim is not separately edged until a primary record is captured.",
+    "summary": "A US representative whose Coxon-window post called for a House special session on AI, citing massive implications of a race toward superintelligence, and said the first priority is protecting Americans’ data, privacy and physical safety. The Hill places the post in the researcher-warning cycle. Reader recaps add a human-interface/kill-switch framework with Rep. Ro Khanna; that joint-framework claim is not separately edged until a primary record is captured.",
     "sources": [
       "L7",
       "L12"
@@ -1185,7 +1214,7 @@
   "Nathaniel Moran": {
     "kind": "person",
     "subtitle": "Innovation and safety, Coxon window",
-    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, said AI is a powerful engine of innovation that Congress cannot ignore, and that innovation and safety are not mutually exclusive. That is a compete-with-guardrails Republican post in the same snapshot as Luna\u2019s special-session call. The original status ID was not captured here.",
+    "summary": "A US representative whose Coxon-window post, as quoted by HuffPost, said AI is a powerful engine of innovation that Congress cannot ignore, and that innovation and safety are not mutually exclusive. That is a compete-with-guardrails Republican post in the same snapshot as Luna’s special-session call. The original status ID was not captured here.",
     "sources": [
       "L8"
     ],
@@ -1194,7 +1223,7 @@
   "Chris Van Hollen": {
     "kind": "person",
     "subtitle": "Pump the brakes; safeguards",
-    "summary": "A US senator who, per The Hill, responded to Coxon\u2019s thread by saying it was time to pump the brakes and take action, calling for mandatory safeguards, a comprehensive testing regime, and urgent dialogue with China. The original post is in the source registry.",
+    "summary": "A US senator who, per The Hill, responded to Coxon’s thread by saying it was time to pump the brakes and take action, calling for mandatory safeguards, a comprehensive testing regime, and urgent dialogue with China. The original post is in the source registry.",
     "sources": [
       "L7",
       "L13"
@@ -1204,7 +1233,7 @@
   "Don Beyer": {
     "kind": "person",
     "subtitle": "Hearings; adjournment critique",
-    "summary": "A US representative whose Coxon-window post said Congress lacks urgency on AI, criticized the Speaker\u2019s plan to adjourn the House early, and called hearings, company answers, and passing ready bills the minimum. The Hill records the post in the researcher-warning cycle. He has a longer record of AI-safeguard bills; this node is the post, not a census of those bills.",
+    "summary": "A US representative whose Coxon-window post said Congress lacks urgency on AI, criticized the Speaker’s plan to adjourn the House early, and called hearings, company answers, and passing ready bills the minimum. The Hill records the post in the researcher-warning cycle. He has a longer record of AI-safeguard bills; this node is the post, not a census of those bills.",
     "sources": [
       "L7",
       "L14"
@@ -1238,6 +1267,97 @@
     ],
     "updated": "2026-09-14"
   },
+  "Effective Altruism": {
+    "kind": "topic",
+    "subtitle": "Movement and self-label, not a roll",
+    "summary": "A philosophy and community that CEA describes as using evidence and reason to help others. This node is a movement label, not a membership list or a single legal entity. Founders and organisations that publicly identify with it are recorded on separate edges. Taking money from an EA-aligned funder is not treated as proof that a person is an EA.",
+    "sources": [
+      "W1",
+      "W5"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Centre for Effective Altruism": {
+    "kind": "organization",
+    "subtitle": "EA community organisation",
+    "summary": "An organisation that promotes effective altruism and supports the community through conferences, groups, the EA Forum and, via EA Funds, grants. It was created as an umbrella name in 2012 and later became a project of Effective Ventures after the umbrella charity was renamed. MacAskill’s site names him a cofounder.",
+    "sources": [
+      "W5",
+      "W4",
+      "W1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Giving What We Can": {
+    "kind": "organization",
+    "subtitle": "10% giving pledge organisation",
+    "summary": "A giving organisation whose members pledge a share of income to charities it regards as effective. Its about page names Toby Ord and Will MacAskill as founders in 2009 and describes GWWC as one of the first organisations to embody effective altruism. 80,000 Hours still lists GWWC among Effective Ventures umbrella projects.",
+    "sources": [
+      "W13",
+      "W2",
+      "W1",
+      "W3"
+    ],
+    "updated": "2026-09-14"
+  },
+  "80,000 Hours": {
+    "kind": "organization",
+    "subtitle": "EA career-advice nonprofit",
+    "summary": "A nonprofit that advises people on high-impact careers, with a current focus on AI. It says it is part of the effective altruism community, that Coefficient Giving is its biggest funder, and that it was an Effective Ventures project until 1 April 2025. MacAskill is named as a founder.",
+    "sources": [
+      "W3",
+      "W1"
+    ],
+    "updated": "2026-09-14"
+  },
+  "EA Funds": {
+    "kind": "organization",
+    "subtitle": "CEA grantmaking platform",
+    "summary": "A grantmaking platform that CEA describes as providing grants to projects aligned with effective altruist principles. The LTFF page also identifies EA Funds as an Effective Ventures project. It housed expert-managed funds including the Long-Term Future Fund. This node is the platform, not every grantee.",
+    "sources": [
+      "W5",
+      "W6"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Long-Term Future Fund": {
+    "kind": "organization",
+    "subtitle": "EA Funds longtermist grant fund",
+    "summary": "An expert-managed fund on the EA Funds platform that made grants on catastrophic risk, especially advanced AI. Claims that Jacob Coxon received a specific LTFF scholarship remain an unverified lead; this node exists so that claim has a correct legal/funding target rather than being attached to CEA or Open Phil by default.",
+    "sources": [
+      "W6"
+    ],
+    "updated": "2026-09-14"
+  },
+  "GiveWell": {
+    "kind": "organization",
+    "subtitle": "Charity evaluator; Karnofsky co-founded",
+    "summary": "A nonprofit that researches cost-effective giving opportunities. Karnofsky’s Carnegie biography names him as a cofounder and former co-executive director. GiveWell predates the later ‘effective altruism’ brand; it is recorded as a founding institution in this network, not as proof that every GiveWell donor is an EA.",
+    "sources": [
+      "W8"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Rethink Priorities": {
+    "kind": "organization",
+    "subtitle": "EA research group; IAPS sponsor",
+    "summary": "A research and implementation organisation cofounded by Peter Wildeford and Marcus Davis. Its five-year review describes commissioned work with CEA, Open Philanthropy and 80,000 Hours. A later CEO announcement says RP sponsors the Institute for AI Policy and Strategy. Those are organisational records, not a finding that every RP collaborator is an EA.",
+    "sources": [
+      "W9",
+      "W14"
+    ],
+    "updated": "2026-09-14"
+  },
+  "Toby Ord": {
+    "kind": "person",
+    "subtitle": "GWWC and CEA cofounder",
+    "summary": "An Oxford philosopher named with William MacAskill as a cofounder of Giving What We Can in GWWC’s own history. BBC describes the pair’s 2009 work as the origin of the effective altruism movement. He is included here as a named founder, not as a current-role census.",
+    "sources": [
+      "W13",
+      "W7"
+    ],
+    "updated": "2026-09-14"
+  },
   "Ruben Gallego": {
     "kind": "person",
     "subtitle": "Regulate now; AI indifferent to nationality",
@@ -1249,8 +1369,8 @@
   },
   "Adam Schiff": {
     "kind": "person",
-    "subtitle": "In-company monitors; pace, don\u2019t lock in",
-    "summary": "A US senator from California whose 13 September 2026 thread said that week\u2019s news and warnings made it fair to ask whether Congress is asleep heading toward AGI. He said experts and executives were calling out frontier-AI risks, that he had spent four years hearing from California companies and researchers about an existential threat, that rogue collusive agents were a harbinger, and that self-regulation had already failed on social media. He wants legislation requiring independent monitors inside AI companies and pacing of new developments, without locking in monopolies or ceding ground to China, plus work on employment, tax and energy. That is regulate-and-compete, not a ban. The thread does not name Coxon. In-company monitors are not treated here as the same thing as METR.",
+    "subtitle": "In-company monitors; pace, don’t lock in",
+    "summary": "A US senator from California whose 13 September 2026 thread said that week’s news and warnings made it fair to ask whether Congress is asleep heading toward AGI. He said experts and executives were calling out frontier-AI risks, that he had spent four years hearing from California companies and researchers about an existential threat, that rogue collusive agents were a harbinger, and that self-regulation had already failed on social media. He wants legislation requiring independent monitors inside AI companies and pacing of new developments, without locking in monopolies or ceding ground to China, plus work on employment, tax and energy. That is regulate-and-compete, not a ban. The thread does not name Coxon. In-company monitors are not treated here as the same thing as METR.",
     "sources": [
       "L18"
     ],
@@ -1259,7 +1379,7 @@
   "Mark Warner": {
     "kind": "person",
     "subtitle": "July AI framework; companies sounding alarm",
-    "summary": "A US senator from Virginia and vice chair of Senate Intelligence. On 14 September 2026 he said even the companies building AI are sounding the alarm and that Congress cannot sit on the sidelines, linking his 21 July 2026 \u201cFramework for America\u2019s AI Future.\u201d That July package predates Coxon and covers data-center infrastructure, competition and safety, workforce, and national security, including a Secure AI Development Act for mandatory secure testing of advanced models. Lead-with-guardrails, not a ban.",
+    "summary": "A US senator from Virginia and vice chair of Senate Intelligence. On 14 September 2026 he said even the companies building AI are sounding the alarm and that Congress cannot sit on the sidelines, linking his 21 July 2026 “Framework for America’s AI Future.” That July package predates Coxon and covers data-center infrastructure, competition and safety, workforce, and national security, including a Secure AI Development Act for mandatory secure testing of advanced models. Lead-with-guardrails, not a ban.",
     "sources": [
       "L19",
       "L23"
@@ -1279,7 +1399,7 @@
   "Josh Gottheimer": {
     "kind": "person",
     "subtitle": "House AI Commission; mandatory rules",
-    "summary": "A US representative from New Jersey who, as self-described co-chair of the House AI Commission, posted on 13 September 2026 that it is rich for AI leaders to call for a slowdown after racing ahead, that self-policing and third-party audits are not enough, and that he wants national mandatory rules. The post links Politico\u2019s headline on Anthropic CEO Dario Amodei seeking an immediate slowdown. That is a reaction to the Dario coverage, not a Coxon quote.",
+    "summary": "A US representative from New Jersey who, as self-described co-chair of the House AI Commission, posted on 13 September 2026 that it is rich for AI leaders to call for a slowdown after racing ahead, that self-policing and third-party audits are not enough, and that he wants national mandatory rules. The post links Politico’s headline on Anthropic CEO Dario Amodei seeking an immediate slowdown. That is a reaction to the Dario coverage, not a Coxon quote.",
     "sources": [
       "L20"
     ],
@@ -1288,7 +1408,7 @@
   "Mike Johnson": {
     "kind": "person",
     "subtitle": "Don't rush AI bills; one big meeting",
-    "summary": "The Speaker of the House. Bloomberg reported on 13 September 2026 that he said federal AI legislation should not be rushed and that industry leaders should be summoned to one big meeting first. Ted Lieu quote-posted that report the next day and said the majority already has subpoena power. Johnson\u2019s own status URL was not captured here; the record follows Bloomberg as quoted in Lieu\u2019s post.",
+    "summary": "The Speaker of the House. Bloomberg reported on 13 September 2026 that he said federal AI legislation should not be rushed and that industry leaders should be summoned to one big meeting first. Ted Lieu quote-posted that report the next day and said the majority already has subpoena power. Johnson’s own status URL was not captured here; the record follows Bloomberg as quoted in Lieu’s post.",
     "sources": [
       "L22",
       "L21"
@@ -1298,7 +1418,7 @@
   "Eliezer Yudkowsky": {
     "kind": "person",
     "subtitle": "MIRI cofounder; bipartisan AI-risk",
-    "summary": "MIRI\u2019s about page names him a founder of the organization (then the Singularity Institute) in 2000; the team page lists him as co-founder and a board member. On 13 September 2026 he posted that nothing was more important than making \u201cdon\u2019t die to AI\u201d a bipartisan project rather than a Democrat-polarized issue, asking Democrats not to throw barbs and Republicans to treat it as defending home and family. Those posts do not name Coxon or a specific bill.",
+    "summary": "MIRI’s about page names him a founder of the organization (then the Singularity Institute) in 2000; the team page lists him as co-founder and a board member. On 13 September 2026 he posted that nothing was more important than making “don’t die to AI” a bipartisan project rather than a Democrat-polarized issue, asking Democrats not to throw barbs and Republicans to treat it as defending home and family. Those posts do not name Coxon or a specific bill.",
     "sources": [
       "I1",
       "I2",

@@ -15,7 +15,7 @@ Profile sources: [L23](../sources/L23.md), [L19](../sources/L19.md).
 
 ## Dated relationship records
 
-- **2026-07-21; cited 2026-09-14 · documented · E163:** [Mark Warner](mark-warner.md) → Announced the package; pointed back to it during the warning week → [Framework for America's AI Future](framework-for-america-s-ai-future.md). [L23](../sources/L23.md), [L19](../sources/L19.md).
+- **2026-07-21; cited 2026-09-14 · documented · E191:** [Mark Warner](mark-warner.md) → Announced the package; pointed back to it during the warning week → [Framework for America's AI Future](framework-for-america-s-ai-future.md). [L23](../sources/L23.md), [L19](../sources/L19.md).
 
 ## Related pages
 

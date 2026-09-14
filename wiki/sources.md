@@ -1,6 +1,6 @@
 # Source index
 
-84 source records with usage notes and backlinks.
+99 source records with usage notes and backlinks.
 
 - [A1: Anthropic: $124M Series A, May 2021](sources/A1.md) — primary; recorded access 2026-09-14.
 - [A2: Anthropic: $580M Series B, April 2022](sources/A2.md) — primary; recorded access 2026-09-14.
@@ -76,6 +76,21 @@
 - [L13: Chris Van Hollen: pump the brakes after Coxon thread](sources/L13.md) — primary public post; recorded access 2026-09-14.
 - [L14: Don Beyer: doing nothing on AI is unacceptable](sources/L14.md) — primary public post; recorded access 2026-09-14.
 - [L16: Kim–Hagerty BLADE Act press release](sources/L16.md) — primary; recorded access 2026-09-14.
+- [W1: William MacAskill: personal site](sources/W1.md) — primary; recorded access 2026-09-14.
+- [W2: Giving What We Can: William MacAskill](sources/W2.md) — primary; recorded access 2026-09-14.
+- [W3: 80,000 Hours: About](sources/W3.md) — primary; recorded access 2026-09-14.
+- [W4: CEA Disambiguation (EA Forum)](sources/W4.md) — primary; recorded access 2026-09-14.
+- [W5: Centre for Effective Altruism: homepage](sources/W5.md) — primary; recorded access 2026-09-14.
+- [W6: EA Funds: Long-Term Future Fund](sources/W6.md) — primary; recorded access 2026-09-14.
+- [W7: BBC Worklife: FTX’s Sam Bankman-Fried believed in effective altruism](sources/W7.md) — original reporting; recorded access 2026-09-14.
+- [W8: Carnegie Endowment: Holden Karnofsky biography](sources/W8.md) — primary; recorded access 2026-09-14.
+- [W9: Rethink Priorities: five years, Wildeford and Davis](sources/W9.md) — primary; recorded access 2026-09-14.
+- [W10: Reflections and lessons from Effective Ventures (EA Forum)](sources/W10.md) — primary; recorded access 2026-09-14.
+- [W11: Manifund: AI policy work at IAPS (Peter Wildeford)](sources/W11.md) — primary; recorded access 2026-09-14.
+- [W12: Institute for AI Policy and Strategy](sources/W12.md) — primary; recorded access 2026-09-14.
+- [W13: Giving What We Can: About us](sources/W13.md) — primary; recorded access 2026-09-14.
+- [W14: Rethink Priorities: CEO announcement](sources/W14.md) — primary; recorded access 2026-09-14.
+- [W15: IAPS: Jenny Marron appointed executive director](sources/W15.md) — primary; recorded access 2026-09-14.
 - [L17: Ruben Gallego: regulate AI now; it will not care about nationality](sources/L17.md) — primary public post; recorded access 2026-09-14.
 - [L18: Adam Schiff: news and warnings this week; Congress asleep toward AGI](sources/L18.md) — primary public post; recorded access 2026-09-14.
 - [L19: Mark Warner: AI companies sounding the alarm; Congress cannot sit out](sources/L19.md) — primary public post; recorded access 2026-09-14.

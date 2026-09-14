@@ -15,7 +15,7 @@ Profile sources: [L17](../sources/L17.md).
 
 ## Dated relationship records
 
-- **2026-09-13 · documented · E160:** [Ruben Gallego](ruben-gallego.md) → Called to regulate now; said dangerous AI will not care about nationality → [Jacob Coxon](jacob-coxon.md). [L17](../sources/L17.md).
+- **2026-09-13 · documented · E188:** [Ruben Gallego](ruben-gallego.md) → Called to regulate now; said dangerous AI will not care about nationality → [Jacob Coxon](jacob-coxon.md). [L17](../sources/L17.md).
 
 ## Related pages
 

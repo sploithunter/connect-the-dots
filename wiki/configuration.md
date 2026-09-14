@@ -21,7 +21,7 @@ The packet has these fields:
 | `node` | ID, label, kind, subtitle, written summary, source IDs and profile update date |
 | `sources` | New source records only; use an empty array when citing existing source IDs |
 | `connections` | At least one complete, sourced edge involving the new node; choose unused edge IDs |
-| `views` | Optional focus-view IDs such as `funding`, `metr`, `policy`, `incident` or `congress` |
+| `views` | Optional focus-view IDs such as `funding`, `metr`, `policy`, `incident`, `congress` or `ea` |
 | `overviewPosition` | Optional `[x, y]` coordinates to include it in the curated overview |
 | `startNode` | Optional boolean to add it to the sidebar's starting points |
 

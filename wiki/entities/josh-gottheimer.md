@@ -15,7 +15,7 @@ Profile sources: [L20](../sources/L20.md).
 
 ## Dated relationship records
 
-- **2026-09-13 · documented · E164:** [Josh Gottheimer](josh-gottheimer.md) → Called the slowdown appeal rich after racing ahead; wants mandatory rules → [Dario Amodei](dario-amodei.md). [L20](../sources/L20.md).
+- **2026-09-13 · documented · E192:** [Josh Gottheimer](josh-gottheimer.md) → Called the slowdown appeal rich after racing ahead; wants mandatory rules → [Dario Amodei](dario-amodei.md). [L20](../sources/L20.md).
 
 ## Related pages
 
