@@ -88,3 +88,7 @@ Added visible node focus actions, one-to-three-step neighborhoods, view/focus hi
 ## 2026-09-14 — Independent split graph panes
 
 Implemented the requested split workflow as two independent neighborhood panes rather than a path-only comparison. Added per-pane focus/search, depth, history, zoom, pan, dragging, fit and reset; actual records connect the panes, with shared-identity lines identified separately. Preserved complete neighborhoods and SVG export. Unit and browser checks cover independence, cross-record provenance, shared entities, empty/disconnected selections, source inspection and export. See [Split graph exploration](split-graph.md).
+
+## 2026-09-14 — Single/split graph parity
+
+Replaced the split-only node-picker workflow with two copies of the existing Network View/search controls. Centralized graph membership, labels, edge geometry and legends; bridges now connect displayed views without requiring node selections. Clicking inspects before explicit focus, and inspector focus remains in the active pane. Per-pane filters and menu choices are independent. Browser checks compare node/edge IDs, glyph markup and relative layout coordinates with the single graph, including Capital & philanthropy, METR & governance, Overview and All connections.

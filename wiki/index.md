@@ -13,7 +13,7 @@ A maintained research and engineering knowledge base for the [interactive graph]
 - [Coxon discussion](topics/incident.md) — public-entry briefing: participant accounts, news timing, named amplifiers and Coxon-window Congress.
 - [Open questions](open-questions.md) — research needed to extend the record.
 
-- [Split graph exploration](split-graph.md) — independently focus two neighborhoods and see relationships between them.
+- [Split graph exploration](split-graph.md) — choose independent Network Views and see relationships between the two graphs.
 - [Finding paths](path-finder.md) — search between two entities and inspect each relationship.
 
 ## Working on the repository

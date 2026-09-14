@@ -2,20 +2,30 @@
 
 [Wiki home](index.md) · [Path search](path-finder.md)
 
-Use **Split graph** above the canvas. This opens two graph panes seeded from the current graph. If a node was selected, the left pane starts with its neighborhood. Otherwise, click any node on each side to start. Each pane also has a searchable field containing every dataset node.
+**Split graph** creates two copies of the current graph view. Each pane has the same **Network View** menu as the single graph: Overview, Capital & philanthropy, METR & governance, Policy & legislation, All connections and every other configured view. Choose the same view on both sides or different views. Their nodes, relationship records, labels and underlying layout match the single graph.
 
-Clicking a node immediately refocuses only that pane. The other pane keeps its focus, depth, positions and camera. Each side offers depth 1–3, Back, Browse starting graph, zoom, Fit and Reset. Drag a node to rearrange it; drag that pane's background to pan. Changing focus or depth resets that pane's layout. Fit preserves manually moved positions; Reset restores them. **Single graph** returns to the overview.
+Bridges appear automatically between the displayed graphs; no node selection is required. For example, select **Capital & philanthropy** on the left and **METR & governance** on the right. Each side retains the entire selected view, with recorded relationships crossing the middle when their endpoints occur on opposite sides.
 
-Each focused pane shows its full neighborhood within the selected depth and relationship-type filters, including relationships among reached nodes. When both focuses are selected, records whose endpoints span the two neighborhoods are drawn across the middle. These are individual recorded relationships, not a shortest-path subset. Neighborhoods remain visible even when no cross-pane relationship exists. Increase depth to explore more distant connections. The existing path comparison remains available under **Compare two nodes**.
+Each pane uses the same search and node interactions as the single graph. Click a node to inspect it, choose **Focus connections** to rebuild that pane around its neighborhood, or double-click a node to focus directly. Search results open a neighborhood. Depth controls appear in neighborhood mode. Back returns through that pane's view choices; Overview returns that pane to its overview. The other pane stays on its chosen view.
 
-A node may appear in both neighborhoods. Its two copies are the same entity; optional dotted gray lines connect those copies. They are counted separately from relationship records. Each relationship appears at most once in the cross-pane record set, even when its endpoints belong to both panes; it can also appear within a pane. Left-to-right display placement does not change the original direction, status, date or source attribution. Click a colored line for its source record in the inspector.
+Each side has its own relationship-type legend, zoom, pan, dragging, Fit graph and Reset layout. Hidden relationship types affect that pane's membership and records; a crossing type must be enabled on both sides. All evidence statuses are included, with proposals and unresolved leads retaining their dashed styling. Click a relationship to inspect its recorded direction, dates and sources. Inspector focus actions apply to the last active pane.
 
-Split mode includes all evidence statuses; proposals and unverified leads keep dashed relationship lines. The legend filters relationship types across both neighborhoods and the cross-pane records. Counts refer to the current neighborhoods and filters, not the full dataset. Cross-pane lines whose endpoints are off-screen after panning/zooming are hidden; the summary reports the visible subset. Fit restores an overview of that pane's nodes.
+Shared nodes appear in both panes. Optional dotted gray lines connect copies of the same entity and are counted separately from relationship records. Each canonical relationship is drawn at most once across the panes, even if both endpoints appear in both views. A record can also be visible inside a pane. Screen position does not change its recorded direction or meaning.
 
-**Export graph** exports both panes, their current positions and the visible cross-pane lines in one SVG. Split choices live in component state and reset on exit/reload.
+Zooming or panning can move a crossing endpoint off-screen; the summary reports how many cross-pane records are visible. Fit graph brings that pane's nodes back into view. Export graph includes both panes and visible bridges in one SVG.
 
-## Engineering notes
+**Single graph** returns to the view that was open before splitting. A path or comparison view is initially preserved as **Current graph**, from which either pane can switch to any configured view. Split choices live in component state and reset on exit/reload.
 
-`components/split-graph.tsx` owns the independent pane state and renders two clipped pane regions in a single SVG. A common coordinate system allows connecting lines to track independently projected node positions as either side pans, zooms or drags. Each pane's camera, node overrides, focus history and depth are separate. `lib/split-graph.mjs` builds neighborhoods and identifies canonical cross-pane records and shared IDs without changing evidence data. Preserve this distinction when extending the UI.
+## Engineering rules
 
-Regression tests cover neighborhood independence, recorded edge direction, shared identities, disconnected selections and empty starts. Browser checks additionally cover picking on each side, independent zoom/pan/drag/reset/depth, source inspection, preserving non-crossing neighbors, shared-identity visibility, SVG export and exit to the single graph.
+Do not build a separate view-selection or node-picker interface for split mode. Single and split graphs share:
+
+- `lib/graph-view.mjs`: canonical view membership and filtering, plus connections between displayed node sets.
+- `components/graph-controls.tsx`: Network View, search and relationship legend.
+- `components/graph-node.tsx`: node labels, subtitles and shapes.
+- `lib/graph-geometry.ts`: edge curvature.
+- The deterministic layout function passed into split mode, including configured Overview coordinates.
+
+`components/split-graph.tsx` owns two independent pane states and projects their nodes into clipped regions of one SVG. This lets bridges track both cameras and manually moved nodes. Configured views are automatically available in both menus; do not add entity lists to application code.
+
+Regression tests cover named-view semantics, configuration-only additions, overview/all/neighborhood/snapshot membership, filters and cross-record identity/direction. Browser parity checks compare actual node IDs, relationship IDs, node markup and relative layout coordinates against the single graph, then exercise independent menus, filters, selection, focus/back, search, inspector actions and exit restoration.

@@ -2,19 +2,20 @@
 
 import {useState,useMemo,useRef} from 'react';
 import {Button} from '@/components/ui/button';
-import {Input} from '@/components/ui/input';
-import {Select,SelectTrigger,SelectValue,SelectContent,SelectItem} from '@/components/ui/select';
-import {Network,Search,Plus,Minus,Maximize,ArrowUpRight,ArrowRight,Download,X,Focus,RotateCcw} from 'lucide-react';
+import {NetworkViewMenu,GraphSearch,GraphLegend} from '@/components/graph-controls';
+import {GraphNode} from '@/components/graph-node';
+import {graphView} from '@/lib/graph-view.mjs';
+import {curve} from '@/lib/graph-geometry';
+import {Network,Plus,Minus,Maximize,ArrowUpRight,ArrowRight,Download,X,Focus,RotateCcw} from 'lucide-react';
 import raw from '@/data/evidence.json';
 import PathFinder from '@/components/path-finder';
 import SplitGraph from '@/components/split-graph';
 import {findPaths} from '@/lib/find-paths.mjs';
-import {neighborhoodEdges,bridgeLayout} from '@/lib/explore-graph.mjs';
+import {bridgeLayout} from '@/lib/explore-graph.mjs';
 import {draggedPosition,graphBounds} from '@/lib/graph-drag.mjs';
 import network from '@/config/network.json';
 const core=network.overviewPositions as Record<string,number[]>;
 const viewNames:Record<string,string>={...Object.fromEntries(Object.entries(network.views).map(([id,v])=>[id,v.label])),path:'Selected path',bridge:'Between two nodes',split:'Split graph'};
-const groups:Record<string,string[]>=Object.fromEntries(Object.entries(network.views).map(([id,v])=>[id,v.seeds]));
 const COLORS:Record<string,string>=Object.fromEntries(Object.entries(network.relationshipTypes).map(([id,t])=>[id,t.color]));
 const TYPE:Record<string,string>=Object.fromEntries(Object.entries(network.relationshipTypes).map(([id,t])=>[id,t.label]));
 import profileData from '@/data/node-profiles.json';
@@ -29,7 +30,6 @@ const short=(s:string)=>(network.displayLabels as Record<string,string>)[s]||raw
 
 
 
-function wrap(s:string,max=22){const words=short(s).split(' '),lines:string[]=[];let line='';for(const w of words){if((line+' '+w).trim().length>max&&line){lines.push(line);line=w;}else line+=(line?' ':'')+w;}if(line)lines.push(line);return lines;}
 function layout(ids:string[],edges:Edge[],overview:boolean):Point[]{
  if(overview)return ids.map(id=>({id,x:core[id][0],y:core[id][1]}));
  const deg=(id:string)=>edges.filter(e=>e.source===id||e.target===id).length;
@@ -51,7 +51,6 @@ function layout(ids:string[],edges:Edge[],overview:boolean):Point[]{
  for(let t=0;t<100;t++)for(let i=0;i<p.length;i++)for(let j=i+1;j<p.length;j++){const dx=p[i].x-p[j].x,dy=p[i].y-p[j].y;if(Math.abs(dx)<220&&Math.abs(dy)<112){const push=(112-Math.abs(dy))/2+.1;p[i].y+=(dy>=0?1:-1)*push;p[j].y-=(dy>=0?1:-1)*push;}}
  return p;
 }
-function curve(a:Point,b:Point,offset=0){const dx=b.x-a.x,dy=b.y-a.y,d=Math.max(1,Math.hypot(dx,dy));const cx=(a.x+b.x)/2-dy/d*(26+offset),cy=(a.y+b.y)/2+dx/d*(26+offset);return `M${a.x},${a.y} Q${cx},${cy} ${b.x},${b.y}`;}
 function context(e:Edge){return e.note.split(/(?<=\.)\s+/).filter(s=>!/(not proof|not evidence|not a verified|not a personal|not organizational|not current SBF|no inferred|not a traced|is commentary)/i.test(s)).join(' ');}
 
 function SourceNotes({records,profileSources=[]}:{records:Edge[],profileSources?:string[]}){
@@ -77,7 +76,8 @@ export default function Home(){
  const [left,setLeft]=useState(''),[right,setRight]=useState(''),[picking,setPicking]=useState<'left'|'right'|null>(null);
  const [depth,setDepth]=useState(1),[bridgeHops,setBridgeHops]=useState(4),[includeLeads,setIncludeLeads]=useState(false),[route,setRoute]=useState(-1);
  const [history,setHistory]=useState<{view:string,anchor:string|null,depth:number,left:string,right:string}[]>([]);
- const [splitSeeds,setSplitSeeds]=useState<string[]>(Object.keys(core)),[splitAnchor,setSplitAnchor]=useState('');
+ const [splitStart,setSplitStart]=useState({view:network.defaultView,anchor:'',depth:1,excluded:[] as string[],snapshot:{ids:[] as string[],edgeIds:[] as string[]},originalView:network.defaultView});
+ const splitFocus=useRef<((id:string)=>void)|null>(null);
  const splitSvg=useRef<SVGSVGElement>(null);
  const [anchor,setAnchor]=useState<string|null>(null);
  const [excluded,setExcluded]=useState<string[]>([]);
@@ -92,16 +92,14 @@ export default function Home(){
  const shownPaths=useMemo(()=>routeIndex<0?bridgeResult.paths:bridgeResult.paths.slice(routeIndex,routeIndex+1),[bridgeResult,routeIndex]);
  const bridgeEdges=useMemo(()=>new Set(shownPaths.flatMap(p=>p.steps.map(s=>s.edgeId))),[shownPaths]);
  const viewKey=JSON.stringify([view,view==='neighborhood'?[anchor,depth]:view==='path'?pathEdges:view==='bridge'?[left,right,bridgeHops,includeLeads,routeIndex,excluded]:null]);
- const edges=useMemo(()=>{
-  let es=raw.edges;
-  if(view==='bridge')es=left&&right?es.filter(e=>bridgeEdges.has(e.id)):es.filter(e=>left?(e.source===left||e.target===left):right?(e.source===right||e.target===right):(e.source in core&&e.target in core));
-  else if(view==='path')es=es.filter(e=>pathEdges.includes(e.id));
-  else if(view==='overview')es=es.filter(e=>e.source in core&&e.target in core);
-  else if(view==='neighborhood'&&anchor)es=neighborhoodEdges(es.filter(e=>!excluded.includes(e.type)),anchor,depth);
-  else if(view!=='all'){const set=new Set(groups[view]||[]);es=es.filter(e=>set.has(e.source)||set.has(e.target));}
-  return es.filter(e=>!excluded.includes(e.type));
+ const graph=useMemo(()=>{
+  if(view==='bridge'||view==='path'){
+   const records=raw.edges.filter(e=>!excluded.includes(e.type)).filter(e=>view==='path'?pathEdges.includes(e.id):left&&right?bridgeEdges.has(e.id):left?(e.source===left||e.target===left):right?(e.source===right||e.target===right):(e.source in core&&e.target in core));
+   return {edges:records,ids:[...new Set([...records.flatMap(e=>[e.source,e.target]),...(view==='bridge'?[left,right].filter(Boolean):[])])]};
+  }
+  return graphView(raw.nodes,raw.edges,network,{view,anchor:anchor||'',depth,excluded});
  },[view,anchor,excluded,pathEdges,bridgeEdges,depth,left,right]);
- const ids=useMemo(()=>view==='all'?raw.nodes.map(n=>n.id):[...new Set([...edges.flatMap(e=>[e.source,e.target]),...(view==='bridge'?[left,right].filter(Boolean):view==='neighborhood'&&anchor?[anchor]:[])])],[edges,view,left,right,anchor]);
+ const {edges,ids}=graph as {edges:Edge[],ids:string[]};
  const basePoints=useMemo(()=>view==='bridge'&&left&&right?bridgeLayout(ids,shownPaths,left,right):layout(ids,edges,view==='overview'),[ids,edges,view,shownPaths,left,right]);
  const points=useMemo(()=>basePoints.map(p=>({...p,...positions[viewKey]?.[p.id]})),[basePoints,positions,viewKey]);
  const map=useMemo(()=>new Map(points.map(p=>[p.id,p])),[points]);
@@ -135,20 +133,19 @@ export default function Home(){
  const pin=(side:'left'|'right',id:string)=>{remember();if(side==='left')setLeft(id);else setRight(id);setPicking(id?(side==='left'&&!right?'right':side==='right'&&!left?'left':null):side);setView('bridge');setRoute(-1);setSelected(null);setActive(null);setSearch('');resetCamera();};
  const focus=(id:string)=>{if(picking){pin(picking,id);return;}setSelected(id);setActive(null);setSearch('');};
  const changeView=(v:string)=>{remember();setPicking(null);setView(v);setActive(null);setSelected(null);setExcluded([]);resetCamera();};
- const neighborhood=(id:string)=>{remember();setPicking(null);setSelected(id);setActive(null);setSearch('');setDepth(1);setAnchor(id);setView('neighborhood');setExcluded([]);resetCamera();};
+ const neighborhood=(id:string)=>{if(view==='split'&&splitFocus.current){splitFocus.current(id);return;}remember();setPicking(null);setSelected(id);setActive(null);setSearch('');setDepth(1);setAnchor(id);setView('neighborhood');setExcluded([]);resetCamera();};
  const highlighted=hover||selected;
  const connected=new Set(highlighted?edges.filter(e=>e.source===highlighted||e.target===highlighted).flatMap(e=>[e.source,e.target]):ids);
  const links=selected?raw.edges.filter(e=>e.source===selected||e.target===selected):[];
- const results=search?raw.nodes.filter(n=>`${n.label} ${profiles[n.id].subtitle}`.toLowerCase().includes(search.toLowerCase())).slice(0,8):[];
  const vbox=`${box.x+box.w*(1-1/zoom)/2-pan.x} ${box.y+box.h*(1-1/zoom)/2-pan.y} ${box.w/zoom} ${box.h/zoom}`;
  function exportSvg(){const original=view==='split'?splitSvg.current:svg.current;if(!original)return;const box=view==='split'?{x:0,y:0,w:1400,h:680}:graphBounds(points);const s=original.cloneNode(true) as SVGSVGElement;s.setAttribute('xmlns','http://www.w3.org/2000/svg');s.setAttribute('width','2000');s.setAttribute('height',String(Math.round(2000*box.h/box.w)));s.setAttribute('viewBox',`${box.x} ${box.y} ${box.w} ${box.h}`);s.querySelectorAll('.edge-hit').forEach(n=>n.remove());const bg=document.createElementNS('http://www.w3.org/2000/svg','rect');bg.setAttribute('x',String(box.x));bg.setAttribute('y',String(box.y));bg.setAttribute('width',String(box.w));bg.setAttribute('height',String(box.h));bg.setAttribute('fill','#101923');s.insertBefore(bg,s.firstChild);const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(s)],{type:'image/svg+xml'}));a.download=`connections-${view}.svg`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
  return <main className="explorer">
   <header className="masthead"><div className="brand"><Network size={24}/><div><h1>Connect the Dots</h1><span>AI safety · funding · institutions · policy</span></div></div><div className="dateline"><span className="live-dot"/>Evidence through {raw.as_of}</div><Button variant="outline" onClick={exportSvg}><Download/>Export graph</Button></header>
   <div className="workspace">
    <section className="canvas-section">
-    <div className="toolbar"><div><span className="eyebrow">NETWORK VIEW</span><Select value={view} onValueChange={v=>v&&changeView(v)}><SelectTrigger className="view-select"><SelectValue>{viewNames[view]}</SelectValue></SelectTrigger><SelectContent>{Object.entries(viewNames).filter(([v])=>!['neighborhood','path','bridge'].includes(v)).map(([v,n])=><SelectItem key={v} value={v}>{n}</SelectItem>)}</SelectContent></Select></div><div className="search"><Search size={17}/><Input aria-label="Find a person or organization" placeholder="Find a person or organization" disabled={view==='split'} value={search} onChange={e=>setSearch(e.target.value)}/>{search&&<div className="search-results">{results.length?results.map(n=><Button variant="ghost" key={n.id} onClick={()=>picking?pin(picking,n.id):neighborhood(n.id)}>{n.label}<ArrowUpRight size={15}/></Button>):<p>No matching entity.</p>}</div>}</div></div>
+    {view!=='split'&&<div className="toolbar"><NetworkViewMenu value={view} onChange={changeView}/><GraphSearch value={search} onChange={setSearch} onChoose={id=>picking?pin(picking,id):neighborhood(id)}/></div>}
     <div className="explore-controls" aria-label="Graph exploration">
-     <div className="explore-actions">{view==='split'?<Button onClick={()=>changeView('overview')}>Single graph</Button>:<Button onClick={()=>{remember();setSplitSeeds(ids.length?ids:Object.keys(core));setSplitAnchor(selected||'');setView('split');setPicking(null);setActive(null);}}>Split graph</Button>}<Button variant="outline" disabled={!history.length} onClick={back}>← Back</Button><Button variant="outline" onClick={()=>{if(view!=='bridge')remember();setView('bridge');if(selected)setLeft(selected);setPicking(selected?'right':'left');setRoute(-1);setSelected(null);setActive(null);resetCamera();}}>Compare two nodes</Button>{view!=='overview'&&<Button variant="ghost" onClick={()=>changeView('overview')}>Overview</Button>}</div>
+     <div className="explore-actions">{view==='split'?<><Button onClick={()=>{setView(splitStart.originalView);setExcluded(splitStart.excluded);setActive(null);setSelected(null);resetCamera();}}>Single graph</Button><span className="subtle">Split graph · choose a Network View independently on each side</span></>:<><Button onClick={()=>{remember();setSplitStart({view:['bridge','path'].includes(view)?'snapshot':view,anchor:anchor||'',depth,excluded:[...excluded],snapshot:{ids,edgeIds:edges.map(e=>e.id)},originalView:view});setView('split');setPicking(null);setActive(null);}}>Split graph</Button><Button variant="outline" disabled={!history.length} onClick={back}>← Back</Button><Button variant="outline" onClick={()=>{if(view!=='bridge')remember();setView('bridge');if(selected)setLeft(selected);setPicking(selected?'right':'left');setRoute(-1);setSelected(null);setActive(null);resetCamera();}}>Compare two nodes</Button>{view!=='overview'&&<Button variant="ghost" onClick={()=>changeView('overview')}>Overview</Button>}</>}</div>
      {selected&&!picking&&view!=='split'&&<div className="node-actions"><strong>{short(selected)}</strong><Button onClick={()=>neighborhood(selected)}><Focus/>Focus connections</Button><Button variant="outline" onClick={()=>pin('left',selected)}>Use on left</Button><Button variant="outline" onClick={()=>pin('right',selected)}>Use on right</Button></div>}
      {view==='neighborhood'&&anchor&&<div className="explore-status"><span>Connections around <strong>{short(anchor)}</strong></span><label>Depth <select aria-label="Neighborhood depth" value={depth} onChange={e=>{setDepth(Number(e.target.value));resetCamera();}}>{[1,2,3].map(d=><option key={d} value={d}>{d} {d===1?'step':'steps'}</option>)}</select></label><span>Click another node to keep exploring.</span></div>}
      {view==='bridge'&&<>
@@ -158,18 +155,18 @@ export default function Home(){
      </>}
      {picking&&<div className="pick-instruction" role="status">Click a node or use search to set the {picking} focus. <Button variant="ghost" onClick={()=>setPicking(null)}>Cancel picking</Button></div>}
     </div>
-    {view==='split'?<SplitGraph seedIds={splitSeeds} initialAnchor={splitAnchor} excluded={excluded} layout={layout} onNode={id=>{setSelected(id);setActive(null);}} onEdge={edge=>{setActive(edge);setSelected(null);}} svgRef={splitSvg}/>:<div className="graph-wrap">
+    {view==='split'?<SplitGraph initial={splitStart} focusRef={splitFocus} layout={layout} onNode={id=>{setSelected(id);setActive(null);}} onEdge={edge=>{setActive(edge);setSelected(null);}} svgRef={splitSvg}/>:<div className="graph-wrap">
     <svg ref={svg} className="network-graph" viewBox={vbox} role="img" aria-label={`${viewNames[view]}: ${ids.length} nodes and ${edges.length} connections. Use search or the relationship panel to explore with a keyboard.`} onPointerDown={e=>{suppressClick.current=false;if(e.button!==0||!e.isPrimary)return;if((e.target as Element).closest('[data-node], [data-edge]'))return;drag.current={x:e.clientX,y:e.clientY,px:pan.x,py:pan.y};e.currentTarget.setPointerCapture(e.pointerId);}} onPointerMove={e=>{if(moveNode(e))return;if(drag.current){const r=e.currentTarget.getBoundingClientRect();const scale=Math.max(box.w/zoom/r.width,box.h/zoom/r.height);setPan({x:drag.current.px+(e.clientX-drag.current.x)*scale,y:drag.current.py+(e.clientY-drag.current.y)*scale});}}} onPointerUp={endNodeDrag} onPointerCancel={endNodeDrag} onLostPointerCapture={endNodeDrag}>
      <defs><pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#405164" opacity=".3"/></pattern></defs>
      <rect x={box.x-5000} y={box.y-5000} width={box.w+10000} height={box.h+10000} fill="url(#dots)"/>
      {edges.map((e,i)=>{const a=map.get(e.source)!,b=map.get(e.target)!,on=active?.id===e.id||e.source===highlighted||e.target===highlighted;const color=COLORS[e.type];return <g key={e.id} data-edge={e.id} onClick={()=>{setActive(e);setSelected(null);}} style={{cursor:'pointer'}}><path d={curve(a,b,i%3*7)} fill="none" stroke={color} strokeWidth={on?2.8:1.4} opacity={highlighted&&!on?.09:on?.95:view==='bridge'?.7:.35} strokeDasharray={e.type==='proposal'||e.evidence==='unverified lead'?'6 5':undefined}/><path className="edge-hit" d={curve(a,b,i%3*7)} fill="none" stroke="transparent" strokeWidth="14"><title>{`${e.source} → ${e.target}: ${e.relation} · ${e.date}`}</title></path>{view==='bridge'&&edges.length<=16&&<text x={(a.x+b.x)/2} y={(a.y+b.y)/2-10} textAnchor="middle" fontSize="12" fontFamily="Arial, sans-serif" fill={color} stroke="#101923" strokeWidth="4" paintOrder="stroke">{TYPE[e.type]}</text>}</g>;})}
-     {points.map(n=>{const on=highlighted===n.id,dim=highlighted&&!connected.has(n.id),isOrg=profiles[n.id].kind!=='person';const lines=wrap(n.id),subtitle=wrap(profiles[n.id].subtitle,28),top=-(lines.length*18+subtitle.length*14+8)/2+13;return <g key={n.id} data-node={n.id} role="button" tabIndex={0} aria-label={`Select ${n.id}`} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();focus(n.id);}}} onPointerDown={e=>startNodeDrag(e,n)} transform={`translate(${n.x},${n.y})`} opacity={dim?.25:1} onMouseEnter={()=>setHover(n.id)} onMouseLeave={()=>setHover(null)} onClick={()=>{if(!suppressClick.current)focus(n.id);}} onDoubleClick={()=>{if(!suppressClick.current&&!picking)neighborhood(n.id);}} style={{cursor:draggingNode===n.id?'grabbing':'grab'}}><rect x="-103" y="-50" width="206" height="100" rx={isOrg?8:32} fill={on?'#263e50':'#16232f'} stroke={on?'#e2eff8':view==='bridge'&&(n.id===left||n.id===right)?'#d8a45f':'#3c5265'} strokeWidth={on?2:1}/>{lines.map((line,i)=><text key={i} x="0" y={top+i*18} textAnchor="middle" fill="#e8eef3" fontFamily="Arial, sans-serif" fontSize="15" fontWeight={on?600:400}>{line}</text>)}{subtitle.map((line,i)=><text key={`sub-${i}`} x="0" y={top+lines.length*18+7+i*14} textAnchor="middle" fill="#b7c9d7" fontFamily="Arial, sans-serif" fontSize="12">{line}</text>)}</g>;})}
+     {points.map(n=>{const on=highlighted===n.id,dim=highlighted&&!connected.has(n.id);return <g key={n.id} data-node={n.id} role="button" tabIndex={0} aria-label={`Select ${n.id}`} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();focus(n.id);}}} onPointerDown={e=>startNodeDrag(e,n)} transform={`translate(${n.x},${n.y})`} opacity={dim?.25:1} onMouseEnter={()=>setHover(n.id)} onMouseLeave={()=>setHover(null)} onClick={()=>{if(!suppressClick.current)focus(n.id);}} onDoubleClick={()=>{if(!suppressClick.current&&!picking)neighborhood(n.id);}} style={{cursor:draggingNode===n.id?'grabbing':'grab'}}><GraphNode id={n.id} active={on} accent={view==='bridge'&&(n.id===left||n.id===right)}/></g>;})}
     </svg>
     {!ids.length&&<div className="no-edges">No connections in this view with the selected types.</div>}
     <div className="graph-caption"><span>{ids.length} nodes / {edges.length} connections</span><span>Drag nodes to arrange · drag background to pan</span></div>
     <div className="zoom-controls"><Button variant="outline" onClick={resetLayout} title="Restore this view’s original node positions and zoom"><RotateCcw/>Reset layout</Button><Button variant="outline" size="icon" aria-label="Zoom in" onClick={()=>setZoom(z=>Math.min(5,z*1.3))}><Plus/></Button><Button variant="outline" size="icon" aria-label="Zoom out" onClick={()=>setZoom(z=>Math.max(.5,z/1.3))}><Minus/></Button><Button variant="outline" size="icon" aria-label="Fit graph" onClick={fit}><Maximize/></Button></div>
     </div>}
-    <div className="legend">{Object.entries(TYPE).filter(([t])=>raw.edges.some(e=>e.type===t)).map(([t,label])=><button key={t} aria-pressed={!excluded.includes(t)} onClick={()=>{setRoute(-1);setExcluded(x=>x.includes(t)?x.filter(v=>v!==t):[...x,t]);resetCamera();}}><i style={{background:COLORS[t],opacity:excluded.includes(t)?.25:1}}/>{label}</button>)}<span className="legend-note">Dashed: proposal or open lead</span></div>
+    {view!=='split'&&<GraphLegend excluded={excluded} onToggle={type=>{setRoute(-1);setExcluded(x=>x.includes(type)?x.filter(v=>v!==type):[...x,type]);resetCamera();}}/>}
    </section>
    <aside className="inspector" aria-live="polite">
     <Button variant="outline" onClick={()=>setPathOpen(v=>!v)}>{pathOpen?'Hide path finder':'Find connections'}</Button>{pathOpen&&<PathFinder from={pathFrom} to={pathTo} setFrom={setPathFrom} setTo={setPathTo} onPath={ids=>{setPathEdges(ids);setView('path');setExcluded([]);setSelected(null);setActive(null);resetCamera();}}/>}<div className="inspector-head"><span className="eyebrow">CONNECTION RECORD</span>{(selected||active)&&<Button size="icon" variant="ghost" aria-label="Clear selection" onClick={()=>{setActive(null);setSelected(null);}}><X/></Button>}</div>

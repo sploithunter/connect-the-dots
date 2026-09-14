@@ -16,6 +16,8 @@
 
 - **Two endpoints are not two graph panes.** The initial comparison mode showed connecting paths on one canvas. The requested split workflow requires complete independent neighborhoods, including nodes outside connecting paths, with recorded relationships drawn between the panes. Keep split exploration separate from bounded path search.
 
+- **Split mode must reuse the single graph interface.** A custom node picker and a copied starting snapshot were confusing because they omitted the named Network Views. Both panes now use the same view menu, search, membership logic, labels and layout as the single graph. Bridges activate from the displayed views, without requiring node picks. Browser parity checks protect this behavior.
+
 ## Design choices and limits
 
 The curated overview is intentionally a subset. All-connections view can become dense; focused views and zoom are the available navigation tools. Layout proximity is not a data field. Source cards explain recorded uses of publications; full-publication summaries and archived article bodies are not available for every source.
