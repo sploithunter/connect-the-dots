@@ -21,3 +21,7 @@ Added authored subtitles to all 105 node profiles and rendered them beneath grap
 ## [2026-09-14] update — Configuration-driven graph and single-file imports
 
 Moved all curated entity lists, view labels, starting points, display aliases, overview coordinates and relationship colors into config/network.json. Added a node packet importer with dry-run validation, duplicate protection and wiki/log regeneration. Added regression tests for successful imports, invalid packets and configuration-only view/category additions. No demonstration nodes were added to the live dataset.
+
+## [2026-09-14] update — Public reuse and MIT licensing
+
+Confirmed the repository is public under sploithunter. Added the standard MIT license, package license metadata and README attribution guidance. The project license covers original project material; external publications and third-party components retain their respective rights and notices.
