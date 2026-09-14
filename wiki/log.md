@@ -68,3 +68,11 @@ Reviewed the Coxon/congressional additions and retained their source attribution
 ## [2026-09-14] ingest — Effective altruism founders, orgs and grant vehicles
 
 Added a movement node for effective altruism, plus CEA, Giving What We Can, 80,000 Hours, EA Funds, the Long-Term Future Fund, GiveWell, Rethink Priorities and Toby Ord. Recorded MacAskill’s self-description as a founder, Ord as GWWC cofounder, SBF’s public EA identification, EV trustee roles for MacAskill and Beckstead, Coefficient Giving as 80,000 Hours’ primary funder, Karnofsky as GiveWell cofounder, and Wildeford’s documented RP/IAPS roles. The Coxon LTFF scholarship claim is now an unverified-lead edge to LTFF. Did not treat Open Phil / SFF grants as EA membership, and did not merge IAPS with the recap name AI Policy Network. Added an `affiliation` relationship type and an Effective altruism view.
+
+## [2026-09-14] ingest — 13–14 Sep congressional posts and Yudkowsky
+
+Added Gallego, Schiff, Warner, Gottheimer and Speaker Johnson, plus Yudkowsky (MIRI cofounder, not Congress). Recorded original X URLs and UTC times. Schiff’s eleven-post thread is regulate-and-compete with in-company monitors, not a ban. Warner’s September post points back to his 21 July Framework for America’s AI Future. Gottheimer is a reaction to Dario slowdown coverage. Lieu’s 14 Sep post quote-posts Bloomberg on Johnson’s “one big meeting.” Positions are not collapsed onto Coxon quotes.
+
+## [2026-09-14] lint — PRs 12 and 13 integration
+
+Combined the effective-altruism additions with the September 13–14 posts. Both branches allocated E160–E167, so the later-post records were reassigned E188–E195 while preserving the EA records as E160–E187. Merged profiles, view seeds, sources, timeline entries and open questions, then regenerated the complete wiki from the combined data.
